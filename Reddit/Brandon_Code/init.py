@@ -65,8 +65,8 @@ monthDict = {
 }
 
 
-query = "makerDAO"
-# query="Compound"
+#query = "makerDAO"
+query="Curve Finance"
 
 for i in range(month, 13):
 
@@ -107,7 +107,7 @@ for i in range(month, 13):
 
     posts_df = pd.DataFrame.from_dict(subStats, orient='index')
 
-    posts_df.to_csv('../data/makerDAO_posts_' + i + '.csv',
+    posts_df.to_csv('../data/cf' + str(i) + '.csv',
                     header=True, index=False, columns=list(posts_df.axes[1]))
 
 # reddit = praw.Reddit(client_id='qyQ-ZptZzPzRwoEiU-Q8Mg',client_secret='8E1k6yDJmnbnbfCJnmNFHoOarDaWrA', user_agent='IS434-Scrapper')
