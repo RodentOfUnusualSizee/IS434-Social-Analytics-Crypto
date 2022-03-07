@@ -15,13 +15,16 @@ DONE:
 makerDAO - $MKR
 compound - $COMP
 curve finance - $CRV
-
-
-TO DO:
-
 aave - $AAVE
 uniswap - $UNI
 sushiswap - $SUSHI
+
+DeFi - 600k Tweets done so far...
+
+TO DO:
+CLEAN THE DATA!!!!!!!!!!!!!!!!!!!!!
+
+Analysis
 
 Search Tweets with Full CC Name: E.g MKR -> MakerDAO, CRV -> Curve Finance
 
