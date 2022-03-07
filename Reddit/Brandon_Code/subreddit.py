@@ -65,7 +65,7 @@ monthDict = {
 }
 
 
-subreddit="CurveFinance"
+subreddit="Compound"
 
 for i in range(month, 13):
 
