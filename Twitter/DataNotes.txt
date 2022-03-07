@@ -9,3 +9,20 @@ Many tweets are retweets or Bots posting links - need to clean
 
 All other coins are searched with $ prefix and cover 6 month period from 1 Sep 21 - 6 Mar 22
 
+
+DONE: 
+
+makerDAO - $MKR
+compound - $COMP
+curve finance - $CRV
+
+
+TO DO:
+
+aave - $AAVE
+uniswap - $UNI
+sushiswap - $SUSHI
+
+Search Tweets with Full CC Name: E.g MKR -> MakerDAO, CRV -> Curve Finance
+
+DeFi Tweets Continuation
