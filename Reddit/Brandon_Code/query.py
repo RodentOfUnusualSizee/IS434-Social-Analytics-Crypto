@@ -74,8 +74,8 @@ monthDict = {
 }
 
 
-#query = "makerDAO"
-query="Curve Finance"
+query = "MakerDAO"
+#query="Curve Finance"
 
 for i in range(month, 13):
 

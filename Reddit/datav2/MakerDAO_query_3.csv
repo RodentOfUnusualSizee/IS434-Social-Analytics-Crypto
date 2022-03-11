@@ -1,0 +1,1103 @@
+title,url,author,score,created,numComms,permalink,flair,body
+Planned for Q2 2021,https://www.reddit.com/r/Freeliquid/comments/lx3dju/planned_for_q2_2021/,wedimo,1,2021-03-04 04:21:38,2,/r/Freeliquid/comments/lx3dju/planned_for_q2_2021/,NaN,"**Introducing Stability Fees (\~2%)**
+
+* FL buybacks and burn for USDFL earned
+
+Currently, loans in Freeliquid Borrow are not charged with any interest rate (also called “Stability Fees”). At first look, it is beneficial to borrowers — their loans do not cost anything. However, it might incentivize users to hold USDFL loans for very long periods of time, preventing the return of USDFL back and thus affecting its price.
+
+Adding an interest rate as additional USDFL for covering the debt will partially solve this issue and will also generate a revenue stream for the Protocol. The funds received can be spent on FL buybacks and subsequent burn, which will give FL utility as an earning token.
+
+Please note that the Stability Fees can be introduced only through voting and will be discussed with the Freeliquid community beforehand.
+
+**Introducing USDFL stabilization mechanism**
+
+* Ensuring USDFL peg at \~$1
+
+This is an ambitious but fully doable step that will help keep the USDFL market price at $1.00. The stabilization mechanism deserves a whole article to be explained but we will give a brief description.
+
+One of the factors that can affect the USDFL price is the fact that users might take loans against their initial liquidity pool many times, over and over again. Each time this includes converting USDFL to other stablecoins like DAI or USDC. Obviously, this creates an unusual selling pressure to USDFL, driving its price down.
+
+This proposal will add a possibility for other users to track positions with pools that have been borrowed against many times. If the USDFL starts moving down from $1, some of these positions can be forcefully sold for USDFL, thus driving its price back up. The user that got his LP position liquidated still retains his USDFL borrowed against this loan.
+
+The mechanism is somewhat similar to Keepers in MakerDAO with few major distinctions. It is possible to avoid almost any financial loss to users that got their LP tokens liquidated. Only market players with locked FL will be eligible to liquidate such positions. If one wants to liquidate larger positions and profit more, one has to lock FL for a longer period of time as well. This will prevent possible “liquidation attacks” and also add more utility to the FL token.
+
+# Conclusion
+
+We hope that we have shed some light on the project’s closest future. Of course, the developer team has plans for Q3-Q4 as well but we would like to keep them undisclosed until the time is right. Moreover, the crypto industry is too volatile and the team does not want to give empty promises to our fellow users. Instead, we will adjust as best as we can to any state of the market."
+DAI is now 4th placed in stablecoin,https://www.reddit.com/r/MakerDAO/comments/lxa9wc/dai_is_now_4th_placed_in_stablecoin/,chonghe,15,2021-03-04 10:16:08,8,/r/MakerDAO/comments/lxa9wc/dai_is_now_4th_placed_in_stablecoin/,NaN,"DAI has been in 3rd place in market cap for stablecoin for a while, just got overtook by BUSD:
+
+[https://www.coingecko.com/en/stablecoins](https://www.coingecko.com/en/stablecoins)
+
+I just couldn't accept this. I love Maker, to the point that I hate to see this and open a thread to rant. 
+
+&amp;#x200B;
+
+Yeah I know DAI is growing fast but others are growing faster. Yeah I know Binance it's centralized so it's a meh, but, is hard to swallow this fact
+
+&amp;#x200B;
+
+Can MakerDAO perhaps considering not being so conservative in terms of scaling and growing of DAI? Looking at ETH-B, there is a huge demand, but the debt ceiling has been hit for a while now and the governance is not considering increasing it due to the worry of huge liquidation, debt risk etc. Can the worry be re-considered? We are likely in a bull market now, it is a good time to grow DAI. If ETH were to soar, people will want to leverage with ETH-B. Other platforms like Compound AAVE also has similar collateralization ratio with ETH-B, and they are doing well. 
+
+ 
+
+On another note, there are some emergency vote to increase debt ceiling recently and have to wait 2 days for the GSM. This has really limited DAI growth in terms of speed. Since now Maker is resistant to flash loan for voting now, why not considering lowering the GSM, so that all executive votes can be executed faster?"
+MakerDAO Exploit Victims,https://www.reddit.com/r/MakerDAO/comments/lxfmwn/makerdao_exploit_victims/,Isabela_Grace,0,2021-03-04 15:59:36,45,/r/MakerDAO/comments/lxfmwn/makerdao_exploit_victims/,NaN,"Has this been washed under the rug or was anything ever done?
+
+I just found out my best friend lost 3000+ Ethereum and I’m dying on his behalf.
+
+Please someone tell me something has been done. This was not within their disclosed tolerances."
+Unipool tokens in MakerDAO Vaults - wise choice?,https://blog.instadapp.io/unipool-maker-vaults,Blueberry314E-2,1,2021-03-05 00:38:37,0,/r/DeFiInvestor/comments/lxov5a/unipool_tokens_in_makerdao_vaults_wise_choice/,NaN,
+Alchemix_round1_airdrop_bot,https://www.reddit.com/r/MiningBitcoin/comments/lxqury/alchemix_round1_airdrop_bot/,high_Living9285,1,2021-03-05 01:58:29,0,/r/MiningBitcoin/comments/lxqury/alchemix_round1_airdrop_bot/,NaN,"&amp;#x200B;
+
+                                                       ALCHEMIX                                                           
+
+&amp;#x200B;
+
+Alchemix Finance is a future-yield-backed synthetic asset platform and community DAO. The platform gives you advances on your yield farming via a synthetic token that represents a fungible claim on any underlying collateral in the Alchemix protocol. The DAO will focus on funding projects that will help the Alchemix ecosystem grow, as well as the greater Ethereum community.
+
+&amp;#x200B;
+
+Components
+
+&amp;#x200B;
+
+Vaults Vaults act as the hub to generating yield advances, and share many similarities to lending platforms such as MakerDAO and AAVE. The first collateral type that the protocol will accept is DAI.
+
+Transmuter The Transmuter allows users to stake their synthetic assets and have them be converted into their base asset over time.
+
+Token Distribution The Alchemix governance token (ALCX) will split among the developers, the DAO itself, and the community, with the vast majority going to the community.
+
+Alchemix DAO The governance of Alchemix Finance will be managed by a DAO with a liquid governance token, ALCX.
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+Overview \[ERC-20\]
+
+&amp;#x200B;
+
+PRICE
+
+&amp;#x200B;
+
+$1,045.1700 @ 0.671621 Eth (+5.01%)
+
+&amp;#x200B;
+
+FULLY DILUTED MARKET CAP
+
+$1,004,915,221.12
+
+&amp;#x200B;
+
+Max Total Supply: 961,484.946101113271195109 ALCX
+
+&amp;#x200B;
+
+Holders: 670
+
+&amp;#x200B;
+
+Transfers: 9,112
+
+&amp;#x200B;
+
+Profile Summary
+
+&amp;#x200B;
+
+Contract: 0xdbdb4d16eda451d0503b854cf79d55697f90c8df
+
+&amp;#x200B;
+
+Decimals: 18
+
+&amp;#x200B;
+
+Official Site:
+
+&amp;#x200B;
+
+[https://alchemix.fi](https://alchemix.fi) 
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+HOW IT WORKS: 
+
+&amp;#x200B;
+
+\-CREATE A TRUST WALLET 
+
+&amp;#x200B;
+
+\-ADD THE ALCX ADDRESS IN YOUR TRUST WALLET
+
+&amp;#x200B;
+
+\-ENTER YOUR ALCX ADDRESS FOR WITHDRAWAL
+
+&amp;#x200B;
+
+YOU WILL RECIEVE 0.5ALCX FOR REGISTRATION 
+
+&amp;#x200B;
+
+AND 0.1ALCX FOR EVERY REFERRAL
+
+&amp;#x200B;
+
+DISTRIBUTION WILL BE ON THE 25 OF MARCH!
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)"
+Alchemix_round1_airdrop_bot,https://www.reddit.com/r/airdropalertcom/comments/lxqwzz/alchemix_round1_airdrop_bot/,high_Living9285,0,2021-03-05 02:01:11,0,/r/airdropalertcom/comments/lxqwzz/alchemix_round1_airdrop_bot/,NaN," 
+
+ ALCHEMIX
+
+Alchemix Finance is a future-yield-backed synthetic asset platform and community DAO. The platform gives you advances on your yield farming via a synthetic token that represents a fungible claim on any underlying collateral in the Alchemix protocol. The DAO will focus on funding projects that will help the Alchemix ecosystem grow, as well as the greater Ethereum community.
+
+Components
+
+Vaults Vaults act as the hub to generating yield advances, and share many similarities to lending platforms such as MakerDAO and AAVE. The first collateral type that the protocol will accept is DAI.
+
+Transmuter The Transmuter allows users to stake their synthetic assets and have them be converted into their base asset over time.
+
+Token Distribution The Alchemix governance token (ALCX) will split among the developers, the DAO itself, and the community, with the vast majority going to the community.
+
+Alchemix DAO The governance of Alchemix Finance will be managed by a DAO with a liquid governance token, ALCX.
+
+Overview \[ERC-20\]
+
+PRICE
+
+$1,045.1700 @ 0.671621 Eth (+5.01%)
+
+FULLY DILUTED MARKET CAP
+
+$1,004,915,221.12
+
+Max Total Supply: 961,484.946101113271195109 ALCX
+
+Holders: 670
+
+Transfers: 9,112
+
+Profile Summary
+
+Contract: 0xdbdb4d16eda451d0503b854cf79d55697f90c8df
+
+Decimals: 18
+
+Official Site:
+
+[https://alchemix.fi](https://alchemix.fi/) 
+
+HOW IT WORKS: 
+
+\-CREATE A TRUST WALLET 
+
+\-ADD THE ALCX ADDRESS IN YOUR TRUST WALLET
+
+\-ENTER YOUR ALCX ADDRESS FOR WITHDRAWAL
+
+YOU WILL RECIEVE 0.5ALCX FOR REGISTRATION 
+
+AND 0.1ALCX FOR EVERY REFERRAL
+
+DISTRIBUTION WILL BE ON THE 25 OF MARCH!
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)"
+Alchemix_round1_airdrop_bot,https://www.reddit.com/r/AirdropRating/comments/lxqyt1/alchemix_round1_airdrop_bot/,high_Living9285,1,2021-03-05 02:03:16,0,/r/AirdropRating/comments/lxqyt1/alchemix_round1_airdrop_bot/,NaN," 
+
+ALCHEMIX
+
+Alchemix Finance is a future-yield-backed synthetic asset platform and community DAO. The platform gives you advances on your yield farming via a synthetic token that represents a fungible claim on any underlying collateral in the Alchemix protocol. The DAO will focus on funding projects that will help the Alchemix ecosystem grow, as well as the greater Ethereum community.
+
+Components
+
+Vaults Vaults act as the hub to generating yield advances, and share many similarities to lending platforms such as MakerDAO and AAVE. The first collateral type that the protocol will accept is DAI.
+
+Transmuter The Transmuter allows users to stake their synthetic assets and have them be converted into their base asset over time.
+
+Token Distribution The Alchemix governance token (ALCX) will split among the developers, the DAO itself, and the community, with the vast majority going to the community.
+
+Alchemix DAO The governance of Alchemix Finance will be managed by a DAO with a liquid governance token, ALCX.
+
+Overview \[ERC-20\]
+
+PRICE
+
+$1,045.1700 @ 0.671621 Eth (+5.01%)
+
+FULLY DILUTED MARKET CAP
+
+$1,004,915,221.12
+
+Max Total Supply: 961,484.946101113271195109 ALCX
+
+Holders: 670
+
+Transfers: 9,112
+
+Profile Summary
+
+Contract: 0xdbdb4d16eda451d0503b854cf79d55697f90c8df
+
+Decimals: 18
+
+Official Site:
+
+[https://alchemix.fi](https://alchemix.fi/)
+
+HOW IT WORKS: 
+
+\-CREATE A TRUST WALLET 
+
+\-ADD THE ALCX ADDRESS IN YOUR TRUST WALLET
+
+\-ENTER YOUR ALCX ADDRESS FOR WITHDRAWAL
+
+YOU WILL RECIEVE 0.5ALCX FOR REGISTRATION 
+
+AND 0.1ALCX FOR EVERY REFERRAL
+
+DISTRIBUTION WILL BE ON THE 25 OF MARCH!
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)
+
+[https://t.me/Alchemix\_round1\_airdrop\_bot?start=r0966059768](https://t.me/Alchemix_round1_airdrop_bot?start=r0966059768)"
+Detailed crypto background check on u/GoldenReliever451,https://www.reddit.com/r/cryptochecker/comments/lxwlsp/detailed_crypto_background_check_on/,cryptochecker,1,2021-03-05 06:00:43,0,/r/cryptochecker/comments/lxwlsp/detailed_crypto_background_check_on/,NaN,"Of [u/GoldenReliever451](https://www.reddit.com/u/GoldenReliever451)'s last **644** posts (**10** submissions + **634** comments), I found **337** in cryptocurrency-related subreddits. This all the data I found:
+
+Subreddit|No. of comments|Avg. comment sentiment|Total comment karma|No. of posts|Avg. post [sentiment](https://nlpforhackers.io/sentiment-analysis-intro/)|Total post karma
+:--|:--|:--|:--|:--|:--|:--
+r/Buttcoin|1|0.17|0|0|0|0
+r/CryptoMoonShots|13|0.02|44|0|0|0
+r/dogecoin|8|0.06|-12|0|0|0
+r/Ripple|3|0.1|15|0|0|0
+r/CryptoCurrency|11|0.14|39|0|0|0
+r/MakerDAO|9|0.12|15|1|0.0|9
+r/LINKTrader|2|0.19|4|2|0.0|2
+r/ethfinance|287|0.09|1104|0|0|0"
+"🚀 How to Buy A CryptoPunk, The Hottest NFT in the Market?",https://www.reddit.com/r/Dappcom/comments/lxwpd1/how_to_buy_a_cryptopunk_the_hottest_nft_in_the/,ensluck,1,2021-03-05 06:05:08,3,/r/Dappcom/comments/lxwpd1/how_to_buy_a_cryptopunk_the_hottest_nft_in_the/,NaN,"&amp;#x200B;
+
+https://preview.redd.it/6rqkaxgc33l61.png?width=1800&amp;format=png&amp;auto=webp&amp;s=418980cf9b18f1b45bbd8bf944c5ce3b9533724f
+
+**How to Buy A CryptoPunk, The Hottest NFT in the Market?**
+
+In February, the most expensive CryptoPunk #6965 was **sold for 800 ETH**, breaking the NFT sale record. Actually, CryptoPunks that charge a sky-high price have been sold one by one this year.
+
+If you believe this CryptoPunks trend is here to stay, then now would be **a great time to get yourself a CryptoPunk**. 
+
+ 
+
+Are you a newcomer to the Blockchain world?
+
+Are you an art lover but you've never purchased digital collectibles before?
+
+Don't worry! The comprehensive tutorial will guide you step by step from the very beginning.
+
+Better late than never, even the cheapest CryptoPunk for sale is rising in value. 
+
+&amp;#x200B;
+
+https://preview.redd.it/e2pnkelh33l61.png?width=1000&amp;format=png&amp;auto=webp&amp;s=6a9f27089c37105380e574ef52b1dfd360ae3b2d
+
+**Stacker Ventures is excited to announce the launch of its community-led venture capital protocol and accelerator!**
+
+Early participants can earn STACK tokens through liquidity mining, participation mining and more.
+
+Apply for funding, refer a project, or earn STACK tokens at [stacker.vc](http://stacker.vc/).
+
+&amp;#x200B;
+
+https://preview.redd.it/r1sx4k1l33l61.png?width=1000&amp;format=png&amp;auto=webp&amp;s=bcfd2c455196a0375f04b61a90fa6898f8e0469b
+
+**Are you tired of the ridiculous blockchain projects?**
+
+Check how Student Coin changes the market. 
+
+Join over 25 000 users in the biggest Launchpad ICO of 2021.
+
+You can also promote the ICO and earn up to 30% bonus.
+
+**Generate your link at Student Coin!** 
+
+&amp;#x200B;
+
+https://preview.redd.it/xgcxzx4p33l61.png?width=1000&amp;format=png&amp;auto=webp&amp;s=cbd16d02c7046613b72c494882bde0ed0c8d614e
+
+**Dapp Dot Tuesday**
+
+NFT marketplace MakersPlace crashed by selling Beeple's digital art for $1/piece.
+
+Grayscale considers these tokens for investment: Aave Protocol, MakerDAO, Yearn Finance, Synthetix. How do they perform on-chain? Track their data!
+
+Coinbase going public, how to trade stocks ahead?
+
+&amp;#x200B;
+
+https://preview.redd.it/6v562pyr33l61.png?width=1000&amp;format=png&amp;auto=webp&amp;s=ec6c5480411114a6c87f567f8d85c1f9593cfdc0
+
+**2 New DeFi with Promising Token Rewards**
+
+Invest in cryptocurrency like the best managers with dHEDGE;
+
+Save, lend &amp; borrow for better interest with DeFiner
+
+And you can even earn EXTRA DHT &amp; FIN token rewards from these 2 dapps!
+
+**How to earn the tokens?**"
+Dai Avalaible,https://www.reddit.com/r/MakerDAO/comments/lxz0r8/dai_avalaible/,IQModerator,1,2021-03-05 07:58:10,6,/r/MakerDAO/comments/lxz0r8/dai_avalaible/,NaN,Hello. I am new to MakerDao. Can anyone tell me what determines the Dai Available per collateral asset? I noticed that ETH-A has 21M Dai available to lend while Uni-Eth LP only has 1K available.
+Why are USDC and USDT so popular compared to DAI? (On Uniswap),https://www.reddit.com/r/CryptoCurrency/comments/m0jlbw/why_are_usdc_and_usdt_so_popular_compared_to_dai/,mattyyicee34,1,2021-03-09 00:34:14,12,/r/CryptoCurrency/comments/m0jlbw/why_are_usdc_and_usdt_so_popular_compared_to_dai/,EXCHANGE,"Hi everyone,
+
+I noticed that on Uniswap, both the ETH-USDC and ETH-USDT liquidity pools have more liquidity and volume than the ETH-DAI pool. This is interesting to me, because they are both centralized, with USDT seeming to have a sketchy background. I am just wondering if anyone has some insight on why they seem to be more popular than DAI, which is decentralized and based on the MakerDAO.
+
+Thanks!"
+Anonymizing DAI - Join us tomorrow for the MakerDAO community call,https://www.reddit.com/r/IncognitoChain/comments/m0re44/anonymizing_dai_join_us_tomorrow_for_the_makerdao/,incognitochain,1,2021-03-09 06:03:12,1,/r/IncognitoChain/comments/m0re44/anonymizing_dai_join_us_tomorrow_for_the_makerdao/,NaN,"  
+
+
+https://preview.redd.it/nofpm2d4nvl61.png?width=1280&amp;format=png&amp;auto=webp&amp;s=1a25aec86cd9f51b60625dd7e867d446018880b1
+
+Our very own u/boogaav will be joining the MakerDAO community call tomorrow, March 9th, to discuss Incognito and **anonymizing DAI**.
+
+There will be an open Q&amp;A after his presentation. Join the call if you’re interested in DAI or want to participate in the convergence of both communities.
+
+&gt;**Time:** March 9th @ 17:00 UTC  
+**Link to join:** [MakerDAO announcement](https://forum.makerdao.com/t/community-call-incognito-protocol-and-wallet-private-dai-mar-09-17-00-utc/6864)
+
+Will you be there? Let us know in the comments!"
+Brief introduction to some of the top DeFi protocols,https://www.reddit.com/r/defi/comments/m0v30z/brief_introduction_to_some_of_the_top_defi/,charmcitycuddles,1,2021-03-09 09:06:40,51,/r/defi/comments/m0v30z/brief_introduction_to_some_of_the_top_defi/,NaN,"Hi all,
+
+I've put together a list of some of the top DeFi projects along with a brief explanation of each:
+
+**Maker DAO** - Lending/Borrowing
+
+MakerDAO is a decentralized system for collateralized loans that people can lock up their ETH in to receive the DAOs stablecoin, DAI. When someone locks up ETH, they are able to take out a loan of a smaller amount in DAI, which is pegged to the US dollar. A deposit of $1000 ETH would allow the user to take out a loan of roughly $650. When the person wants to get their ETH back, they simply pay back their loan along with any fees.
+The native token of this protocol, MKR is used in a twofold manner. It primarily acts as a form of support for the loan system as the price of ETH drops. When too many loans are liquidated at once, MKR is created and sold to pay off the loans, as well as bought back from proceeds from liquidation fees. It also serves an additional role as a governance token allowing holders to vote on how high fees should be and which types of collateral should be accepted by the system’s smart contracts.
+Maker has become one of the flagship protocols in the DeFi boom but as we saw with markets crash caused by Coronavirus, there remains significant risk investing/pooling money in these protocols which can suddenly become destabilized due to unpredictable events. Though Covid isn’t the first existential crisis Maker has faced, having dealt with hacks in the past, the community has continued to persist and has shown impressive resilience to move past these troubles, often coming out stronger and with a more guided roadmap. It is the largest DeFi protocol by locked value at $6.57 billion.
+
+**Aave** - Lending/Borrowing
+
+Aave is a decentralized network of collateralized lending pools run by smart contracts that allow people to freely lend or borrow crypto. In December 2020, they rolled out version 2 of their protocol. Previously when holders provided crypto for collateral on loans, it was locked in to that collateral. The new update allows users to easily transfer their collateral from one coin to another without having to repay their loan or pull it out of Aave. This increases people’s ability to manage liquidation risk by being able to swap their collateral if the original asset began falling in price.
+The governance token, AAVE, is used by holders to determine various changes to the rules and policies of the protocol. Holding the token also provides the user various bonuses such as reduced fees/rates, higher borrowing limits, and advance access to certain pools. Aave has also innovated “flash loans”, uncollateralized short term loans that are issued and settled within the same block of transactions.
+Aave’s version 2 is far from the end for this project. CEO Stani Kulechov has mentioned that upcoming changes will improve and add additional nuance to both governance and its flash loans, while also working to reduce gas fees across the board.
+
+**Yearn Finance** - Asset Managent
+
+Yearn Finance is a DeFi protocol that gives users yTokens in exchange for crypto deposits that are then lent out via various other services such as Aave or Compound for the highest rate of return. Yearn.finance was created by Andre Cronje who promptly gave up the protocol and transferred governance to a smart contract that requires a supermajority to institute changes. There is a fixed supply of 30,000 YFI tokens.
+Yearn.finance automatically reallocates investors’ funds and finds them the highest yield across various DeFi products. In other words, it gives the average crypto investor access to more advanced strategies through a user friendly user interface. It’s name recognition and ease of use will ensure that as the space continues to grow, it will remain as many investors’ first introductions to field farming strategies.
+Though in itself not high risk, Yearn searches a number of high yield bearing products that can oftentimes lead to investors’ funds being put into instruments they may not personally be comfortable with. Though these may not be entirely “unsafe”, It’s fair to ask whether many of the new investors being introduced to DeFi via Yearn would feel comfortable if they knew some of the riskier strategies their funds were subject to. Additionally, the nature of crypto’s rapidly changing market conditions can lead to volatile price swings across the market and the value of yield farming assets are always at risk of becoming worthless.
+
+**Uniswap** - Decentralized Exchange
+
+Uniswap is the most popular and most used decentralized exchange (dex) built on Ethereum. It made headlines last summer when it surprised early users by airdropping 400 UNI tokens (roughly $1,200 at the time) to anyone who had used the platform. The UNI token is used to govern the Uniswap exchange and holders can vote on various proposals and will eventually be the sole decision makers of Uniswap. People can use Uniswap to trade any token built on Ethereum and can also provide Eth and other tokens to supply liquidity, earning fees and sometimes other rewards.
+At one point Uniswap held 20% of all funds locked in DeFi protocols and had nearly 50,000 daily users and it still remains hugely popular. Due to the surprise airdrop, the token is widely distributed among the crypto community. It’s also one of the most popular platforms users are introduced to deeper DeFi concepts such as liquidity pools and yield farming.
+Many Uniswap users not only use the exchange for swapping their tokens, but also to earn rewards by providing liquidity. Many of these rewards provide outstanding returns which is incredibly enticing. However there’s an underlying risk to it that many people don’t understand well. It’s called Impermanent (or Divergence) Loss and it occurs when the price of the pooled token moves far from the price the user initially provided it for.When the Automated Market Maker sells tokens to maintain the desired ratio, the underlying amounts provided are sightly affected. This risk is often offset by the fees and rewards earned, but could present a significant risk in a volatile market.
+
+**Synthetix** - Derivatives
+
+Synthetix allows holders to stake their SNX tokens to create on-chain synthetic versions of real world assets such as gold, foreign currencies, and recently oil. It also allows holders to create shorting products such as iBTC or iETH. Synthetix was founded by Kain Warwick, having raised nearly $4 million in private funding from Framework Ventures. Governance was originally handled by a foundation which has since been dissolved and replaced by three decentralized autonomous organizations (DAOs) that SNX holders can vote on decisions for the future of the protocol.
+Synthetix had over $800 million in total locked value at its height and continues to hold above $700 million staked with over $125 million in circulating synthetic assets. Their success shows the strong demand for the ability to trade censorship free real world assets on-chain and they continue to research, develop, and release new products. Their inverse products (iEth, iBTC, iOIL etc..) are a unique way to introduce shorting strategies to DeFi newcomers as each iSynth token has an entry point, an upper limit, and a lower limit at which point the price is frozen and the inverse asset’s holder is liquidated into a USD pegged stablecoin to help manage risk. Sythentix’s strategy of bridging traditional legacy assets and new digital assets through these innovative products presents a strong case for SNX as the space develops and matures.
+One of the downsides to Synthetix is its unusually high collateralization ratio, requiring 750% of staked SNX to the value of the Synth asset. Additionally SNX is more volatile than other assets such as ETH which can lead to higher risk when it comes to keeping your ratio intact. Though staking ETH is available, it offers none of the reward incentives that SNX does.
+
+**Compound** - Lending/Borrowing
+
+Compound is a decentralized crypto lending and borrowing protocol run by algorithms and smart contracts. Anyone with an internet connection and a crypto wallet such as MetaMask can supply their crypto or borrow assets at interest rates set by real time supply and demand. This allows people to lend and borrow without having to negotiate terms through a middle man such as a bank. When people deposit their crypto funds into Compound, they are provided c-tokens (cETH, cDAI etc) which represent a claim to their portion of the asset pool. Similar to other DeFi protocols, loans are overcollateralized. That is, you must provide more value in crypto as collateral than you can borrow a loan for.
+Compound was initially started as a company by Robert Leshner and funded by VC, but since the release of the COMP token has been gradually decentralized handing control and governance to the community. Votes have been held to add coins, adjust interest rates, and various other improvement proposals.
+One of the inherent risks in Compound’s model is the risk taken on by borrowers who use the funds to buy more of their collateral. If an investor deposits ETH, then uses their loan to buy more ETH, a sharp drop in the price could lead to not only a call on their loan, but also complete liquidation of their collateralized ETH. Overall, Compound is fairly simple to use and understand which will continue to allow it to be a major player in the DeFi community as more people and institutions join the space.
+
+**RenVM** - Assets and Derivatives
+
+A major problem with the current DeFi system (and really, the overall crypto space) is interoperability. That is, roughly 75% of the total crypto market cap is outside of the Ethereum blockchain and thus not able to participate and interact with the current major DeFi protocols. RenVM is trying to solve this by wrapping outside assets, acting as a decentralized version of BitGo’s WBTC. Someone who holds bitcoin can send their BTC to RenVM which acts as a decentralized custodian, and then issues them the Ethereum token renBTC which is backed, and has the same value as BTC. Not limited to just Ethereum, RenVM can provide this service for just about any digital asset and smart contracting platform.
+RenVM’s token, REN is used as a bond to act as a validator “darknode” on the network. It requires 100,000 REN to register and run a node which is locked into a smart contract and not returned until the person deregisters their node. This encourages good behavior from participants. Every time an asset is transferred across chains, a fee is taken which is paid out to the darknode operators.
+
+**Kyber Network** - Decentralized Exchange
+
+Kyber Network is a decentralized exchange and payments tool that allows people to instantly swap their tokens for other tokens without having to deal with a centralized order book. It makes use of pools of crypto funds called “reserves” that allow for several routes to convert the tokens, ultimately finding the best price. Though similar to Loopring, the Kyber Network has a main exchange interface and swaps the token instantly, while Loopring is the underlying protocol and network of many exchanges, and functions as an orderbook.
+When converting ETH into another token, the Kyber smart contract first asks various reserves to get the best exchange price. Then, you’ll see the exchange rate and decide whether or not to go through with a swap. If you proceed, you will send 1 ETH to a Kyber smart contract. Once received, the reserve will do an on-chain exchange and your account will be credited with your token of choice. When converting one ERC20 token to another, Kyber uses ETH as the intermediary. That is Token A -&gt; ETH -&gt; Token B.
+KNC is the native token of Kyber and reserve holders must pay for their right to manage the reserves with KNC. Holders can also stake their KNC to the KyberDAO which gives them governance rights as well as returning a staking reward. Additionally, it allows vendors who accept cryptocurrency to accept a wide variety, but still get paid in their preferred currency. The Kyber Network works as a service in these types of transactions.
+
+**Loopring** - Decentralized Exchange and Layer 2
+
+Loopring, though similar to Kyber, is unique in this list as it is a decentralized exchange protocol, not a dex itself. What this means is that Loopring allows anybody to build a custodial order-book based exchange on Ethereum (or any other smart-contract platform) and Loopring then combines the pools on those into one massive pool and matches orders across these separate exchanges built using Loopring’s structure and participating in the network. Additionally, when you place your order, your coins remain yours until the order is executed. Your coins aren’t locked into the order book and you can cancel or adjust your order as you please.
+Those responsible for matching these orders, miners, are compensated for their work in LRC, and they are incentivized with higher rewards for finding better exchange rates. Loopring is also unique in that it is a Layer Two solution. That is, all transactions and trades take place *off chain* and thus the fees for trading are astronomically lower than Ethereum's during busy times, the downside being that it takes a bit of extra knowledge, and the desire to actually move your crypto there.
+
+**Balancer** - Decentralized Exchange
+
+Balancer is an automated market maker similar to Uniswap in that people can provide their crypto to liquidity pools to earn rewards, but differentiated by the concept that Balancer allows people to create their own Liquidity Pools with up to eight assets pooled instead of just two. The creator of the pool arbitrarily sets the weights of the underlying assets which are automatically rebalanced as the prices fluctuate to maintain the weight. This basically allows anyone to create their own self balancing index fund or invest in someone else’s. A downside to this is increased divergent loss as the prices of the various assets can fluctuate more broadly than is possible with just two assets provided at 1:1. It also leaves open big arbitrage opportunities as there is no oracle integration to bring in outside prices, thus the prices in the pools only change when someone makes a trade.
+BAL is the governance token for this protocol and as the protocol develops, BAL holders will be able to “help guide the protocol to its fullest potential.” Balancer specifically names some goals such as deploying the protocol on blockchains other than Ethereum, implementing layer two solutions, introducing fees at the protocol level to generate revenue, and more as examples of actions BAL holders can make.
+-----------------------------------------------------------------------
+
+There ya go, hope this is helpful!"
+March 8th: Governance Polls,https://www.reddit.com/r/MakerDAO/comments/m0wycj/march_8th_governance_polls/,mariouy1986,1,2021-03-09 10:47:49,0,/r/MakerDAO/comments/m0wycj/march_8th_governance_polls/,NaN,"Hey guys, quite a handful of polls this week and rather significant ones, please see below 
+
+Inclusion Poll for Real-World Finance Core Unit (RWF-001) &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmY9h8FK?network=mainnet#poll-detail)
+
+Inclusion Poll for Liquidations 2.0 (LIQ-2.0) - Liquidation System Redesign (MIP45) &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmQDoMAN?network=mainnet#poll-detail)
+
+Inclusion Poll for Parameter Proposal Groups (MIP46) &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmNnhoP4?network=mainnet#poll-detail)
+
+Inclusion Poll for Keg Streaming Payments Module (MIP34 and MIP48) &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmPCpB7a?network=mainnet#poll-detail)
+
+Inclusion Poll for Core Unit MIP Set (MIP38-41 and Subproposals)  &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmZp2ZEE?network=mainnet#poll-detail)
+
+Inclusion Poll for MakerDAO Multisignature Wallet Management (MIP47)  &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmRgHDAf?network=mainnet#poll-detail)
+
+Rates Proposal &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmWakAdq?network=mainnet#poll-detail)
+
+Inclusion Poll for Term Lending Module (TLM) (MIP43) &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmTeCt5Q?network=mainnet#poll-detail)
+
+Inclusion Poll for Governance Core Unit (GOV-001) &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmYwiCHC?network=mainnet#poll-detail)
+
+Inclusion Poll for Risk Core Unit (RISK-001) MIP &gt;&gt;&gt; [here](https://vote.makerdao.com/polling/QmcuhN3e?network=mainnet#poll-detail)"
+"Happening in 30 minutes! The MakerDAO Community Call: Incognito Protocol L2 and Wallet, Private Dai?",https://www.crowdcast.io/e/the-makerdao-community-34,Davidutro,1,2021-03-10 00:25:16,2,/r/MakerDAO/comments/m1a174/happening_in_30_minutes_the_makerdao_community/,NaN,
+Announcing the Optimism Dai Bridge with Fast Withdrawals,https://www.reddit.com/r/MakerDAO/comments/m1ahzt/announcing_the_optimism_dai_bridge_with_fast/,mariouy1986,1,2021-03-10 00:46:04,8,/r/MakerDAO/comments/m1ahzt/announcing_the_optimism_dai_bridge_with_fast/,NaN," Hey maker community, nice announcement today, quick summary:
+
+&amp;#x200B;
+
+* The MakerDAO community will be launching an ‘official’ DAI on Optimism L2.
+* Optimism requires a 7 day lockup period when withdrawing tokens back to L1.
+* The Maker protocol can reduce this lockup period and allow near-instant withdrawals of DAI.
+* This solution can be expanded to cover other token withdrawals in combination with an AMM.
+* Initial bridge soon. Fast withdrawals Q3/Q4 2021.
+
+Click [here](https://forum.makerdao.com/t/announcing-the-optimism-dai-bridge-with-fast-withdrawals/6938) for further details!
+
+As always, if you are an active member of the community and haven´t enrolled to sourcecred, click [here](https://www.reddit.com/r/MakerDAO/comments/luww3z/sourcecred_maker_dao/) to check how to and what´s it about"
+"Happening in the next few minutes! The MakerDAO Community Call: Incognito Protocol L2 and Wallet, Private Dai?",https://www.crowdcast.io/e/the-makerdao-community-34,Blueberry314E-2,1,2021-03-10 00:53:32,1,/r/defi/comments/m1aob9/happening_in_the_next_few_minutes_the_makerdao/,NaN,
+MakerDao: Announcing the Optimism Dai Bridge with Fast Withdrawals,https://forum.makerdao.com/t/announcing-the-optimism-dai-bridge-with-fast-withdrawals/6938,OnlyTheMoonManKnows,1,2021-03-10 02:15:04,13,/r/CryptoCurrency/comments/m1cj06/makerdao_announcing_the_optimism_dai_bridge_with/,EXCHANGE,
+MakerDao: Announcing the Optimism Dai Bridge with Fast Withdrawals (x-post from /r/Cryptocurrency),https://www.reddit.com/r/CryptoCurrency/comments/m1cj06/makerdao_announcing_the_optimism_dai_bridge_with/,ASICmachine,1,2021-03-10 02:31:32,0,/r/CryptoCurrencyClassic/comments/m1cvse/makerdao_announcing_the_optimism_dai_bridge_with/,NaN,
+Weekly Privacy Newsletter - 3.9.21,https://www.reddit.com/r/IncognitoChain/comments/m1eap5/weekly_privacy_newsletter_3921/,incognitochain,1,2021-03-10 03:35:48,0,/r/IncognitoChain/comments/m1eap5/weekly_privacy_newsletter_3921/,NaN,"  
+
+
+https://preview.redd.it/fwo4bbgt12m61.jpg?width=1987&amp;format=pjpg&amp;auto=webp&amp;s=ac3a6e29954c305fd756fdc605b63db0551b3348
+
+&amp;#x200B;
+
+  
+A few weeks ago, I told you to prepare for the changes coming in March. It’s March, and those changes have arrived.  
+We’re speeding up the race to decentralization, increasing the scope of privacy, and publishing more documentation and information than ever before. There are only so many hours in a day, so we’re going to use those hours to perfect what we have before jumping into new products.
+
+A few key things to be looking for in the coming month(s) include a new, much more informative website, more comprehensive documentation on tech, more clarity on what’s open source and when the rest will become open-source, and rolling out network upgrades like slashing and privacy v.2.
+
+Be sure to take part in the discussions on these things happening around the forum at [we.incognito.org](http://we.incognito.org/). It’s how you shape privacy going forward.
+
+# Community updates
+
+* The latest [PRV Holders Letter](https://we.incognito.org/t/letter-to-prv-holders-february-2021/10573) has been published.
+* [**u**](https://we.incognito.org/u/andrey)**/boogaav** presented on Incognito mode for DAI in the [MakerDAO community call](https://we.incognito.org/t/join-the-makerdao-community-call-with-andrey/10718). A recording will be published.
+* PRV got a shout-out in this 📷 new [song](https://we.incognito.org/t/prv-is-mentioned-in-song-by-skieo-new-money/10709).
+* We published the [recap of the PRV Holders call](https://we.incognito.org/t/recap-march-prv-holders-call/10646), where we talked about plans for total decentralization and more.
+* China has upped its financial surveillance with a new [national digital currency](https://we.incognito.org/t/article-biggest-cities-in-china-now-trialing-its-central-bank-issued-digital-currency/10608).
+
+# Development updates
+
+* If you need some clarification on slashing, check out this [explanation](https://we.incognito.org/t/recap-march-prv-holders-call/10646/7).
+* We released app v.4.1.5 and v.4.1.6., containing [bug fixes and new features](https://we.incognito.org/t/app-v-5/9584/24).
+* If you want to help move privacy forward, consider leaving an [honest review](https://we.incognito.org/t/building-transparency-and-trust/10549) on the App Store!
+* If you use the Cardano Catalyst governance dApp, check out the proposal for a [bridge with Incognito](https://twitter.com/wiiinnie/status/1368910559090012160?s=21).
+
+**That’s all for this week, I’ll see you around the forum!**
+
+*Have a steam-room-after-a-good-workout kind of week,*  
+*-Aaron.*"
+MakerDao: Announcing the Optimism Dai Bridge with Fast Withdrawals,https://forum.makerdao.com/t/announcing-the-optimism-dai-bridge-with-fast-withdrawals/6938,DarkestChaos,1,2021-03-10 05:44:47,0,/r/crypt0snews/comments/m1h71q/makerdao_announcing_the_optimism_dai_bridge_with/,NaN,
+MakerDAO将为Optimism提供二层DAI快速提款解决方案,https://www.reddit.com/r/boniry/comments/m1n9qp/makerdao将为optimism提供二层dai快速提款解决方案/,Mariagogo,1,2021-03-10 10:37:48,0,/r/boniry/comments/m1n9qp/makerdao将为optimism提供二层dai快速提款解决方案/,NaN,3月10日，MakerDAO智能合约团队即将推出解决方案OptimismDai Bridge，可解决Optimistic Rollup需要1周提款时间的问题。具体来说，该解决方案允许锁定L1 DAI来铸造L2 oDAI，并允许oDAI即时被销毁以访问L1 DAI。MakerDAO将于今年第三或第四季度支持快速提款功能，允许从oDAI迁移到DAI，并立即结算。
+Optimism and MakerDAO have announced a joint project — Optimism Dai Bridge. It is set to reduce Ethereum gas fees. Read on,https://coinquora.com/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas/,Coinquora_,1,2021-03-10 18:42:43,0,/r/u_Coinquora_/comments/m1uscr/optimism_and_makerdao_have_announced_a_joint/,NaN,
+Optimism and MakerDAO have announced a joint project — Optimism Dai Bridge. It is set to reduce Ethereum gas fees. Read on,https://coinquora.com/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas/,Coinquora_,1,2021-03-10 18:43:53,0,/r/Crypto_Currency_News/comments/m1usxr/optimism_and_makerdao_have_announced_a_joint/,NaN,
+Optimism and MakerDAO have announced a joint project — Optimism Dai Bridge. It is set to reduce Ethereum gas fees. Read on,https://coinquora.com/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas/,Coinquora_,1,2021-03-10 18:44:31,0,/r/cryptocurrencynews/comments/m1ut8u/optimism_and_makerdao_have_announced_a_joint/,NaN,
+Optimism and MakerDAO have announced a joint project — Optimism Dai Bridge. It is set to reduce Ethereum gas fees. Read on,https://coinquora.com/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas/,Coinquora_,1,2021-03-10 18:44:51,0,/r/cryptomarketsbet/comments/m1utei/optimism_and_makerdao_have_announced_a_joint/,NaN,
+Optimism and MakerDAO have announced a joint project — Optimism Dai Bridge. It is set to reduce Ethereum gas fees. Read on,https://coinquora.com/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas/,Coinquora_,1,2021-03-10 18:45:16,0,/r/CryptoNewsandTalk/comments/m1utmf/optimism_and_makerdao_have_announced_a_joint/,NaN,
+Optimism and MakerDAO have announced a joint project — Optimism Dai Bridge. It is set to reduce Ethereum gas fees. Read on,https://coinquora.com/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas/,Coinquora_,1,2021-03-10 18:45:32,0,/r/cryptonewswire/comments/m1utr4/optimism_and_makerdao_have_announced_a_joint/,NaN,
+Optimism and MakerDAO have announced a joint project — Optimism Dai Bridge. It is set to reduce Ethereum gas fees. Read on,https://coinquora.com/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas/,Coinquora_,1,2021-03-10 18:45:47,0,/r/Cryptonewsworld/comments/m1utvv/optimism_and_makerdao_have_announced_a_joint/,NaN,
+Optimism and MakerDAO Partner up to Reduce Ethereum Gas,https://www.investing.com/news/cryptocurrency-news/optimism-and-makerdao-partner-up-to-reduce-ethereum-gas-2442242,Pale-World-9823,1,2021-03-10 19:07:20,0,/r/Crypto_Currency_News/comments/m1v5cf/optimism_and_makerdao_partner_up_to_reduce/,NaN,
+"@thedapplist: Wise Wednesdays 🌘🦉🌒 Top 5 DeFi Developments to Watch In 2021 by @MakerDAO Dapps are on pace to have another remarkable year thanks to new trends bolstered by the power of stablecoins, increase in adoption of NFTs &amp; new scaling and liquidity options. https://t.co/QKI88EOKpA",https://www.reddit.com/r/TheDAppList/comments/m1zpd3/thedapplist_wise_wednesdays_top_5_defi/,nirbhikjangid,1,2021-03-10 23:14:19,0,/r/TheDAppList/comments/m1zpd3/thedapplist_wise_wednesdays_top_5_defi/,NaN,"http://twitter.com/thedapplist/status/1369663287487389700 March 10, 2021 at 08:25PM"
+Is MakerDao still trying to create a CPI pegged stablecoin?,https://www.reddit.com/r/MakerDAO/comments/m28m49/is_makerdao_still_trying_to_create_a_cpi_pegged/,omise_hoe,1,2021-03-11 05:09:34,9,/r/MakerDAO/comments/m28m49/is_makerdao_still_trying_to_create_a_cpi_pegged/,NaN,"I found [this old answer in an AMA](https://www.reddit.com/r/ethtrader/comments/97ue60/were_rune_christensen_ceo_makerdao_and_michael/e4azkp3/) that I'm very interested in. I don't really like holding stable coins while money printer go brrr. A stablecoin that keeps up with cost of living however, is very interesting when combined with services like Compound Finance"
+🔊 @MakerDAO will soon launch a feature that may solve the biggest UX hangup of the Optimistic layer 2 (L2) scaling solution. Read. 🔽,https://www.reddit.com/r/defi/comments/m2a199/makerdao_will_soon_launch_a_feature_that_may/,TheDefiantNews,1,2021-03-11 05:58:40,0,/r/defi/comments/m2a199/makerdao_will_soon_launch_a_feature_that_may/,NaN,[removed]
+MakerDao Set To Launch Optimism DAI Bridge for Faster Withdrawals,https://btcmanager.com/makerdao-optimism-dai-bridge/,Mars_chego,1,2021-03-11 08:57:47,0,/r/StableCoins/comments/m2dzc5/makerdao_set_to_launch_optimism_dai_bridge_for/,NaN,
+Has anybody heard of reserve protocol?,https://www.reddit.com/r/MakerDAO/comments/m2mpoy/has_anybody_heard_of_reserve_protocol/,gymmaxxer,1,2021-03-11 17:51:35,0,/r/MakerDAO/comments/m2mpoy/has_anybody_heard_of_reserve_protocol/,NaN,"They claim to be better than MakerDAO, and that DAI is shit but it screams “scam” to me if I’m being honest, because they are trying to make a decentralized stablecoin but isn’t that what dai already is? So what’s the point? And hasn’t DAI proven to actually work for years now? 
+
+https://reserve.org/blog/reserves-analysis-of-the-makerdao-protocol"
+MakerDAO needs to combine all collateral into a single bucket,https://www.reddit.com/r/MakerDAO/comments/m3a3f2/makerdao_needs_to_combine_all_collateral_into_a/,TotalCleanFBC,1,2021-03-12 12:52:48,6,/r/MakerDAO/comments/m3a3f2/makerdao_needs_to_combine_all_collateral_into_a/,NaN,"If you deposit multiple forms of collateral onto Aave or Compound you can borrow DAI against the entire ""bucket"" of assets.  By contrast, on MakerDAO, every form of collateral is it's own bucket.  This makes risk management much more difficult.
+
+Does anybody know if there are plans to upgrade the protocol to mint DAI from a basket of collateral rather than having individual vaults for every form of collateral?  Such an upgrade would vastly improve the usability of MakerDAO."
+"CoinEx Institution: Swipe, Digital Asset Payment Solution Based on Visa Debit Card",https://www.reddit.com/r/swipecrypto/comments/m3dkge/coinex_institution_swipe_digital_asset_payment/,CoinEx_Institution,1,2021-03-12 16:46:59,0,/r/swipecrypto/comments/m3dkge/coinex_institution_swipe_digital_asset_payment/,NaN,"&amp;#x200B;
+
+https://preview.redd.it/83iyn05t7km61.png?width=636&amp;format=png&amp;auto=webp&amp;s=604fbf34efdf6bd2d583b16dd3b0340957134282
+
+**I.** **Project overview**
+
+Swipe is a fiat channel for digital assets where users can trade various digital assets in real time with fiat money. It is designed to ""make digital assets the mainstream through the establishment of fiat channels."" Swipe wallet allows users to transfer, store and withdraw crypto assets. Through Swipe's Visa debit card, users can consume digital assets in their wallets in the form of fiat money.
+
+SXP, the functional token of Swipe, is mainly used as the transaction fee, trading medium, and vouchers of discounts in transaction fees for users. In the Swipe system, 80% of transaction fees will be publicly burned on the chain.
+
+&amp;#x200B;
+
+**II. Business Model**
+
+**2.1 Business model**
+
+The Venus protocol was developed by the Swipe wallet, which Binance acquired earlier last year. Venus, a decentralized stablecoin system, is a currency market protocol that aims to introduce a fully decentralized lending system into the Binance Smart Chain (BSC) to enable fast and low-cost transactions. In addition, based on the Binance smart chain, Venus will also mint the decentralized stable currency VAI backed by a basket of BEP-20 tokens. Venus can be taken as a hybrid of MakerDAO and Compound, which attempts to reshape the cross-border financial system and strengthen the financial collaboration in the global supply chain.
+
+**2.2 Token economy**
+
+1) Token information
+
+Token name: SXP
+
+Token type: ERC-20
+
+Contract address:
+
+0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9
+
+2) Token functions and distribution
+
+The Swipe team decided to limit the maximum supply of SXP to 300 million units. However, as the tokens are burned, the total supply will be gradually reduced until it reaches 100 million units.
+
+https://preview.redd.it/97imspsy7km61.png?width=832&amp;format=png&amp;auto=webp&amp;s=8ac81ebed799de34a034a0c1764ef0406c6cf7b4
+
+SXP Distribution Model
+
+As the functional token of Swipe, SXP has five main functions, namely:
+
+① Transaction fee
+
+② Network gas
+
+③ Trading medium
+
+④ Staking certificate
+
+⑤ Voucher for the user to obtain a discount on transaction fees
+
+In the Swipe system, 80% of transaction fees will be publicly burned on the chain.
+
+&amp;#x200B;
+
+**II.** **Exchanges Supported**
+
+Currently, Swipe is supported by CoinEx, Binance, KuCoin, Bittrex, etc.
+
+&amp;#x200B;
+
+**III.** **Team profile**
+
+Swipe was established by Joselito Lizarondo in 2018. The team members are experienced in the fields of cryptocurrency and electronic payment. Most of them used to work for well-known international companies such as Binance, VISA, Apple, Samsung, and Google.
+
+https://preview.redd.it/ylth8ku38km61.png?width=894&amp;format=png&amp;auto=webp&amp;s=8428926a50a04faa468985fa24af10ea5d320c2d
+
+Swipe is headquartered in the Philippines and is currently available in 28 countries/regions in the European Economic Area. It supports fiat currency transactions in Euros, British pounds, U.S. dollars, South Korean won, and Philippine pesos.
+
+In July 2020, Binance announced the completion of the acquisition of crypto startup Swipe. In November of the same year, the start-up Fincofex (later renamed SwipeX), which was acquired by Swipe, announced that it had obtained the master membership of UnionPay International and could directly issue debit cards to consumers and businesses. Swipe plans to integrate this function in early 2021 and launch branded UnionPay cards. (Fincofex has previously obtained Swift membership which allows it to process Swift remittances. It is also a major member of MasterCard in the UK and the European Economic Area and can issue debit cards for businesses)
+
+&amp;#x200B;
+
+**IV.** **Code Overview**
+
+According to the Github open-source code, Swipe currently has 10 main code bases. Among them, code bases of the asset module, Venus protocol module and BSC network module are updated frequently. Overall, the Swipe code base is relatively simple and clear.
+
+[Swipe’s open-source code. Source: Github](https://preview.redd.it/hggixnn78km61.png?width=1146&amp;format=png&amp;auto=webp&amp;s=286ac1c22e57ca1ccacd1ff6c67bec56de762f87)
+
+&amp;#x200B;
+
+**V.** **Communities**
+
+Twitter  
+
+https://twitter.com/SwipeWallet     
+
+Telegram 
+
+https://t.me/SwipeWallet
+
+&amp;#x200B;
+
+**VI.** **Risk Evaluation**
+
+On January 14, 2021, Venus was hit by a major security incident. The Venus development team (i.e. the Swipe development team) has issued a new cross-chain project CANNON (cannon.finance), which sells 80 million CAN to private equity investors for a price of $0.02/unit. These tokens could only be used for mortgage lending but not for sale. Later it sold another 100 million CAN to public investors for the same price. After that, Venus announced its support for CAN as collateral, with a mortgage coefficient of 60%, and the mortgage price was determined to be US$0.35 (17 times the price in the private placement). Shortly after, someone deposited CAN “worth US$150 million” to Venus and borrowed the highly liquid assets on the platform, leaving huge losses to ordinary users. Although the ""buyer"" has returned the borrowed assets and the Swipe team has also deposited its own 2000 BTC and ETH into the protocol as a relief, this incident has exposed serious loopholes in its risk control mechanism. Fortunately, Venus has already started to follow 100% decentralized governance."
+@thedapplist: DeFi 💸 @MakerDAO @antimatterdefi x @chain_swap @BinanceChain @binance @iearnfinance @DuskNetwork @oceanprotocol @PayPal x #CURV Gaming &amp; NFTs 🎮 @beeple x @ChristiesInc @atari x @BondlyFinance @enjin x @OriginProtocol x @ether_cards @F1DeltaTime @GuildOfGuardian,https://www.reddit.com/r/TheDAppList/comments/m3m6z7/thedapplist_defi_makerdao_antimatterdefi_x_chain/,nirbhikjangid,1,2021-03-13 01:14:45,0,/r/TheDAppList/comments/m3m6z7/thedapplist_defi_makerdao_antimatterdefi_x_chain/,NaN,"http://twitter.com/thedapplist/status/1370419726548144129 March 12, 2021 at 10:31PM"
+DeFi Giant MakerDAO Avoiding Shutdown in the Face of Tanking ETH,https://askrypto.com/news/2020/03/defi-giant-makerdao-avoiding-shutdown-in-the-face-of-tanking-eth-for-now/,Excellent_Attorney72,1,2021-03-13 11:03:30,2,/r/defi/comments/m3xpym/defi_giant_makerdao_avoiding_shutdown_in_the_face/,NaN,
+4 years in and new to Bitcoin,https://www.reddit.com/r/CryptoCurrency/comments/m47zfl/4_years_in_and_new_to_bitcoin/,jimflann,1,2021-03-13 23:04:00,9,/r/CryptoCurrency/comments/m47zfl/4_years_in_and_new_to_bitcoin/,NaN,"Not really been into Bitcoin over the last 3-4 years or so and been more interested in the technology around projects like Ethereum and MakerDAO. But looking into the DeFi trends I've found it easier to invest a bit in some of these upstarts if I just have some BTC to hand.
+
+Will BTC just become the new on-ramp for investment into new DeFi projects?"
+Grayscale Soon?,https://www.reddit.com/r/stacks/comments/m4fto2/grayscale_soon/,SofaKing_Erect,1,2021-03-14 05:25:10,4,/r/stacks/comments/m4fto2/grayscale_soon/,NaN,"Also note that Grayscale investment funds will be expanded to include multiple altcoins. The company announced this on February 26 on its official website. The list contains 23 altcoins: Aave (AAVE), Basic Attention Token (BAT), Cardano (ADA), Chainlink (LINK), Compund (COMP), Cosmos (ATOM), Decentraland (MANA), EOS (EOS), Filtecoin (FIL) ), Flow (Dapper) Labs) (FLOW), Livepeer (LPT), MakerDao (MKR), Monero (XMR), Numeraire (NMR), Polkadot (DOT), Reserve Rights (RSR), Stacks (STX), Sushiswap ( SUSHI), Synthetix (SNX). ), Tezos (XTZ), The Graph (GRT), Uniswap (UNI), Yearn Finance (YFI)."
+Can makerDAO equivalent be made on vechain,https://www.reddit.com/r/Vechain/comments/m4unmx/can_makerdao_equivalent_be_made_on_vechain/,LouisOve,1,2021-03-14 20:42:24,1,/r/Vechain/comments/m4unmx/can_makerdao_equivalent_be_made_on_vechain/,Discussion,"MakerDAO is what’s behind DAI, the decentralized crypto coin pegged to USD
+
+Or what is sunny alluding to when he says they are working on a stable coin. Because I would think a centralized tether coin requires no work.
+Literally just print 1 per every dollar received."
+"What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber) - YouTube",https://www.youtube.com/watch?v=k9HYC0EJU6E,ddrp2,1,2021-03-15 23:22:56,0,/r/CECIA/comments/m5n1u4/what_is_defi_decentralized_finance_explained/,NaN,
+What happens to vspacex if there is a spike up in SpaceX share value?,https://www.reddit.com/r/ItoVault/comments/m5q3w7/what_happens_to_vspacex_if_there_is_a_spike_up_in/,ethvest2001,1,2021-03-16 01:35:14,0,/r/ItoVault/comments/m5q3w7/what_happens_to_vspacex_if_there_is_a_spike_up_in/,NaN,"I was reading through the whitepaper on the site, and the ItoVault model looks very similar to the MakerDAO model. What happens if there is a sudden spike in SpaceX value though? What if Spacex has a sudden success and its stock goes up 3x overnight like gamestop?  How will there be enough value in the vaults to cover this case?
+
+PS posting from a throwaway for this because im genuinely interested in itovault but don't want to be linked to other trades i do"
+"Defisaurus on OpenSea, Prehistoric NFTs celebrating the future of finance",https://www.reddit.com/r/NFT/comments/m5y7sh/defisaurus_on_opensea_prehistoric_nfts/,heyheoy,1,2021-03-16 09:53:43,0,/r/NFT/comments/m5y7sh/defisaurus_on_opensea_prehistoric_nfts/,NaN,"On the Phase 1 of Defisaurus, these wild limited-edition creatures are ready to be traded and collected as NFTs on the Ethereum blockchain. The first 6 Defisaurus celebrate AAVE, Balancer, MakerDAO, SushiSwap, Tornado Cash and YFI. **Only 32 of each will ever exist.** 
+
+[https://opensea.io/accounts/Defisaurus](https://opensea.io/accounts/Defisaurus)"
+Defisaurus NFT on OpenSea,https://www.reddit.com/r/CryptoArt/comments/m5y961/defisaurus_nft_on_opensea/,heyheoy,1,2021-03-16 09:55:40,0,/r/CryptoArt/comments/m5y961/defisaurus_nft_on_opensea/,OpenSea,"On the Phase 1 of Defisaurus, these wild limited-edition creatures are ready to be traded and collected as NFTs on the Ethereum blockchain. The first 6 Defisaurus celebrate AAVE, Balancer, MakerDAO, SushiSwap, Tornado Cash and YFI. **Only 32 of each will ever exist.** 
+
+[https://opensea.io/accounts/Defisaurus](https://opensea.io/accounts/Defisaurus)"
+Here is my first and only moonshot Unilend (UFT),https://www.reddit.com/r/CryptoMoonShots/comments/m66ulx/here_is_my_first_and_only_moonshot_unilend_uft/,Lonefever,1,2021-03-16 19:24:35,4,/r/CryptoMoonShots/comments/m66ulx/here_is_my_first_and_only_moonshot_unilend_uft/,Low MCAP coin,"I was delving trough Twitter and came across this hidden gem. The philosephy makes perfect sense and [the roadmap](https://unilend.medium.com/presenting-unilends-roadmap-gearing-up-for-alpha-launch-in-december-2020-89ff10805bcd) is where I really got excited. A lot of things coming this month/year! 
+
+UniLend is a permission-less decentralized protocol that combines spot trading services and money markets with lending and borrowing services through smart contracts. 
+
+They will add digital assets outside of the current DeFi ecosystem. There are over 6000 tokens listed on coinmarketcap and only 30 are on Aave, Compound and MakerDao. So there is a big gap there. 
+
+Furthermore they will add trading and lending and borrowing. I really think this is a strong asset for the near future and if they deliver easy top 100 token. 
+
+Here are some links to do your own research. 
+
+[https://twitter.com/UniLend\_Finance](https://twitter.com/UniLend_Finance)
+
+[https://unilend.finance/](https://unilend.finance/)
+
+[https://coinmarketcap.com/currencies/unilend/](https://coinmarketcap.com/currencies/unilend/)
+
+Let me know what u think!"
+"[Community Call] Core Unit Tools #03: AccountAble for MakerDAO Teams | March 16, 16:00 UTC",https://forum.makerdao.com/t/core-unit-tools-03-accountable-for-makerdao-teams-march-16-16-00-utc/7035,Davidutro,1,2021-03-16 23:05:46,0,/r/MakerDAO/comments/m6b4i4/community_call_core_unit_tools_03_accountable_for/,NaN,
+Weekly Privacy Newsletter - 3.16.21,https://www.reddit.com/r/IncognitoChain/comments/m6hzv6/weekly_privacy_newsletter_31621/,incognitochain,1,2021-03-17 04:03:12,0,/r/IncognitoChain/comments/m6hzv6/weekly_privacy_newsletter_31621/,NaN,"&amp;#x200B;
+
+https://preview.redd.it/t0kf8u025gn61.jpg?width=1987&amp;format=pjpg&amp;auto=webp&amp;s=4d53db6dfd27f19bc08a047ef6418a1c0117483b
+
+When life turns into a dumpster fire, the best thing we can do is grab our sticks and marshmallows and make s’mores. This week, **inccry** was a shining example of that.
+
+This week, we continued restructuring the Incognito paradigm and fortifying the foundations of privacy, and we’ll continue that effort in the weeks ahead. Our goal is to bring clarity to every facet of the project, and decentralize and open-source even more of the project. Continue sharing your feedback and ideas, and watch for new avenues we’re introducing for you to influence privacy moving forward.
+
+Your role as a protector of privacy is about to get much more intensive, so stay in touch. There’s no need to go at it alone, there’s an entire community of helpful people at [we.incognito.org](http://we.incognito.org/) and in the app’s Community tab.
+
+# Member updates
+
+* From now on, you can report and track bugs transparently with the [GitHub Issues feature](https://we.incognito.org/t/how-to-report-bugs-to-the-core-developer-team/10776).
+* If you missed u/boogaav in the MakerDAO call, you can [watch it here](https://we.incognito.org/t/join-the-makerdao-community-call-with-andrey/10718/2).
+* Incognito was glowingly [reviewed on Ada Pulse](https://adapulse.io/incognito-chain-bridging-the-gap-between-transparency-and-anonymity/)!
+
+# Development updates
+
+* In the new web extension, you’ll have [more control over shielding/unshielding](https://we.incognito.org/t/new-shielding-unshielding-flow-for-eth-erc20-in-the-extension/10790).
+* pSwap is live in beta! Test out the [anonymous trading browser extension](https://we.incognito.org/t/taind-pswap-swap-your-way-into-privacy/8757/11) now.
+* [Incscan.io was on fire](https://we.incognito.org/t/network-explorer/2086/390) last week! Literally! Huge props to **inccry** for all of his hard work getting it back online.
+* [Ethereum Bridge v3 was deployed](https://we.incognito.org/t/incognitos-trustless-bridge-v3-with-ethereum-bond-contract/2963/21) on mainnet (and then disabled to allow for Bridge v4).
+* **andireuter** moved his GitHub repo and can begin work on [integrating Signal](https://we.incognito.org/t/integrate-incognito-into-signal-poc/7412/75)once more.
+
+Good things require hard work. The good that we’re building is easy access to privacy for all, and we’re grateful for what you’re all doing to make that happen. Let’s keep up the good work.
+
+*Have a made-someone-smile kind of week,*  
+*-Aaron.*"
+"Hey you, have you heard of sourcecred??",https://www.reddit.com/r/MakerDAO/comments/m6np10/hey_you_have_you_heard_of_sourcecred/,mariouy1986,1,2021-03-17 08:31:20,6,/r/MakerDAO/comments/m6np10/hey_you_have_you_heard_of_sourcecred/,Question,"Hello maker community, hope everything is well and if not for all the conservative types Eth C vault is around the corner.
+
+A while back I uploaded a sourcecred post since maker is a dao and a dao is as strong as the community backing it, the more feedback we get the better we are and we need people giving constructive feedback on proposals, making proposals and spreading the concept of what maker dao is. Specially now that the core units are being developed. 
+
+Now the poll is pretty simple and it´s purpose is to get a grip on how to better channel the communication.
+
+Of course it would be awesome if you could also include some comments, for example if you heard of it but you are not interested why is it? or if you haven´t heard of it but you are interested what would you need to know? Or any related matters to sourcecred for that matter. 
+
+You can find the original sourcecred post [here](https://www.reddit.com/r/MakerDAO/comments/luww3z/sourcecred_maker_dao/) or pinned at the top 
+
+Thanks for your time!
+
+[View Poll](https://www.reddit.com/poll/m6np10)"
+SMART CONTRACTS TO ADA THIS SPRING 👀,https://www.reddit.com/r/cryptowzrdtalk/comments/mevx8e/smart_contracts_to_ada_this_spring/,what_after_death,1,2021-03-28 14:18:17,0,/r/cryptowzrdtalk/comments/mevx8e/smart_contracts_to_ada_this_spring/,WZRD NEWS,"&amp;#x200B;
+
+*Processing img hodje2jpnpp61...*
+
+* The Alonzo Testnet will finally allow developers to deploy their own decentralized applications on the Cardano blockchain.
+* The Alonzo Testnet, which will bring smart contracts to the Cardano (ADA) blockchain, could go live as soon as April, Charles Hoskinson, CEO of the network’s developer IOHK, revealed during the Cardano360 virtual conference yesterday.
+* Hoskinson claimed that the Testnet would launch at the end of April or in early May. ""For the first time ever, publicly, people will be able to write smart contracts and deploy them on Cardano,"" he said.
+* Per the revealed rollout plan, the Alonzo upgrade will come in the form of a hard fork this spring. Initially, smart contracts will be available for testing purposes only, with the full mainnet launch slated for August.
+* The addition of smart contracts marks a major milestone for Cardano, since it will finally make the blockchain a viable competitor to Ethereum. Since last summer, Ethereum’s decentralized finance (DeFi) ecosystem has boomed, building on a wide array of decentralized applications (DApps)—all of which are based on smart contracts.
+* Now, the same functionality is coming to Cardano. As an example, the blockchain’s developers have presented a Cardano-native dapp that allows users to swap different tokens—much like Ethereum’s “killer dapps” such as Uniswap.
+* According to DeFi Pulse, the total value locked in DeFi currently amounts to nearly $40 billion. Meanwhile, major platforms such as MakerDAO, Compound, Aave, and many others are all based on Ethereum’s smart contracts. And with the launch of Alonzo, Cardano will be able to expand into this multi-billion market as well."
+How to mint new DOC,https://www.reddit.com/r/Sovryn/comments/mfal1p/how_to_mint_new_doc/,ilpirata79,1,2021-03-29 05:37:06,2,/r/Sovryn/comments/mfal1p/how_to_mint_new_doc/,NaN,"Hi,
+
+AFAIK, DOC is the equivalent of MakerDao on rootstock. How is it then possible to mint DOC (take a loan) on DOC? Is it fully operational? Could I take, for instance, a 100k DOC loan?
+
+&amp;#x200B;
+
+Thanks"
+How MakerDAO uses Request for all of their invoicing,https://request.network/en/customer-stories/makerdao/,parasocks,1,2021-03-29 11:53:43,3,/r/altcoin/comments/mfh4uj/how_makerdao_uses_request_for_all_of_their/,NaN,
+"What do you guys think about DAO Maker ? (honest question, please give me some opinions)",https://www.reddit.com/r/SatoshiStreetBets/comments/mfsz4d/what_do_you_guys_think_about_dao_maker_honest/,NoobProtector,1,2021-03-30 00:11:18,8,/r/SatoshiStreetBets/comments/mfsz4d/what_do_you_guys_think_about_dao_maker_honest/,Discussion,"I think the title speaks for itself. I found the DAO Maker coin (not MakerDao) and out of my pov it looks pretty interesting. From my understanding it is something like a launchpad for new projects
+
+Here you guys have the coingecko url : [https://www.coingecko.com/de/munze/dao-maker](https://www.coingecko.com/de/munze/dao-maker)
+
+Twitter url: [https://twitter.com/TheDaoMaker](https://twitter.com/TheDaoMaker)
+
+webside url: [https://daomaker.com/](https://daomaker.com/)
+
+Whitepaper: [https://drive.google.com/file/d/1tPRMktnros6ifJLfvQkrT6mAmEJvUufT/view](https://drive.google.com/file/d/1tPRMktnros6ifJLfvQkrT6mAmEJvUufT/view)"
+Scamadviser rating autofarm.network as a scam,https://www.reddit.com/r/AutoFarmNetwork/comments/mg6uw8/scamadviser_rating_autofarmnetwork_as_a_scam/,Snoo-11008,1,2021-03-30 11:28:05,9,/r/AutoFarmNetwork/comments/mg6uw8/scamadviser_rating_autofarmnetwork_as_a_scam/,💬-general,"1inch, venus, pancake swap, aave, compound,  uniswap, scored 100%
+
+sushi swap 95%
+
+surve 90%
+
+makerdao 75%
+
+pancake bunny 43%
+
+autofarm 15% ...  they should do something to get better score.
+
+[https://www.scamadviser.com/check-website/autofarm.network](https://www.scamadviser.com/check-website/autofarm.network)
+
+https://preview.redd.it/cmlzr4pz13q61.png?width=890&amp;format=png&amp;auto=webp&amp;s=d6a5d7c614a37e85e602aa1261f453f556af1547"
+"Roadman Announces Its First Stablecoin, SATO (""SATO""), that Adopts the AMPL Algorithm &amp; Liquidity Pool Launching with iCashRewards",https://www.reddit.com/r/pennystocks_No_Rules/comments/mgfxjp/roadman_announces_its_first_stablecoin_sato_sato/,Xethernety,1,2021-03-30 21:23:04,1,/r/pennystocks_No_Rules/comments/mgfxjp/roadman_announces_its_first_stablecoin_sato_sato/,NaN,"RMANF (ASK @ 0.0546)
+
+[LITT.VN](https://LITT.VN) (ASK @ 0.08)
+
+Roadman Investments Corp.  licensee A3Com Solutions Corp. (""A3Com"") **is pleased to announce that it is entering into strategic partnerships with SATO, a next generation of Stablecoin.**
+
+iCashRewards is very happy to partner with SATO to apply SATO to the iCashRewards ecosystem that combines the utility token (""iCashToken"") with the rewards of a loyalty point that rebates customers for use of iCashRewards eCommerce shopping platform and services. 
+
+iCashToken is planning to merge with SATO. 
+
+Each user from iCashRewards can redeem their iCash Loyalty points ( iCashPoints) with Sato. 
+
+One iCashToken can be exchanged with 1 SATO. 
+
+Each SATO is priced at $1.00, and the exchange will be effective from March 31 to April 15, 2021. 
+
+Going forward, iCashPoints can continue to redeemed cash, USDT, BTC as well as SATO.USDT. SATO is planning to list on various exchanges on April 14, 2021.
+
+**Background**
+
+The crypto industry has seen the rise of various Stablecoins in the last few years. 
+
+These Stablecoins have been built in different ways. 
+
+USDC, HUSD, TrueUSD are backed by fiat USD DAI, Frax, OUSD are collateral based.
+
+SATO is a Stablecoin that is neither fiat backed or collateral based. 
+
+It is purely algorithmic and relies on market forces of supply and demand to maintain its price.
+
+**Current Status of Stablecoin Market:**
+
+Compared with many DeFi projects that attract users to speculate simply by relying on high mining returns, the future application scenarios of algorithmic stablecoins have more room for imagination. 
+
+Currently, the entire algorithmic stablecoin market is still in a stage where its value is heavily underestimated, which is similar to the collateralized stablecoins such as MakerDao in early 2019. 
+
+It is expected that the market will break out.
+
+**AMPL, Basis Cash, ESD, Frax**
+
+At present, the market value of DeFi is growing rapidly and there are countless projects. 
+
+However, there are still no more than ten products that are available for use in the algorithmic stablecoin market. 
+
+The well-known algorithmic stablecoins include AMPL, Basic Cash, ESD and Frax. Among them, only the prices of AMPL and Frax can be maintained around 1 USD. 
+
+Although AMPL's algorithm has been modified several times by latecomers, it is still in the leading position of algorithmic stablecoins, which is similar to the position of PoW in the main chain.
+
+ Therefore, the current single currency inflation &amp; deflation model (rebase) of AMPL has been tested by the market.
+
+**What is SATO?**
+
+SATO is a next generation algorithmic stable coin. SATO relies on the invisible market forces of supply and demand to maintain its price stability. 
+
+USD and collateral backed Stablecoins have various flaws and are not suited to the crypto ecosystem.
+
+USD backed Stablecoins rely on the broken monetary infrastructure of central banks to provide stability. As a result, the Stablecoin's stability is derived from the backed currency itself. 
+
+Similarly, collateral backed Stablecoins use other Stablecoins with USD backed collateral. Thus, the underlying system is still reliant on the flaws of USD backed Stablecoins.
+
+SATO doesn't rely on any centralized fiat currency such as USD. It can maintain its price stability algorithmically via smart contracts.
+
+""We are very excited to see the users from iCashRewards have the ability to redeem the first DeFi revolutionary stablecoin SATO (""SATO"") and a Roadman subsidiary will mine the SATO through the SATO's liquidity pool once it is opened. 
+
+We like the name ""SATO"" as it is an inspiration from Satoshi Nakamoto, a name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation,"" states Luke Montaine, CEO of Roadman Investments.
+
+**About iCashRewards**
+
+iCashRewards, (""iCash""), a next-generation social e-commerce video marketing and reward platform. iCashRewards is a leading provider of on-line and virtual reality shopping experiences, connecting merchants and consumers across the globe. 
+
+iCashRewards is reinventing marketing using blockchain technology for loyalty rewards to disrupt traditional loyalty industries and continuously innovate in the digital marketing industry. 
+
+iCashRewards is a web and mobile plug-in that gives online shoppers rewards in the form of cash back, SATO, BTC or USDT. 
+
+There are over 150 brands through its portal [www.iCashRewards.io](https://pr.report/x92ow6H8). Sign up to [iCashRewards.io](https://pr.report/ReHxLJYs) today to receive 100 loyalty points and SATO.
+
+**About Roadman Licensee A3Com Solutions Corp.**
+
+A3Com Solutions Corp.(""A3Com"") is a Vancouver-based startup, Blockchain &amp; AI-focused software development company focusing on e-commerce and mobile reward platforms, consumer loyalty, and digital marketing. 
+
+A3Com's featured platform is iCashRewards, which connects merchants and consumers worldwide. Roadman has a first right of refusal to purchase 100% of A3Com after Roadman reaches 500,000 users on [iCashRewards.io](https://pr.report/DBuXyi-A).
+
+**About Roadman Investments Corp.**
+
+Roadman Investments Corp. (""Roadman"") is a Canadian Venture Capital, Investment and Advisory Firm that strives to actively drive innovation and accelerate growth for its shareholders. 
+
+Roadman invests capital into private and public companies that offer excellent growth opportunities.
+
+For more information on iCashRewards or A3Com, visit [www.iCashRewards.io](http://www.icashrewards.io/) and follow iCashRewards on:
+
+Twitter: [https://twitter.com/iCashloyalty](https://pr.report/D6A3R20B)
+
+Telegram: [https://t.me/iCashRewards\_EN](https://pr.report/4AWpIiLP)
+
+Medium: [https://icashrewards.medium.com/](https://pr.report/0VoBWUhA)
+
+Linkedin: [https://www.linkedin.com/company/icashrewards](https://pr.report/xJ4AV9Ly)
+
+Youtube: [https://bit.ly/2zaJE39](https://pr.report/yIfxn3oA)
+
+Instagram: [https://www.instagram.com/iCashRewards/](https://pr.report/SIOe-Vsw)
+
+TikTok : [https://vm.tiktok.com/ZMeJTt5Vs](https://pr.report/2tj-Thuv)
+
+Facebook: [https://www.facebook.com/iCashrewards.io](https://pr.report/Qvz7wWFk)
+
+**Contacts**
+
+A3Com Contacts:  
+Fanny Travis  
+Tel: 604.689.0618  
+Email: [support@icashrewards.io](mailto:support@icashrewards.io)
+
+**Roadman Contacts**
+
+Luke Montaine  
+Tel: [luke@roadmancorp.com](mailto:luke@roadmancorp.com)"
+"Roadman Announces Its First Stablecoin, SATO (""SATO""), that Adopts the AMPL Algorithm &amp; Liquidity Pool Launching with iCashRewards",https://www.reddit.com/r/Penny_Stock_USA/comments/mgfxoc/roadman_announces_its_first_stablecoin_sato_sato/,Xethernety,1,2021-03-30 21:23:16,0,/r/Penny_Stock_USA/comments/mgfxoc/roadman_announces_its_first_stablecoin_sato_sato/,NaN,"RMANF (ASK @ 0.0546)
+
+Roadman Investments Corp.  licensee A3Com Solutions Corp. (""A3Com"") **is pleased to announce that it is entering into strategic partnerships with SATO, a next generation of Stablecoin.**
+
+iCashRewards is very happy to partner with SATO to apply SATO to the iCashRewards ecosystem that combines the utility token (""iCashToken"") with the rewards of a loyalty point that rebates customers for use of iCashRewards eCommerce shopping platform and services. 
+
+iCashToken is planning to merge with SATO. 
+
+Each user from iCashRewards can redeem their iCash Loyalty points ( iCashPoints) with Sato. 
+
+One iCashToken can be exchanged with 1 SATO. 
+
+Each SATO is priced at $1.00, and the exchange will be effective from March 31 to April 15, 2021. 
+
+Going forward, iCashPoints can continue to redeemed cash, USDT, BTC as well as SATO.USDT. SATO is planning to list on various exchanges on April 14, 2021.
+
+**Background**
+
+The crypto industry has seen the rise of various Stablecoins in the last few years. 
+
+These Stablecoins have been built in different ways. 
+
+USDC, HUSD, TrueUSD are backed by fiat USD DAI, Frax, OUSD are collateral based.
+
+SATO is a Stablecoin that is neither fiat backed or collateral based. 
+
+It is purely algorithmic and relies on market forces of supply and demand to maintain its price.
+
+**Current Status of Stablecoin Market:**
+
+Compared with many DeFi projects that attract users to speculate simply by relying on high mining returns, the future application scenarios of algorithmic stablecoins have more room for imagination. 
+
+Currently, the entire algorithmic stablecoin market is still in a stage where its value is heavily underestimated, which is similar to the collateralized stablecoins such as MakerDao in early 2019. 
+
+It is expected that the market will break out.
+
+**AMPL, Basis Cash, ESD, Frax**
+
+At present, the market value of DeFi is growing rapidly and there are countless projects. 
+
+However, there are still no more than ten products that are available for use in the algorithmic stablecoin market. 
+
+The well-known algorithmic stablecoins include AMPL, Basic Cash, ESD and Frax. Among them, only the prices of AMPL and Frax can be maintained around 1 USD. 
+
+Although AMPL's algorithm has been modified several times by latecomers, it is still in the leading position of algorithmic stablecoins, which is similar to the position of PoW in the main chain.
+
+ Therefore, the current single currency inflation &amp; deflation model (rebase) of AMPL has been tested by the market.
+
+**What is SATO?**
+
+SATO is a next generation algorithmic stable coin. SATO relies on the invisible market forces of supply and demand to maintain its price stability. 
+
+USD and collateral backed Stablecoins have various flaws and are not suited to the crypto ecosystem.
+
+USD backed Stablecoins rely on the broken monetary infrastructure of central banks to provide stability. As a result, the Stablecoin's stability is derived from the backed currency itself. 
+
+Similarly, collateral backed Stablecoins use other Stablecoins with USD backed collateral. Thus, the underlying system is still reliant on the flaws of USD backed Stablecoins.
+
+SATO doesn't rely on any centralized fiat currency such as USD. It can maintain its price stability algorithmically via smart contracts.
+
+""We are very excited to see the users from iCashRewards have the ability to redeem the first DeFi revolutionary stablecoin SATO (""SATO"") and a Roadman subsidiary will mine the SATO through the SATO's liquidity pool once it is opened. 
+
+We like the name ""SATO"" as it is an inspiration from Satoshi Nakamoto, a name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation,"" states Luke Montaine, CEO of Roadman Investments.
+
+**About iCashRewards**
+
+iCashRewards, (""iCash""), a next-generation social e-commerce video marketing and reward platform. iCashRewards is a leading provider of on-line and virtual reality shopping experiences, connecting merchants and consumers across the globe. 
+
+iCashRewards is reinventing marketing using blockchain technology for loyalty rewards to disrupt traditional loyalty industries and continuously innovate in the digital marketing industry. 
+
+iCashRewards is a web and mobile plug-in that gives online shoppers rewards in the form of cash back, SATO, BTC or USDT. 
+
+There are over 150 brands through its portal [www.iCashRewards.io](https://pr.report/x92ow6H8). Sign up to [iCashRewards.io](https://pr.report/ReHxLJYs) today to receive 100 loyalty points and SATO.
+
+**About Roadman Licensee A3Com Solutions Corp.**
+
+A3Com Solutions Corp.(""A3Com"") is a Vancouver-based startup, Blockchain &amp; AI-focused software development company focusing on e-commerce and mobile reward platforms, consumer loyalty, and digital marketing. 
+
+A3Com's featured platform is iCashRewards, which connects merchants and consumers worldwide. Roadman has a first right of refusal to purchase 100% of A3Com after Roadman reaches 500,000 users on [iCashRewards.io](https://pr.report/DBuXyi-A).
+
+**About Roadman Investments Corp.**
+
+Roadman Investments Corp. (""Roadman"") is a Canadian Venture Capital, Investment and Advisory Firm that strives to actively drive innovation and accelerate growth for its shareholders. 
+
+Roadman invests capital into private and public companies that offer excellent growth opportunities.
+
+For more information on iCashRewards or A3Com, visit [www.iCashRewards.io](http://www.icashrewards.io/) and follow iCashRewards on:
+
+Twitter: [https://twitter.com/iCashloyalty](https://pr.report/D6A3R20B)
+
+Telegram: [https://t.me/iCashRewards\_EN](https://pr.report/4AWpIiLP)
+
+Medium: [https://icashrewards.medium.com/](https://pr.report/0VoBWUhA)
+
+Linkedin: [https://www.linkedin.com/company/icashrewards](https://pr.report/xJ4AV9Ly)
+
+Youtube: [https://bit.ly/2zaJE39](https://pr.report/yIfxn3oA)
+
+Instagram: [https://www.instagram.com/iCashRewards/](https://pr.report/SIOe-Vsw)
+
+TikTok : [https://vm.tiktok.com/ZMeJTt5Vs](https://pr.report/2tj-Thuv)
+
+Facebook: [https://www.facebook.com/iCashrewards.io](https://pr.report/Qvz7wWFk)
+
+**Contacts**
+
+A3Com Contacts:  
+Fanny Travis  
+Tel: 604.689.0618  
+Email: [support@icashrewards.io](mailto:support@icashrewards.io)
+
+**Roadman Contacts**
+
+Luke Montaine  
+Tel: [luke@roadmancorp.com](mailto:luke@roadmancorp.com)"
+"Roadman Announces Its First Stablecoin, SATO (""SATO""), that Adopts the AMPL Algorithm &amp; Liquidity Pool Launching with iCashRewards",https://www.reddit.com/r/Penny_Stocks_Canada/comments/mgfxv3/roadman_announces_its_first_stablecoin_sato_sato/,Xethernety,1,2021-03-30 21:23:31,2,/r/Penny_Stocks_Canada/comments/mgfxv3/roadman_announces_its_first_stablecoin_sato_sato/,NaN,"[LITT.VN](https://LITT.VN) (ASK @ 0.08)
+
+Roadman Investments Corp.  licensee A3Com Solutions Corp. (""A3Com"") **is pleased to announce that it is entering into strategic partnerships with SATO, a next generation of Stablecoin.**
+
+iCashRewards is very happy to partner with SATO to apply SATO to the iCashRewards ecosystem that combines the utility token (""iCashToken"") with the rewards of a loyalty point that rebates customers for use of iCashRewards eCommerce shopping platform and services. 
+
+iCashToken is planning to merge with SATO. 
+
+Each user from iCashRewards can redeem their iCash Loyalty points ( iCashPoints) with Sato. 
+
+One iCashToken can be exchanged with 1 SATO. 
+
+Each SATO is priced at $1.00, and the exchange will be effective from March 31 to April 15, 2021. 
+
+Going forward, iCashPoints can continue to redeemed cash, USDT, BTC as well as SATO.USDT. SATO is planning to list on various exchanges on April 14, 2021.
+
+**Background**
+
+The crypto industry has seen the rise of various Stablecoins in the last few years. 
+
+These Stablecoins have been built in different ways. 
+
+USDC, HUSD, TrueUSD are backed by fiat USD DAI, Frax, OUSD are collateral based.
+
+SATO is a Stablecoin that is neither fiat backed or collateral based. 
+
+It is purely algorithmic and relies on market forces of supply and demand to maintain its price.
+
+**Current Status of Stablecoin Market:**
+
+Compared with many DeFi projects that attract users to speculate simply by relying on high mining returns, the future application scenarios of algorithmic stablecoins have more room for imagination. 
+
+Currently, the entire algorithmic stablecoin market is still in a stage where its value is heavily underestimated, which is similar to the collateralized stablecoins such as MakerDao in early 2019. 
+
+It is expected that the market will break out.
+
+**AMPL, Basis Cash, ESD, Frax**
+
+At present, the market value of DeFi is growing rapidly and there are countless projects. 
+
+However, there are still no more than ten products that are available for use in the algorithmic stablecoin market. 
+
+The well-known algorithmic stablecoins include AMPL, Basic Cash, ESD and Frax. Among them, only the prices of AMPL and Frax can be maintained around 1 USD. 
+
+Although AMPL's algorithm has been modified several times by latecomers, it is still in the leading position of algorithmic stablecoins, which is similar to the position of PoW in the main chain.
+
+ Therefore, the current single currency inflation &amp; deflation model (rebase) of AMPL has been tested by the market.
+
+**What is SATO?**
+
+SATO is a next generation algorithmic stable coin. SATO relies on the invisible market forces of supply and demand to maintain its price stability. 
+
+USD and collateral backed Stablecoins have various flaws and are not suited to the crypto ecosystem.
+
+USD backed Stablecoins rely on the broken monetary infrastructure of central banks to provide stability. As a result, the Stablecoin's stability is derived from the backed currency itself. 
+
+Similarly, collateral backed Stablecoins use other Stablecoins with USD backed collateral. Thus, the underlying system is still reliant on the flaws of USD backed Stablecoins.
+
+SATO doesn't rely on any centralized fiat currency such as USD. It can maintain its price stability algorithmically via smart contracts.
+
+""We are very excited to see the users from iCashRewards have the ability to redeem the first DeFi revolutionary stablecoin SATO (""SATO"") and a Roadman subsidiary will mine the SATO through the SATO's liquidity pool once it is opened. 
+
+We like the name ""SATO"" as it is an inspiration from Satoshi Nakamoto, a name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation,"" states Luke Montaine, CEO of Roadman Investments.
+
+**About iCashRewards**
+
+iCashRewards, (""iCash""), a next-generation social e-commerce video marketing and reward platform. iCashRewards is a leading provider of on-line and virtual reality shopping experiences, connecting merchants and consumers across the globe. 
+
+iCashRewards is reinventing marketing using blockchain technology for loyalty rewards to disrupt traditional loyalty industries and continuously innovate in the digital marketing industry. 
+
+iCashRewards is a web and mobile plug-in that gives online shoppers rewards in the form of cash back, SATO, BTC or USDT. 
+
+There are over 150 brands through its portal [www.iCashRewards.io](https://pr.report/x92ow6H8). Sign up to [iCashRewards.io](https://pr.report/ReHxLJYs) today to receive 100 loyalty points and SATO.
+
+**About Roadman Licensee A3Com Solutions Corp.**
+
+A3Com Solutions Corp.(""A3Com"") is a Vancouver-based startup, Blockchain &amp; AI-focused software development company focusing on e-commerce and mobile reward platforms, consumer loyalty, and digital marketing. 
+
+A3Com's featured platform is iCashRewards, which connects merchants and consumers worldwide. Roadman has a first right of refusal to purchase 100% of A3Com after Roadman reaches 500,000 users on [iCashRewards.io](https://pr.report/DBuXyi-A).
+
+**About Roadman Investments Corp.**
+
+Roadman Investments Corp. (""Roadman"") is a Canadian Venture Capital, Investment and Advisory Firm that strives to actively drive innovation and accelerate growth for its shareholders. 
+
+Roadman invests capital into private and public companies that offer excellent growth opportunities.
+
+For more information on iCashRewards or A3Com, visit [www.iCashRewards.io](http://www.icashrewards.io/) and follow iCashRewards on:
+
+Twitter: [https://twitter.com/iCashloyalty](https://pr.report/D6A3R20B)
+
+Telegram: [https://t.me/iCashRewards\_EN](https://pr.report/4AWpIiLP)
+
+Medium: [https://icashrewards.medium.com/](https://pr.report/0VoBWUhA)
+
+Linkedin: [https://www.linkedin.com/company/icashrewards](https://pr.report/xJ4AV9Ly)
+
+Youtube: [https://bit.ly/2zaJE39](https://pr.report/yIfxn3oA)
+
+Instagram: [https://www.instagram.com/iCashRewards/](https://pr.report/SIOe-Vsw)
+
+TikTok : [https://vm.tiktok.com/ZMeJTt5Vs](https://pr.report/2tj-Thuv)
+
+Facebook: [https://www.facebook.com/iCashrewards.io](https://pr.report/Qvz7wWFk)
+
+**Contacts**
+
+A3Com Contacts:  
+Fanny Travis  
+Tel: 604.689.0618  
+Email: [support@icashrewards.io](mailto:support@icashrewards.io)
+
+**Roadman Contacts**
+
+Luke Montaine  
+Tel: [luke@roadmancorp.com](mailto:luke@roadmancorp.com)"
