@@ -1,0 +1,298 @@
+title,url,author,score,created,numComms,permalink,flair,body
+Compound or tulip?,https://www.reddit.com/r/Compound/comments/qkdkpj/compound_or_tulip/,Pure-Assignment7739,1,2021-11-01 21:06:06,2,/r/Compound/comments/qkdkpj/compound_or_tulip/,NaN,Which do you recomend?
+What's the right way to calc Total APY?,https://www.reddit.com/r/Compound/comments/qkfnbp/whats_the_right_way_to_calc_total_apy/,ksshilov,1,2021-11-01 22:51:11,0,/r/Compound/comments/qkfnbp/whats_the_right_way_to_calc_total_apy/,Question,"I'm trying to estimate my ""exact"" APY from supplying USDC to compound. Including profit from supply interest rate and from COMP rewards.
+
+From docs (main page) I found this:
+cTokens accumulates interest through their exchange rate.
+
+It means that my final profit at the end of period will be:
+profit = cUSDC_amount * exchangeRate.
+
+Other docs (docs section on the website) says:
+The Annual Percentage Yield (APY) for supplying or borrowing in each market can be calculated using the value of supplyRatePerBlock (for supply APY) or borrowRatePerBlock (for borrow APY) in this formula:
+
+And gave this formula:
+APY = ((((Rate / ETH Mantissa * Blocks Per Day + 1) ^ Days Per Year)) - 1) * 100
+
+What's the right way to calc APY for compound?"
+Compound - COMP on a wavy rise,https://everycoinprice.com/?symbol=COMP&amp;interval=1day&amp;exchange=19,Appropriate_Tune4617,1,2021-11-01 23:39:35,4,/r/Compound/comments/qkgo47/compound_comp_on_a_wavy_rise/,NaN,
+All You Need To Start,https://www.reddit.com/r/Compound/comments/qkgsxg/all_you_need_to_start/,Upset-Ad-7980,1,2021-11-01 23:46:04,0,/r/Compound/comments/qkgsxg/all_you_need_to_start/,NaN,"Not only can you earn this coin free just for using this app. A little birdy in the telegram and discord have been dropping hints that there might be a partnership coming soon with a big layer 2 ! Come to the social tracking app that empowers momentum traders by giving them the tokens instead of VC's. Dont believe me google it yourself and not my link. This is free btc, matic, or whatever you hold. Good luck yall &lt;3   
+[https://lnr.app/s/vvN3Wm](https://lnr.app/s/vvN3Wm)"
+"Compound Developer Community Call – November 3, 9:30am PT",https://www.comp.xyz/t/compound-developer-community-call-november-3-9-30am-pt/2516,TragedyStruck,3,2021-11-02 06:14:31,13,/r/Compound/comments/qkp9se/compound_developer_community_call_november_3/,NaN,
+Supplying Collateral and it’s been Stuck on “Transaction Pending” for 2 hours,https://www.reddit.com/r/Compound/comments/qkx95c/supplying_collateral_and_its_been_stuck_on/,majormajorsnowden,1,2021-11-02 13:26:16,9,/r/Compound/comments/qkx95c/supplying_collateral_and_its_been_stuck_on/,Question,How to fix???
+Claiming Comp Tokens,https://www.reddit.com/r/Compound/comments/qkxfkm/claiming_comp_tokens/,sleatygregory,1,2021-11-02 13:38:28,19,/r/Compound/comments/qkxfkm/claiming_comp_tokens/,NaN,"Seriously how do we claim our comp
+tokens!? Every time I claim and spend gas nothing happens I still have 0 comp tokens! Why is nobody talking about this"
+la!!!!!,https://www.reddit.com/r/Compound/comments/ql71co/la/,Upset-Ad-7980,1,2021-11-02 23:43:13,0,/r/Compound/comments/ql71co/la/,NaN,[https://lnr.app/s/kv2N4Y](https://lnr.app/s/kv2N4Y)
+Crypto Collateralized Loans,https://www.reddit.com/r/Compound/comments/qldkpd/crypto_collateralized_loans/,jmd251,1,2021-11-03 04:36:03,12,/r/Compound/comments/qldkpd/crypto_collateralized_loans/,Question,"Have you sought to apply for a loan using Crypto as a collateral?  If yes, what was your experience like during that process?"
+Potential $KRRX airdrop for early users. If you missed DYDX dont miss this one,https://www.reddit.com/r/Compound/comments/qlkbv7/potential_krrx_airdrop_for_early_users_if_you/,Useful_Platform_,1,2021-11-03 10:10:36,0,/r/Compound/comments/qlkbv7/potential_krrx_airdrop_for_early_users_if_you/,NaN,"If you missed $FTT don't miss r/Kyrrex It will explode in a very similar way. 1000% incoming as That's the only legit regulated exchange where you can hold your crypto securely.  Slick design and high trading latency. When people realize the potential - token will explode [https://kyrrex.com/](https://kyrrex.com/)
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+[https://twitter.com/Kyrrexcom/status/1455166162677944328?s=20](https://twitter.com/Kyrrexcom/status/1455166162677944328?s=20)
+
+&amp;#x200B;
+
+Kyrrex ([https://kyrrex.com/](https://kyrrex.com/))
+
+Kyrrex | Regulated Crypto Exchange Built by Real Traders
+
+Kyrrex provides an extensive range of services including trading on demo or real accoun"
+Run on Compund,https://www.reddit.com/r/Compound/comments/qlkq8a/run_on_compund/,extremcookie,1,2021-11-03 10:32:04,23,/r/Compound/comments/qlkq8a/run_on_compund/,Question,"I'm trying to wrap my head around Compound and deeply understand it. There is one thing I'm unsure about.
+
+So there are many lenders supplying crypto assets with some of them using the supply as collateral to borrow assets. However, with some of the supplied assets lent out, isn't there a shortage in the Compund protocol compared to the supply balances of the users?
+
+Consider this example: 
+
+* User A supplies 10000 DAI without borrowing anything
+* Another user B supplies some ETH to get a 10000 DAI loan
+
+So with the 10000 DAI loan of user B there now should be a supply of 10000 DAI and a total borrow of 10000 DAI, resulting in 0 actual DAI remaining in Compounds smart contract.
+
+Now what happens if user A decides to withdraw their 10000 DAI? Ther aren't any DAI in the contract, are they?
+
+I get that there are the ETH from user B as collateral, but swapping those to DAI would be pretty destructuve to user B.
+
+How does Compound handle this situation?"
+HOW TO CLAIM COMP TOKENS?,https://www.reddit.com/r/Compound/comments/qltvn7/how_to_claim_comp_tokens/,sleatygregory,1,2021-11-03 20:57:39,26,/r/Compound/comments/qltvn7/how_to_claim_comp_tokens/,NaN,"Seriously how do we claim our comp
+tokens!? Every time I claim and spend gas nothing happens I still have 0 comp tokens! Why is nobody talking about this"
+Difference between the bow sight landslyde av41 vs av31.,https://www.reddit.com/r/Compound/comments/qmvsnu/difference_between_the_bow_sight_landslyde_av41/,spetzie55,1,2021-11-05 05:58:19,2,/r/Compound/comments/qmvsnu/difference_between_the_bow_sight_landslyde_av41/,NaN,"I am thinking about buying this sight but I can't find the difference between the av41 and av31 versions.  Can someone explain the difference.  I do mostly target but also like to hunt with my setup.  Also as an intermediate archery, is the sight easy to setup?"
+Crypto Collateralized loans,https://www.reddit.com/r/Compound/comments/qnhmsx/crypto_collateralized_loans/,jmd251,1,2021-11-06 02:38:39,10,/r/Compound/comments/qnhmsx/crypto_collateralized_loans/,Question,"Have you ever taken out a Crypto collateralized loan? If yes, what was your reason for doing so?"
+COMP retroactive airdrop - temp check vote is now live!,https://compound.finance/governance/proposals/67,TragedyStruck,1,2021-11-06 17:33:32,22,/r/Compound/comments/qnwvcu/comp_retroactive_airdrop_temp_check_vote_is_now/,NaN,
+cETH still lost in the matrix.,https://www.reddit.com/r/Compound/comments/qo1ipx/ceth_still_lost_in_the_matrix/,markschomaker,1,2021-11-06 22:35:31,29,/r/Compound/comments/qo1ipx/ceth_still_lost_in_the_matrix/,NaN,"I could REALLY use that money right now. Worth about 30k at the moment. 375.635 cETH.
+
+Stupidity is very expensive..."
+Holon Hackathon 2021,https://www.reddit.com/r/Compound/comments/qogwei/holon_hackathon_2021/,ivtonic,1,2021-11-07 12:13:39,0,/r/Compound/comments/qogwei/holon_hackathon_2021/,NaN,[removed]
+Help :(,https://www.reddit.com/r/Compound/comments/qp4aip/help/,Dougie1999,1,2021-11-08 10:46:46,40,/r/Compound/comments/qp4aip/help/,NaN,"I sent a COMP transaction from metamask to Coinbase but I believe I sent from the poly network so now my balance isn't showing in Coinbase. Any one know how I may recover my funds?
+
+https://polygonscan.com/tx/0xd40186ef3c13865051bc7567045f31a7b181fc1343c2994ac27501235f600b40"
+Earning Report: I earned $573.14 worth of Crypto in 10 months of DutchyCorp,https://www.reddit.com/r/Compound/comments/qpddnl/earning_report_i_earned_57314_worth_of_crypto_in/,Klaasiker,1,2021-11-08 21:14:09,30,/r/Compound/comments/qpddnl/earning_report_i_earned_57314_worth_of_crypto_in/,NaN," 
+
+So I tested the Faucet DutchyCorp and will share my experience with all of you.  
+Most important: I earned **$573.14** in **ten months**.  
+Time spent: About 5min per day while watching TV/Netflix or Youtube.  
+Full proof of my earnings &amp; payouts directly to Coinbase: [https://imgur.com/a/R895hgv](https://imgur.com/a/R895hgv)
+
+You will receive most earnings in BTC (over $200). There are over 55 other coins (ETH, ADA, BNB, MATIC and many more) to earn but BTC brings the best ratio.  
+Link: [https://autofaucet.dutchycorp.space/](https://autofaucet.dutchycorp.space/?r=SLimon)
+
+How does it work:  
+DutchyCorp let's you do tasks and surveys where you get awarded Dutchy Coins. With these coins you are able to let a Faucet running and you can get paid in over 50 coins. I only do payouts with the coins featured to be paid out to Coinbase. Therefore I don't pay additional fees.  
+How are you able to get the best possible earnings on DutchyCorp:  
+\- Do the Coin Rolls and Dutchy Rolls for daily Bonus  
+\- Run the Autofaucet on weekend with 20% claim Bonus  
+\- Do Surveys on Offerwall to be able to earn more DUTCHY and increase your own level  
+\- be active to get some free Coins by the RainBot  
+\- Go to the Shortwall and click on the pages on a daily base  
+\- Run the AutoFaucet with Balance Mode for additional 10%
+
+I did my payouts directly to Coinbase. Payouts are really fast and after about ten seconds you get confirmation of your withdrawal. If you are new to Coinbase, you can get an additional $10 of Bitcoin after you have bought Bitcoin worth $100 with this link: [https://www.coinbase.com/join/lussy\_u](https://www.coinbase.com/join/lussy_u)"
+Get Extra Yields for Compound's cTokens,https://www.reddit.com/r/Compound/comments/qq5o3d/get_extra_yields_for_compounds_ctokens/,DanonSlyer,1,2021-11-09 23:07:52,28,/r/Compound/comments/qq5o3d/get_extra_yields_for_compounds_ctokens/,NaN,"[Learn how to get additional yields on cTokens](https://augmentedfinance.medium.com/yield-farm-on-two-platforms-at-once-aave-compound-augmented-finance-with-250-apy-1c89893b5da8):
+
+* Holders of Aave and Compound interest-bearing tokens (aTokens &amp; cTokens) can earn up 250+% APY on Augmented Finance;
+* Yields from Aave / Compound stay yours;
+* It’s safe: Augmented Finance is non-custodial, open-source and audited by Peckshield.
+
+https://preview.redd.it/8vjkv0n75ly71.jpg?width=1200&amp;format=pjpg&amp;auto=webp&amp;s=c772de13cb0f77ed936a8135da5585a8adb45955"
+A wallet is a profile,https://www.reddit.com/r/Compound/comments/qr5s6k/a_wallet_is_a_profile/,Cautious_March_8423,1,2021-11-11 06:19:50,0,/r/Compound/comments/qr5s6k/a_wallet_is_a_profile/,NaN,[removed]
+Compound Loan,https://www.reddit.com/r/Compound/comments/qridfv/compound_loan/,sleatygregory,1,2021-11-11 18:28:45,2,/r/Compound/comments/qridfv/compound_loan/,NaN,"If I had say $20,000 in ETH supplied on compound but only borrowed $15,000 just an example. Could I repay the loan with the supplied principal? if so how? ty"
+Thoughts on this plan to accumulate max ETH?,https://www.reddit.com/r/Compound/comments/qrn68w/thoughts_on_this_plan_to_accumulate_max_eth/,Agentdoubleo97,1,2021-11-11 23:01:39,33,/r/Compound/comments/qrn68w/thoughts_on_this_plan_to_accumulate_max_eth/,NaN,"I’ve been using Compound for a while and I’m a big fan of the platform. 
+
+I’ve been thinking of a plan to help me accumulate as much ETH as possible. 
+
+
+So I spend a large portion of my income on rent every month. If I could just spend it on Eth, I’d have so much by now. 
+
+I have this plan where instead of spending my fist directly on my rent, I can instead supply it as collateral ETH on compound, loan it to myself as USDC, Convert that USDC back into fiat and pay my rent.
+
+This is not fool proof, especially because I can only borrow less than 80% of my collateral and it’s possible for the price of ETH to crash which could liquidate the money I have in collateral. 
+
+If the price of ETH increases in the long run, I could use these gains to pay back the money I’m borrowing and keep the profit from accumulating all this ETH. 
+
+What do you guys think?"
+Compound To The Moon,https://www.google.com/url?q=https://teesfinde.com/limited-edition-2003-1?s%3Dhanes-5250%26c%3DBlack%26p%3DFRONT&amp;sa=D&amp;source=hangouts&amp;ust=1636738693048000&amp;usg=AOvVaw2iocI7w9xpNiVKShXQXxu0,ForrestPrice54,1,2021-11-12 01:38:19,1,/r/Compound/comments/qrqi4r/compound_to_the_moon/,NaN,
+"If you receive a loan in ETH, is the interest denominated in ETH as well?",https://www.reddit.com/r/Compound/comments/qrrdkq/if_you_receive_a_loan_in_eth_is_the_interest/,Surfif456,1,2021-11-12 02:17:14,0,/r/Compound/comments/qrrdkq/if_you_receive_a_loan_in_eth_is_the_interest/,NaN,"Sorry, I am new to Compound and was hoping if someone could help with my question."
+"Compound Digest: Gauntlet Risk Management Dashboard, Coinbase Earn COMP Update, Governance Updates",https://compound.substack.com/p/gauntlet-risk-management-dashboard,TragedyStruck,1,2021-11-13 03:16:02,1,/r/Compound/comments/qsijtf/compound_digest_gauntlet_risk_management/,NaN,
+cETH Gained 24.4% today and is leading the Charts!,https://i.redd.it/xw44xj8dvcz71.png,AttackBody,1,2021-11-13 20:21:36,4,/r/Compound/comments/qt06b7/ceth_gained_244_today_and_is_leading_the_charts/,NaN,
+"DAOs biweekly: Curve’s Emergency DAO, MakerDAO offboarding drama, Aave&lt;&gt;MakerDAO, Fei &lt;&gt;Balancer, ENS DAO…",https://medium.com/paradigm-fund/daos-curves-emergency-dao-makerdao-offboarding-drama-aave-makerdao-fei-balancer-ens-dao-f7e99b57d88d,quefear,1,2021-11-13 20:32:09,2,/r/Compound/comments/qt0c17/daos_biweekly_curves_emergency_dao_makerdao/,NaN,
+COMP stays bullish,https://everycoinprice.com/?symbol=COMP&amp;interval=1day&amp;exchange=10,Mission-Food526,1,2021-11-13 22:13:20,12,/r/Compound/comments/qt22zu/comp_stays_bullish/,NaN,
+"Can someone explain what ""Compound Presidio is not supported on this network. Please switch to Mainnet."" means?",https://www.reddit.com/r/Compound/comments/qt2tu6/can_someone_explain_what_compound_presidio_is_not/,NeatHoney3316,1,2021-11-13 22:52:02,7,/r/Compound/comments/qt2tu6/can_someone_explain_what_compound_presidio_is_not/,NaN,"I connected my Metamask wallet and I started supplying DAI liquidity.
+
+""**Compound Presidio is not supported on this network. Please switch to Mainnet.** ""
+
+And I tried to check with iPhone but I couldn't connect the Metamask to Compound. 
+
+So I tried to connect Compound  with my Laptop and at the top of the window I see the sentence. now I can't see my Compound working. Can anyone help me?
+
+&amp;#x200B;
+
+https://preview.redd.it/00zgnbx6mdz71.png?width=1115&amp;format=png&amp;auto=webp&amp;s=a19649a314bbc63a997d639cc43719b7c617f1b2"
+minimum fee to withdraw usdc &amp; COMP?,https://www.reddit.com/r/Compound/comments/quceem/minimum_fee_to_withdraw_usdc_comp/,maikovde,1,2021-11-15 17:13:03,15,/r/Compound/comments/quceem/minimum_fee_to_withdraw_usdc_comp/,NaN,What is the minimum gwei to withdraw usdc or COMP? i dont care if it takes long because these current fees are crazy. Thank you
+Less than 20% of Compound’s liquidity miners hold any COMP tokens at all,https://cryptobrain.us/less-than-20-of-compounds-liquidity-miners-hold-any-comp-tokens-at-all/,avacado_nutz,1,2021-11-16 04:30:01,36,/r/Compound/comments/qupmpr/less_than_20_of_compounds_liquidity_miners_hold/,NaN,
+Can you withdraw/claim your COMP yet or is it still broken?,https://www.reddit.com/r/Compound/comments/quqhno/can_you_withdrawclaim_your_comp_yet_or_is_it/,_copewiththerope,1,2021-11-16 05:09:12,22,/r/Compound/comments/quqhno/can_you_withdrawclaim_your_comp_yet_or_is_it/,NaN,Asking to not waste fees on gas only to get nothing...
+"CREAM Team Gives Up Future Payouts Following Hack, But Will They Stay? - The Defiant",https://thedefiant.io/cream-exploit-compensation/,TheDefiantNews,1,2021-11-16 07:20:13,22,/r/Compound/comments/qutd1s/cream_team_gives_up_future_payouts_following_hack/,Newsletter,
+Compound,https://globaltees-store.com/limited-edition-98113?s=hanes-5250&amp;c=Black&amp;p=FRONT,Nicky-Duvall6,1,2021-11-17 23:12:03,3,/r/Compound/comments/qw1ds9/compound/,NaN,
+Meet new OpenSea 2.0 - CloudNFT. Cross-chain NFT aggregator with zero gas costs,https://www.reddit.com/r/Compound/comments/qw9jur/meet_new_opensea_20_cloudnft_crosschain_nft/,Useful_Platform_,1,2021-11-18 05:33:57,0,/r/Compound/comments/qw9jur/meet_new_opensea_20_cloudnft_crosschain_nft/,NaN,[removed]
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about cDAI from last week,https://www.reddit.com/r/Compound/comments/qyq1gn/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-21 15:44:32,0,/r/Compound/comments/qyq1gn/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,"# Posts
+| Title  |Reddit Link   | Reveddit Link  | UpVotes  |
+|---|---|---|---|
+| Tempus Finance ($TEMP) having its Fair Launch right now. Only few hours left. First interest rate swaps in crypto (very common in traditional finance)  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qwm1z4)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qwm1z4)  | 1  |
+| Tempus Finance ($TEMP) having its Fair Launch right now. Only few hours left. First interest rate swaps in crypto (very common in traditional finance)  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qwm1z4)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qwm1z4)  | 1  |
+[View Similar Posts on uncensor.cc](https://uncensor.cc/search?f=p&amp;q=CDAI&amp;sub=cryptocurrency)
+****"
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about Compound from last week,https://www.reddit.com/r/Compound/comments/qyq223/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-21 15:45:44,0,/r/Compound/comments/qyq223/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,"# Posts
+| Title  |Reddit Link   | Reveddit Link  | UpVotes  |
+|---|---|---|---|
+| Coinbase added Enzyme to their earn program, so time to get your $3 worth of free MLN!  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qy4771)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qy4771)  | 27  |
+| Has anyone heard of Notional Finance for Defi lending?  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qu2rne)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qu2rne)  | 1  |
+| The Insane Math Of Saitama Inu Is Worth Paying Attention To  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qw0wf8)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qw0wf8)  | 1  |
+| Mercurycoin  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qx5xik)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qx5xik)  | 1  |
+| Has anyone heard of these groups for Ethereum Liquidity Pools? Are they legit?  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qyif6g)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qyif6g)  | 1  |
+[View Similar Posts on uncensor.cc](https://uncensor.cc/search?f=p&amp;q=COMP&amp;sub=cryptocurrency)
+****
+
+# Comments
+| Text  |Reddit Link   | Reveddit Link  | UpVotes  |
+|---|---|---|---|
+| COMP  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qtszkb/_/hkmil29)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qtszkb/_/hkmil29)  | 1  |
+| Wiping tears with $COMP handkerchief.  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/quc45p/_/hkpe1ss)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/quc45p/_/hkpe1ss)  | 1  |
+| Wiping tears with $COMP handkerchief.  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/quc45p/_/hkpe1at)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/quc45p/_/hkpe1at)  | 1  |
+| Misleading. That info is what they presented...  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qof87g/_/hkktgnx)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qof87g/_/hkktgnx)  | 1  |
+| That info is what they presented for free in...  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qof87g/_/hkl4z19)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qof87g/_/hkl4z19)  | 1  |
+[View Similar Comments on uncensor.cc](https://uncensor.cc/search?f=c&amp;q=COMP&amp;sub=cryptocurrency)"
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about cDAI from last week,https://www.reddit.com/r/Compound/comments/qytfl8/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-21 19:52:46,0,/r/Compound/comments/qytfl8/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,"# Posts
+| Title  |Reddit Link   | Reveddit Link  | UpVotes  |
+|---|---|---|---|
+| Tempus Finance ($TEMP) having its Fair Launch right now. Only few hours left. First interest rate swaps in crypto (very common in traditional finance)  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qwm1z4)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qwm1z4)  | 1  |
+| Tempus Finance ($TEMP) having its Fair Launch right now. Only few hours left. First interest rate swaps in crypto (very common in traditional finance)  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qwm1z4)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qwm1z4)  | 1  |
+[View Similar Posts on uncensor.cc](https://uncensor.cc/search?f=p&amp;q=cDAI&amp;sub=cryptocurrency)
+****"
+Compound Won't Let me Withdraw,https://www.reddit.com/r/Compound/comments/qyzghh/compound_wont_let_me_withdraw/,Ruminant_Shepard,1,2021-11-22 01:12:34,32,/r/Compound/comments/qyzghh/compound_wont_let_me_withdraw/,NaN,I connect the wallet but this comes up and doesn't prompt anything else.
+20 NOV 2021 (SAT)- Compound (COMP) Report Card,https://www.publish0x.com/daily-crypto-risk-report/20-nov-2021-sat-compound-comp-report-card-xvylmwn,AcrobaticBird72,1,2021-11-22 06:57:27,11,/r/Compound/comments/qz6qfa/20_nov_2021_sat_compound_comp_report_card/,NaN,
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about Compound from last week,https://www.reddit.com/r/Compound/comments/r0dkjd/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-23 21:45:41,16,/r/Compound/comments/r0dkjd/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,"# Posts
+| Title  |Reddit Link   | Reveddit Link  | UpVotes  |
+|---|---|---|---|
+| Coinbase added Enzyme to their earn program, so time to get your $3 worth of free MLN!  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qy4771)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qy4771)  | 27  |
+[View Similar Posts on uncensor.cc](https://uncensor.cc/search?f=p&amp;q=compound&amp;sub=cryptocurrency)
+****
+
+# Comments
+| Text  |Reddit Link   | Reveddit Link  | UpVotes  |
+|---|---|---|---|
+| Daily reminder to **compound your staking...  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qz7zp8/_/hlnlu6h)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qz7zp8/_/hlnlu6h)  | 4  |
+[View Similar Comments on uncensor.cc](https://uncensor.cc/search?f=c&amp;q=compound&amp;sub=cryptocurrency)"
+تعرف على اسعار البوسكو العاصمة وتفاصيل عن خطط الاسعار وطرق السداد 0% فوائد,https://www.reddit.com/r/Compound/comments/r1e2bj/تعرف_على_اسعار_البوسكو_العاصمة_وتفاصيل_عن_خطط/,Weekly_Elderberry_41,1,2021-11-25 04:12:37,0,/r/Compound/comments/r1e2bj/تعرف_على_اسعار_البوسكو_العاصمة_وتفاصيل_عن_خطط/,NaN,[removed]
+Transfer loan and collateral from one MetaMask account to another,https://www.reddit.com/r/Compound/comments/r1rueg/transfer_loan_and_collateral_from_one_metamask/,rddt8,1,2021-11-25 16:22:18,14,/r/Compound/comments/r1rueg/transfer_loan_and_collateral_from_one_metamask/,NaN,"Is there a way to transfer a Compound Finance loan (and the collateral tied to it) from one MetaMask account to another?  Trying to find a way to do that without having to unlock the collateral, then pay off the loan, then transfer the collateral to a new MetaMask account, and then open a new loan with the same collateral."
+Tax report,https://www.reddit.com/r/Compound/comments/r2034s/tax_report/,Arnie_Quaid,1,2021-11-26 00:17:10,19,/r/Compound/comments/r2034s/tax_report/,NaN,"Hey guys,
+
+Is there a way to extract a csv report with the daily USDC rewards that I’m gaining on supply USDC in Compound? I need that for legs purposes, to import it in Cointracking.
+
+Thanks!"
+Share your thoughts and earn $45!,https://www.reddit.com/r/Compound/comments/r2w6au/share_your_thoughts_and_earn_45/,Toxic_venom2221,1,2021-11-27 04:34:12,6,/r/Compound/comments/r2w6au/share_your_thoughts_and_earn_45/,NaN,"Hey everyone, we're currently designing a platform DeFi related.
+
+Next Thursday (2/12/2021) we are running interviews which take about 30-45min.
+
+We will send you a link to a prototype and you can share your thoughts as you click through it.
+
+After the interview we will send you a **$45 Amazon gift card** or **$45 PayPal.**
+
+**Requirements:**
+
+\-You Have experience with derivatives or perpetuals.
+
+You can apply HERE if you meet the requirements :[https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8](https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8)
+
+Out of all applicants we will be able to interview 10 in total.
+
+Thanks so much and hope to see you there!"
+قرية المونت جلالة العين السخنة اهم الخدمات | العيوب والاسعار,https://www.reddit.com/r/Compound/comments/r3fo77/قرية_المونت_جلالة_العين_السخنة_اهم_الخدمات_العيوب/,bebohiba,1,2021-11-27 23:21:52,3,/r/Compound/comments/r3fo77/قرية_المونت_جلالة_العين_السخنة_اهم_الخدمات_العيوب/,NaN," 
+
+تقدم شركة تطوير مصر مجموعة من انظمة التقسيط تناسب جميع المستويات الاجتماعية للعملاء ، حيث يمكنك الان بدون دفع اي مقدم حجز وحدتك ودفع مبلغ الوحدة على اقساط تصل الى 10 سنوات وبدون اي فوائد او دفعات اضافية ن ومن تلك الانظمة المتوفرة ما يلي :
+
+* 0% مقدم وتسهيلات تصل الى 10 سنوات بدون فوائد .
+
+بدون مقدم امتلك الان شاليهك صف أول على البحر واستمتع برفاهية واستجمام على أجمل شواطئ البحر الأحمر"
+فيا المونت جلالة العين السخنة |اهم التفاصيل والاْسئلة الشائعه,https://www.reddit.com/r/Compound/comments/r3fs4d/فيا_المونت_جلالة_العين_السخنة_اهم_التفاصيل/,bebohiba,1,2021-11-27 23:27:17,0,/r/Compound/comments/r3fs4d/فيا_المونت_جلالة_العين_السخنة_اهم_التفاصيل/,NaN," 
+
+تقدم الشركة عدة وحدات سياحية فاخرة كاملة المرافق والخدمات ، وتتنوع المساحات فيها لتلبي جميع رغبات العملاء ، اما الاسعار فهي تعتبر أسعار تنافسية ومناسبة لما ستناله بمجرد امتلاك وحدتك بالقرية من خدمات ووسائل رفاهية وسبل الراحة التي توفرها لك شركة تطوير مصر ، كل ذلك بدون مقدم وبالتقسيط على 10 سنوات وبدون فوائد .
+
+* تبدأ مساحات فيا المونت جلالة من 70م .
+* ويبدأ سعر الوحدة القرية من 1.600.000 ج .
+
+[**لمزيد من التفاصيل عن الاسعار وطرق التقسيط** ](https://abyatproperty.com/%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%aa-%d8%ac%d9%84%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d8%ae%d9%86%d8%a9/)"
+معلومات عن المونت جلالة |اهم المعلومات وطرق التقسيط,https://www.reddit.com/r/Compound/comments/r3fsua/معلومات_عن_المونت_جلالة_اهم_المعلومات_وطرق_التقسيط/,bebohiba,1,2021-11-27 23:28:17,0,/r/Compound/comments/r3fsua/معلومات_عن_المونت_جلالة_اهم_المعلومات_وطرق_التقسيط/,NaN," 
+
+من أكثر النقاط التنافسية التي يرتكز عليها مشروع المونت جلالة على التسهيلات التنافسية به ، فهو يوفر لك فرصة امتلاك شالية والاستمتاع بوحدة مميزة طوال العام ، بدون مقدم وعلى اطول فترة سداد وبدون أي فوائد .
+
+* 0 مقدم وتقسيط علي 10 سنوات .
+
+انتهز فرصتك وامتلك الان بدون مقدم مكانك على أجمل شواطئ العين السخنة ، استمتع بالرمال الناعمة والشواطئ الساحرة وروعة المناظر الطبيعية في المونت جلالة العين السخنة ، اتصل بنا الان واعرف كل التفاصيل عن القرية واحجز مكانك في المونت جلالة العين السخنة ."
+عيوب المونت جلالة العين السخنة |والصعوبات التي يواجهها المشروع,https://www.reddit.com/r/Compound/comments/r3fu2v/عيوب_المونت_جلالة_العين_السخنة_والصعوبات_التي/,bebohiba,1,2021-11-27 23:30:04,0,/r/Compound/comments/r3fu2v/عيوب_المونت_جلالة_العين_السخنة_والصعوبات_التي/,NaN," 
+
+تقام القرية في موقع فريد ومميز على البحر مباشرة ، ويفصلها عن موفنبيك حوالي 7 كيلو ، و عن بورتو السخنة 11 كيلو ، كما تقع تحديدا على بعد 3 كيلو فقط من بنزينة الامارات التي تقابلك في طريق العودة للقاهرة الكبرى .
+
+تم العمل بالقرية في مساحة 520 فدان ، وبها عرض شاطئ يصل الى 1300 م ، وعمق القرية يبلغ حوالي 1354 م ، كما صممت على مرتفعات و مصاطب مدرجة واعلى نقطة وصول للبحر من القرية تبلغ تقريبا 220 م .
+
+تضم القرية وحدات مختلفة من شاليهات وفيلات وتبدأ المساحة بها من 70 م ، اما سعر الوحدة بالقرية فهو يبدأ من مليون و700 ألف جنية ، يتم دفع الوحدة على أقساط حتى 10 سنوات وبدون مقدم .
+
+**يمكنك التعرف على**[ **أسعار المونت جلالة العين السخنة**](https://abyatproperty.com/%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%aa-%d8%ac%d9%84%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d8%ae%d9%86%d8%a9/)"
+عيوب المونت جلالة العين السخنة |والصعوبات التي يواجهها المشروع,https://www.reddit.com/r/Compound/comments/r3fupt/عيوب_المونت_جلالة_العين_السخنة_والصعوبات_التي/,bebohiba,1,2021-11-27 23:30:50,0,/r/Compound/comments/r3fupt/عيوب_المونت_جلالة_العين_السخنة_والصعوبات_التي/,NaN," 
+
+هم مميزات المونت جلالة موقعها الذي تم اختياره بكل عناية  ، حيث تقع على اجمل الشواطئ الساحرة والخلابة بالعين السخنة ، وتتميز بقربها من أهم المعالم   الموجودة في مدينة العين السخنة والطرق الهامة والمحاور الرئيسية بها .
+
+*  **خدمات قرية المونت جلالة العين السخنة واهم** [**العيوب والمشكلات**](https://abyatproperty.com/%d8%b9%d9%8a%d9%88%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%aa-%d8%ac%d9%84%d8%a7%d9%84%d8%a9/)"
+موقع المونت جلالة العين السخنة |اهم المعلومات وطرق التقسيط,https://www.reddit.com/r/Compound/comments/r3fvkx/موقع_المونت_جلالة_العين_السخنة_اهم_المعلومات_وطرق/,bebohiba,1,2021-11-27 23:31:56,0,/r/Compound/comments/r3fvkx/موقع_المونت_جلالة_العين_السخنة_اهم_المعلومات_وطرق/,NaN," 
+
+* بدون مقدم وتسهيلات علي 10 سنوات .
+
+المونت جلالة تفتح لك أبوابها امتلك الان شاليهك على شاطئ البحر مباشرا ، واستمتع بحياة الرفاهية والانسجام مع عائلتك  تحت سمائها الصافية ورمالها الناعمة واطلالتها الخلابة ، كل ذلك بدون اى مقدم وعلى اطول فترة سداد ،  فقط فى قرية المونت جلالة من شركة مصر للتطوير.
+
+[https://abyatproperty.com/%d9%85%d9%88%d9%82%d8%b9-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%aa-%d8%ac%d9%84%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d8%ae%d9%86%d8%a9/](https://abyatproperty.com/%d9%85%d9%88%d9%82%d8%b9-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%aa-%d8%ac%d9%84%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%b9%d9%8a%d9%86-%d8%a7%d9%84%d8%b3%d8%ae%d9%86%d8%a9/)"
+COMP regaining momentum,https://everycoinprice.com/?symbol=COMP&amp;interval=1day&amp;exchange=10,investold,1,2021-11-28 00:17:13,0,/r/Compound/comments/r3gs3n/comp_regaining_momentum/,NaN,
+Compound coin,https://www.reddit.com/r/Compound/comments/r3h3vy/compound_coin/,IWASJUMP,1,2021-11-28 00:32:57,19,/r/Compound/comments/r3h3vy/compound_coin/,Question,Hello guys just bought - comp coin in hopes that it will shoot up 2022Q1 or Q2. Speculation and a bit of gambling. Whats your stance on the status of this coin? I only understand the basic principle what the compound site does but the coin itself? No idea.
+Share your thoughts and earn $45!,https://www.reddit.com/r/Compound/comments/r3jlb5/share_your_thoughts_and_earn_45/,Toxic_venom2221,1,2021-11-28 02:28:31,6,/r/Compound/comments/r3jlb5/share_your_thoughts_and_earn_45/,NaN,"Hey everyone, we're currently designing a platform DeFi related.
+
+Next Thursday (2/12/2021) we are running interviews which take about 30-45min.
+
+We will send you a link to a prototype and you can share your thoughts as you click through it.
+
+After the interview we will send you a $45 Amazon gift card or $45 PayPal.
+
+&amp;#x200B;
+
+Requirements:
+
+\-You Have experience dealing with derivatives or perpetuals  ( e.g, AAVE, Compound, MakerDAO, 88mph, Notional, etc..)
+
+&amp;#x200B;
+
+You can apply here if you meet the requirements :[https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8](https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8)
+
+Out of all applicants we will be able to interview 10 in total.
+
+Thanks so much and hope to see you there!"
+Earn $60 with Crypto.com and CakeDefi,https://www.reddit.com/r/Compound/comments/r4v7z6/earn_60_with_cryptocom_and_cakedefi/,Klaasiker,1,2021-11-29 20:54:10,5,/r/Compound/comments/r4v7z6/earn_60_with_cryptocom_and_cakedefi/,NaN," 
+
+**Crypto.com ($25)**
+
+Crypto.com is surely the best available exchange and the best place to get your own Crypto Creditcard (with a 2% Cashback for each payment!) . They give you a nice referral of $25 worth of CRO.
+
+*Steps:*
+
+* Sign up through my referral link ([https://platinum.crypto.com/r/kgy6vgv3jx](http://url1137.crypto.com/ls/click?upn=sBcK3Agj-2FWuXL-2FR6RNOEi3DmRp8R1FFgN5-2FQ4Q3M-2FE66ImzR1rqjK-2BfAF-2BwhORuAzKPewTQvp8-2FyrT6t-2FByorDyhHxawVRBOX9TLqspIzWBW9u5FMr6k58C1YmFuqCDRaQexBMmFEDlCs-2BAiiM5UIQ-3D-3DNMd5_wwokMYTGxAPyxdUP8E9aOvMrzSBGawvcpZ9pknWLgsWzepO12EL3fXBXIV4Je4ivFOPUjliwNbf699xHDnZEl5niMVSTfc6yjPNeYrpHmeY8eEXy-2FHikC99Rj2IJqFSej1hF1wOjHIzcViljuMUzYNANlwnMJfLbybHbHYDLwtpzz5oXc8rPSJeLfQECVPxNaOAGB7FHUKgmXyVbcZvF2S2tQ-2BM9cuhACccKeJ8zak0jqGFwsV8QTuXN-2F0oqt-2FjK1QMVAsPCg1UUU4HQDv7BzBfEgtnC0-2F3d0ijBt0RtASaxqVgILWbfBVd1vwv-2B3O5DQFxYwKSuuzyCLNfIG3kmZA-3D-3D) AND enter the Promo-Code kgy6vgv3jx to register). Verify your identity.
+* Stake some CRO and get yourself the best Creditcard ever.
+* The $25 will be provided on it's own after staking enough to get a Credit Card (abut $350). Crypto.com will also pay for your spotify if you pay with their CreditCard.
+
+**CakeDefi ($30 +$5)**
+
+CakeDefi is a Singapore cryptocurrency exchange. Their referral program offers a massive free $30 for depositing and trading $50 worth of crypto.
+
+*Steps:*
+
+* Sign up through my referral link ([https://app.cakedefi.com/?ref=571562](https://app.cakedefi.com/?ref=571562) or enter Promo and Referral Code on the Homepage and use the Code: “571562) with the Ref) to get the bonus (no-ref link=no bonus). Verify your identity.
+* Deposit and buy at least $50 worth of Crypto.
+* The referral bonus of $30 will be added to your DeFi wallet.
+* To get the second bonus of $5 in DeFi, take the Learn quiz.
+* Let your investment for the next 90 days on CakeDeFi to claim the first time deposit bonus."
+"DAOs: ConstitutionDAO, Index Coop’s Index 2.0,",https://medium.com/paradigm-fund/daos-constitutiondao-index-coops-index-2-0-a63c4c8fc0dc,quefear,1,2021-11-29 21:47:02,16,/r/Compound/comments/r4w6xm/daos_constitutiondao_index_coops_index_20/,NaN,

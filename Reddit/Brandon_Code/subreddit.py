@@ -20,11 +20,8 @@ def getPushshiftData(query, after, before):
     return data['data']
 
 # This function will be used to extract the key data points from each JSON result
-
-
 def collectSubData(subm):
-    # subData was created at the start to hold all the data which is then added to our global subStats dictionary.
-    subData = list()  # list to store data points
+    # subData was created at the start to hold all the data which is then added to our global subStats dictionary
     title = subm['title']
     url = subm['url']
     # flairs are not always present so we wrap in try/except
@@ -39,12 +36,24 @@ def collectSubData(subm):
         subm['created_utc'])  # 1520561700.0
     numComms = subm['num_comments']
     permalink = subm['permalink']
+    try:
+        body = subm['selftext']
+    except KeyError:
+        body = "NaN"
 
-    # Put all data points into a tuple and append to subData
-    subData.append((sub_id, title, url, author, score,
-                    created, numComms, permalink, flair))
+    subDict = {
+        'title': title,
+        'url': url,
+        'author': author,
+        'score': score,
+        'created': created,
+        'numComms': numComms,
+        'permalink': permalink,
+        'flair': flair,
+        'body': body
+    }
     # Create a dictionary entry of current submission data and store all data related to it
-    subStats[sub_id] = subData
+    subStats[sub_id] = subDict
 
 
 month = 1
@@ -67,7 +76,7 @@ monthDict = {
 
 subreddit="Compound"
 
-for i in range(month, 13):
+for i in range(5, 13):
 
     subCount = 0
     subStats = {}
@@ -99,14 +108,10 @@ for i in range(month, 13):
         data = getPushshiftData(subreddit, after, before)
 
     print(str(len(subStats)) + " submissions have added to list")
-    print("1st entry is:")
-    print(list(subStats.values())[0][0][1] + " created: " + str(list(subStats.values())[0][0][5]))
-    print("Last entry is:")
-    print(list(subStats.values())[-1][0][1] + " created: " + str(list(subStats.values())[-1][0][5]))
 
     posts_df = pd.DataFrame.from_dict(subStats, orient='index')
 
-    posts_df.to_csv('../data/'+ subreddit + "_sr_" + str(i) + '.csv',
+    posts_df.to_csv('../datav2/'+ subreddit + "_sr_" + str(i) + '.csv',
                     header=True, index=False, columns=list(posts_df.axes[1]))
 
 # reddit = praw.Reddit(client_id='qyQ-ZptZzPzRwoEiU-Q8Mg',client_secret='8E1k6yDJmnbnbfCJnmNFHoOarDaWrA', user_agent='IS434-Scrapper')

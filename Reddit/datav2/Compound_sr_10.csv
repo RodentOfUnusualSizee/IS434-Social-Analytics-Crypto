@@ -1,0 +1,217 @@
+title,url,author,score,created,numComms,permalink,flair,body
+Compound Hacked,https://www.reddit.com/r/Compound/comments/pyoyxq/compound_hacked/,Printer-Pam,1,2021-10-01 01:47:31,12,/r/Compound/comments/pyoyxq/compound_hacked/,NaN,Someone withdrew 30k COMP https://etherscan.io/tx/0xbc246c878326f2c128462d08a0b74048b1dbee733adde8863f569c949c06422a
+"So the CEO looses our funds, and begs a hacker on Twitter to return them to his admin key multi-sig wallet? I’m out.",https://www.reddit.com/r/Compound/comments/pyyzq6/so_the_ceo_looses_our_funds_and_begs_a_hacker_on/,cryptocat94,1,2021-10-01 10:51:21,5,/r/Compound/comments/pyyzq6/so_the_ceo_looses_our_funds_and_begs_a_hacker_on/,NaN,This project is fake defi. I’m going back to $HEX
+COMP is bullish again,https://everycoinprice.com/?symbol=COMP&amp;interval=1day&amp;exchange=1,Mission-Food526,1,2021-10-01 16:11:28,3,/r/Compound/comments/pz3hp6/comp_is_bullish_again/,Launch,
+Compound bug leaves $80 million in COMP at risk of being misrewarded,https://www.theblockcrypto.com/linked/119086/compound-bug-comp-risk-misreward,Printer-Pam,1,2021-10-01 18:52:21,3,/r/Compound/comments/pz5i7s/compound_bug_leaves_80_million_in_comp_at_risk_of/,NaN,
+Technical issue: claiming COMP,https://www.reddit.com/r/Compound/comments/pz62cz/technical_issue_claiming_comp/,omise_hoe,1,2021-10-01 19:31:29,10,/r/Compound/comments/pz62cz/technical_issue_claiming_comp/,NaN,"I learned about the Comp distribution issue earlier, and how 3% of the total supply was released early. Honestly I didn't see much value in the token already, so I figured now is as good of a time as any to sell. If I got extra, I'd figure it out from there.
+
+Unfortunately, the web interface for Compound has disabled withdrawing my earned Comp... So naturally, I went to do it myself.
+
+[Here is my transaction](https://etherscan.io/tx/0x3954b822db56eca76d285f8a827e0b96096b103ab06b89df1ac346f6e850c9c5), and [another wallet's transaction](https://etherscan.io/tx/0xfd7575ccc7148b8a8dd37cf7fe59ca3a5c11645fbb9500d1996d805522b9db78) performing what seems to be the same action. Both call the claimComp function, MethodID 0x1c3db2e0, and both have a Transaction Action of ""Collected X Comp For...""
+
+However, on mine you can see there's no ""Tokens Transferred"" section, and I did not receive my Comp tokens. Anyone have any suggestions for me on what I've done wrong, and if these are recoverable?"
+Earning Report: $484 in 8.5 months on DutchyCorp,https://www.reddit.com/r/Compound/comments/pz6p4l/earning_report_484_in_85_months_on_dutchycorp/,Klaasiker,1,2021-10-01 20:12:49,0,/r/Compound/comments/pz6p4l/earning_report_484_in_85_months_on_dutchycorp/,NaN," 
+
+I spent on average maximum 5min per day on this page and was watching Netflix with it.
+
+Here is my full proof of all my earnings and payouts: [https://imgur.com/a/WvRhNBV](https://imgur.com/a/WvRhNBV)  
+Most earnings are in BTC (over $200). There are plenty of other coins to earn too but BTC brings the best ratio.  
+Link: [https://autofaucet.dutchycorp.space/](https://autofaucet.dutchycorp.space/?r=SLimon)
+
+DutchyCorp let's you do tasks and surveys where you get awarded Dutchy Coins. With these coins you are able to let a Faucet running and you can get paid in about 50 coins. Payouts to your Coinbase Account are without fees.  
+How are you able to earn so much on DutchyCorp:  
+\- Do the Coin Rolls and Dutchy Rolls for daily Bonus  
+\- Run the Autofaucet on weekend with 20% claim Bonus  
+\- Do Surveys on Offerwall to be able to earn more DUTCHY and increase your own level  
+\- be active to get some free Coins by the RainBot  
+\- Go to the Shortwall and click on the pages on a daily base  
+\- Run the AutoFaucet with Balance Mode for additional 10%
+
+I did my payouts directly to Coinbase. Payouts are really fast and after about ten seconds you get confirmation of your withdrawal. If you are new to Coinbase, you can get an additional $10 of Bitcoin after you have bought Bitcoin worth $100 with this link: [https://www.coinbase.com/join/lussy\_u](https://www.coinbase.com/join/lussy_u)"
+Missing interest,https://www.reddit.com/r/Compound/comments/pz8knt/missing_interest/,richycrash,1,2021-10-01 21:57:52,4,/r/Compound/comments/pz8knt/missing_interest/,NaN, I'm assuming it is due to compounds disasterous f up. Anyone know any different?
+Compound is a Shit Show,https://www.reddit.com/r/Compound/comments/pzateg/compound_is_a_shit_show/,Printer-Pam,1,2021-10-01 23:51:03,37,/r/Compound/comments/pzateg/compound_is_a_shit_show/,NaN,"300k COMP = $90 million withdrew from [Compound contract](https://etherscan.io/token/0xc00e94cb662c3520282e6f5717214004a7f26888?a=0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b#tokenAnalytics) by random (or not so random) users in the last days and no one talks about this
+
+For example, one user withdrew [65k COMP](https://etherscan.io/tx/0xb6d5122afe04a9905adc5de7f708cabc5821e65fb7d6f0bfd571d35b1ddab7f2) and another one [30k COMP](https://etherscan.io/tx/0xbc246c878326f2c128462d08a0b74048b1dbee733adde8863f569c949c06422a)
+
+Now the smart contract is empty and I and other honest users cannot withdraw the accrued COMP tokens I had there because the contract is empty. 
+
+Meanwhile, the developers are saying ""Users don't have to worry about their funds; the only risk is that you (or another user) receives an unfairly large quantity of COMP."" and ""Please return it to the Compound Timelock.  Keep 10% as a white-hat.  Otherwise, it's being reported as income to the IRS, and most of you are doxxed.""
+
+It looks like this new finance paradigm is run by morons and scammers.  Just buy shithereum with real money so you could pay $100 for a single contract interaction, and then they ""update"" the contract and some other developers empty the smart contract and you get nothing in return while miners and developers and scammers get rich."
+Is there a way to check comp Earned balance?,https://www.reddit.com/r/Compound/comments/pzblqf/is_there_a_way_to_check_comp_earned_balance/,ltdanaintgutnolegs,1,2021-10-02 00:29:19,7,/r/Compound/comments/pzblqf/is_there_a_way_to_check_comp_earned_balance/,NaN,"I've been staking a bag on compound for over a year now, with everything going on I decided to check my earnings which I obviously can't do with the app. Is there another way to find this out?"
+Y’all got 90million the day before sUseless drops,https://www.reddit.com/r/Compound/comments/pzq04v/yall_got_90million_the_day_before_suseless_drops/,Stockmedic,1,2021-10-02 14:40:02,0,/r/Compound/comments/pzq04v/yall_got_90million_the_day_before_suseless_drops/,Question,CNBC article says one wallet got 29m 😩 even if he/she gave back 90% and kept the white hat fee sheesh thanks for giving me hope one of the projects I’m in can glitche too 😂
+Compound supply market: what are the entry fees ?,https://www.reddit.com/r/Compound/comments/pzrfs9/compound_supply_market_what_are_the_entry_fees/,petitg1987,1,2021-10-02 16:42:37,7,/r/Compound/comments/pzrfs9/compound_supply_market_what_are_the_entry_fees/,NaN,"I'm interested to the ""Compound - Supply Market"" to gain interests on DAI but I also worried about the entry fees.
+
+I need first to enable a cryptocurrency: for DAI, the enable  action cost about $9. Before enable the DAI currency, I would like to  know how much it will cost me a deposit of about 1000 DAI. Is it  possible to know that before enable a currency ?
+
+I know that for Aave, the cost is around 50$ currently. Is it more or less that same for Compound ?"
+"DAOs biweekly: Aragon considers a decentralised ID solution, Aave considers enlisting Fireblocks as a…",https://medium.com/paradigm-fund/daos-aragon-considers-a-decentralised-id-solution-aave-considers-enlisting-fireblocks-as-a-992ae2028c99,quefear,1,2021-10-02 23:16:59,0,/r/Compound/comments/pzx367/daos_biweekly_aragon_considers_a_decentralised_id/,NaN,
+Report of DeFi hack,https://www.reddit.com/r/Compound/comments/pzzc4o/report_of_defi_hack/,Less-Fail,1,2021-10-03 01:18:51,16,/r/Compound/comments/pzzc4o/report_of_defi_hack/,NaN,How come there isn’t any blog updates on the compound.finance pages?
+Looks like Compound was exploited again.,https://www.reddit.com/r/Compound/comments/q0n1mi/looks_like_compound_was_exploited_again/,Background_Year_2525,1,2021-10-04 01:59:39,26,/r/Compound/comments/q0n1mi/looks_like_compound_was_exploited_again/,NaN,"Details still flowing out. Someone called drip() and that released upwards of $48m. CEO says it’s only $480k at risk, but I’m starting not to believe him much. He definitely doesn’t seem to have things together. Will post more as details are released.
+
+https://twitter.com/rleshner/status/1444691278986457095?s=20"
+Rumours of another attack. $45M more at risk!,https://www.reddit.com/r/Compound/comments/q0p4ts/rumours_of_another_attack_45m_more_at_risk/,Embarrassed_Link_105,1,2021-10-04 03:42:18,8,/r/Compound/comments/q0p4ts/rumours_of_another_attack_45m_more_at_risk/,NaN,Is this true?
+What did it happen to comp?,https://www.reddit.com/r/Compound/comments/q0t59n/what_did_it_happen_to_comp/,luchins,1,2021-10-04 07:12:45,2,/r/Compound/comments/q0t59n/what_did_it_happen_to_comp/,Question,What did it happen to comp? What was the exploit about?
+Fire Leshner?,https://www.reddit.com/r/Compound/comments/q0tdva/fire_leshner/,Background_Year_2525,1,2021-10-04 07:26:08,2,/r/Compound/comments/q0tdva/fire_leshner/,NaN,Long term investors are getting pounded by a series of missteps. Do we need new leadership? The tweet heard around the world didn’t help and a review of his resume would leave credible persons to question whether he’s really fit for managing our assets. Share you’re thoughts here.
+Supposedly $160 million is still up for grabs for people that know how to exploit the COMP rewards system,https://www.reddit.com/r/Compound/comments/q0xyh9/supposedly_160_million_is_still_up_for_grabs_for/,coinedge,1,2021-10-04 12:05:59,9,/r/Compound/comments/q0xyh9/supposedly_160_million_is_still_up_for_grabs_for/,NaN,How are they able to exploit this? Are we safe still holding COMP. I have a bunch on a few protocols that will cost me to move them.
+Unable to withdraw USDT or USDC from Compound via webAPP...,https://www.reddit.com/r/Compound/comments/q0yqr4/unable_to_withdraw_usdt_or_usdc_from_compound_via/,_Commando_,1,2021-10-04 13:00:02,8,/r/Compound/comments/q0yqr4/unable_to_withdraw_usdt_or_usdc_from_compound_via/,NaN,"Is anyone else having issues right now trying to withdraw USDT or USDC via https://app.compound.finance/  APP???   It is stuck on ""Confirm the transaction with Ledger.""  However my ledger is not seeing any transaction to confirm...  This was fine a month ago and now I'm concerned with all the COMP hacks going on I cannot even withdraw my funds???...."
+bug with COMP tokens,https://www.reddit.com/r/Compound/comments/q17he3/bug_with_comp_tokens/,adir_buskila,1,2021-10-04 23:18:12,13,/r/Compound/comments/q17he3/bug_with_comp_tokens/,NaN,"for some reason i dont see the balance of my COMP tokens and i cant click them  
+anyone experiencing the same problem?"
+Sell all ETH for COMP?,https://www.reddit.com/r/Compound/comments/q1902n/sell_all_eth_for_comp/,Embarrassed_Link_105,1,2021-10-05 00:30:30,9,/r/Compound/comments/q1902n/sell_all_eth_for_comp/,NaN,I am new to comp. Own 25 of them. I have some eth and cardanos and otger stuff. Could this be the time to sell all to buy comp?
+Compound's $160M Drip Bug,https://www.youtube.com/watch?v=QmgBn266dp4,TheDefiantNews,1,2021-10-05 03:59:44,0,/r/Compound/comments/q1doft/compounds_160m_drip_bug/,NaN,
+Will COMP survive the bug?,https://www.reddit.com/r/Compound/comments/q1fbxa/will_comp_survive_the_bug/,Embarrassed_Link_105,1,2021-10-05 05:11:04,30,/r/Compound/comments/q1fbxa/will_comp_survive_the_bug/,NaN,"I see alot of hate on youtube. I feel this could be the perfect exposure for COMP, more people know about this amazing crypto. But I see alot of hate and people who say it is the end. Thoughts, anyone with good analysis?"
+100% gas fees for Compound to Ether transfer. I found a post here from 275 days ago with the same questions. Is this still the case?,https://www.reddit.com/r/Compound/comments/q1lwvr/100_gas_fees_for_compound_to_ether_transfer_i/,ryjobe36,1,2021-10-05 10:57:43,9,/r/Compound/comments/q1lwvr/100_gas_fees_for_compound_to_ether_transfer_i/,Question,I am getting gas fees at all times of day that mostly are 1:1 (e.g.: 500COMP for 500$ worth of Eth) or worse some times 1.5x+ .. I found this [similar post about compound &amp; gas fees](https://www.reddit.com/r/Compound/comments/kuin54/why_does_it_cost_so_much_eth_to_use_compound/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf). Curious if anyone has any advice? Thanks in advance!
+COMP price prediction?,https://www.reddit.com/r/Compound/comments/q1soqa/comp_price_prediction/,Embarrassed_Link_105,2,2021-10-05 17:16:06,15,/r/Compound/comments/q1soqa/comp_price_prediction/,NaN,"Will it recover in a week, will it go back up to $400+
+The whole crypto market is up, and COMP struggling coz of a bug."
+ChangeNOW Returns $15M Worth of COMP Lost in Compound Malfunction | ChangeNOW,https://changenow.io/blog/changenow-returns-dollar15m-worth-of-comp-lost-in-compound-malfunction,ChangeNow_io,11,2021-10-05 20:07:23,6,/r/Compound/comments/q1v0ho/changenow_returns_15m_worth_of_comp_lost_in/,NaN,
+COMP spiked +63% in an year,https://everycoinprice.com/?symbol=COMP&amp;interval=1year&amp;exchange=15,developeron29,1,2021-10-06 00:55:38,2,/r/Compound/comments/q20ljt/comp_spiked_63_in_an_year/,Launch,
+"Compound Developer Community Call – October 6, 9:30am PT",https://www.comp.xyz/t/compound-developer-community-call-october-6-9-30am-pt/2390,TragedyStruck,3,2021-10-06 02:07:37,15,/r/Compound/comments/q2228v/compound_developer_community_call_october_6_930am/,NaN,
+Purging Compound Market Will Develop At A Substantial CAGR For The Duration Of The Prediction,https://www.reddit.com/r/Compound/comments/q2eq4z/purging_compound_market_will_develop_at_a/,marketreporter,1,2021-10-06 14:32:21,0,/r/Compound/comments/q2eq4z/purging_compound_market_will_develop_at_a/,NaN,[removed]
+"DECENTRALISED FINANCE WILL CHANGE THE WORLD IT'S CHEAP, FAST, RELIABLE &amp; TRANSPARENT💥 Robert Leshner",https://youtu.be/Y37eHtS8jfg,Embarrassed_Link_105,2,2021-10-07 06:05:25,2,/r/Compound/comments/q2uomt/decentralised_finance_will_change_the_world_its/,NaN,
+In a parallel universe: COMP conspiracy,https://www.reddit.com/r/Compound/comments/q2vd47/in_a_parallel_universe_comp_conspiracy/,Embarrassed_Link_105,1,2021-10-07 06:42:13,14,/r/Compound/comments/q2vd47/in_a_parallel_universe_comp_conspiracy/,NaN,"The bug was a game. Show the world money is lost. Get half of it back. Let the world believe $80M was lost while it was actually liquidised by the team. 
+
+Why do this?
+
+1. Gain media attention, negative attention attracts more users. Those who know they know.
+
+2. In a bull market. Now a few people who planned this can scoop up more compound before it 100X from here.
+
+3. If real instituion money starts flowing in. Like $10T, comp will easily be worth $100B.
+
+4. Just watch how the amount of users will grow to 20k on this forum in the matter of weeks now."
+Compound Finance ($COMP) - Passive Income and DeFi Loans,https://www.youtube.com/watch?v=JL73wrBrWf4,KendrickMontero,2,2021-10-07 07:21:42,2,/r/Compound/comments/q2w2vr/compound_finance_comp_passive_income_and_defi/,Launch,
+COMP Sell Wall,https://www.reddit.com/r/Compound/comments/q350zl/comp_sell_wall/,cj-tb,1,2021-10-07 17:04:34,11,/r/Compound/comments/q350zl/comp_sell_wall/,NaN,"People are really trying to keep the price down on this one. 
+
+We need to push through to get it back to where it was."
+"🦉 Meet Compound Finance in the latest edition of DownTheRabbitHole🐰 The Creator of Decentralized MoneyMarkets and an algorithmic, self learning lending &amp; borrowing protocol that opens up a world of open financial applications $WISE-ly TraverseToWeb3 with Thedapplist https://t.co/2QkRmncegs",https://i.redd.it/144kqlm4d2s71.jpg,crypto_pranav,1,2021-10-08 01:32:37,15,/r/Compound/comments/q3e76k/meet_compound_finance_in_the_latest_edition_of/,Newsletter,
+Can someone use a flashloan and borrow at the same time?,https://www.reddit.com/r/Compound/comments/q3xz3y/can_someone_use_a_flashloan_and_borrow_at_the/,JElba1987,1,2021-10-08 21:39:48,23,/r/Compound/comments/q3xz3y/can_someone_use_a_flashloan_and_borrow_at_the/,NaN,Theoretically could someone use a flashloan and borrow at the same time and would the flashloan act as the collateral?
+What would you do if you bought really high?,https://www.reddit.com/r/Compound/comments/q4nymv/what_would_you_do_if_you_bought_really_high/,michele6dai,1,2021-10-09 23:51:13,34,/r/Compound/comments/q4nymv/what_would_you_do_if_you_bought_really_high/,NaN,Sell for some loss and buy more at cheaper price or just hold everything hoping it goes back up to meet HIGH price?
+Biden coming hard after stablecoins and defi,https://www.google.no/amp/s/www.fool.com/the-ascent/amp/cryptocurrency/articles/biden-administration-to-get-tough-on-stablecoins/,Embarrassed_Link_105,1,2021-10-10 18:30:11,15,/r/Compound/comments/q55jgr/biden_coming_hard_after_stablecoins_and_defi/,NaN,
+why i see distribution APY of comp for every token as zero?,https://www.reddit.com/r/Compound/comments/q5fth6/why_i_see_distribution_apy_of_comp_for_every/,Hyper_Logic,1,2021-10-11 04:16:21,22,/r/Compound/comments/q5fth6/why_i_see_distribution_apy_of_comp_for_every/,NaN,"I read that every user of compound finance gets an APY of comp. But if i see at the app the distribution apy of comp, says zero to all tokens. Why?"
+Sharing my experience: $516 in 9 months on DutchyCorp,https://www.reddit.com/r/Compound/comments/q5w1fx/sharing_my_experience_516_in_9_months_on/,Klaasiker,1,2021-10-11 21:37:53,5,/r/Compound/comments/q5w1fx/sharing_my_experience_516_in_9_months_on/,NaN," 
+
+So I tested the Faucet DutchyCorp and will share my experience with all of you.  
+Most important: I earned **$516** in **nine months**.  
+Time spent: Max. 5min per day while watching TV/Netflix or Youtube.  
+Full proof of my earnings &amp; payouts: [https://imgur.com/a/WvRhNBV](https://imgur.com/a/WvRhNBV)
+
+You will receive most earnings in BTC (over $200). There are over 50 other coins (ETH, ADA, BNB, MATIC and many more) to earn but BTC brings the best ratio. Compound is available too :)  
+Link: [https://autofaucet.dutchycorp.space/](https://autofaucet.dutchycorp.space/?r=SLimon)
+
+How does it work:  
+DutchyCorp let's you do tasks and surveys where you get awarded Dutchy Coins. With these coins you are able to let a Faucet running and you can get paid in over 50 coins. I only do payouts with the coins featured to be paid out to Coinbase. Therefore I don't pay additional fees.  
+How are you able to get the best possible earnings on DutchyCorp:  
+\- Do the Coin Rolls and Dutchy Rolls for daily Bonus  
+\- Run the Autofaucet on weekend with 20% claim Bonus  
+\- Do Surveys on Offerwall to be able to earn more DUTCHY and increase your own level  
+\- be active to get some free Coins by the RainBot  
+\- Go to the Shortwall and click on the pages on a daily base  
+\- Run the AutoFaucet with Balance Mode for additional 10%
+
+I did my payouts directly to Coinbase. Payouts are really fast and after about ten seconds you get confirmation of your withdrawal. If you are new to Coinbase, you can get an additional $10 of Bitcoin after you have bought Bitcoin worth $100 with this link: [https://www.coinbase.com/join/lussy\_u](https://www.coinbase.com/join/lussy_u)"
+high guys first time purchasing comp,https://www.reddit.com/r/Compound/comments/q7g57r/high_guys_first_time_purchasing_comp/,Pastylover88,1,2021-10-14 01:28:40,14,/r/Compound/comments/q7g57r/high_guys_first_time_purchasing_comp/,NaN,"Seen the triangle patern and the decending monthly saga its had looks like the right time to buy in .
+
+Tbf the price hasnt been this low since jan time when everything went crazy.
+
+Hi people.
+
+Who else feeling like its going to break out ?"
+Let's Review the Compound (COMP) Bug and Other Vulnerabilities,https://www.publish0x.com/cryptoeq/lets-review-the-compound-comp-bug-and-other-vulnerabilities-xznprqj,s618o,1,2021-10-14 07:44:32,6,/r/Compound/comments/q7nnco/lets_review_the_compound_comp_bug_and_other/,NaN,
+About variable interest model,https://www.reddit.com/r/Compound/comments/q7tx11/about_variable_interest_model/,blocktothemoon,1,2021-10-14 14:20:58,6,/r/Compound/comments/q7tx11/about_variable_interest_model/,NaN,"I learn about Borrow Interest Rate of compound
+
+https://preview.redd.it/spdgrnfmyct71.png?width=625&amp;format=png&amp;auto=webp&amp;s=57a8bfcaa57e51435e8c1969dd0b3bdd2ea55263
+
+   
+But when I actually calculated it, it didn't match the interest rate graph on the website. So, after reading this article, I understood. 
+
+&amp;#x200B;
+
+https://preview.redd.it/fuvraiityct71.png?width=770&amp;format=png&amp;auto=webp&amp;s=c09d09fdde45ea55363da57633b83a00b4de8a9b
+
+ But why is the current website adding the COMP distribution to the interest rate in the graph to get the Net Rate? If so, isn't the COMP distribution applied redundantly? 
+
+https://preview.redd.it/gl0xqf27zct71.png?width=875&amp;format=png&amp;auto=webp&amp;s=69c4161ce631ee241761cf237e9a13a2017eacb4
+
+ And I would like to ask if there is a place where the expression for getting the interest rate of the graph is actually arranged. Thanks"
+Stablecoing farming for idle cash,https://www.reddit.com/r/Compound/comments/q7y8va/stablecoing_farming_for_idle_cash/,hex72,1,2021-10-14 20:00:59,0,/r/Compound/comments/q7y8va/stablecoing_farming_for_idle_cash/,NaN,"Hey guys,
+
+Here's my situation. I have nearly all my wealth generating yield in compound. But I still have a few months of cash runway sitting in a super low yield fiat savings account. As you can imagine, that's not that ideal...
+
+Any recommendations on what to do with those funds? It's quite a long process for stable coin going from exchange --&gt; wallet --&gt; compound... And then the reverse just to withdraw. Especially when I need short term liquidity to pay for rent etc."
+Stablecoin farming for idle cash,https://www.reddit.com/r/Compound/comments/q7y9bd/stablecoin_farming_for_idle_cash/,hex72,1,2021-10-14 20:01:41,12,/r/Compound/comments/q7y9bd/stablecoin_farming_for_idle_cash/,NaN,"Hey guys,
+
+Here's my situation. I have nearly all my wealth generating yield in compound. But I still have a few months of cash runway sitting in a super low yield fiat savings account. As you can imagine, that's not that ideal...
+
+Any recommendations on what to do with those funds? It's quite a long process for stable coin going from exchange --&gt; wallet --&gt; compound... And then the reverse just to withdraw. Especially when I need short term liquidity to pay for rent etc."
+Problem withdrawing ETH,https://www.reddit.com/r/Compound/comments/q7yk4s/problem_withdrawing_eth/,adir_buskila,1,2021-10-14 20:21:12,4,/r/Compound/comments/q7yk4s/problem_withdrawing_eth/,NaN,"Hi, a month ago I staked some ETH from my ledger nano s using Metamask  
+now i want to withdraw them but when i insert the amount of ETH later in the metamask transaction review it says 0 eth, is it normal?  
+and also it shows that its gonna send from the ledger to compound ptrotocol, isnt it supposed to be the opposite?  
+
+
+https://preview.redd.it/l6tijknxret71.png?width=338&amp;format=png&amp;auto=webp&amp;s=be74e2976a3164f167d34805781bc6c025331b6e"
+Why gas fee to withdraw so high?,https://www.reddit.com/r/Compound/comments/q8147h/why_gas_fee_to_withdraw_so_high/,Errant_Chungis,1,2021-10-14 22:41:15,20,/r/Compound/comments/q8147h/why_gas_fee_to_withdraw_so_high/,Question,The protocol is trying to charge me more than 420.69 dollars of eth to withdraw. This is ludicrous
+"Compound Treasury Updates, COMP Bug Fix, Dynamic Risk Parameters",https://compound.substack.com/p/compound-treasury-updates-comp-bug,TragedyStruck,1,2021-10-15 13:07:13,2,/r/Compound/comments/q8h9n7/compound_treasury_updates_comp_bug_fix_dynamic/,NaN,
+Sent to compound by mistake,https://www.reddit.com/r/Compound/comments/q8q13t/sent_to_compound_by_mistake/,fedevido,1,2021-10-15 22:50:30,20,/r/Compound/comments/q8q13t/sent_to_compound_by_mistake/,NaN," Hi evreyone, i need some help, I was trying to send wbtc in metamask from my account to 1 to account 2 (ledger) and for mistake, I sent to compound controller (my mistake) 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b. how can i see the balance on compound or how can i take back the wbtc?  thanks in advance"
+"DAOs: Aragon introduces first party oracles with API3, Compound explores options for retrieving…",https://medium.com/paradigm-fund/daos-aragon-introduces-first-party-oracles-with-api3-compound-explores-options-for-retrieving-3ec99f0c7dff,quefear,1,2021-10-16 01:54:38,8,/r/Compound/comments/q8tqni/daos_aragon_introduces_first_party_oracles_with/,NaN,
+cETH Gained 17.35% today and is leading the Charts!,https://i.redd.it/p2uvg6wtdst71.png,AttackBody,1,2021-10-16 18:07:00,46,/r/Compound/comments/q995u4/ceth_gained_1735_today_and_is_leading_the_charts/,NaN,
+What will happen if borrower is unable to pay back the loan?,https://www.reddit.com/r/Compound/comments/qa0cwm/what_will_happen_if_borrower_is_unable_to_pay/,masterboy904,1,2021-10-17 22:58:58,28,/r/Compound/comments/qa0cwm/what_will_happen_if_borrower_is_unable_to_pay/,NaN,"Hi everyone, thank you for taking the time to read this post. I am planning to lend out stablecoins on Compound. Let's say someone lends my USDC and put ETH as a downpayment for it. What will happen if ETH will go down 90%? Will the borrower get liquidated at the moment ETH reaches a pricepoint of my lended-out stablecoin? And on that point it will be converted to USDC and paid back to me, right?"
+cETH Gained 18.05% today and is leading the Charts!,https://i.redd.it/tld7xw2ca9u71.png,AttackBody,1,2021-10-19 02:57:41,51,/r/Compound/comments/qatd7d/ceth_gained_1805_today_and_is_leading_the_charts/,NaN,
+Claiming Rewards,https://www.reddit.com/r/Compound/comments/qb2vd9/claiming_rewards/,sleatygregory,1,2021-10-19 11:24:17,27,/r/Compound/comments/qb2vd9/claiming_rewards/,NaN,"Dude I have been trying to claim 1 comp in rewards and everytime the transaction confirms I still have 0 comp in my wallet I have wasted over $100 in gas fees for rewards I couldn’t claim. What is wrong with Comp, I have never experienced this issue before."
+How to claim COMP?,https://www.reddit.com/r/Compound/comments/qdzf3c/how_to_claim_comp/,blockchainified,1,2021-10-23 14:28:41,7,/r/Compound/comments/qdzf3c/how_to_claim_comp/,NaN,I've been trying to claim COMP using my Metamask for a few days in a row and nothing happens. Does anybody know how to claim the reward nowadays?
+What happens to the difference between borrow APY and Supply APY?,https://www.reddit.com/r/Compound/comments/qe8p6v/what_happens_to_the_difference_between_borrow_apy/,Printer-Pam,1,2021-10-24 00:57:41,2,/r/Compound/comments/qe8p6v/what_happens_to_the_difference_between_borrow_apy/,NaN,"It is probably higher than $100 million per year, where do this money go?"
+When will comp recover,https://www.reddit.com/r/Compound/comments/qeor1x/when_will_comp_recover/,Pastylover88,1,2021-10-24 17:25:40,9,/r/Compound/comments/qeor1x/when_will_comp_recover/,NaN,Whed do we expect comp to average out say 400 buck and start to gain steadilly
+Liquadations and how to detect them,https://www.reddit.com/r/Compound/comments/qeovb2/liquadations_and_how_to_detect_them/,ijonaski,1,2021-10-24 17:35:40,16,/r/Compound/comments/qeovb2/liquadations_and_how_to_detect_them/,NaN,"Hi folks,
+
+I'm trying to perform some analytics on Compound and determine how many loans are paid off successfully and how many are liquidated.  
+
+
+My idea was to do some digging in Etherscan, but I'm not sure what contract activity to look for.  
+
+
+Does anyone have any ideas or pointers to successful-paid-of transactions and/or liquidation transactions ?  
+
+
+Many thanks and much appreciated,
+
+Ijonas."
+Coindix makes it easy to find the best DeFi opportunities (including Compound!),https://coindix.com/?ref=reddit,zywx1909,1,2021-10-25 16:23:29,2,/r/Compound/comments/qfc37b/coindix_makes_it_easy_to_find_the_best_defi/,NaN,
+What will happen in june 2024 for Compound token holders?,/r/DemosVentures/comments/qfm7c1/what_will_happen_in_june_2024_for_compound_token/,gabinmarignier,1,2021-10-26 01:47:06,8,/r/Compound/comments/qfm7qp/what_will_happen_in_june_2024_for_compound_token/,NaN,
+Holon Hackathon 2021,https://www.reddit.com/r/Compound/comments/qfz993/holon_hackathon_2021/,ivtonic,1,2021-10-26 13:12:33,0,/r/Compound/comments/qfz993/holon_hackathon_2021/,NaN,"Hey all!
+
+Wanted to extend to you a Hackathon I'm organising at the moment, sponsored by Filecoin and IPFS
+
+Up to 55k in FIL to be won!
+
+Check out this link for all the details [https://taikai.network/en/holon/challenges/holon-innovate/](https://taikai.network/en/holon/challenges/holon-innovate/) overview"
+"The Top DeFi Lending Platforms, Assets, DEXs &amp; More In 2021",https://d-core.net/defi-lending-platforms/,carloscancab,1,2021-10-26 20:40:41,4,/r/Compound/comments/qg5j7e/the_top_defi_lending_platforms_assets_dexs_more/,Newsletter,
+COMP stays on the bull market,https://everycoinprice.com/?symbol=COMP&amp;interval=1day&amp;exchange=10,investold,1,2021-10-27 02:09:40,2,/r/Compound/comments/qgcesv/comp_stays_on_the_bull_market/,NaN,
+USDT fees transaction soooo big,https://www.reddit.com/r/Compound/comments/qgj0nc/usdt_fees_transaction_soooo_big/,pierre7474,1,2021-10-27 07:21:31,6,/r/Compound/comments/qgj0nc/usdt_fees_transaction_soooo_big/,NaN,"Hey, how to lower fees to send USDT? 
+
+ It asks 40€ for a 15€ amount of USDT to send..!"
+Supplying USDC question,https://www.reddit.com/r/Compound/comments/qgji24/supplying_usdc_question/,huntingatherers,1,2021-10-27 07:47:29,3,/r/Compound/comments/qgji24/supplying_usdc_question/,Question,"Hey guys, me and the wife are thinking about putting some of our savings into Compound by supplying USDC. I understand the yield rate changes often, but when how does that affect your supplying rate? Do you lock in the rate it shows once you supply, or does it just change daily? Thanks!"
+New Options to Buy COMP: Huobi Adds COMP to Crypto Conversion and RUB/UAH/KZT/BRL Balance,https://www.reddit.com/r/Compound/comments/qgrsgd/new_options_to_buy_comp_huobi_adds_comp_to_crypto/,Huobi_Global_UK,1,2021-10-27 16:20:29,5,/r/Compound/comments/qgrsgd/new_options_to_buy_comp_huobi_adds_comp_to_crypto/,NaN,"&amp;#x200B;
+
+https://preview.redd.it/6sgflduqcyv71.png?width=800&amp;format=png&amp;auto=webp&amp;s=3fad6bbaab907b4ccc2614f33d46e4c4b2d9632b
+
+COMP now available for Crypto Conversion and Purchase Via RUB / UAH / KZT / BRL Balance!🚀
+
+🔥Get 5% Extra Tokens Free When Converting from USDT!
+
+👉[https://www.huobi.com/support/en-us/detail/34889225425509](https://www.huobi.com/support/en-us/detail/34889225425509)"
+CCOMP &gt; COMP scam on Uniswap,https://www.reddit.com/r/Compound/comments/qgyd6z/ccomp_comp_scam_on_uniswap/,mannequin922,1,2021-10-27 22:47:03,1,/r/Compound/comments/qgyd6z/ccomp_comp_scam_on_uniswap/,NaN,"Well darn.  I tried to convert my CCOMP back to COMP so I could deploy the funds somewhere else, and it appears I was scammed.  I'm not sure how it happened.   Does anyone have any recommendations of an [Etherscan.io](https://Etherscan.io) expert who can help me unravel the transaction history?  I'm pretty confident the coins are gone.   Mostly interested in understanding how to prevent it from happening to me or anyone else again."
+"Happening today, Oct 27 at 2 pm ET: Crowdcast ""Compound Q3 Analyst Call"" with Robert Leshner and Messari's Ryan Selkis/Ryan Watkins",https://www.crowdcast.io/e/q3compoundmessari?utm_campaign=compound_quarterlyQ3&amp;utm_source=reddit&amp;utm_medium=r_compound,messaricrypto,1,2021-10-28 01:05:26,2,/r/Compound/comments/qh1db7/happening_today_oct_27_at_2_pm_et_crowdcast/,NaN,
+Realistic long term price predictions???,https://www.reddit.com/r/Compound/comments/qhi2tj/realistic_long_term_price_predictions/,Pastylover88,1,2021-10-28 16:08:37,13,/r/Compound/comments/qhi2tj/realistic_long_term_price_predictions/,Question,So will compound ever reach 5000 $ in the next 10 years?
+CFY.Finance Allows ALMs for NFT-Collateralised lending - Partnership potential with compound?,/r/CFYFinance/comments/qhjog0/cfyfinance_beta_is_officially_launched_for_public/,Mountain_Cancel6704,1,2021-10-28 18:31:43,2,/r/Compound/comments/qhk0ve/cfyfinance_allows_alms_for_nftcollateralised/,NaN,
+"What does this [""Claim""] function provide? I have CETH that I want to cash in and get my funds back.. is this how to do it, no strings attached?",https://i.redd.it/qfb40jdge7w71.png,ryjobe36,1,2021-10-28 22:49:12,20,/r/Compound/comments/qhopxg/what_does_this_claim_function_provide_i_have_ceth/,Question,
+cETH Gained 36.56% today and is leading the Charts!,https://i.redd.it/22q2dm2oj8w71.png,AttackBody,1,2021-10-29 02:36:30,7,/r/Compound/comments/qhti3x/ceth_gained_3656_today_and_is_leading_the_charts/,NaN,
+Transferring ctokens when you have debt,https://www.reddit.com/r/Compound/comments/qi0isl/transferring_ctokens_when_you_have_debt/,Suspicious-Chip-4349,1,2021-10-29 08:30:36,7,/r/Compound/comments/qi0isl/transferring_ctokens_when_you_have_debt/,NaN,"What happens if you have debt in compound, but try to transfer ctoken to another wallet.
+
+For example, let’s say you have:
+ (1) deposited 10 ETH and now have the ctokens for eth
+(2) you borrow 3 ETH
+(3) you try to transfer the ctokens to another wallet address
+
+What will happen? Will debt transfer along with ctokens?"
+When you accidentally leave a borrow balance of 2.50 worth of Link..,https://www.reddit.com/r/Compound/comments/qih7kr/when_you_accidentally_leave_a_borrow_balance_of/,RouxHefner,1,2021-10-30 00:54:42,10,/r/Compound/comments/qih7kr/when_you_accidentally_leave_a_borrow_balance_of/,NaN,and its going to cost over 100.00 in gas to pay it off... comical!
+Is it possible to pay off borrowed assets with existing collateral?,https://www.reddit.com/r/Compound/comments/qioy96/is_it_possible_to_pay_off_borrowed_assets_with/,InfiniteTooth,1,2021-10-30 07:21:52,10,/r/Compound/comments/qioy96/is_it_possible_to_pay_off_borrowed_assets_with/,NaN,I have ETH as collateral and was wondering if I can pay off the USDC I borrowed with it?
+Compound - COMP surge,https://everycoinprice.com/?symbol=COMP&amp;interval=1day&amp;exchange=19,Serious_Finish2042,1,2021-10-30 17:03:32,11,/r/Compound/comments/qixm0v/compound_comp_surge/,Launch,
