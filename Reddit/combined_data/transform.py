@@ -2,7 +2,10 @@ import pandas as pd
 
 #filename = "Compound"
 #filename = "MakerDAO"
-filename = "Curve Finance"
+#filename = "Curve Finance"
+
+#comments
+filename = "MakerDAO_comment"
 
 extension = filename + "_combined.csv"
 
@@ -11,12 +14,12 @@ df = pd.read_csv(extension)
 print(df.describe())
 
 #Remove duplicate titles
-df_dropdup = df.drop_duplicates(subset=['title'])
+# df_dropdup = df.drop_duplicates(subset=['title'])
 
-print(df_dropdup.describe())
+# print(df_dropdup.describe())
 
 #Remove empty body
-df_dropempty = df_dropdup.dropna(subset=['body'])
+df_dropempty = df.dropna(subset=['body'])
 
 print(df_dropempty.describe())
 

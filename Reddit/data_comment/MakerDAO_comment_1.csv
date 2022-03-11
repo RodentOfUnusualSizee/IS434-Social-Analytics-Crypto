@@ -1,0 +1,1447 @@
+author,body,created
+biba8163,"Yes, you are probably right that there is greater usage of ETH and a lot more people in the crypto space than in 2017 going by gas prices and total addresses, etc.  Also GrayScale ETHE has quite a bit locked up, as has MakerDAO contracts and other such projects.  But overall, I think there is a much bigger supply in circulation than in 2017 going by the millions more in circulation since 2017 and countless ICOs who dumped millions on the market.  I think a lot of people have been misleading and cheerleading Ethereum investors with the idea that Ethereum suddenly has become more scarce than 2017 when it has not.  I see a lot people with influence in the Ethereum space like Ryan Sean Adams misleading investors with Ethereum scarcity narrative and even the EIP-1559 narrative that ETH is going deflationary which clearly isn't happening anytime soon.  Anyway, good luck with your investment.",2021-01-01 01:54:40
+jolly_octopus,"The definition of security broader than the examples you listed; I've listed the SEC definition below. I'll also give some examples of cryptocurrency that I think are securities under the SEC definition:
+
+-Binance coin is pretty obviously a security which represents a stake in the profitability of Binance. Because of the quarterly burn, there is an explicit ""profit-sharing agreement"" (see definition below). It was also distributed via an ICO. This is is definitely 1000% a security even by the most conservative definition of security.
+
+-MakerDAO token is probably a security for the same reasons listed above. Plus, it enables governance voting, which could be seen as investing in a ""voting trust certificate"" (see below).
+
+-Stablecoins in general might be considered ""evidence of indebtedness"" (see below) which could lead to arguing that they are securities. But I think DAI is a special case due to 1) the Dai Savings Rate implying a return on your investment, and 2) it's collateralized by ETH and MKR, making it a collateral trust certificate (see below).
+
+__________________
+
+
+""(1)  The term ""security"" means any note, stock, treasury stock, security future, security-based swap, bond, debenture, evidence of indebtedness, certificate of interest or participation in any profit-sharing agreement, collateral-trust certificate, preorganization certificate or subscription, transferable share, investment contract, voting-trust certificate, certificate of deposit for a security, fractional undivided interest in oil, gas, or other mineral rights, any put, call, straddle, option, or privilege on any security, certificate of deposit, or group or index of securities (including any interest therein or based on the value thereof), or any put, call, straddle, option, or privilege entered into on a national securities exchange relating to foreign currency, or, in general, any interest or instrument commonly known as a ""security"", or any certificate of interest or participation in, temporary or interim certificate for, receipt for, guarantee of, or warrant or right to subscribe to or purchase, any of the foregoing.""",2021-01-01 05:26:31
+Think-notlikedasheep,"&gt;Binance coin is pretty obviously a security which represents a stake in the profitability of Binance.
+
+It is not an equity, so how does it represent a stake in the profitability of binance?   If Binance disappeared tomorrow, the coin would still have value (albeit lower)  but only because of the lack of liquidity since binance is the largest exchange it is traded on.      This is like saying dollar bills are a security because of the Federal Reserve's profitability.
+
+&gt;MakerDAO token is probably a security for the same reasons listed above
+
+How? Does Binance's profitability depend on it?  I doubt it.  
+
+Using your example of ""quarterly burn reprsenting a profit sharing agreement"" bitcoin counts as a security because people keep having their bitcoin locked up or losing their keys.   In fact, fiat currency would be a security since people lose their fiat.  For example $60 million of pennies are thrown in the garbage every year.  
+
+So the definition is FAR TOO BROAD.  
+
+You can argue using that definition that baseball cards are securities, since there is a burn (people lose their cards, or their parents throw them away, or they put cards in the spokes of their bikes, effectively destroying them.
+
+&gt;Stablecoins in general might be considered ""evidence of indebtedness"" 
+
+Indebtednes of WHOM?     Someone borrowing money from someone using an IOU, that's a security?  Really?   Evidence of indebtedness deals with bonds and warrants.  Why isn't the SEC cracking down on payday loans, pawn shops, banks and people who lend money to other people on an informal basis?
+
+So what you're doing is trying VERY HARD to extend the definition of security to things that are not securities.
+
+So using your interpretation, a gift certificate or gift card is ""evidence of indebtedness"" and thus is a security.  Why isn't the SEC cracking down on all the companies issuing gift cards and gift certificates?   They're ""unregistered securities"" and illegal.",2021-01-01 06:06:36
+gremlin0x,"So the current large debt system is MakerDAO. It allows minting Dai backed by a variety of tokenized assets.
+
+On your stable eth thing, the guy talking about lambos isn't wrong. For good or bad, to bootstrap any new technology, you need to incentivize early investors and adopters to find future research and grow the network. Imagine a company whose stock was pegged to $1 through whatever mechanism you want, but gave yearly dividends based on revenue. That company would end up being quite boring since it would basically be no different than some kind of bond with variable interest rate. I'm not saying it's a terrible idea, but if the goal is to monetize the network effects of new technologies, you don't want the base equity to just be pegged to a dollar.",2021-01-01 07:02:27
+freehk_fktheccp,"This is not exclusive to Ethereum by any means but as a result of network effect most of what's interesting in programmable blockchains is happening on Ethereum.
+
+Right now there's a clear separation of truly private money (cash), spending money (debit/cc), investment (brokerage). Programmable blockchains provide a platform where all of this can exist under one umbrella.
+
+If I want to take out a loan against my assets, there are quite a few options but one of which is MakerDAO. Better accessibility also makes it so that rates are competitive, currently, a loan against ETH is 2% but variable.
+
+In real life application supposing I did this via brokerage there's significant lag time to actually move that money from my brokerage to my ""spending"" accounts. Or from cash into my brokerage accounts. On Ethereum this is instant.
+
+Accessibility to p2p lending in real life isn't that great but on Ethereum I have easy access choices such as Aave, Compound where I can lend my USDC for pretty good rates, ~8% currently, with the obvious risk being maybe the contract is hacked and everything blows up. As a result of this risk we're now seeing both centralized and decentralized insurance options regarding smart contracts such as Opyn. Being able to buy insurance for the ""what if"" scenario eats into your yield but it's a nice option.
+
+If I care about privacy and want the same kind of privacy that cash provides in real life it's very difficult to achieve this in real life. In Ethereum there are projects such as zkDAI and tornado.cash which provide ease of accessibility to privacy.
+
+Programmable money lowers the barrier to entry of competition and definitely will continue to force laws to play catch up as innovation continues to progress very quickly.",2021-01-01 08:25:34
+ba5icsp00k,It’s explained in the makerdao website in the docs. It’s a interesting read and explained better then I could.,2021-01-01 09:03:25
+nootropicat,"I think they are in a very bad spot now, as there's no reason to use dai over usdc. Especially borrowing dai is extremely risky, I barely escaped liquidation when it mooned on coinbase to 1.3usdc.  
+For some weird reason eth collateral rate is 150% when every defi platform is at 120%-125%. Bad deal from every possible angle. They have some adoption inertia but usdc is taking a bigger and bigger share of the pie. A large part of DAI's demand is 'fake' in the sense that's it's only used to farm (especially CRV).  
+Even on eth pairs it was flipped by usdt.  
+
+https://info.uniswap.org/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+
+In general they were proven incompetent, as their governance structure forces small incremental changes when drastic moves were required. Rather than having a USDC vault at 101% collateral ratio the proper move was to directly sell new DAI for usdc until it's at $1. Makerdao would have a warchest that could then be used to stabilize the price, possibly earning interest on unspent reserves and using that to burn MKR. In the kyc event it would be easy to get rid of USDC even by selling it for eth as a last measure. It's going to be way harder to get rid of the USDC vault without driving DAI wildly off the peg again.",2021-01-01 20:14:22
+in_a_land_far_away,"Sure well it depends really who you trust your money with. USDC is backed up by identical dollar amounts locked up in trusted 3rd party accounts and is considered very risk free. However, if the price of the dollar does really collapse in the distant future I would be sceptical if it survives. So short term say 5 years USDC is fine, but DAI is much better in terms of trustless security its quite tricky to explain I will link a youtube video but essentially its a debt that was created by certain erc20 tokens as collateral and held in makerdao vaults gl
+
+[https://www.youtube.com/watch?v=wW1IEZeWY4k](https://www.youtube.com/watch?v=wW1IEZeWY4k) 
+
+basically short term usdc is best but longterm DAI is future IMO",2021-01-02 02:04:04
+fOrest9406,"Very true story, although it is a meme. Therefore, when choosing tokens for investment, you need to pay attention to the seriousness of the project and its achievements.  Pay attention to cross-chain project Equilibrium that  introduced a new “bailout” mechanism because automatic auctions are passive and less than foolproof.  This mechanism will prevent a recurrence of the situation that occurred with MakerDAO in March 2020.",2021-01-02 02:05:21
+sm3gh34d,"""xDai Chain is an Ethereum sidechain with 5-second block times, low gas prices, and a native token that’s also called xDai. Developed through a partnership between POA Network and MakerDAO, xDai Chain uses Proof of Autonomy consensus. Proof of Autonomy resembles Proof of Authority, but validators are managed by a DAO instead of a centralized authority""
+
+Source: https://defipulse.com/xdai",2021-01-02 05:27:34
+BUIDL000,No correlation. MakerDAO is open sourced and anyone can call their (computer program) functions.  I am unaware of Compound using Maker directly.,2021-01-02 09:39:16
+taborn,"Makerdao
+
+
+Send 10 eth, borrow 1000dai (example)
+
+
+Convert 1000 dai to 1000usd since its pegged
+
+
+Withdraw usd to your bank account
+
+Note: transaction fees will cost you
+Make sure you set-up koinly so you are tracking the movements of your transactions
+2.50 percent interest but can change at any time",2021-01-02 15:15:53
+AutoModerator,"Hello /u/Marchel0! I regret to inform you that your comment has been automatically removed because your account is too new. This is to help us prevent spam from proliferating this subreddit. But don't fret! Our threshold for commenting is very low. Try commenting again here in a couple of days.
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-03 07:09:14
+krism142,Depending on the crypto that you are holding you could use something like MakerDAO to use the crypto to collateralize a loan and get paid DAI which you could turn into USD,2021-01-03 07:34:12
+reaper_1nine,https://www.coindesk.com/28m-makerdao-class-action-lawsuit-arbitration,2021-01-04 00:09:46
+18boro,"Not sure this is the place for support right now, but I'll try :). Of course my ledger fucks up right now and when I try to execute a transaction on makerdao through metamask connected to ledger, nothing happens. So I don't get to sign the transaction and it is just stuck pending. This has happened a bunch before, but restarting the computer and thus ""clearing"" the unsent transaction from metamask has always solved the issue. Now I've tried restarting 5 times, no pending transactions in the ""activity"" section of metamask, thus it should work,, disconnected/connected ledger to no help. What can I do?
+
+&amp;#x200B;
+
+Also, but you probably already know - a big fuck you to ledger..",2021-01-04 03:38:47
+rglullis,"Just yesterday I started using [Loopring Layer-2 exchange](https://exchange.loopring.io) and I could buy WBTC (and other tokens like BAT, DAI, YFI, ETH and even UNI and 1inch available already) with only the cost of making the transfer to the exchange address. Less than $2 in fees. Once the deposit is made, you can make swaps and even add liquidity to their pools with near-zero fees.
+
+They are also going to start a liquidity mining program this week for those that provide liquidity to some of their pools - ETH-DAI, ETH-WBTC and ETH-LRC. I am waiting for the gas prices to go down a little bit so I can mint some DAI from MakerDAO and park it there.",2021-01-04 04:20:47
+nikola_j,"Just a quick tip if needed - we have the option to create an instantly leveraged CDP at DeFi Saver which looks something like this:  [https://imgur.com/AQemBKt](https://imgur.com/AQemBKt) 
+
+And everything done at DeFi Saver in terms of MakerDAO is fully compatible with [Oasis.app](https://Oasis.app) should you ever want to switch between them.
+
+Feel free to @ me for any more info (I'm a member of the DFS team).",2021-01-04 04:30:43
+mexfogel,"The flash crash of ether generated so much congestion people couldn't even repay their loans to avoid liquidation. Transactions didn't go through and the price Oracle of makerDAO was delayed and frozen. Then after being liquidated you also found out all of your ether got sold for zero dai.
+
+At the end no one can complain about being liquidated. It's getting your remaining ether sold for zero that is the problem. 
+
+When black Thursday happened it was estimated people lost 8.25M. Today that ether is worth 75M. Do you think people are just going to sit and let that be?
+
+You bet there will be a waterfall of lawsuits coming towards the Maker Foundation. With these prices a lot of people will find it profitable to go through the trouble and spend in lawyers and arbitration costs. 
+
+The maker community letting their final word be left to the 5.8% consensus has left victims no other choice.",2021-01-04 05:04:26
+mexfogel,"There is already an ongoing court case here in San Francisco. It was a class action law suit but it was moved into arbitration. That's a win for the maker foundation because instead of being liable for all 1,000 or more victims at the same time now each person has to bring their own case independently to arbitrate. Not everyone can afford to do so but with current ether prices a lot of people will feel compelled to do so.
+
+It will be up to the judge in the arbitration case to decide if the maker foundation is responsible for any losses. 
+
+They will have to look into the terms of use and see if makerDAO made it super explicitly clear that using the maker dao contact meant a potential loss of 100% of your assets.
+
+Also, they'll look into how the contract was not supposed to allow zero bids. Not only did user lost their collateral completely but also MakerDAO lost 4 million of dollars due to the same auction bid flaw. 
+
+One thing is to use a contract that is risky that can lead to losses and another one is that the contract was flawed and caused losses. 
+
+How come the makerdao printed and sold MKR to repay their own losses yet left its users hanging in the air at a loss for the exact same flaw? The Foundation will say decisions are made by the makerdao decentralized governance but since the flawed contract was written by them It will be up the judge to decide if they are ultimately liable or not.
+
+Regarding the US global jurisdiction i believe it's pretty global and it has a span to all major first world countries. If the arbitration rules against them they will have to pay. 
+
+Keep in mind I'm not a lawyer nor a programmer. I just have a broad understanding of what is going on. Hope it helps.",2021-01-04 08:06:32
+AutoModerator,"Hello /u/biz_tard! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-04 12:18:27
+AutoModerator,"Hello /u/biz_tard! I regret to inform you that your comment has been automatically removed because your account is too new. This is to help us prevent spam from proliferating this subreddit. But don't fret! Our threshold for commenting is very low. Try commenting again here in a couple of days.
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-04 14:42:29
+Tvmouth,"[Newegg.com](https://Newegg.com) takes BTC. You can use your ETH to supply collateral on [Justlend.org](https://Justlend.org) using [Klever.io](https://Klever.io), lend yourself some BTC to make the newegg purchase and pay it off slow like a credit card, but make any tiny payment whenever you want since the fee is value based, not time or labor or corporate profit based. Also works with DAI and Makerdao and plenty of swap sites, but TRON is faster and cheaper ... and more connected to everything, than anything I've worked with. ^(You're allowed to enjoy the anxiety of slower transactions though,) *^(it builds character.)*",2021-01-04 15:27:42
+GarethGore,"it could become a stablecoin and holding it pays interest, or gives a dividend or another coin that isn't stable? Like makerDAO. Maker gives you dao, which is the stablecoin. 
+It does need to be stable to be used as payment, but it makes it an annoying investment",2021-01-04 16:39:44
+frank__costello,"&gt; it hasn’t been tested through any real-world market crisis/black swan event
+
+Does the march crash not count? It was significant enough to break some peripheral parts of MakerDAO, but Aave &amp; Compound worked just fine.",2021-01-04 23:59:45
+Davidutro,"Come join us for a weekly recap of all the things that have been happening in the MakerDAO universe. Community members are welcome and encouraged to participate in the call by asking questions and engaging in discussions.
+
+
+---
+
+Check out the [weekly Maker Relay](https://forum.makerdao.com/tag/maker-relay) for the week’s updates.
+
+---
+
+**When:** Tuesday,  January 05th at 9AM PST | 5PM UTC | 12PM EST | 10AM MST | 6PM CET
+
+---
+
+**Join us!**
+[Event Page](https://www.crowdcast.io/e/the-makerdao-community-25/register)
+
+---
+
+**[Google Calendar Link for community events, calls, and more](https://calendar.google.com/calendar?cid=bWFrZXJkYW8uY29tXzNlZmhtMmdoaXBrc2VnbDAwOWt0bmlvbWRrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)** 
+
+---
+
+**Please add questions in the comments below if you wish to hear them answered or discussed**",2021-01-05 01:08:28
+AutoModerator,"Hello /u/ethloser5959! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-05 01:31:03
+jonaslamis,"The term Freezing Assets is a specific example of ""being able to update the contracts"".  The StakerDAO Governing Council (Olaf, Luke Y, Shaishav, Spencer Noon, and myself) can vote to ""update the contracts"" to any specification that is proposed through governance.  This includes things like: 
+- pausing the contracts because there is some sort of bug or hack
+- implementing a tax on the vault (currently set at 0%).  Think of this as MakerDAO adjusting their interest rate.
+- doing something more substantial like moving all vaults to a FA 2.0 token or changing how the overall system functions based on tickets, privacy, or some other layer 1 upgrade.
+
+An anti-goal is to ""freeze assets"".  But it is necessary to balance security and upgradability against contract control.  We're trying to navigate that at StakerDAO with first the council model, and then evolving to the community controlled model.
+
+For those who have been paying attention to Ethereum based defi, this is the same kind of architecture that Compound and Uniswap have implemented.  Tightly controlled contracts at launch that moved to more decentralized control with the issuance of their governance tokens.",2021-01-05 08:53:17
+pescennius,Use renbridge to mirror your btc onto the ethereum blockchain and then you can use makerdao to do this completely decentralized. No custodians. I borrow against my btc this way.,2021-01-05 10:06:32
+textrapperr,Well for example with Makerdao if you lock up your Eth and create dai you have to pay 2.5% per year (currently as its variable) for the privilege. Stakerdao seems to have all sorts of potential fees tho — reminds me of a phone bill! I mean they dont just have fees they also have taxes and that is their wording lol. fees and taxes!,2021-01-05 11:36:18
+Jin366,if you use MakerDAO what collateralization ratio do you target? when do you start feeling uncomfortable?,2021-01-05 14:43:09
+yahehe,"My interpretation of ""Unrelated Debt-Financed Income"" is there's an implied third party supplying debt to the IRA, basically accessible funds not funded by contributions or gains. So if I wanted to buy a rental property with my LLC and took out a mortgage, or took out a loan to buy even more Eth, those funds would not be tax advantaged.  
+
+
+With MakerDAO there's not really a third party, you're loaning assets to yourself via a protocol. DAI isn't borrowed from other users, it's created when you open a vault, and it's burned when you repay. You can't withdraw your Eth while it's in the vault without paying back the loan, so in a way you're temporarily *reducing* the value of your IRA. I'm not sure if it would fit the definition of ""acquisition indebtedness"", but I would be very interested to know what an expert has to say. I wonder what this would mean for other DeFi dapps like Compound as well. Definitely a complex space to navigate, I've been thinking about finding a CPA/tax attorney as I'm in a similar boat.  
+
+
+As an aside, I've started planning for a first house and contemplating taking a $20k loan (me + wife) from my SDIRA, and I realized I could probably do that without losing any gains by opening a CDP. Not sure how feasible that is in the traditional banking system, but seems like it basically negates the biggest drawback of taking that loan!",2021-01-05 15:52:34
+accountaccumulator,"I mentioned a possible LDO airdrop (LidoDAO governance token) a while ago here 
+
+https://www.reddit.com/r/ethfinance/comments/kg2ggl/daily_general_discussion_december_19_2020/ggcdnjp/
+
+&gt;Some more updates for those eyeing a liquid staking solution. Staking with Lido is now live. 
+&gt;https://twitter.com/lidofinance/status/1340105993020198920
+&gt;Some of the distributed key holders and investors are Rune (MakerDAO), Michael (curve), Banteg (yearn finance), Kain (Synthetix) and Stani (Aave). 
+&gt;https://twitter.com/lidofinance/status/1338813683561082880
+&gt;Looks like a solid project and it seems that the team has been able to assemble some of the big hitters in the defi space, which is promising for stETH (Lido's eth2.0 derivative) integration in the various defi protocols. I am not so happy about the economics and distribution of the corresponding LDO governance token, as only 36% are allocated to the DAO-controlled treasury. That being said, there is no need to hold the LDO token in order to stake.
+
+&gt;Just a heads-up, there is chatter about a Badger-style targeted airdrop for early adopters. Still early days but might be worth interacting with the protocol in case there is a successful governance vote.
+
+The airdrop is currently being voted on 
+
+https://mainnet.lido.fi/#/lido-dao/0x2e59a20f205bb85a89c53f1936454680651e618e/vote/20/
+
+And you can check if your address is eligible here 
+
+https://github.com/vshvsh/ldo-airdrop/blob/master/snapshot/lido-07a-human-readable-balances.json 
+
+It looks like this first airdrop really only rewards stakers who have taken on additional risk by depositing ETH early on. The cutoff block was around 10 days after genesis. There are however ideas discussed in the governance forum to have a second airdrop with a future cutoff block. So it might be worth interacting with the protocol even if you’re not currently on the list.",2021-01-05 16:56:57
+accountaccumulator,"I’ve been quite impressed overall, with some caveats mostly regarding their ideas for community governance and the associated LDO token. Tech-wise it looks solid and the stETH token is what interested me for the most part. They were able to assemble some of the defi big hitters as distributed key holders (Rune/Maker, Kain/Synthetix, Stani/Aave Banteg/yearn) which seems to be helping with defi integration (see the quick curve implementation). And they’re working with some reputable staking services. Some links here:
+
+https://www.theblockcrypto.com/linked/87761/eth2-staking-protocol-lido-raises-2-million-funding
+
+https://twitter.com/lidofinance/status/1338813683561082880
+ 
+
+10% fee on rewards, 5 of which go into slashing insurance fund (DAO treasury), and five to the staking providers. There is also MakerDAO proposal in the works which would make stETH DAI colleteral.",2021-01-06 00:01:05
+nootropicat,"I looked into what changed with makerdao and mostly withdraw my previous comment. It took them a long time but I see that they finally introduced direct DAI arbitrage: the USDC PSM module. I didn't expect that based on comments during the peg crisis, I remember the option being flatly rejected.  
+Hopefully this leads to a complete removal of stablecoin vaults in the future.",2021-01-06 00:04:33
+-crypt-o-keeper-,"Cardano has been working with Ergo on this for months now... I'd call that prioritized :D
+
+&gt; “For example, we’ve partnered with Emrugo, and we're right now working on the logistics of a stablecoin with them that we're going to be building first on Ergo to verify everything works correctly, and then we'll pull it over into Cardano and this is going to be an algorithmic stablecoin,” said Hoskinson, adding, “We think it'll be significantly better than MakerDAO.”
+&gt;
+&gt; https://decrypt.co/40264/cardanos-stablecoin-will-be-better-than-makerdao-says-hoskinson",2021-01-06 04:16:24
+ethereumflow,"ATOM and the entire Cosmos ecosystem are way ahead in terms of development, usage and adoption. Binance Smart Chain is built on Cosmos, Terra built with Cosmos and have a lot of business coming in the Korean e-commerce markets. Secret Network is the first platform on Cosmos with Smart Contracts and they are private by default. Secret will have a fully private AMM live soon. Cosmos Hub will have smart contracts after IBC allowing the hub to become an AMM, the Uniswap of Cosmos. KAVA is the first DeFi platform on Cosmos and they’re BTC and formerly XRP maxis with the focus of bringing the most liquid assets to their platform; they’re kind of like the MakerDAO of Cosmos. BAND protocol is an oracle growing in usage and adoption and they’re also built on Cosmos. For future updates Aragon are developing their sovereign Aragon Chain on Cosmos and will be building the first Cosmos/Ethereum DAO shortly after IBC. 
+
+With IBC(InterBlockchain Communication protocol) rolling out this month all Cosmos blockchains will be interoperable with each other and thanks to Secret Bridge and Ethermint ETH and ERC20 tokens will also be interoperable. Another note: Cosmos has onchain governance and this proposal as amazing as it is can still only go live after the network agrees to the upgrade. 
+
+All this before Cardano can even launch a smart contract. 
+
+I hold ADA but have reduced my stake in Cardano to increase my stake in Cosmos projects. I got tired of waiting on Cardano when Cosmos are about to cause a Big Bang.",2021-01-06 04:59:51
+Awesomesauce1492,"Agreed with all this. In addition op you should know that while usdc is backed by usd, dai uses crypto as collateral. This brings additional risks of becoming unpegged from the us dollar, or the risk of a novel problem being discovered with the cdp vaults. Take care not to lean to heavily on the ""stable"" component of the term ""stablecoin"".
+
+Take a look at what happened when eth dropped 40% in March 2020:
+
+https://blog.makerdao.com/the-market-collapse-of-march-12-2020-how-it-impacted-makerdao/",2021-01-06 07:02:14
+NoDesinformatziya,What's the cheapest contract to interact with to softly leverage-long ETH? I've essentially only used MakerDao but interacting with their contract at all would be like 500 bucks at the moment. (Not looking for centralized margin trading).,2021-01-06 08:17:47
+gremlin0x,But you could just add a USD stablecoin and bitcoin token pair to Uniswap or Balancer or any other AMM on Ethereum. When you LP you also earn trading fees. You can even leverage the LP tokens on MakerDAO.,2021-01-06 12:12:01
+i-love-the-pink-one,"Still learned here, but what is the reason auctions take so long? Surely it would be better to speed up the process to ensure that liquidations occur and are processed in full? That way, keepers can immediately return to the debt auctions and keep the process going in the event of a sharp drop in collateral value.  
+
+For example, if ETH value drops 30-40%, I'd have to imagine there would be a significant number of liquidations to process. If it dropped another 30-40% over a couple of days (please no), shouldn't we be ensuring all the vaults that need to be liquidated are so to maintain the health and confidence of the MakerDao system and the value of Dai?",2021-01-06 19:14:19
+DappRadar,"1. WBTC \~ -9%
+2. MakerDAO \~ -26%
+3. UniSwap \~ -3%
+
+[Click here](https://dappradar.com/defi?utm_source=reddit&amp;utm_medium=organic&amp;utm_campaign=rankings) \- to see full statistics of the most popular DeFi dapps.",2021-01-06 21:38:01
+DappRadar,"1. MakerDAO: TVL - $4.06B, aTVL- $1.67B
+2. WBTC: TVL - $3.85B, aTVL - $1.21B
+3. Uniswap: TVL - $2.94B, aTVL - $3.01B
+
+[Visit DeFi page](https://dappradar.com/defi?utm_source=reddit&amp;utm_medium=organic&amp;utm_campaign=rankings) for more information.",2021-01-06 22:20:55
+tysuke,"Defi is general term for everything that is a considered a decentralized financial system or network. So the AAVE network is defi, MakerDAO is defi, stable coins are defi, but the thing that's made me the most money in defi is yield farming and liquidity pool mining. Bankroll Network is defi dapp on tron blockchain been running for some years. Recently they created a blockchain cd (think HEX) and its blowing up. highly suggest dyor and getting into defi asap!",2021-01-06 22:24:19
+poor0ll0,"All the answers:
+
+**Earn up to $132+** with Coinbase Earn by learning about Compound (COMP), and Stellar Lumens (XLM).
+
+* Compound (COMP) - **1 LEFT!**
+   * [https://coinbase.com/earn/comp/invite/xfm4j2r1](https://coinbase.com/earn/comp/invite/xfm4j2r1)
+* Stellar Lumens (XLM) - **1 LEFT!**
+   * [https://coinbase.com/earn/xlm/invite/hn4xdw6r](https://coinbase.com/earn/xlm/invite/hn4xdw6r)
+* Band Protocol (BAND)
+   * [https://coinbase.com/earn/band/invite/wqt46nvk](https://coinbase.com/earn/band/invite/wqt46nvk)
+
+**Answers**
+
+**Stellar Lumens (XLM) Quiz Answers - 50$ value**
+
+1. A decentralized protocol that unites the worlds financial infrastructure
+2. Facilitating low-cost, universal payments
+3. Transactions are fast, inexpensive and global
+4. To issue exchange and transfer tokens quickly and efficiently
+5. It relies on the cooperation of trusted nodes to confirm transactions
+
+* **Join the course:** [http://coinbase.com/earn/xlm/invite/hn4xdw6r](http://coinbase.com/earn/xlm/invite/hn4xdw6r)
+
+&amp;#x200B;
+
+**Compound (COMP) Quiz Answers - 59$ value**
+
+Question: ""What's a key benefit of using Compound?"":​
+
+​Answer: Earning interest on your crypto​
+
+Question: What do you need to do to borrow crypto with Compound?​
+
+Answer: Supply a crypto asset as collateral​
+
+Question: Who gets to decide the future of the Compound protocol?​
+
+​Answer: COMP token holders
+
+* **Join the course:** [https://coinbase.com/earn/comp/invite/xfm4j2r1](https://coinbase.com/earn/comp/invite/xfm4j2r1)
+
+&amp;#x200B;
+
+**Band Protocol (BAND) Quiz Answers - 43$ value**
+
+1. Real world data
+2. Oracles
+3. Earn crypto rewards
+
+&amp;#x200B;
+
+* **Join the course:** [https://coinbase.com/earn/band/invite/wqt46nvk](https://coinbase.com/earn/band/invite/wqt46nvk)
+
+&amp;#x200B;
+
+**CELO (XGLD) Quiz Answers - 6$ value**
+
+1. By making crypto accessible on mobile phones
+2. Staking, governance
+3. Using the Valora mobile app
+
+**Zcash (ZEC) Quiz Answers - 5$ value**
+
+1. privacy protecting crypto
+2. It keeps your financial info safe so it can not be sold
+3. Through a cryptographic breakthrough known as zero-knowledge proof
+
+**Algorand (ALGO) Quiz Answers - 6$ value**
+
+1. By being scalable, secure, and decentralized
+2. A randomly selected ALGO token
+3. ASA
+
+**Maker (MKR) Quiz Answers - 6$ value**
+
+1. What are the native assets of the Maker protocol?
+   1. MKR and DAI
+2. Who runs MakerDAO?
+   1. MKR holders
+3. What do you need to generate DAI today?
+   1. A crypto wallet and crypto collateral
+
+**Filecoin (FIL) Quiz Answers - 6$ value**
+
+1. A decentralized marketplace for data storage and retrieval.
+2. Proof of replication and proof of spacetime.
+3. By its location
+
+**The Graph (GRT) Quiz Answers - 3$ value**
+
+* Blockchain data
+* GRT token
+* Curators",2021-01-07 04:53:19
+poor0ll0,"**Complete Guide!**
+
+**Complete Guide!**
+
+**Complete Guide!**
+
+**Complete Guide!**
+
+**Complete Guide!**
+
+**Complete Guide!**
+
+&amp;#x200B;
+
+Earn crypto while learning about crypto.
+
+**Earn up to $132+** with Coinbase Earn by learning about Compound (COMP), and Stellar Lumens (XLM).
+
+* Compound (COMP) - **1 LEFT!**  
+
+   * [https://coinbase.com/earn/comp/invite/xfm4j2r1](https://coinbase.com/earn/comp/invite/xfm4j2r1)
+* Stellar Lumens (XLM) - **1 LEFT!**  
+
+   * [https://coinbase.com/earn/xlm/invite/hn4xdw6r](https://coinbase.com/earn/xlm/invite/hn4xdw6r)
+* Band Protocol (BAND)  
+
+   * [https://coinbase.com/earn/band/invite/wqt46nvk](https://coinbase.com/earn/band/invite/wqt46nvk)
+
+**Answers**
+
+**Stellar Lumens (XLM) Quiz Answers - 50$ value**
+
+1. A decentralized protocol that unites the worlds financial infrastructure
+2. Facilitating low-cost, universal payments
+3. Transactions are fast, inexpensive and global
+4. To issue exchange and transfer tokens quickly and efficiently
+5. It relies on the cooperation of trusted nodes to confirm transactions
+
+* **Join the course:** [http://coinbase.com/earn/xlm/invite/hn4xdw6r](http://coinbase.com/earn/xlm/invite/hn4xdw6r)
+
+**Compound (COMP) Quiz Answers - 59$ value**
+
+Question: ""What's a key benefit of using Compound?"":​
+
+​Answer: Earning interest on your crypto​
+
+Question: What do you need to do to borrow crypto with Compound?​
+
+Answer: Supply a crypto asset as collateral​
+
+Question: Who gets to decide the future of the Compound protocol?​
+
+​Answer: COMP token holders
+
+* **Join the course:** [https://coinbase.com/earn/comp/invite/xfm4j2r1](https://coinbase.com/earn/comp/invite/xfm4j2r1)
+
+**Band Protocol (BAND) Quiz Answers - 43$ value**
+
+1. Real world data
+2. Oracles
+3. Earn crypto rewards
+
+* **Join the course:** [https://coinbase.com/earn/band/invite/wqt46nvk](https://coinbase.com/earn/band/invite/wqt46nvk)
+
+**CELO (XGLD) Quiz Answers - 6$ value**
+
+1. By making crypto accessible on mobile phones
+2. Staking, governance
+3. Using the Valora mobile app
+
+**Zcash (ZEC) Quiz Answers - 5$ value**
+
+1. privacy protecting crypto
+2. It keeps your financial info safe so it can not be sold
+3. Through a cryptographic breakthrough known as zero-knowledge proof
+
+**Algorand (ALGO) Quiz Answers - 6$ value**
+
+1. By being scalable, secure, and decentralized
+2. A randomly selected ALGO token
+3. ASA
+
+**Maker (MKR) Quiz Answers - 6$ value**
+
+1. What are the native assets of the Maker protocol?  
+
+   1. MKR and DAI
+2. Who runs MakerDAO?  
+
+   1. MKR holders
+3. What do you need to generate DAI today?  
+
+   1. A crypto wallet and crypto collateral
+
+**Filecoin (FIL) Quiz Answers - 6$ value**
+
+1. A decentralized marketplace for data storage and retrieval.
+2. Proof of replication and proof of spacetime.
+3. By its location
+
+**The Graph (GRT) Quiz Answers - 3$ value**
+
+* Blockchain data
+* GRT token
+* Curators",2021-01-07 04:58:07
+textrapperr,"well i wrote this 53 days ago but its still my opinion on the matter:
+
+https://www.reddit.com/r/MakerDAO/comments/ju221x/why_i_think_makerdao_is_at_an_inflection_point/",2021-01-07 08:10:47
+FreeFactoid,"Makerdao, SNX and many other projects decentralized by using governance mechanisms. I can't see why BAT can't do the same. In fact, it would be the smart move to do so.",2021-01-07 08:50:02
+i-love-the-pink-one,"No. MKR is the governance token used on the MakerDao platform, which is built upon Ethereum.",2021-01-07 12:38:53
+keynya,"Here comes a little rant:
+
+Not everything has to be a moonshot in my life (shocking, right). So I was looking at the possibilities using a ""stable"" coin in kind of crypto savings account which returns a few percent interest each year. I love DAI. Unfortunately it is pegged to the devaluing USD. The USD lost over 10% against my native currency (Swiss franc) over the last year. Lending it out on Aave or Compound would make me loose money over time. Even with the more risky yearn DAI vault I would just barely break even. A part of this 10% devaluation against the Swiss franc is due to the Swiss franc increasing in value, but the USD also lost against other major currencies like GBP, JPY etc. So, even for these currencies lending out a USD pegged stable coin on Aave or Compound is not a viable strategy.
+
+Why don't we have proper stable coins in crypto? Something which is stable against inflation and whose price is not controlled by nations and their endless money printing. As far as I remember, MakerDAO initially wanted to build something like that, but they went with a USD pegged stable coin.
+
+Long story short I do not like losing money slowly, so I went for the moonshot again by providing WBTC-ETH liquidity.
+
+Looking forward to the time I can have a savings account using stable coins which actually deserve their name and I can finally get rid of my old school fiat bank account.
+
+If you have good tricks to make a savings account on Ethereum. I'm all ears.",2021-01-07 16:02:19
+hereimalive,"Oh cool, my MKR is worth something again (in USD).
+
+https://old.reddit.com/r/MakerDAO/comments/kruwjm/maker_gained_5686_today_and_is_leading_the_charts/",2021-01-07 17:29:56
+i-love-the-pink-one,"1. Deposit a decent amount of ETH into a MakerDAO vault.  
+2. Generate DAI to borrow against your existing ETH while remaining exposed to it (and thus possibly continuing to get profits at a later date, or at least remaining involved in the protocol for when it takes off).  
+3. Sell your DAI back to fiat.  
+4. Use fiat to purchase car.  
+5. Each paycheque, buy a small amount of DAI from an exchange and repay your loan to yourself.  
+
+I did this over the past year. Worked really well!",2021-01-07 17:56:12
+DappRadar,More information - [click here](https://dappradar.com/ethereum/defi/makerdao?utm_source=reddit&amp;utm_medium=organic&amp;utm_campaign=rankings),2021-01-07 20:43:35
+coinfeeds-bot,"tldr; MKR, which was created through MakerDAO to support the stability of DAI, was trading at $1,251.14 earlier today. MKR can be formed and destroyed in response to DAI price fluctuations to maintain DAI’s dollar-equivalent worth. DAI's formation occurs when DAI users put assets into the Maker Protocol and borrow against that asset in DAI.
+
+*This summary is auto generated by a bot and not meant to replace reading the original article. As always, DYOR.*",2021-01-08 00:31:55
+drogean3,"thats called a CDP DEfi Saver
+
+https://app.defisaver.com/makerdao/
+
+but it costs a LOT of gas to use it now",2021-01-08 00:34:38
+4rch3r,It's to limit the risk of any one particular collateral.  As confidence is gained the ceiling will almost always be raised (unless the MakerDAO governance deems it too risky).,2021-01-08 03:13:22
+GearNow,"Price not where it should be.. 😔
+But jokes aside the team has been making a lot of progress and the project is fully functional and in use by several companies among which MakerDAO which just posted a customer success story. Unfortunately it lost traction and visibility, hopefully the ALT season will revive it!",2021-01-08 05:17:44
+AutoModerator,"Hello /u/newskooler! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-08 08:00:23
+stayanonbros,"I would be similarly worried about having that much on BlockFi... I believe that they are mostly lending out crypto to market makers &amp; DeFi farming funds on the backend. So you are mostly taking these same risks / systemic risks of crypto. 
+
+I think that some protocols like MakerDao, Compound, are quite secure and tested at this point. Yeah you have to trust smart contracts, but you also do holding ERC20 tokens as well...",2021-01-08 13:51:21
+jrmrx,"Wasn't DAI supposed to decouple from USD at some point, and MakerDAO to provide a stablecoin pegged to other fiat currencies? Any updates on that? I'd like to avoid parking my money in a USD pegged currencies once this bullrun is over.",2021-01-08 17:31:53
+coinfeeds-bot,"tldr; MKR, which was created through MakerDAO to support the stability of DAI, was trading at $1,251.14 earlier today. MKR can be formed and destroyed in response to DAI price fluctuations to maintain DAI’s dollar-equivalent worth. DAI's formation occurs when DAI users put assets into the Maker Protocol and borrow against that asset in DAI.
+
+*This summary is auto generated by a bot and not meant to replace reading the original article. As always, DYOR.*",2021-01-08 18:16:06
+kwadrax,"MakerDAO is working like a charm really.
+
+Immens respect to all the people who put time and effort in to keep the system balanced and keep on improving it, because I can assure you, people don't realise the amount of work that goes into all of it.",2021-01-08 18:54:18
+coinfeeds-bot,"tldr; Decentralized finance (defi) has become one of the biggest asset managers in the world with $22 billion in the custody of ethereum financial smart contracts. MakerDAO alone holds more value than almost all cryptos, besides bitcoin and eth, at some $4.28 billion. Uniswap is now the biggest exchange with close to $3 billion in assets traded across 28,000 pairs.
+
+*This summary is auto generated by a bot and not meant to replace reading the original article. As always, DYOR.*",2021-01-08 20:46:15
+Redac07,"...
+
+You serious here? Algoritm is mathematical based. Dai is based on collateralization. It gets it's feed from 14 exchanges, that's how it determines the price of eth. 
+
+ Dai has been here for years FYI. You actually CAN manipulate it if you can manipulate the price of eth, you can then force a collateralization of eth, but that's not an easy feat on itself and the more it gets adopted/used, the less likely that will happen too. 
+
+
+""What if the algo fucks up"" sounds extremely ignorant by the way. Since it's based on mathematics/code and it's contract is open source afaik. You can audit it yourself if you want and see if you can find a hole. In fact, holes has been found in several smart contracts, including makerdao, and it has been patched up. The contract is open source too, so if you really don't trust it you can audit it yourself. 
+
+Imo what is truly dangerous is trusting a third party with your money. USDT, usdc, all custodian stable coins should be avoided. Only stable coins like dai, based on code should be used/trusted as that is part of the decentralized finance revolution.",2021-01-08 21:04:08
+Hanzburger,"Thanks, it looks like it's at least 11 from this statement:
+
+&gt;Chorus One, Staking Facilities, Certus One, Argent, Banteg (yearn.finance), Alex Svanevik (Nansen), Anton Bukov (1inch), Michael Egorov (Curve/Nucypher), Rune Christensen (MakerDAO), Will Harborne (DeversiFi) and Mustafa Al-Bassam (LazyLedger) came together over a four-day event to generate threshold signatures for Lido’s withdrawal keys in a secure environment on air-gapped machines.",2021-01-09 00:57:22
+coinfeeds-bot,"tldr; MakerDAOâ€™s native stablecoin, DAI, which allows users to deposit crypto collateral to take loans on the MakerDAO platform, has reached multi-year highs against the U.S. dollar. DAI is the most-used DeFi protocol by total value locked, with $4.21 billion worth of cryptocurrency locked in the platform, up six percent today. Meanwhile, MKR, the decentralized loan platform, is at the core of decentralized finance.
+
+*This summary is auto generated by a bot and not meant to replace reading the original article. As always, DYOR.*",2021-01-09 03:32:10
+kethfinex,"Keys are split between 11 participants: Chorus One, Staking Facilities, Certus One, Argent, Banteg (yearn.finance), Alex Svanevik (Nansen), Anton Bukov (1inch), Michael Egorov (Curve/Nucypher), Rune Christensen (MakerDAO), Will Harborne (DeversiFi) and Mustafa Al-Bassam (LazyLedger). They came together for a four-day event to generate threshold signatures for Lido’s withdrawal keys in a secure environment on air-gapped machines.",2021-01-09 03:55:25
+maxbrickem,"Questions are great!  BSC = Binance Smart Chain. 
+It’s very fast and very low cost.  There are many of these, but Binance is the biggest  exchange in the world and this is their entry into the world of DEFI. 
+Venus protocol is what maker dao and compound are but put together on BSC.  XVS venus token will be the governance token, right now the value locked up is over $300 million in under three months..incredible. 
+You can supply collateral and earn more xvs interest or mint their stable coin Vai.  Yeah they have a stable coin and it will be listed soon as well.  It’s a safe and steady growth coin many believe will eventually hit the mc of Compound and or Makerdao.  It just needs more adoption and recognition, but that is coming w marketing soon!",2021-01-09 04:45:41
+reaper_1nine,This is probably accurate. MakerDao also has this option with the ETH-B vault.,2021-01-09 05:33:04
+cocobipbip,"You may be interested in ETHC EtherCorp, which OMERs invested in.
+
+It is essentially a holding company for Ether and MakerDao, both which earn a staking-yeild. You can get an idea of the stock's discount/premium by going to ETHC homepage to sum their total crypto holdings, and compare that to the share's market-capitalization. 
+
+The only reason to own ETHC over QETH is because ETHC earns a yeild in defi, whereas QETH doesn't (I think).",2021-01-09 06:02:25
+codecrushing,"https://app.defisaver.com/makerdao/manage
+
+There’s a button that says, “Transfer” that allows you to set a new owner.",2021-01-09 08:25:50
+Robert_the_Merciful,"I am not technically advanced enough to know if your idea would work or not...however, I am sure you could ""convert"" DAI to a different currency through a swap transaction and have it only settle later...thus keeping the original collateral in place while the swap is open.    Related kinda,  I wish someone would create this and overlay it on top of MakerDAO - it would be a smashing success and all the hardware/tech to do so is staring us all in the face: [https://we.incognito.org/t/the-cryptoshredder-blockchain-stablecoin-langolier-lango-proof-of-shred-proposal/2568](https://we.incognito.org/t/the-cryptoshredder-blockchain-stablecoin-langolier-lango-proof-of-shred-proposal/2568)",2021-01-09 11:10:17
+squarov,"On this day...
+
+In 2020:
+
+- MakerDAO [pitches](https://www.coindesk.com/makerdao-pitches-defi-to-the-masses-at-ces-2020) DAI on he Consumer Electronics Show (CES) in Las Vegas.
+- Fuel Labs [launches](https://github.com/fuellabs/fuel-core) and open-sources the public testnet for Fuel, ""the most efficient, scalable, and secure optimistic rollup chain on Ethereum"".
+- Plasma Group [ ceases](https://medium.com/plasma-group/on-to-new-beginnings-e9d76b170752) Ethereum scalability research and moves on to tackle the problem of funding and sustaining public goods.
+- ETH breaks previous habits at $139, or ₿0.01762.
+
+
+In 2019:
+
+- Ethereum testnet Rinkeby [forks](https://twitter.com/peter_szilagyi/status/1082986561304702976) to Constantinople.
+- ETH demurs to any movement at $151, or ₿0.03741.
+
+
+In 2018:
+
+- MyEtherWallet [debunks](https://twitter.com/EthereumBlue/status/950651849266401281) claims from ""Ethereum Blue"" that the former's DNS servers got hacked.
+- ETH laughs all the way to the bank between $1146 and $1300, or ₿0.07633 and ₿0.08911.
+
+
+In 2017:
+
+- Consensys [talks](http://media.consensys.net/the-birth-of-enterprise-ethereum-in-2017-ebe7f7abed92) about how it is banding together key adopters, supporters and shapers of enterprise usage of Ethereum, to create a platform not only for the technology, but also to provide the governance and tools to create a standard for ‘Enterprise Ethereum’.
+- Geth [v1.5.6](https://github.com/ethereum/go-ethereum/releases/tag/v1.5.6) ""Peach"" is released, improving the EVMs call stack and the overall EVM performance by 40%.
+- Polychain Capital invests in MakerDAO and will purchase 10,000MKR (1% of total supply) for USD 40,000.
+- ETH lingers in the shadows of $10.4 and ₿0.01146.",2021-01-09 14:17:00
+jsibelius,"Yes, one benefit of having custody over your funds is that you can actually *use them* in DeFi and to interact with the whole Ethereum ecosystem as a whole. In fact, once you try it, you will find that it provides incredibly powerful financial instruments. Throw them in MakerDao and you can get a decentralised, permissionless loan. (It seems in the future banks will accept stablecoins like Dai so it might be possible to them buy something directly with it instead of exchanging the dai for USD) I strongly encourage you to check out the whole DeFi space :) You can get mad returns on your ETH.
+
+Another benefit is that you don't have a ""counterparty risk"". This means that Coinbase (or another custodian of funds) being hacked or going down for some reason doesn't mean that you will lose your crypto. However, with more power comes more responsibility - you are now responsible for securing your crypto - you need to own a hardware wallet if you own a large amount to protect yourself from hackers. You need to manage your seed words (the words from which your private key is derived)  so you don't lose the funds.",2021-01-09 16:23:15
+AutoModerator,"Hello /u/JoeyC75! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-10 02:53:20
+Ika-Leon," 
+
+Most of you will have already an account with Coinbase, but for the ones that don't...
+
+Coinbase is a platform that allows you buy, sell, trade and store CRYPTO. It is the easier to use and one of the cheapest in fees.
+
+Follow my referral link: [coinbase.com/join/manoso\_0](https://www.coinbase.com/join/manoso_0?fbclid=IwAR0pZfUjeq4OEyFywJ-H9VgFCUazoKXrsi7O1ufkf-sQqF8L7zt64uWJvec) (no ref-no bonus)
+
+If you register, verify your identity and trade at least 100$ (75pounds or 83euros) through my referral code (no ref no bonus) they will give you 10$ (or the equivalent). Beware of finishing the registration process on the same device that you started!!
+
+After that follow the links to get some more crypto:
+
+1. Stellar Lumens 6$XLM [coinbase.com/earn/xlm/invite/t9hkjwx7](https://coinbase.com/earn/xlm/invite/t9hkjwx7?fbclid=IwAR1oOWC_6Wl391RPQBZ5eEP4OZOsIUHO8ERpX_0RQuNoqtaNFjfKEq_bbRk) (ref) There are some videos to learn about crypto and some questions at the end, the answers are: 1.A decentralized protocol that unites the worlds financial infrastructure 2.Facilitating low-cost, universal payments 3. Transactions are fast, inexpensive and global 4.To issue and exchange tokens quickly 5.It relies on a cooperation of trusted nodes
+2. Compound 9$COMP [coinbase.com/earn/comp/invite/brt2v9yw](http://coinbase.com/earn/comp/invite/brt2v9yw?fbclid=IwAR0-YyUXO0rq6_QFwoASMkYI_xcfvPH4fQfosuAFNdBrgco7p3deIQijcBY) (ref) 1. Earning interest on your crypto 2. Supply a crypto asset as collateral 3. COMP token holders
+3. The Graph 3$GRT [coinbase.com/earn/the-graph](https://www.coinbase.com/earn/the-graph) (no ref) 1.Blockchain data 2.GRT token 3.Curators
+4. Celo 6$CGLD [coinbase.com/earn/celo/lesson/1](https://www.coinbase.com/earn/celo/lesson/1) (no ref) 1. Making crypto available on mobile phones 2. Staking, governance, and stability 3. Using the Valora mobile app
+5. Maker 6$MKR [coinbase.com/earn/maker/lesson/1](https://www.coinbase.com/earn/maker/lesson/1) (no ref) 1.MKR and DAI 2. Who runs MakerDAO? 3. What do you need to generate DAI today?
+6. Band Protocol BAND -- NOT WORKING
+
+Enjoy! and thanks in advance :)",2021-01-10 04:22:16
+Beef_Lamborghinion,"You forgot t mention the loss of investors confidence in MakerDAO during the march debacle, in part due to a confusing liquidation process. At that time, people where even wondering if Maker would make it through.
+
+You mention however DAI loss of peg, but you present it as if it was a good thing (excess demand) whereas we were all worried about the health of our investment when DAI could not go back to peg after months.
+
+Finally, whales were perhaps worried when they realized that the original, decentralized DAI could never scale. Instead, Maker had to compromise and include custodial assets, which, for some people, was the end of this fantastic experiment because DAI would become partially centralized and censorable.
+
+So overall, while DAI is still thriving, there are some concerns on the long term success of the initiative. Personally, I loved the old DAI (SAI), I am ok to use the new DAI, but I put it on par with USDC now, even lower than USDC, since USDC has more regulatory clarity.",2021-01-10 04:26:14
+Kairenn,Can you elaborate on this? Aren't all MakerDao users owner of a unique wallet?,2021-01-10 04:34:26
+LastSecondClutch,"Throw it into MakerDAO, borrow DAI, and either boost your Cdp by buying more ETH and borrowing more DAI or yield farm with the DAI. You can automate this on DefiSaver",2021-01-10 06:23:00
+blackdowney,"And you can use those stablecoins to get actual loans from smart contracts on MakerDAO or lend them out in AAVE for passive interest in real time.
+
+&amp;#x200B;
+
+It's Ethereum's world and we're all just living in it now.
+
+Edit: Somehow people are gonna argue with a blockchain that almost settled 1 Trillion dollars in 2020",2021-01-10 07:15:07
+tonyyayo93,But I don’t understand why is no one talking? Also why is this wallet’s price just going up like that? I read a lot of bad things about makerdao but price is just mooning since last week or so,2021-01-10 08:21:03
+JustCryptoFun,"Not entirely true:  
+
+
+""MakerDAO launched with 1,000,000 MKR tokens at its inception. The tokens are created and destroyed under different circumstances. MKR is destroyed when the Maker Protocol’s system surplus exceeds a minimum threshold, resulting in excess Dai being auctioned for MKR that is then destroyed. Inversely, when the Maker Protocol is running a deficit and the system debt exceeds a maximum threshold, **MKR is created** and auctioned for Dai in order to recapitalize the system.""  
+source: [https://community-development.makerdao.com/en/faqs/mkr-token/](https://community-development.makerdao.com/en/faqs/mkr-token/)",2021-01-10 09:03:43
+ethereumflow,Do you know what MakerDAO is?,2021-01-10 13:22:06
+Treyzania,"&gt;the same way a program is coded into IOS apps
+
+This is pretty misleading.  The kinds of things you want to build using a smart contract is very specific and you want to go out of your way to minimize the amount of actual code running on the chain.  Smart contracts are relatively useless and you want to shift as much of the logic as possible to the client side, treating contracts on chain as at most basic of a primitive as possible.
+
+In the MakerDAO case, that primitive is fairly sophisticated so there does naturally end up being a lot more logic executing on chain to make it work.
+
+To OP:
+
+Think of contracts executing on chain as programs executing in a trusted fully transparent computer that anyone can pay a small fee to interact with.  You can only interact with contracts through specific interfaces, so you can treat these interfaces and the logic of the contract as trusted and can build more sophisticated systems using these primitives.  Systems like MakerDAO being one example.",2021-01-10 13:28:21
+fofinsky,"Also there is some bizarre group of old Ethereum heads (the spankchain douches/ICO criminals); pumper/dumper criminals (degen); and the decentralization junkies (USDC in Maker, oh the humanity!) who have nothing better to do than write hit pieces on twitter or shill childish memes. Why no one calls these people on their shit is beyond me, especially when some of them market themselves as ""former MakerDAO.""",2021-01-10 14:01:14
+eastsideski,MakerDAO being built on Ethereum is like Email being built on the Internet (TCP/IP),2021-01-10 17:23:02
+kwadrax,"&gt; Finally, whales were perhaps worried when they realized that the original, decentralized DAI could never scale. Instead, Maker had to compromise and include custodial assets, which, for some people, was the end of this fantastic experiment because DAI would become partially centralized and censorable.
+
+You should do a better job researching because it's been on the roadmap since day one to include other (also centralised) stablecoins and eventually off-chain assets, which will always require an enforceable legal framework.
+
+I understand a lot of people want a *100%* decentralised, permissionless stablecoin system, who doesn't, but MakerDAO's longterm goals to include off-chain assets eventually makes that impossible.
+
+MakerDAO didn't compromise on their system design, a lot of people just started with the wrong expectation of the system to begin with.",2021-01-10 20:27:46
+nikola_j,"You would do that by creating a collateralized debt position in one of the apps for managing positions in the MakerDAO protocol, such as Oasis (https://oasis.app, default Maker app) or DeFi Saver (https://defisaver.com, a 3rd party app with extra features).",2021-01-10 23:45:57
+Sharden,"You can see just how out of touch the people angry in VB's replies are here with the actual state of blockchain development in 2021. People are pulling out CryptoKitties as this ace in the hole for proof that Ethereum doesn't work...have they not heard of Uniswap? MakerDAO? Aave? 
+
+There's an entire financial world  with billions trading hands everyday these people don't seem to know about. The 'HODL' mentality really just leads to intellectual stagnation when taken to the extreme. I don't think these people have done any reading on actual blockchain development since 2017.",2021-01-11 01:20:04
+IllustriousExcen," 🚀💸 🚀🚀 Earn Free STELLAR XLM, and COMP - 157$ Value, All answers, Complete Guide
+
+Stellar Lumens (XLM) - **4 LEFT!**  
+[https://coinbase.com/earn/xlm/invite/dhfw3n04](https://coinbase.com/earn/xlm/invite/dhfw3n04)
+
+Compound (COMP) - **2 LEFT!**  
+[https://coinbase.com/earn/comp/invite/8jfqcksd](https://coinbase.com/earn/comp/invite/8jfqcksd)
+
+**Earn up to $157+** with Coinbase Earn by learning about Compound (COMP), and Stellar Lumens (XLM).
+
+**Answers**
+
+**Stellar Lumens (XLM) Quiz Answers - 50$ value**
+
+1. A decentralized protocol that unites the worlds financial infrastructure
+2. Facilitating low-cost, universal payments
+3. Transactions are fast, inexpensive and global
+4. To issue exchange and transfer tokens quickly and efficiently
+5. It relies on the cooperation of trusted nodes to confirm transactions
+
+* **Join the course:** [https://coinbase.com/earn/xlm/invite/dhfw3n04](https://coinbase.com/earn/xlm/invite/dhfw3n04)
+
+**Compound (COMP) Quiz Answers - 59$ value**
+
+Question: ""What's a key benefit of using Compound?"":​
+
+​Answer: Earning interest on your crypto​
+
+Question: What do you need to do to borrow crypto with Compound?​
+
+Answer: Supply a crypto asset as collateral​
+
+Question: Who gets to decide the future of the Compound protocol?​
+
+​Answer: COMP token holders
+
+* **Join the course:** [https://coinbase.com/earn/comp/invite/8jfqcksd](https://coinbase.com/earn/comp/invite/8jfqcksd)
+
+**CELO (XGLD) Quiz Answers - 6$ value**
+
+1. By making crypto accessible on mobile phones
+2. Staking, governance
+3. Using the Valora mobile app
+
+**Zcash (ZEC) Quiz Answers - 5$ value**
+
+1. privacy protecting crypto
+2. It keeps your financial info safe so it can not be sold
+3. Through a cryptographic breakthrough known as zero-knowledge proof
+
+**Algorand (ALGO) Quiz Answers - 6$ value**
+
+1. By being scalable, secure, and decentralized
+2. A randomly selected ALGO token
+3. ASA
+
+**Maker (MKR) Quiz Answers - 6$ value**
+
+1. What are the native assets of the Maker protocol?  
+
+   1. MKR and DAI
+2. Who runs MakerDAO?  
+
+   1. MKR holders
+3. What do you need to generate DAI today?  
+
+   1. A crypto wallet and crypto collateral
+
+**Filecoin (FIL) Quiz Answers - 6$ value**
+
+1. A decentralized marketplace for data storage and retrieval.
+2. Proof of replication and proof of spacetime.
+3. By its location
+
+**The Graph (GRT) Quiz Answers - 3$ value**
+
+* Blockchain data
+* GRT token
+* Curators",2021-01-11 03:33:39
+AutoModerator,"Hello /u/CharzardPLZ! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-11 03:35:29
+re76,"Basically the people who do their own research and can understand the implications of a technology like Ethereum have information that the rest of the population might not have.
+
+For example when I read about MakerDAO in 2018 I was beyond excited about the implications. At that point I could understand the implications and make some educated guesses about how it would create immense value. This was information I had that others did not. That’s all I mean when I say information asymmetry.
+
+It’s especially pronounced in the Ethereum because of the inherently technical nature of Ethereum.
+
+Does that make sense?",2021-01-11 04:46:14
+ttedder,I was trying to interact with MakerDAO,2021-01-11 12:04:17
+i-love-the-pink-one,"In late 2017, I got spooked by a big dip. I sold all of my holdings. I later bought back in in early January 2018, and we all know what happened after that. I've held all the way down, experimented with all manner of DeFi projects and fiddled with ETH Dapps.   
+
+This time, with a MakerDao CDP I opened last night for my stack, even though it is underwater by several thousand dollars, and even though it is collateralized at 225%, and even though I made this trade just after the monthly high (on its first bounce), I'm not selling. I'm going to ride it out this time. I'm confident of a very effective recovery, and there are now tools available to watch my CDP while I sleep or study.  
+
+I'm still gonna check the price every two minutes though. There's nothing that will fix that.",2021-01-11 16:07:19
+eastsideski,"&gt; DeFi itself has a ton of scams and ponzi schemes disguised has cryptos and exchanges, hard to distinguish what’s real and whats hype
+
+Maybe it's just because I'm deep into crypto, but IMO it's pretty easy to see what in DeFi is legit and what's dodgy.
+
+There's projects like MakerDAO &amp; Compound that are funded by big Silicon Valley VCs like A16Z, have offices, employees, etc. And then there's all the sketchy yield farms deployed by anonymous accounts.",2021-01-11 21:50:43
+Davidutro,"Come join us for a weekly recap of all the things that have been happening in the MakerDAO universe. Community members are welcome and encouraged to participate in the call by asking questions and engaging in discussions.
+
+
+---
+
+Check out the [weekly Maker Relay](https://forum.makerdao.com/tag/maker-relay) for the week’s updates.
+
+---
+
+**When:** Tuesday,  January 12th at 9AM PST | 5PM UTC | 12PM EST | 10AM MST | 6PM CET
+
+---
+
+**Join us!**
+[Event Page](https://www.crowdcast.io/e/the-makerdao-community-25/register)
+
+---
+
+**[Google Calendar Link for community events, calls, and more](https://calendar.google.com/calendar?cid=bWFrZXJkYW8uY29tXzNlZmhtMmdoaXBrc2VnbDAwOWt0bmlvbWRrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)** 
+
+---
+
+**Please add questions in the comments below if you wish to hear them answered or discussed**
+
+*Disclaimer:* These calls are recorded and posted on the web.",2021-01-11 23:32:13
+eastsideski,"&gt; The volatility of Bitcoin is what makes it attractive to trade for some people, but it also makes you not want to spend it.
+
+I'm as bullish on crypto as anyone, but I don't think it will ever be used as a medium of exchange.
+
+If anything, it will be used as collateral to create more stable assets (see MakerDAO)",2021-01-11 23:33:57
+AutoModerator,"Hello /u/foreign-cryptoer! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-11 23:54:03
+AlethiaArete,"If I remember right a portion of Dai is backed by Tether. That means Dai will be affected, but not as badly. MakerDAO has been smart in spreading out the collateral accepted among many different tokens. That should make a more steady Dai price in general.",2021-01-12 00:58:52
+AlethiaArete,"MakerDAO has protocol to allow Dai holders to claim crypto collateral if things truly go south for them. USDC, I've never heard of anything but USDC is pretty stable I think.
+
+I wouldnt mind holding eaither long term.",2021-01-12 01:02:03
+Mexicomank,"I'm bit new working with smart contracts . Same when it comes to the my ether wallet vault interface . Um I am slightly familiar with gas prices and gas limits , how do I manually view and adjust the gas price and gas limits for smart contract and if that doesn't work how should I contact dai ? Like I'm unsure if they have a website or support page ik makerDAO has a page but unsure if that be a entirely different entity and I should look for a better contact for dai specifically . Could you help me out a bit with that has price and gas limit viewing it in the smart contract? I would gladly pay back the dai I took but I need a bit of life line here as the markets are going down and like to pay it back sooner than later . Could you help me out with some instructions please ?",2021-01-12 01:39:16
+kwadrax,"Important for CDP/Vault owners:
+
+&gt; Once again, remember prices in @MakerDAO  are delayed by one hour. ETH will go down to 957, so plan accordingly...
+
+https://twitter.com/nanexcool/status/1348686079814209536",2021-01-12 01:56:08
+KyleLudeman76,"Well Augur is a gambling site but uses predictions and still good to use until now. It's great when you can still be unanimous using a platform, I saw there will be a podcast for Gnosis and PlotX this Friday 15th by MakerDAO.
+
+That would be a lot of info for prediction markets: [https://www.crowdcast.io/e/fridai-brunch-8](https://www.crowdcast.io/e/fridai-brunch-8)",2021-01-12 02:08:44
+LisaMartyn,"PreSaga could just be inspired by AMM-based prediction markets like Augur and PlotX, there's a lot of rumors about it on crypto communities.
+
+If you want to get more knowledge about these rising platforms you, should check this crowdcast by MakerDAO by this 15th of January: [https://www.crowdcast.io/e/fridai-brunch-8](https://www.crowdcast.io/e/fridai-brunch-8)",2021-01-12 02:14:01
+Kairenn,Thanks a lot for the reply. No I'm not trying to time the market I am new to crypto and Makerdao and there just happened to be dip when I just learned about borrowing using MakerDao. Guess I'm gonna have to wait for market to stabilize for lower fees then.,2021-01-12 03:38:32
+ChristopheL," In 2020, the Maker Foundation decided to move all their financial flows to one platform. Their goal: move to one easy-to-use, elegant invoice solution for all in- and outbound payments. 
+
+   
+Maker Foundation grantees and freelancers issue invoices through Request Invoicing. This allows Maker to easily make payments and have a complete record of their invoices, saving time and putting them on the cutting edge of payment innovation. 
+
+&amp;#x200B;
+
+More details here: [https://request.network/en/customer-stories/makerdao/](https://request.network/en/customer-stories/makerdao/)",2021-01-12 09:24:52
+steve-mieskoski,"As mentioned before the direct interface for MakerDAO vaults can be found at [https://oasis.app/borrow](https://oasis.app/borrow) .  You should be able to directly connect to oasis using your Trezor.  Further, to see the gas limit that was used find the transaction on [https://etherscan.io/](https://etherscan.io/)  .  Looking at similar transactions on etherscan it appears that the gas limit is typically between 250000 and 500000.  The gas amount should get estimated before the transaction is signed, but if this is not happening it could indicate a bug.  You can contact MEW support with the transaction hash of the failed transaction and we can investigate more in-depth.",2021-01-12 11:32:15
+DSPGerm,"Yearn, Augur, MakerDAO, Synthetix",2021-01-12 12:03:03
+itovault,"You can have a system like MakerDAO, where someone needs to deposit ETH to generate the token.  Why would anyone want to put up ETH to back it?  Well if they want to short the token.",2021-01-12 14:02:37
+itovault,"Sometimes an asset could be grandfathered in.  The MakerDAO was afraid the DAI was going to be a security for a long time, but then it turned out to be okay.  Are you mostly afraid the government taking the token from you?  Is that the main blocker for you (e.g. if they solved regulation, you'd buy it immediately).",2021-01-12 14:06:03
+BUIDL000,"On open market (exchanges), the peg is maintained by trading bots and traders that believe it should be on peg. Behind open market, within the MakerDAO system, the value of minted DAI tokens are maintained by the automated liquidation system that holds auction allowing bidders to obtain ETH below market value, using DAI, effectively recycling circulating DAI and burn them away, making unbacked debt disappear as the collaterals are released. This internal mechanism gives market participant confidence about the DAI's truly backed, hence they will go out to maintain the peg should there be any deviation. 
+
+When there's not enough market participant actively controlling the peg, the natural supply and demand will overwrite the strength of peg-maintaining traders. 
+
+Example scenario 1: there's an expansion in DEFI requiring larger amount of DAI than the existing circulating DAIs, the unavailability (shortage) of DAI will cause people to name a higher price on DAI to just get them in hands, creating competition with other DAI buyers. 
+
+Example scenario 2: Forget about DAIs, let's say CAD attempt to run fixed exchange rate with USD but offer a much higher saving rate or offer much greater CAD denominated investment opportunity while both countries have similar import/export with each other without trade imbalance. In this case, it will cost Canada central bank a lot of money to maintain the fixed exchange rate unless they stop/limit the inflow of USD into their country. 
+
+Likewise, if Maker governance made the wrong combination of policies, DAI will go off peg too, and it will cost MKR holders money, with the mechanism of printing more MKR or lower reduced MKR token price, or stagnant MKR token price in crypto overall bull market. It's in MKR holder's best interest to come up with policies to maintain the peg so their MKR holdings will worth something. 
+
+If you simply pull a fork without publicly telling people why you should be supported (think Roger Ver and Craig Wright), you won't get people to open up vaults to deposit collateral then print, and you won't get bidders to grab collaterals during liquidation auctions so your plan won't work out.  If the fork you created don't have any traction on the price of your forked MKR and there's not a group of governance people holding your forked MKR with interest in maintaining the peg of forked DAI, it will also collapse rather quickly.",2021-01-12 15:46:46
+nikola_j,"This explains it -  [https://medium.com/defi-saver/introducing-a-simple-makerdao-collateral-auctions-dashboard-53f8a1d8ce88](https://medium.com/defi-saver/introducing-a-simple-makerdao-collateral-auctions-dashboard-53f8a1d8ce88)
+
+Still haven't been any conceptual changes to the process afaik, though they do have a number of improvements in the works.",2021-01-12 17:52:07
+nikola_j,"Heya, if you're talking specifically about transferring a Maker Vault once it's created - yes, you can do that.
+
+See the ""Transfer"" option in the top right of our Maker dashboard at DeFi Saver once you login: [https://app.defisaver.com/makerdao/](https://app.defisaver.com/makerdao/)",2021-01-12 18:14:50
+mariouy1986,"Hi, welcome! you can start here https://github.com/makerdao/awesome-makerdao",2021-01-12 20:05:15
+itovault,MakerDAO already does this.  You'll have people who want to short the coin that will put in ETH to mint the token.  And then you'll have people who want to buy it.,2021-01-13 00:09:54
+Hakob_23,"Hey u/nikola_j, thanks for the response, 
+
+[https://app.defisaver.com/makerdao/liquidation/UNIV2DAIETH-A/1/0xf8a1c8f97cc22dde6f1f4c0593dae873b2e8765492a5809a401cd682739c98bf](https://app.defisaver.com/makerdao/liquidation/UNIV2DAIETH-A/1/0xf8a1c8f97cc22dde6f1f4c0593dae873b2e8765492a5809a401cd682739c98bf)
+
+Here it is",2021-01-13 01:08:58
+Ok_Understanding5588,Absolutely the best right now!  It continues to profit and grow.  Do a deep dive into the community.  https://youtube.com/c/MakerDAO,2021-01-13 02:24:55
+gremlin0x,"It totally does. MEV is actually a problem now. Miners can prioritize their own transactions over others for zero fee, miners can collude to reduce hash rate during peak load times. Not only that, in the Black Thursday even when people were submitting high gas transactions to flood the network and manipulate MakerDAO auctions, it was clear price manipulation can be used to create second order arbitrage. There is clear evidence that there are forces which can skew prices and cause more congestion, and this non-sense needs to end as soon as possible.",2021-01-13 03:11:24
+Yurion13,"correct me if I am wrong. I believe the Maker tokens are bought from the market and burned based on profit. People pay interest to borrow Dai tokens, that interest is a good source of profit for MakerDao.",2021-01-13 03:26:52
+wereldatlas,And you ask this in the makerdao reddit? I have no idea,2021-01-13 04:38:29
+4rch3r,"All memes and liquidity mining aside, I also highly recommend being active in MakerDAO voting! It's important for everyone's voice to be heard.  Be careful of high gas fees though...",2021-01-13 09:43:28
+AutoModerator,"Hello /u/Winter_Ad8711! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-13 12:24:25
+KyleLudeman76," Easy to predict when you got no stakes in it. Why not use prediction markets like OMEN, AUGUR OR PLOTX where you can win or lose in your predictions. MakerDAO is having friDAI brunch this 15th to talk about world of prediction markets with Plotx and Gnosis as guests.  
+
+[https://www.crowdcast.io/e/fridai-brunch-8](https://www.crowdcast.io/e/fridai-brunch-8)",2021-01-13 14:49:05
+LisaMartyn,"I only know of Navcoin back in 2018 and didn't hear from them ever since. Though your picks seem fine, i think it lacks something like prediction markets. There are many good ones like Augur, Omen, HXRO, and Synthetix but Plotx looks to be the biggest potential. They only have short markets like daily and weekly compared to others that sometimes settle in years. 
+
+MakerDAO is hosting a talk about world of prediction markets this 15th and guests will be Gnosis and Plotx. This could be a good learning opportunity.
+https://www.crowdcast.io/e/fridai-brunch-8",2021-01-13 15:57:52
+Leecifer19,"The two platforms capture a different part of the DeFi market. They both have a good edge, imo.
+
+Aave is focused on lending and deposits much like Compound and MakerDAO. Different models but the same purpose for the protocols. According to [DeFi Pulse](https://defipulse.com/), Aave holds the number two spot for lending by locked value.
+
+Synthetix is in the derivatives market, and they offer a variety of tokenized financial tools to hedge your positions based on where you think the market is heading. [DeFi Pulse](https://defipulse.com/) has Synthetix in the number 1 spot for derivatives by locked volume.
+
+Both AAVE and SNX are great projects but each focus on a different market. Both are good long-term positions to have.
+
+If you want expose to multiple DeFi projects, I recommend checking out the [DPI token.](https://www.tokensets.com/portfolio/dpi)
+
+Sometimes it’s hard to bet on one horse.",2021-01-13 16:51:00
+dapp_com,"Check the correlation of token price &amp; dapp data👇
+
+[**https://www.dapp.com/app/makerdao**](https://www.dapp.com/app/makerdao?utm_source=rd)
+
+For more findings, check the real-time ranking👇
+
+[**https://www.dapp.com/dapps?sort=2&amp;time=1&amp;type=0**](https://www.dapp.com/dapps?sort=2&amp;time=1&amp;type=0?utm_source=rd)",2021-01-13 18:34:28
+packet,In a future with fully deployed eth2 and near-zero transaction costs with stabilized assets (like MakerDAO) where do you see nano? Is nano really going to be used to transact on a daily basis when there is no means of stability from market forces?,2021-01-14 01:02:37
+iambabyjesus90,"“In the real world” Aave, Synthetics, Uniswap, makerdao and dai, oracles, fuck the list goes on and on. You clearly missed all of the gains. Feels bad. Try educating yourself. It weirdly actually works.",2021-01-14 03:19:38
+BigglyBillBrasky,"This space just keeps getting better, fixed rate MKR loans with Yield Protocol:
+
+https://medium.com/yield-protocol/fixed-rate-loans-for-makerdao-users-c652b4186caa",2021-01-14 08:58:12
+Skretch12,"They weren't staking with makerdao they where borrowing Dai on the maker platform with that ether as collateral then they got liquidated during a market crash which was their own fault. What wasn't their fault was that the system maker had set up for liquidating loans wasn't working correctly so they lost all their ether instead of just some of it. This was not a problem with the Ethereum blockchain it was a problem with an app built on it, it would be like blaming Microsoft if Photoshop crashed on your computer.",2021-01-14 11:44:14
+Skretch12,"It didn't do anything to the network, or even others using the maker platform only people that had loans that where too close to their liquidation price where affected. I had a loan on makerdao at the time this happened and I wasn't affected at all since I was over collateralized.",2021-01-14 12:39:57
+liemont21,"How about prediction platforms that uses automated market making? I'm now using PlotX market prediction that let's you earn high yield rewards from predicting and staking.   
+
+
+I guess you should join the gatherings about how prediction platforms became popular -- we can see Gnosis and MakerDao there. Its gonna be full of information and knowledge about it   
+January 15,2021",2021-01-14 13:29:25
+labrav,"None of them are what I would call ""safe"". Too new, too experimental, too untested. Even the MakerDao misfired last year.",2021-01-14 13:42:59
+DappRadar,"Top 3 projects ranked by TVL:  
+
+
+1. WBTC: TVL - $4.30B, aTVL - $1.27B
+2. MakerDAO: TVL - $4.10B, aTVL - $1.63B
+3. Uniswap: TVL - $3.14B, aTVL - $2.90B
+
+[Visit DeFi page](https://dappradar.com/defi?utm_source=reddit&amp;utm_medium=organic&amp;utm_campaign=rankings) for more information.",2021-01-14 18:41:09
+76ersbasektball,What's the feeling like on MakerDAO,2021-01-14 19:07:15
+nikola_j,This post briefly explains Maker collateral auctions and introduces a UI we created for participating [https://medium.com/defi-saver/introducing-a-simple-makerdao-collateral-auctions-dashboard-53f8a1d8ce88](https://medium.com/defi-saver/introducing-a-simple-makerdao-collateral-auctions-dashboard-53f8a1d8ce88),2021-01-14 20:30:17
+Revanchist1,"https://help.defisaver.com/general/are-there-any-fees-for-using-de-fi-saver
+
+&gt;DeFi Saver is an advanced management app for decentralized finance protocols and we have built-in service fees for our advanced features. We will list all existing fees per each of our dashboards below.
+
+&gt;**MakerDAO, Compound and Aave dashboards
+Standard interactions** (e.g. Add/Withdraw collateral; Borrow/Pay back debt)
+have **no service fees.**
+
+
+
+&gt;**Advanced interactions** (Boost, Repay, Create leveraged position, Close leveraged position) have a **0.25% service fee** (of the transaction size).
+
+
+&gt;**Automation adjustments have a 0.3% service fee** (of the transaction size, per automated adjustment).
+(Simply having your position Automed and monitored by the Automation system does not include any sort of fee over time.)
+
+
+&gt;**Loan Shifter**
+
+&gt;Depending on the complexity of the shift you are making, any **existing fees will differ**.
+
+&gt;**Protocol shifts have no service fees**, but do **include a 0.09% Aave flash loan fee**.
+&gt;**Collateral and Debt shifts include a 0.25% service fee, as well as a 0.09% Aave flash loan fee.**
+
+
+&gt;**Exchange**
+All token swaps in the separate Exchange **have a 0.125% service fee** (of the transaction size).
+Smart Savings dashboard
+All options in the Smart Savings dashboard are without any sort of service fee.
+The fees collected help us continue and accelerate further DeFi Saver development.
+
+&gt;We will always publicly disclose any changes to existing fees in DeFi Saver in a timely manner.",2021-01-15 01:18:47
+AutoModerator,"Hello /u/jordan_gio! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-15 02:44:55
+AlethiaArete,"People already get liquidated when theres a
+crash. As much as its thier fault for not understanding the risks, you dont want liquidations especially since a lot of crypto people dont get finance at all. Having both sides of the equation volatile increases overall risk by 2x at first look.
+
+The worst case is the asset (silver, for instance) skyrockets up 50% as in my example above and the collateral (WBTC, ETH) crashes some 50% (or more) as is known to happen and suddenly you have a 100% swing and everyone with less than 200% collateralization is liquidated.
+
+The way it is with USD is that since USD is whats being measured, only one pole of the equation can swing meaning while you CAN get massive falls in ETH or whatever of 50%+ your not going to get in a situation where your adding another 50%+ to the swing and thus 150% is relatively safe (200%+ is better) and people still get liquidated during the big drops because they go full on risk and leverage to the hilt without realizing risk is risk.
+
+MakerDAO is meant to be stable. That's why they added a ton of collateral types and even stablecoins. There are other platforms that allow for assets like your talking about, MakerDAO doesnt need to do that too.
+
+And honestly in most cases debt is not good. When you use a system like MakerDAO, Nexo, Compound, etc for a loan your locking up between 150%-200% of value that could be earning interest and your paying interest on top of it for 100% of value and then theres gas fees also. Your earning less money taking a loan unless you transfer what you borrowed into an asset and capture a moonshot. I'd rather just buy outright under those terms.
+
+Finally, PAXG looks pretty trustworthy for a crypto. If you want a decentralized version of a metal, than buy it physically and keep it in your house.",2021-01-15 03:01:11
+AutoModerator,"Hello /u/jordan_gio! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-15 03:13:21
+AutoModerator,"Hello /u/AdvisorInfinite5552! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-15 03:52:47
+twitterInfo_bot,"
+\#DeFi
+@AaveAave, @compoundfinance, and @MakerDAO collectively added 6.32 Billion USD across their TVL in the last three months.
+
+$AAVE $MKR $COMP 
+
+***
+
+posted by [@CoinSmartAlpha](https://twitter.com/CoinSmartAlpha)
+
+[Video in Tweet](https://video.twimg.com/ext_tw_video/1349815666128388096/pu/vid/432x270/LSLD8rzox4GRQxtV.mp4?tag=12) 
+
+^[(Github)](https://github.com/username) ^| ^[(What's new)](https://github.com/username)",2021-01-15 04:38:10
+Sharden,"Aave, Compound, MakerDAO and Uniswap are the 4 horsemen of DeFi. In a space that is filled with so many sketchy projects I have complete faith in those 4 teams to ship safe, production ready code.",2021-01-15 06:18:50
+maqstica,"I would prefer to wait until we have a clear date in sight to for the ETH bridge to be completed. But, we are making good progress. Building the ETH-ZIL bridge requires us complete the following sub-projects:  
+1. Adding new language constructs to the smart contract language =&gt; This is done.  
+2. Writing the cros-chain contracts =&gt; This is done and has been tested as well.  
+3. Adding a few new things in the blocks to allow light clients to check transaction data =&gt; This is more or less done but needs testing and integration at the protocol-layer.  
+3. Writing a relayer that will pass information from ZIL chain to ETH chain =&gt; This is work in progress but needs 3 to be fully ready  
+4. End to end testing  
+
+
+Once we have all this done, we will have to build some front-end interface for end users.   
+
+
+The bridge will bring more assets on the ZIL chain such as ETH and other ERC20 tokens. This bridge is somewhat generic, so it can also connect to BTC allowing people to wrap their BTC and bring it on the ZIL chain. Once these assets are on the ZIL chain, they can be used in LP pools on ZILSwap -- a Uniswap-like DEX or can be used as collaterals in Pillar which is similar to MakerDAO. More assets would mean more on-chain transaction volume which would mean more gas paid to the network. And with the new tokenomics, this would mean more ZILs get taken out of circulation benefitting the entire ecosystem as it will help capture token value.",2021-01-15 21:12:43
+maqstica,Pillar: [https://pillarprotocol.com/](https://pillarprotocol.com/) which is a MakerDAO like application without the MKR token. MKR is replaced by gZIL the governance token issued to stakers.,2021-01-15 22:34:13
+CryptoTAFA," this was from the ZIL AMA today, I ask them about what they will do for 2021 and here is the answer.
+
+In 2021, we will focus on the following key areas:
+
+1. Dev Tooling and Usability: We developed quite a few toolkits for developers to use but I think we need to add a few more and improve upon what we already have.
+2. Governance: So, far we the core development team has been on the driving seat but we plan to change it by providing the community the right tools to do so. Through our staking programme, we are distributing governance tokens aka gZIL to the stakers which can be used to vote on all aspects of the protocol. Just yesterday, we launched a governance portal for gZIL holders to vote on. More will come on this.
+3. DeFi dapps: In 2020, with the help of our ecosystem partners, we saw a stablecoin being launched, a DEX, staking and several fungible tokens. More DeFi dapps such as MakerDAO like applications will be launched in 2021. We expect a lot more tokens as well.
+4. ETH-ZIL Bridge: We are currently building a bridge between ZIL and ETH. This will bring assets like ETH and other ERC20s on top of Zilliqa including BUSD (Binance USD).
+5. Core protocol optimizations: Last but not the least we will continue to improve the platform to increase the throughput and lower the latency.",2021-01-15 23:28:51
+AusIV,"You wouldn't really use a smart contract that way.
+
+What you might do is have the employer put the employee's wages into a timelocked escrow contract. If the employee completes their tasks, they can claim the money from the contract. If the employee doesn't show up for work, the employer can intervene and stop the payout.
+
+In this example, it would be possible for the employer to cancel a payout despite the employee doing the work - with several caveats. Since it's happening on a public blockchain, future employees could see that this was a common practice of the employer. Additionally, the employee could see that the money for their wages exists and is allocated to them, so there's no risk that the employer actually doesn't have the money.
+
+More practically though, smart contracts are used for more atomic transactions. With something like MakerDAO or compound, you can collateralize an asset of an established value and borrow another asset against your collateral. If you don't pay back your debt, your collateral gets taken, but nobody is even capable of taking your collateral while you are meeting the terms of the loan. You can also trade digital tokens through smart contracts; you make an offer that you'll pay X units of Token A for Y units of Token B, and someone else can complete that trade, but only under the specific terms spelled out by the contract. Tokens themselves are smart contracts, which have specific rules for token issuance, transfers, etc.
+
+It doesn't totally do away with the need for contracts in the physical world where an employer commits to paying an employee for providing a service that cannot be measured by a smart contract, but it covers off a lot of neat use cases.",2021-01-16 00:30:11
+Erasmus1254,"Who best to give that answer than Amrit Kumar, one of the Zilliqa Co-founders and current President on the core Zilliqa team. He wrote these two responses to questions regarding the ETH bridge in the r/cryptocurrency AMA today.
+
+Question: What makes Zil’s ETH bridge stand out when compared to other project’s ETH bridges that are set to be rolling out in the near future as well ?
+
+Amrit's response: ""I think the main difference would be what users could do once those tokens are moved from ETH to another network. There has to be a usage for those tokens beyond just trading. On the Zilliqa side, it could be used on ZILSwap to provide liquidity, in Pillar as a collateral or other yield generating products. In the end, the success of a bridge will depend a lot on how much the community is engaged in driving the liquidity.""
+
+Question:Which month of Q1 will the ETH Bridge be completed, and how will that improve Zilliqa compared to other cryptos?
+
+Amrit's response: ""The bridge will bring more assets on the ZIL chain such as ETH and other ERC20 tokens. This bridge is somewhat generic, so it can also connect to BTC allowing people to wrap their BTC and bring it on the ZIL chain. Once these assets are on the ZIL chain, they can be used in LP pools on ZILSwap -- a Uniswap-like DEX or can be used as collaterals in Pillar which is similar to MakerDAO. More assets would mean more on-chain transaction volume which would mean more gas paid to the network. And with the new tokenomics, this would mean more ZILs get taken out of circulation benefitting the entire ecosystem as it will help capture token value.""",2021-01-16 04:35:28
+MFJaber,"EARN 
+New fresh Invites are here for you:
+XLM $50 - https://coinbase.com/earn/xlm/invite/2pkcj043 2/4
+Answers:
+Stellar is a decentralized coin that unites currencies.
+Facilitating low cost, universal payments.
+Fast, secure and global.
+To issue and exchange tokens quickly.
+It relies on the cooperation of trusted nodes.
+COMPOUND $59 - https://coinbase.com/earn/comp/invite/xycg2570 1/4
+Answers:
+Earning interest in your crypto.
+Supply a crypto asset as collateral.
+COMP token holders.
+BAND $43 
+Answers:
+Real World Data
+Oracles
+Earn crypto rewards
+MakerDAO
+MKR and DAI
+MKR holders
+A crypto wallet and crypto collateral
+Celo
+Making crypto available on mobile phones
+Staking, governance, and stability
+Using the Valora mobile app",2021-01-16 06:41:21
+Silly-Ad7859,"hahaha! I think a lot of people are like this kid.   
+Pretending to be correct but actually not lol   
+
+
+But now I learned a lot. The moment I joined the talks about prediction platforms w/ Gnosis Plotx and Makerdao I found out that we can also be educated on prediction and also harnessing out skills.",2021-01-16 07:46:11
+adosti,"1 Start with purchasing dai or other stablecoims  and earn high yield
+2 if you have ether or bitcoin, you can get a collaterized loan I makerdao. Collaterized loans seem foreign to us in US but they are standard practice in most parts of the world when credit systems do not exist.
+3 now imagine being able to tokenize your home and getting a loan directly from ethereum echosystem bypassing the banks. Barely any fees, will take minutes to take a home equity loan, use money to buy a car using a stablecoin on ethereum
+Point 3 above is not ready yet but that's where things are going. My advise is start with number 1 above and buy aittle ether and stake for long term. One day your ethereum wallet will be your credit union. Good luck!",2021-01-16 10:49:03
+gremlin0x,"MakerDAO. You would lock wBTC or renBTC, then borrow DAI against it.",2021-01-16 14:18:20
+AutoModerator,"Hello /u/SkinnyTonyBK! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-16 20:19:18
+AusIV,"Right. My understanding is that MakerDAO temporarily assumes any debt that isn't backed by collateral, and at some point after they will issue additional MKR to buy DAI to pay down the debt.",2021-01-16 20:21:26
+AusIV,"Okay, let's look at a hard example with numbers.
+
+Say you deposit 1 ETH today, and borrow 700 DAI against it. Today you can do that, but tomorrow there price of ETH just absolutely falls off a cliff and ETH goes to $600 in a matter of hours. You now have 700 DAI worth of debt and 600 DAI worth of collateral. Makerdao sells 100% of your collateral for 600 DAI, but they're out 100 DAI. 
+
+That means there is 100 DAI floating around that nobody needs to unlock their own collateral, which violates some of the assumptions that keep the system stable. To get that 100 DAI back, new MKR is issued and sold, the DAI is destroyed, and there is no longer more DAI than there is DAI debt.",2021-01-16 21:23:58
+timedrepost,So basically once MakerDAO integrates Stellar as collateral this project is useless..,2021-01-16 22:03:29
+BUIDL000,"Because the collaterals within the system is reduced and unbacked DAIs failed to get recycled during the collaterals auction, not healthy for the peg. MKR tokens are minted to be auctioned off to RECYCLE unbacked DAIs. There is system surplus (living at makerdao system internal balance sheet) collected from stability fees, if surplus remains positive after burning the unbacked DAI from the surplus, MKR token does not have to be minted.  Keep in mind that it's in MKR holders best interest to make sure MKR auction price is non zero and as high as possible to recycle unbacked DAIs as efficient as possible. If words got out that MKR were continuously named 0 DAI per MKR then the system will collapse as that would be deemed inability to raise funds, inability to recycle DAI, inability to make sure all DAIs are backed, market confidence on value of DAI unknown.",2021-01-17 00:53:04
+HodlDwon,"You mean how I sold the last of my MKR for 1.8 ETH each and now MKR is 1.3 ETH? I think this post aged just fine.
+
+No I didn't buy the bottom, yes fundamentals look better with Dai burning, but Maker Foundation still sucks balls just as much as it did 6 months or a year ago. I still stand by my points above that Maker ""Governance"" is in failure mode. And that MakerDAO is barely, if at all, ""decentralized"".",2021-01-17 02:15:20
+mgeale,"MakerDAO could quite easily be deployed onto Avalanche's C-Chain. Avalanche is a network of blockchains and it's C-Chain is basically Ethereum (or the EVM) running on Avalanche's own super fast consensus protocol. You can re-deploy the MakerDAO smart contracts as they are onto Avalanche's C-Chain and they would work.
+
+I personally would love to see DAI on Avalanche [https://www.avalabs.org/](https://www.avalabs.org/)",2021-01-17 02:49:21
+wereldatlas,"Any asset that is accepted on makerdao, maker holders vote on these types of things",2021-01-17 03:23:49
+Midwest_Parrothead,"Cardano has REALLY seamless staking.  Can stake from a hardware wallet, no minimum requirements, no locking coins, no penalties.  Has a lot of great updates coming within the next couple months on top of everything they built during the bear market.
+
+MakerDAO governs the DAI stablecoin which continues to grow in marketcap as well as total value locked.  More recently the [MKR burn](https://makerburn.com/#/) has really started to take off too.  IMO, the fact that fees from this prominent DeFi ecosystem are leveraged to then burn MKR at a measurable rate adds a lot of value.
+
+IMO, there are a lot of valuable Top 50 projects  and everyone has their own preferences.  It's important not to become blindly loyal to projects though.  IMO, the future is likely to be multi-chain and that's perfectly fine.",2021-01-17 07:05:15
+slimsalmon,"So do you think it's likely that exchanges like coinbase or wallets like argent will start to have transfer fees closer to those of ltc or btc in the next several months by implementing rollups?  Or likely uniswap will be able to provide vastly lower fees for things like setting up liquidity pools, and MakerDAO being able to create smart contracts with vastly lower fees in as short a time as well?  
+
+I hadn't yet heard about rollups and had only been reading or watching video of everyone saying the transition to staking would provide the majority of the scaling and lower gas price.",2021-01-17 12:22:20
+AutoModerator,"Hello /u/SkinnyTonyBK! I regret to inform you that your comment has been automatically removed because your account is too new. This is to help us prevent spam from proliferating this subreddit. But don't fret! Our threshold for commenting is very low. Try commenting again here in a couple of days.
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-17 13:26:58
+peppers_,MakerDAO and Dogecoin.,2021-01-17 22:42:22
+nikola_j,"It's still one asset per Vault even in the newer version of the Maker protocol.
+
+A Vault is still a collateralized debt position / CDP, so just two names for the same thing.
+
+Maker introduced the Vault name with Multi-collateral Dai in order to better differentiate the two versions of the protocol, since they were running side by side for a few months. Now that the older Single-collateral Dai no onger exists if you ever see someone refer to a CDP, they're talking about Maker Vaults.
+
+Interestingly, many other protocols have adopted the Vault name as of recently, while CDP is a term specifically attached to MakerDAO only in this space.",2021-01-18 00:28:42
+AutoModerator,"Hello /u/SkinnyTonyBK! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-18 04:00:00
+everynameitryistak3n,"This is what I was going to say (Celsius or Blockfi).  Loaning DAI on Compound has a variable rate, so it is not always 13%. And, depending on how much you are talking about here, the gas fees for making a vault, generating DAI, and putting it on Compound mean it could take you a couple months just to break-even.
+
+Also, the apr you get for keeping ETH on Celsius is currently 5.5% (5.25% on Blockfi).  Let's say with the makerdao/compound route you maintain a safe 300% collateral.  So you earn 13% on the DAI you borrowed, which is 1/3 the value of your staked ETH.  In terms of the total value of your ETH tied up in it, you are earning 4.33%.
+
+I say just putting the ETH on Celsius or Blockfi is cheaper to do, pays a better rate, and you can take your ETH back at any time.",2021-01-18 08:26:24
+gremlin0x,"This is fair but you're forgetting flash loans. A lot of stablecoin protocols need to have an infinite mint flash loan built in. MakerDAO is considering this soon by the way, so you can mint as much Dai as you want for a flash loan. Every stablecoin procotol should have this feature built in soon.",2021-01-18 12:19:05
+DeviateFish_,"&gt; I'm not sure what prompted you to reply this. I don't disagree with it at all. That's exactly what I meant with the race for position continuing as-is.
+
+I was replying to the ""people don't know what they could pay to still get included"" bit :)  Some people are very aware that they could pay less and still get included, but inclusion isn't what's important to them.
+
+&gt; Sure you can use the median gas price, but it would still be more than you would have needed to pay for inclusion. This is just basic tragedy of the commons.
+
+I don't see how this is a tragedy of the commons situation though.
+
+&gt; Given that it is trivial to prove, please share a link or elaborate on that proof. I fail to see how it doesn't conflict with your earlier statement that ""Basically, fees escalate more quickly under EIP-1559, and are incapable of staying at sustained high levels for as long as they can under the first-price auction, meaning demand spikes are dampened more harshly than they currently are.""
+
+We've had multiple times over Ethereum's history where the transaction pool grows more than twice as fast as the quantity of transactions that get included on the blockchain.  Any time this is the case, even having 2x blocks won't keep up with that level of demand.
+
+Unfortunately, it's not like anyone logs transaction pool statistics.  The closest thing I have for a source for that was when the mempool got flooded to help push the zero-bid liquidations in... MakerDAO, I think it was?
+
+It doesn't conflict with my earlier statement because it's an example of it.  When there are huge spikes in demand like this, an inelastic block size means the spike is over when the backlog is transacted; under EIP-1559, transactions cannot get included until the `basefee` drops to an adequate level.  Given that this requires a reduction in demand (and mining multiple blocks of &lt; 1x throughput), I suspect this means that spikes are stretched over a long period, during which time *only* the highest-paying transactions can be included, even if there is available space.
+
+&gt; How does it make it more expensive to end users? Worst case (spikes of &gt;2x demand), we reduce to the first-price auction system that we currently have.
+
+The cost of inclusion goes up during periods of large demand, and require a ""cooling down"" period before a lower cost of inclusion is achieved.  In the first-price model, the spike is done when all of the high-paying transactions are included, which means the very next blocks can be full of lower-paying ones, without having to wait for `basefee` to decline far enough to include them.
+
+In order to compensate for this, users will have to pay more, on average, to meet the bar for inclusion.
+
+In light of the above, I'm not sure you can actually completely separate ""inclusion"" and ""position"", given that ""inclusion"" is just ""position"" with respect to blocks, rather than position within a block.",2021-01-18 13:56:26
+Neophyte-,"i think proof of personhood is more useful for governance tokens. its easy for whales to make many accounts for example in regular governance e.g. makerdao proposals. actually a better example is what happened with steemit and dpos, hard forks can be agreed on with delegated stake, and hwo has the biggest wallets? exchanges. they were complicit in the attack and claimed after that they ""thought /s"" that they were protecting the blockchain, im sure they got kickbacks from sun
+
+with DID and SSI it might work but its still got the same problems with dividing tokens over x no of accounts. its just a bit harder, you could just farm out zombie accounts given people 50$ in stablecoins as a ""prize"" if they sign up for it and their identity can be used. this would be a malicious vector.",2021-01-18 14:45:00
+Heshil007,"""If we are doing 100,000 TPS across many chains is Nano really necessary"" - this vision is yet to be realized, there is also some loss of composibility in sharded systems... Nano's vision is here and now
+
+""Projects like MakerDAO have proven we can provide stabilized assets without the need for reserves"" - not sure this is accurate, makerdao have various reserves that are over collateralized. Algorithmic stable coins are still in the experimental phase
+
+There will always be a market for instant and feeless transactions.... I think that market can then be segmented into USD vs. non-USD. Nano is competing for the latter. As the US continues to print USD, the market for the latter continues to grow. 
+
+So overall I still think Nano has a shot at a instant, feeless, non-USD money.",2021-01-18 16:53:31
+da-future-is-bright,"&gt;Can MakerDAO exist on a different blockchain?
+
+Yes it can, but there are three obstacles:
+
+1. Collateral/DeFi - other chains will need to have new, desirable collateral types for Maker to use, as well as a broader DeFi ecosystem
+
+2. Community - many here think Ethereum is the ultimate chain, so there may be difficulty persuading some that bridging or a full migration is necessary",2021-01-18 19:07:24
+richards_86,"In a period where there is more potential for upward price action, I'd be looking at leveraging the ETH I have to purchase more ETH. There are a variety of ways to do so, but the one I like is using MakerDao's vaults. Now, with that being said it does require a little more ETH than doing something on a more centralized platform as transaction fees can be a bit of a bite but in the grand scheme of things, it wouldn't matter if the leverage is deployed at the right time and managed effectively.
+
+Essentially the process would be:
+
+\- Open MakerDao ETH-A vault (or ETH-B if you don't mind a higher fee for slightly more leverage | you can also do wBTC and a bunch of other collaterals)
+
+\- Lock your ETH in- Mint a DAI (a loan to yourself)
+
+\- Swap DAI for ETH- Lock ETH into the vault
+
+When it comes time to close your leveraged position, with enough price action up you'll be able to pay the stability fee and outstanding DAI balance with a fraction of the ETH you bought on borrowed money. What I like best about this approach is that you're dealing in DAI and your collateral of choice, no other side token hustle.",2021-01-19 03:47:14
+mngigi,"For assets that become successful, being treated as a first class asset the same as ADA incentives them to remain within the Cardano ecosystem rather than look to build their own blockchain. An example would be how some people within the MakerDao and Chainlink community are calling for them to build their own chains.",2021-01-19 05:28:57
+cryptofomo,"it’s a perfect solution IF the price of ETH keeps going up. The risk is a sudden crash that catches you unaware and you get liquidated) hopefully this exploit is fixed https://insights.glassnode.com/what-really-happened-to-makerdao/)
+And don’t forget you will be charged interest on your DAI...and that interest rate might change (it got ridiculously high some time ago)- unless they now offer fixed rates?
+
+An less risky alternative might be to borrow from a conventional bank and ‘lend’ you ETH on oasis, using the interest earned to pay the bank loan off??",2021-01-19 05:30:30
+pietjepuk_,"&gt; We've had multiple times over Ethereum's history where the transaction pool grows more than twice as fast as the quantity of transactions that get included on the blockchain. Any time this is the case, even having 2x blocks won't keep up with that level of demand.
+
+&gt; Unfortunately, it's not like anyone logs transaction pool statistics. The closest thing I have for a source for that was when the mempool got flooded to help push the zero-bid liquidations in... MakerDAO, I think it was?
+
+&gt; It doesn't conflict with my earlier statement because it's an example of it. When there are huge spikes in demand like this, an inelastic block size means the spike is over when the backlog is transacted; under EIP-1559, transactions cannot get included until the basefee drops to an adequate level. Given that this requires a reduction in demand (and mining multiple blocks of &lt; 1x throughput), I suspect this means that spikes are stretched over a long period, during which time only the highest-paying transactions can be included, even if there is available space.
+
+I'm sorry. Is this the ""trivial proof"" you alluded to? It does not really look like a proof to me, let alone trivial to perform. You're saying that if would have history of the entire mempool (and magically somehow know how actors would increase/decrease their gas prices under different circumstances), we could prove that EIP-1559 does not help. Foregoing the proof, I would've expected you to at _least_ run some ""trivial"" simulations modelling the behavior you mention, and showing that EIP-1559 is worse (or not better) than first-price auctions.",2021-01-19 05:35:50
+soomba2,"is there a write-up somewhere of a comparison between different ways to benefit from DeFi? for example the advantages of a CDP vs. staking vs. vaults etc.
+
+I've had a CDP on MakerDAO for quite some time, but I'm looking to eventually move to something less risky. I'm considering staking but would like to weigh all my options before making a decision. Thanks in advance",2021-01-19 08:51:48
+ethereumflow,You can do DeFi things like AAVE or MakerDAO.,2021-01-19 12:03:07
+Revanchist1,"ATH today! I can feel it in my bones! 
+
+
+All this consolidation near the ATH makes me feel more comfortable that we won't just dip when we hit ATH and might perform similar to BTC and blow past all time high with a minimal dip. 
+
+
+ETH price is important in the long run. I made a post before where I said it's All or Nothing. If Ethereum accomplishes its goal/aim, it WILL have a market cap in the trillions. The price of ethereum is liquidity for the system - Economic bandwith. It allows more things to be done on the network. 
+
+Ethereum is so young and all the applications that have been developed already is mind-blowing. A few years ago, I could not imagine half the thing we have today. What are we going to see 5+ years from now? I know new applications will be developed but I don't know what they will be. So far everything has been somewhat similar to what we have today with traditional finance. But we are already seeing applications stray from their traditional counterparts. And the fact that systems can be freely be built on top of one another is only going to accelerate these developments.
+
+There will be pillars/supporting structures in Ethereum that will be worth holding. MakerDao and Uniswap come to mind. These two support structures have allowed so many new applications to be built. Synthetix and Aave also come to mind. They are pillars that will further be developed upon by other applications.
+
+Keep an eye out for new applications that create new ""support structures"" that allow new functions that have never been done before. Makerdao with Dai - stablecoin, Aave with flash loans, Synthetix with Synthetic Assets, Uniswap and their AMM. Disclaimer: I don't own of these tokens (swapped uni airdrop for eth almost immediately). I'm all in on ETH.",2021-01-19 16:41:20
+mngigi,"What makes DEFI work in ETH is composability or the ability to allow different financial services to be plugged into each other..example would be how uniswap, makerdao, 1inch, balancer, Chainlink and others all plug in together. One good DEFI project is not enough you need multiple projects powering each other and increasing each other's use case. Building DEFI on Ethereum is like putting Lego stacks together. Currently a small blockchain called Near Protocol has been attracting Chainlink, 1inch, Balancer and MakerDao to build on them because they are a shared blockchain, can help them ease congestion and will help them prepare on how to build a compostable system on a shared blockchain similar to ETH 2.0. Cardano will require an entire ecosystem and talented developers..Cardano will need to play nice with other blockchains to achieve this.",2021-01-19 19:23:00
+fjkiliu667777,"Yep But never tried it I’m a bit afraid and the interest rate is way lower (5%) compared to the other coins
+
+And taking a loan is very expensive in there compared to the defi space (MakerDAO charges 2.5%)",2021-01-19 20:47:28
+Davidutro,"### Special Segment
+
+We will be joined by Allan Niemerg, founder of [Yield Protocol](https://yield.is/), to talk about their new fixed-rate product that utilizes the Maker Protocol.
+
+---
+
+Come join us for a weekly recap of all the things that have been happening in the MakerDAO universe. Community members are welcome and encouraged to participate in the call by asking questions and engaging in discussions.
+
+---
+
+Check out the [weekly Maker Relay](https://forum.makerdao.com/tag/maker-relay) for the week’s updates.
+
+---
+
+**When:** Tuesday,  January 19th at 9AM PST | 5PM UTC | 12PM EST | 10AM MST | 6PM CET
+
+---
+
+**Join us!**
+[Event Page](https://www.crowdcast.io/e/the-makerdao-community-25/register)
+
+---
+
+**[Google Calendar Link for community events, calls, and more](https://calendar.google.com/calendar?cid=bWFrZXJkYW8uY29tXzNlZmhtMmdoaXBrc2VnbDAwOWt0bmlvbWRrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)** 
+
+---
+
+**Please add questions in the comments below if you wish to hear them answered or discussed**
+
+*Disclaimer:* These calls are recorded and posted on the web.",2021-01-20 00:20:20
+Jiecut,"If you're on coingecko you can click the (i) next to circulating supply. They don't include 0x8ee7 (team) from the circulating supply.
+
+From Maker docs.
+
+&gt; [0x8ee7d9235e01e6b42345120b5d270bdb763624c7](https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?a=0x8ee7d9235e01e6b42345120b5d270bdb763624c7) is the MakerDAO Multisig that holds undistributed MKR and is owned by the foundation. It is also referred to as the Development Fund",2021-01-20 00:48:01
+Downtown-Deposit,I keep hearing that MakerDao should be a security. Anybody know where this is coming from?,2021-01-20 02:11:24
+frank__costello,"Uniswap: permissionless decentralized exchange
+
+Aave &amp; Compound: permissionless decentralized borrowing &amp; lending
+
+MakerDAO/Dai: permissionless decentralized stablecoin",2021-01-20 02:14:32
+hexoctahedron13,"Uniswap, MakerDAO, Aave, Synthetix, Curve, Compound and many more.
+See here: https://www.stateofthedapps.com/platforms/ethereum",2021-01-20 04:08:43
+4rch3r,"Dai is completely decentralized and cannot be blocked or frozen (unlike other stablecoins like USDC).  
+
+Slightly confused what you mean by ""makerdao devs to block dai savings"" but the makerdao governance decides all the Dai and SF rates and they're publicly voted on here: vote.makerdao.com",2021-01-20 04:43:50
+ZjaZjoe,"Then do Defi like MakerDao
+
+Either way gl. Nobody went broke taking profits. I do think you are taking profits at the start of the bull market not the end.",2021-01-20 07:00:15
+FollowMe22,"I think MakerDAO is a really interesting project (I've even posted on their subreddit recently), however it is a very novel mechanism and I'm not sure the market is assessing the risk properly on the collateral underlying the CDPs.
+
+I'll stick with boring fiat for now!",2021-01-20 07:29:52
+alibyte,"Not a holder but:
+MakerDAO with DAI. Decentralized stablecoin can help people in areas with unstable currency and spend it anywhere.",2021-01-20 07:48:04
+FidelHimself,"Simply put, a DAO is a way to organize around a common purpose. The first DAO was MakerDAO and their purpose is to lend dollars, accepting Ethereum (a cryptocurrency) as collateral. 
+
+A DAO makes up it's own governance model depending on the participants and the mission. [Curve.fi](https://Curve.fi) provides liquidity for large trades to make them less expensive. Token holders recieve the profits proportionate to their stake and vote on the general direction of the DAO.
+
+We do this in a permission-less fashion, meaning any child with funds and proper knowledge can interact without a bank or license and begin earning money.  Individuals interact directly with the protocol so their is are no middlemen. There are software developers who code the new features of the DAO but nothing is commited to the blockchain without a vote from the DAO. Said programmers are paid by the DAO which is all visible on a public blockchain.
+
+By comparison, we don't even apply blockchain to traditional government voting which is criminal imo.
+
+Anyway, you apply a DAO to a traditional HOA and you have basically what I'm advocating for. HOAs usually cover basic maintenance and/or security for a community but I'm suggesting that they provide basically everything the traditional governments provide today. In this way we don't have to all live under each other's rules. My Capitalist community can be a quarter mile from a Communist community so long as both communities have voluntary participants. How much conflict would this solve today?
+
+Socialists could form their own DAO with a token that re-bases or redistributes the entire token supply over night for example. Or a less extreme example could be Socialists only except CommieCoin and you can only get CommieCoin by surrendering privately owned means of production. This may be a ridiculous example but it demonstrates how creative you all can get if you want.",2021-01-20 08:47:53
+ethereumflow,"Cosmos are upgrading to IBC which brings their whitepaper to reality. Interblockchain communication. This will link their sovereign blockchains together. There will be a new AMM called UnifiDAO built to be the one stop shop for all Cosmos assets. The uniswap of Cosmos. 
+
+Secret Network have implemented secure enclaves to their Secret Chain which allows for private computation and privacy preserving smart contracts. They will also be upgrading to IBC and will have their own anti front running DEX. Think Uniswap but fully private. 
+
+KAVA is the DeFi platform for Cosmos. Similar though not directly comparable to MakerDAO. They have a CDP that features a cross chain transfer option for BNB and Binance Smart Chain tokens like BUSD and BTCB. Even XRPB if you want.",2021-01-20 09:44:03
+superphiz,"Looks like I can't borrow DAI from MakerDAO.. I've been out of that loop for several months, can someone suggest a link regarding the debt ceiling?",2021-01-20 11:05:30
+decibels42,"https://twitter.com/makerdao/status/1351219907694891013?s=21
+
+They had a bunch of new governance polls posted yesterday to raise the debt ceiling.",2021-01-20 11:07:31
+dmihal,"Anyone who wants to borrow Dai before the ceiling is raised can check out Yield Protocol ([https://yield.is](https://yield.is)), which has fixed-rate borrowing and is built on top of MakerDAO",2021-01-20 19:56:17
+nikola_j,"Hey u/oakridgefarm and u/Mkkoll.
+
+Automation for MakerDAO runs on Maker price oracles and your configurations. Regardless of current market prices, the boosts (and repays) will happen based on the price in the Maker protocol as that is what affects your ratio.
+
+As of now, Boosts happen only based on the current price, not nextn one. So only once the next price becomes the current, live price.
+
+That means that a boost will happen even if the market price potentially went lower than what the Maker oracle updated to.
+
+Next price is only considered for Repays, where an Emergency Repay will be triggered when a next price gets scheduled that pushes your ratio less than 10% above the liquidation ratio for the used collateral.
+
+And the next oracle price is on chain, too, it also goes through the OSM.",2021-01-20 21:23:25
+nikola_j,"That's how the Maker oracles work - they update every full hour, at which point the next price update is also set. This doesn't change regardless of any market movements during that hour.
+
+This post explains it, if you're interested: https://medium.com/defi-saver/how-defi-saver-knows-price-changes-before-you-do-a-quick-look-at-makers-new-price-oracles-d928e2f10882
+
+And yes, Automation for MakerDAO runs based on Maker oracles, as that's what affects your CDP/Vault ratio and liquidation price.
+
+On the other hand, Automation for Compound runs based on their Open price feeds and Automation for Aave runs on Chainlink.",2021-01-20 21:41:24
+latetot,That would also destroy USDC though unless there was a government order in which case makerdao would have enough time to unwind the USDC CDPs,2021-01-21 11:40:52
+dapp_com,"Hello, you can check MakerDAO's on-chain performance (users/transactions/volume/social signal) here: https://www.dapp.com/app/makerdao?utm_source=rd",2021-01-21 11:49:20
+BigOldWeapon,"Any other airdrops you know of lately for users of Uniswap, Kyber, Curve, Radar Relay or MakerDAO?",2021-01-21 16:03:51
+FaceDeer,"If literally *none* of them switch over, then the new fork never gets going and the old fork remains as-is.
+
+This is pretty unlikely, though. Even if miners organize and a large number decide to remain on the old fork, some number will switch to the EIP-1559 fork instead. This would result in a contentious fork, with both sides continuing to run in a similar manner to Ethereum and Ethereum Classic.
+
+At that point the users will decide which chain they prefer. It's unlikely that the result will be ""both"", they'll pick one or the other en masse (since much of Ethereum's value these days comes from network effects - if only one chain has a functioning MakerDAO, for example, lots of other dapps will only function well on that chain).
+
+This will result in one of the chains having tokens with value similar to Ether's current value and the other chain having tokens worth a lot less. The one with high-value tokens will be able to support a lot of miners, the one with low-value tokens will only be able to support a small number of miners. Market forces will drive the miners to the high-value chain - those who refuse to follow the market will hemorrhage money.
+
+So if it's looking like there's going to be a contentious fork there may be a couple of days of rough markets while this all gets sorted out, but I expect in the end the user-preferred chain will continue as if there hadn't been a contentious fork in the first place and the user-dispreferred chain will remain as an irrelevant minor coin nobody in particular uses.
+
+Given how popular EIP-1559 seems to be with users and developers, I expect that'll be the chain that survives. It may not pay miners as well as it did before EIP-1559, but it'll be preferable to not being paid at all and so miners will mine it.
+
+Users really do hold the ultimate authority in cryptocurrency, they decide how much a token is worth based on how much they're willing to pay for it.",2021-01-21 17:57:55
+Jiecut,"One indirect benefit, if there isn't enough demand for DAI, MakerDAO would have to raise the DSR and pay DAI to encourage borrowers.",2021-01-21 19:15:25
+darkphoenix2610,I've been curious on this prediction market then I saw this Plot and Gnosis they conducted a podcast last January 15 hosted by MakerDao. I like how Ishgoel answer the questions the most I like that he mentioned was on how they are going to improve their incentive alignment mechanisms- for users. Many users will use their platform if they see lots of benefits that they will get.,2021-01-21 23:50:55
+slow-motion-disaster,"I'm not. If - as suggested - central banks decide to issue a stablecoin that links crypto and traditional finance, MKR's value goes way down.
+
+I wrote about this further here: https://www.reddit.com/r/MakerDAO/comments/kyv4zi/implications_of_federal_reserve_backed_stablecoin/?utm_medium=android_app&amp;utm_source=share",2021-01-22 04:43:47
+kwadrax,"&gt; Just saw my transaction fee on Ethereum Scan. Transaction fee was 0 ** . ** 071 ETH. Is this why?
+
+Yes, the network is pretty congested and everything, especially complexer contracts like MakerDAO, cost a lot to use right now. They should have blocked you in the UI, before sending you to an actual Ethereum transaction for this small amount.",2021-01-22 04:48:18
+AutoModerator,"Hello /u/Square_Image2289! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-22 06:12:32
+stablecoin,"https://app.defisaver.com/makerdao/manage
+
+When you create a CDP, pick the ""Leverage"" option and it automatically buys ETH with the DAI generated and adds that into the CDP collateral. 
+
+There was some Debt ceiling deal going on the other day so not sure if DAI is able to be generated at this point. Worth checking out if you are interested.",2021-01-22 09:17:09
+nikola_j,"You most definitely can, yes :)
+
+You can do that using our Loan Shifter - just select the Protocol option and it should be fairly straightforward from there.
+
+Here's a quick guide for A to B, the steps are pretty much the same, just go the other way: [https://www.reddit.com/r/MakerDAO/comments/jfg5l3/how\_to\_convert\_an\_etha\_vault\_to\_ethb\_or\_any\_other/](https://www.reddit.com/r/MakerDAO/comments/jfg5l3/how_to_convert_an_etha_vault_to_ethb_or_any_other/)",2021-01-22 10:08:57
+AutoModerator,"Hello /u/mudofan! I regret to inform you that your comment has been automatically removed because your account is too new. This is to help us prevent spam from proliferating this subreddit. But don't fret! Our threshold for commenting is very low. Try commenting again here in a couple of days.
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-22 11:21:35
+AutoModerator,"Hello /u/mudofan! I regret to inform you that your comment has been automatically removed because your account is too new. This is to help us prevent spam from proliferating this subreddit. But don't fret! Our threshold for commenting is very low. Try commenting again here in a couple of days.
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-22 11:39:18
+charmquark8,This has nothing to do with MakerDAO (also: there was NO double-spend).  Go spam some more appropriate sub.,2021-01-22 14:19:57
+Crypto_Economist42,"This is a terrible rate. and it's going to harm makerDAO.
+
+They should drop it immediately back to 1-2%",2021-01-22 19:49:31
+AutoModerator,"Hello /u/Pitto-! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-22 23:48:40
+nikola_j,"Rotki ([https://rotki.com/](https://rotki.com/)) is more of a portfolio tracking app, than it is tax focused, afaik, but it could potentially provide a meaningful export for MakerDAO. Haven't tested yet, though, to be perfectly honest.
+
+If you do give it a try, please let me know how it's looking right now. We could probably collaborate with them to improve things in terms of boost/repay info.",2021-01-23 02:49:14
+Mcumabs,"Loved the brunch session hosted by MakerDAO last week. Learned many things about prediction markets and Plotx and Gnosis in details. Though I use Plotx since they have short markets which I like as I dont want my funds to be locked for too long, I might try Gnosis some time as well.",2021-01-23 04:46:25
+fat_ji8,Can anyone help me out - I’m looking at making a CDP on defisaver with makerdao. What is the difference between “eth-a” and “eth-b” as the collateral types?,2021-01-23 07:18:04
+AutoModerator,"Hello /u/Afangideh! I regret to inform you that your comment has been automatically removed because your account is too new. This is to help us prevent spam from proliferating this subreddit. But don't fret! Our threshold for commenting is very low. Try commenting again here in a couple of days.
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-23 23:10:36
+shazow,"Not all work is done to directly profit from it. Sometimes the goal is to advance the entire ecosystem, and possibly profiting indirectly by exposure to ETH for example.
+
+That said, some stablecoins have management DAOs with their own tokens that pays the bills, such as MakerDAO funds work on DAI.",2021-01-24 02:41:59
+greengenerosity,"Simplest explanation for why some legitimate crypto company complying with the laws and regulations would launch their own stablecoin is just the publicity and prestige since the coin in volume and marketcap becomes a proxy for the trust of the actual company, the USDC web page starts out with how it is a Circle / Coinbase partnership. I don't know of any other direct financial reasons why they would do it, I don't think they have any income from the interest of the cash reserves.  
+
+
+The people behind DAI get prestige and influence and it is a proof of concept from the makerdao organization. It is the smallest of the big coins despite being the most crypto with supposed provable collateralization.  
+
+
+I know Binance does not fit in your question, but it is easy to see that ""Binance USD"" is basically advertisement for their exchange and a partnership with a company called PAXOS (Which has their own stablecoin called ""Paxos Standard"") PAXOS advertises three way 1:1 conversion between BUSD/PAX/USD and advertises itself as a way to exit crypto through stablecoin-to-wire transfers.  
+
+
+Stablecoins themselves let people who want to exit the price of ETH do it without having to go to a centralized exchange. The only way to stay in crypto while not risking a IOU on a exchange at a fixed price is to hold the private keys of a stable coin, stablecoin-collapse or frozen-address risk only. Stablecoins does not make it easier to enter crypto, but it is supposed to make it easier to exit with less KYC/AML by sending the stablecoins to some service that then does a wire transfer.  
+
+
+The potential minuscule upside for non-criminals and crime victims of regulated stablecoins like USDC is that they can freeze coins that are stolen/scammed/involved in crime, Circle will freeze any address that law enforcement requests them to as a example.",2021-01-24 06:36:50
+MrMoustacheMan,"So there will definitely be [CBDCs](https://www.investopedia.com/terms/c/central-bank-digital-currency-cbdc.asp) coming in the near term, but as the name implies they are not decentralized.
+
+imo the issue with most crypto is that, even if they're satisfactorily decentralized, they are treated more like speculative assets, and the volatility may not make them attractive as a currency (though they are divisible). While BTC was supposed to realize the cypherpunk dream of ecash per the whitepaper, it's transaction fees and confirmation times make that untenable so it is now considered more attractive as a sore of value akin to e-gold.
+
+Proponents of some projects like Nano I think are more optimistic that near instantaneous transactions and low fees make it more viable as a currency, but I'm not well versed enough to argue the point there.
+
+I would say something like MKR/DAI may be of interest to you:
+
+https://academy.binance.com/en/articles/a-guide-to-makerdao-and-dai",2021-01-24 08:43:47
+nikola_j,"Or https://defisaver.com/, that other MakerDAO app.",2021-01-24 10:27:28
+Redac07,"This, people are truly missing the point. Most likely haven't even watched the summit parts about it. This is HUGE. This tech KILLS Makerdao and DAI. We get to truly become our own banking system through this. Jesus and people whine about the name lol.",2021-01-24 17:03:13
+frank__costello,"Maker's plan was always to back Dai with real-world assets, USDC is just the first iteration. There's talks of Rune from 2017 talking about backing Dai with tokenized real estate, as an alternative to mortgages.
+
+The real safety of MakerDAO comes from a diverse set of collateral. If USDC gets frozen, but it's only backing 5% of Dai, then the system can easily absorb that loss. And right now, the majority of collateral is still ETH.",2021-01-24 17:36:32
+cryptOwOcurrency,"According to daistats.com, DAI is backed 26% by USDC. That's more than I'm personally comfortable with.
+
+As a side note, I wonder what happened to the class action lawsuit against MakerDAO for their handling of Black Thursday.",2021-01-24 18:32:39
+cryptOwOcurrency,"Anybody have an update on MakerDAO Black Thursday compensation?
+
+Last time I saw, they initially voted to compensate vault holders, but then the voting on specific proposals resulted in a deadlocked. And the class action lawsuit against MakerDAO went to arbitration.
+
+Any more news?",2021-01-24 18:35:59
+kwadrax,[Real Vision Crypto episode about MakerDAO for those interested](https://www.realvision.com/shows/expert-view-crypto/videos/stablecoins-the-bedrock-of-decentralized-finance),2021-01-28 04:49:33
+somethingknew123,"Regarding your makerdao comment, that's Kolibri and kUSD currently on testnet and should launch soon.",2021-01-28 07:04:09
+Compound_Team,"For users that supplied SAI (which was called ""DAI"" at the time), these balances were not migrated to the new asset. This is a good thing; SAI is currently worth about 6.50 DAI (yes, really).
+
+* To withdraw SAI from the protocol, visit the [Dashboard](https://app.compound.finance/) (SAI only appears for users with a balance of SAI)
+* To migrate SAI to WETH, and unwrap WETH to ETH, see the [MakerDAO SAI app](https://sai.makerdao.com/)",2021-01-28 07:21:04
+AutoModerator,"Hello /u/megaone2! I regret to inform you that your submission has been automatically removed because your account is too new. This is to help us prevent spam from proliferating on this subreddit. But do not fear! A message has been sent to the moderators, and if this submission is a genuine contribution, then it will be manually approved by the moderators. 
+
+In the meantime, please familiarize yourself with the [reddiquette](https://www.reddit.com/wiki/reddiquette), as well as /r/MakerDAO's rules, located in the sidebar [or by following this link](https://www.reddit.com/r/MakerDAO/about/rules).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MakerDAO) if you have any questions or concerns.*",2021-01-28 08:29:29
+ethereumflow,"If KAVA was on Ethereum it might have more attention but until the implement IBC they rely on the Binance Bridge for support of assets. As BSC and Cosmos ecosystem grow so to will KAVA. 
+
+KAVA are adding the final touches to their Hard protocol and also working on BTC support in their platform not through Binance BTCB.
+
+Their more like MakerDAO than Uni or DOT. DOT is more comparable to ATOM and Cosmos.",2021-01-28 16:29:52
+CuriousDetective0,"It turns out MakerDAO vaults don't issue a token. They issue you a CDP (Collateralized Debt Position) which contains your tokens, you can draw dai against it and you can pull your collateral out of it. Nobody else can do that, your are technically still in possession of it. 
+
+In order for it to be an exchange doesn't some other party need to receive your tokens and give you something in exchange?
+
+How is this much different from this product? [https://blockfi.com/crypto-loans](https://blockfi.com/crypto-loans)",2021-01-28 19:22:26
+nikola_j,"You can use AAVE as collateral in both MakerDAO and Aave (v2) itself. Both can be done at [https://app.defisaver.com/](https://app.defisaver.com/) or in the default (Oasis/Aave) apps.
+
+In MakerDAO the minimum collateralization ratio for AAVE is 175% (so a maximum \~57% LTV), while in Aave v2 the maximum LTV (or collateral factor) is 50%.",2021-01-29 02:19:16
+Neophyte-,"yeah this already existts actually synthetix has already tokenised some etfs, maybe some more.
+
+how it works under the hood, not sure. you would need price oracles like in makerDaO to price DAI. i guess chainlink could be used. that said tracking a stock / index is different to tracking USD for decentralised stableccoins because if you say tokenise TSLA you would need to provide some way for settlement i.e. buying / selling. this again would need to be done via the oracle as its outside the blockchain.
+
+honestly i wouldnt touchc this products with a 10 foot pole. just open up a brokerage account. but yes i see the point about trading commodities / stocks in a censorship resistant fashion. that said if stock xyz is banned on all real brokerage exchanges. how could blockchain possibly gain exposure to the stock? perhaps if the company issued their equity on blockchain. which then would remove the need for collateral to represent synthetic assets like in synthetix. 
+
+a stock if issued on a permissionless blockchain could just be represented as an ERC20 token on eth for e.g.",2021-01-29 04:50:15
+intersecting_lines,"i would start looking into how Ethereum works and then into DeFi
+
+bitcoin is popular because it's trusted and it works. It's simple as hell though, basically it's just a ledger that is not owned by 1 person (a central bank) but by everybody who participates in said network
+
+Ethereum is a base layer upon which decentralized applications can be built on top of. Start researching coins like MakerDAO, Synthetix, AAVE, UNISWAP. That is where the future is heading",2021-01-29 09:31:22
+blackdowney,"Check out the daily in r/ethfinance for people that will hold your hand through the whole onboarding process and any issues.
+
+Start with MakerDAO on ETH, its been battle tested for years now.",2021-01-29 09:46:01
+hrishinext,"ETH should not ride this wave.  You need to fix ETH ethics first.  ETH based platforms are still controlled by developer ecosystem with multiple unethical decisions (example MakerDAO zero attack liquidations etc etc) . With Robinhood atleast there is accountability to hold someone by their neck, whom would you hold liable in DeFi?",2021-01-29 14:49:16
+hrishinext,"I was pretty committed to MakerDao and other DeFi platforms, until i got burnt by unethical attack from MakerDao developers.",2021-01-29 15:53:59
+4rch3r,you can use MakerDAO to take leveraged long positions on ETH by taking out Dai on ETH and then exchanging it for more Dai.  Keep in mind you pay ~3% fee on your Dai loan though!,2021-01-29 17:07:51
+socketshot,"With the greatest respect you don't have a clue what you're talking about. The entire point of algorithmic stablecoins is that they don't require collateral. The entire point of algo-stables is that they are decentralised and uncensorable in comparison to the centralised stablecoins like Tether or USDC. They use game theory incentive mechanisms to encourage network participants to keep the price at peg. A good example of this is the coupon model in DSD. To date - they've been quite terrible experiments, only benefitting the rich. However as with all technology, iterations are required.
+
+&gt; Stablecoins are the leaders?
+
+You've completely missed my point here. You need to look into MakerDAO &amp; Dai to understand what I'm talking about. Decentralised Finance on Ethereum required stablecoins for it to work. People can't engage in financial activities and the associated risks of liquidation if the system is backed by volatile assets. This is where collateralised debt positions come into the picture. I asked you in my previous reply to explain if you understood this and you conveniently ignored it. This is an area for you to further your knowledge. Remember as I said, only the wise succeed here.",2021-01-30 00:52:28
+atleft,"I always recommend giving MKR (MakerDAO) a look, and while you're at it investigate DeFi as a whole, including AAVE and UNI (Uniswap).",2021-01-30 01:18:40
+socketshot,"The point of MakerDAO is that it allows people to create stable assets out of volatile assets. This is achieved by opening what is called a ""collateralised debt position"". 
+
+- A user deposits or ""collateralises"" some of their own assets into a Maker vault (eg 10 Eth @ $1300 per Eth). 
+- The user then has a balance of 10 Eth in their maker vault which they can use to mint Dai. 
+- The protocol requires all minted Dai to be ""over collateralised"". This means for the 10 Eth in the vault you can only mint at most 5 Eth worth of Dai (aka 200% collateralisation).
+- The user now has $6500 worth of Dai which they can pay back at any time to get their 10 Eth back.
+- If the price of Eth was ever to fall below $650, the users collateralised position would be liquidated. This is the point of the over collateralisation requirement - it gives the user breathing room on the underlying volatile asset.
+
+This approach to stablecoins falls under the category of ""collateralised stablecoins' and I believe the above explains your question about ""soft-pegging"", collateralisation = soft pegging.
+I would also group RSR in this category, although their product is designed with very different use cases to Dai.
+
+The 2 other types of stablecoin are 1-1 backed such as Tether and USDC, and algorithmic stablecoins as explained previously.",2021-01-30 01:46:56
+MrMoustacheMan,"Yea, I'm a bit of a dumb dumb in understanding how it works but the overcollateralization aspect I think accounts for that/any volatility from having crypto as the collateral
+
+https://academy.binance.com/en/articles/a-guide-to-makerdao-and-dai",2021-01-30 02:34:05
+alibyte,I don't believe you've heard of Dai by MakerDAO? Has held peg for several years now. And layer 2 solutions like Loopring make it near-free.,2021-01-30 12:37:42
+video_geek,Good write up here of some of the shortcomings of DAI from last years’s crash but def some concerns about how it can handle intense crashes and network congestion. It almost became insolvent on March 12 2020 but they’ve been working to avoid this happening again. I own some but think UDSC is a safer bet https://link.medium.com/lvv1VWw6sdb &amp; https://blog.makerdao.com/the-market-collapse-of-march-12-2020-how-it-impacted-makerdao/,2021-01-30 20:56:30
+i-love-the-pink-one,"Can anyone recommend projects on various test networks to try out?  
+
+I decided that, seeing as I hold Zkswap tokens (which I purchased because I was looking for a random moonshot in which to put $100 of ETH), I should do some more research into the token. Given my limited information I started with (medium and cointelegraph articles written by Zkswap themselves) as well as their social feeds, I thought it best to try it out on Ropsten. Now, I haven't tried Loopring yet (as I've been saying I would for the past few days) but if the experience is similar to what I've tried tonight....  
+
+Damn! Layer 2 exchanges are awesome! Transactions are cheap as chips, basically instant and it's all so smooth! I'm learning about how quickly and easily I can transfer my tokens and safely, cheaply and quickly swap them for others. I'm also beginning to learn about providing liquidity as an investment strategy, which means I understand a little bit more about Yearn.Finance and Curve. Maybe I'll take a dip on those platforms in the next few weeks.  
+
+Just quickly, can anyone recommend any other test network dapps that I can try out to learn? If rather try stuff that doesn't make me want to cry when I look at fees.wtf .  
+
+Its so much fun actually using this stuff instead of just holding or trading! I feel like I did when I discovered MakerDAO and SAI for the first time, or when I looked into Enzyme.finance . There's so much on offer!",2021-01-30 22:20:46
+kys_ka,"Freeliquid, it's a MakerDAO fork with only 3.6mil market cap, it also was mentioned by WAVES CEO.",2021-01-30 23:14:04
