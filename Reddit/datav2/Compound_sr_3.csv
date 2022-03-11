@@ -1,0 +1,132 @@
+title,url,author,score,created,numComms,permalink,flair,body
+SPECIFICALLY FOR ATOMIC WALLET USERS,https://www.reddit.com/r/Compound/comments/lwiouu/specifically_for_atomic_wallet_users/,Born-Standard1817,0,2021-03-03 10:13:31,2,/r/Compound/comments/lwiouu/specifically_for_atomic_wallet_users/,NaN,[removed]
+Account value not aligned?,https://www.reddit.com/r/Compound/comments/lwkaox/account_value_not_aligned/,FamousPussyGrabber,3,2021-03-03 11:41:32,8,/r/Compound/comments/lwkaox/account_value_not_aligned/,NaN,"Noticed that, when I connect my wallet to the online app (app.compound.finance), the account balance shown in my “supply” is several dollars less on the web than on my wallet app. Wondered if anyone knew why there’s a disparity."
+PSA: You earn Compound tokens when you supply AND borrow on Compound,https://www.reddit.com/r/Compound/comments/lwy0db/psa_you_earn_compound_tokens_when_you_supply_and/,leakyvalve,18,2021-03-04 00:32:14,58,/r/Compound/comments/lwy0db/psa_you_earn_compound_tokens_when_you_supply_and/,NaN,"Just wanted to bring awareness to this topic because IMO this is Compound's biggest value and I feel like not many people know about it.
+
+Let's say I supply Compound with $5,000 USDC and the APY for USDC is 5% and Compound distribution APY is 4%. That means I earn 5% APY for USDC and 4% in Compound for supplying.
+
+I then look to the borrow assets column to borrow USDC.  The APY to borrow USDC is 6% and Compound distribution is 5% APY.  This means that I can borrow USDC at a 6% interest rate and EARN 5% in Compound for borrowing.
+
+If I completely ignore the interest I am earning for supplying USDC, the loan to borrow USDC is really only 1% because I am earning 5% in Compound for borrowing.
+
+If I do not ignore the interest I am earning for supplying USDC, I am getting paid to borrow USDC.
+
+Leave a comment below if you were completely unaware of this concept as I was a month ago."
+Is cDai/Dai rate ever-increasing?,https://www.reddit.com/r/Compound/comments/lxiclt/is_cdaidai_rate_everincreasing/,Virtual_Ad_3722,2,2021-03-04 19:23:35,9,/r/Compound/comments/lxiclt/is_cdaidai_rate_everincreasing/,NaN,"This is a dumb question and perhaps is asked many times. As title suggests, I thought the exchange rate should be ever-increasing, otherwise it doesn't make sense that for example, I deposit 10 DAI with rate 0.02, but redeem later with rate 0.019 which amounts to less than 10 DAI that I initially deposited.
+
+However, when looking at [https://www.coingecko.com/en/coins/compound-dai](https://www.coingecko.com/en/coins/compound-dai), we can see the price of cDAI is fluctuating, so the above scenario is possible? How to interpret the price chart here? I know DAI fluctuates in USD, so perhaps a cDAI-in-DAI chart will show correctly the non-decreasing price? Or I misinterpret the mechanism of cDAI?
+
+Another example is interest-bearing ETH from Alpha. I thought ibETH value in ETH would be non-decreasing so ibETH holders can redeem increased amount of ETH over time at any moment. However, the chart [https://www.coingecko.com/en/coins/interest-bearing-eth](https://www.coingecko.com/en/coins/interest-bearing-eth) suggests again the fluctuation.
+
+Could some ELI5? Thanks!"
+Is the interest rate you are paid to lend on compound fixed when you enter the contract? Or does it change with the market like a flexible rate loan?,https://www.reddit.com/r/Compound/comments/lxninb/is_the_interest_rate_you_are_paid_to_lend_on/,zappybolts,5,2021-03-04 23:48:33,17,/r/Compound/comments/lxninb/is_the_interest_rate_you_are_paid_to_lend_on/,Question,I’ve been looking around for an answer to this and cannot find anything. Any help would be appreciated!
+How to contact Compound for help??,https://www.reddit.com/r/Compound/comments/ly14se/how_to_contact_compound_for_help/,Sell_Inside,1,2021-03-05 09:50:35,8,/r/Compound/comments/ly14se/how_to_contact_compound_for_help/,Question,Does Compound have a help line or email where I can reach out to them for help about a lost transaction? TIA
+Anyone mind explaining compound to me? I’m looking to possibly purchase. Thanks.,https://www.reddit.com/r/Compound/comments/ly94i9/anyone_mind_explaining_compound_to_me_im_looking/,Hopefaithlove1982,3,2021-03-05 18:33:44,12,/r/Compound/comments/ly94i9/anyone_mind_explaining_compound_to_me_im_looking/,NaN,Amy info would be appreciated.
+Doubt regarding cETh and COMP,https://www.reddit.com/r/Compound/comments/m0u8ud/doubt_regarding_ceth_and_comp/,carter_dwayne,1,2021-03-09 08:21:39,10,/r/Compound/comments/m0u8ud/doubt_regarding_ceth_and_comp/,NaN,"Hey everyone
+
+ on coinmarketcap i see two coins, 1)COMP and 2) cETH , are they both same ? on coin marketcap, ceth goes 20x at times this past 1 month and COMP is sitting between $32-$36 
+
+What is the difference between them 
+
+Where i can buy cETh and does it really goes 20x or coin market cap is tripping"
+tried to convert $3$ of compound to eth. miner fee was $121.00$ sad emojii. .,https://i.redd.it/ylmadfejpyl61.jpg,undercoversludge,1,2021-03-09 16:21:25,16,/r/Compound/comments/m12510/tried_to_convert_3_of_compound_to_eth_miner_fee/,NaN,
+ICYMI - B.Protocol launched its Compound integration. Now you can get rewarded with cScore to gain liquidation proceeds and voting rights in B.Protocol for using Compound. Try it out. $40m TVL,https://twitter.com/bprotocoleth/status/1366727704062615555?s=20,ekatchka,1,2021-03-09 17:13:44,0,/r/Compound/comments/m12syi/icymi_bprotocol_launched_its_compound_integration/,Launch,
+The Early days of Crypto Finance and Compound Valuation,https://www.reddit.com/r/Compound/comments/m1air0/the_early_days_of_crypto_finance_and_compound/,cryptokailash,1,2021-03-10 00:46:58,0,/r/Compound/comments/m1air0/the_early_days_of_crypto_finance_and_compound/,NaN,"[https://bitcoinvalueresearch.substack.com/p/the-early-days-of-crypto-finance](https://bitcoinvalueresearch.substack.com/p/the-early-days-of-crypto-finance)
+
+I would be happy to receive comments and feedbacks on these ideas."
+"Compound Developer Community Call – Mar. 10, 9:30am PT",https://www.reddit.com/r/Compound/comments/m1d8jf/compound_developer_community_call_mar_10_930am_pt/,adamb_compound,1,2021-03-10 02:48:59,2,/r/Compound/comments/m1d8jf/compound_developer_community_call_mar_10_930am_pt/,NaN,"&amp;#x200B;
+
+https://preview.redd.it/aohrlmxht1m61.jpg?width=1600&amp;format=pjpg&amp;auto=webp&amp;s=1754ea7396c11271061bb6b956876455ad7837db
+
+On March 10, at 9:30am PT, the Compound community will hold its next Developer Community Call. This will be an open discussion forum for individuals and organizations developing protocol improvement proposals or building applications and projects that integrate the protocol.
+
+* Held in the [Compound Discord](https://compound.finance/discord), with options for screen-share, voice, or text-only participation
+* Wednesday 3/10 at 9:30am PT, and bi-weekly after ([Add the Compound Developers Calendar 1](https://calendar.google.com/calendar/u/1?cid=Y19sbWgzdXBzNDNyOTJ1NTgycHM2MGdtNmlvMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t))
+
+Below is the high-level agenda for the upcoming call. Note that this call belongs to the community, and as a community member you are empowered to take this call in any direction you think best benefits the community. If you wish, you may help organize it, structure its agenda, lead it, etc.
+
+1. **Welcome:** Adam will provide a brief recap of the previous call.
+2. **Proposal/Project Discussions:** The following community members have volunteered to discuss the proposals and projects they are working on or considering working on.
+
+* **Arr00** \- Governor Bravo Update
+* **Yaron Velner** \- B.Protocol’s Compound Integration
+* **Larry Sukernik** \- Compound Grants Program
+* **Adam Bavosa** \- Gateway Overview and Update
+
+1. **Open Forum:** The community may ask questions of each other, request help/resources, introduce miscellaneous ideas, etc.
+
+If there are any other proposals, projects, or topics you’d like to add to the agenda, please post on this thread or in the Compound Discord. Everyone is welcome to participate and contribute.
+
+Lastly, the call will be audio-recorded; the recording and written notes will be shared in this thread for anyone who can’t make it.
+
+Hope to see you on the call tomorrow!"
+Which wallets support both Compound and USDT?,https://www.reddit.com/r/Compound/comments/m1d9o7/which_wallets_support_both_compound_and_usdt/,FamousPussyGrabber,1,2021-03-10 02:50:20,3,/r/Compound/comments/m1d9o7/which_wallets_support_both_compound_and_usdt/,NaN,"I believe that Tether is a fraud, and would like to use Compound to short it against USDC and/or DAI. What wallet should I use? Which exchange is best for doing this in the US? 
+My strategy would be to deposit USDC, borrow Tether against it, trade it back to USDC or DAI on an exchange, and repeat the process until I’m around 85% of my max borrow and wait for USDT to collapse while I collect interest.
+Is there a better way? All advice is appreciated."
+How to calculate COMP Distribution APY?,https://www.reddit.com/r/Compound/comments/m1ep1h/how_to_calculate_comp_distribution_apy/,defisnake,1,2021-03-10 03:53:55,8,/r/Compound/comments/m1ep1h/how_to_calculate_comp_distribution_apy/,NaN,"Hi farmers. Please explain how to calculate Supply/Borrow COMP Distribution APY? I cannot find the exact information on how to do this. How the predictions.exchange/compound does it?
+Thanks 🚜🐍🥕🌽💚"
+New Governance system coming soon,https://twitter.com/rleshner/status/1369440037285269521?s=21,dotcomedy,1,2021-03-10 08:17:02,0,/r/Compound/comments/m1kgsv/new_governance_system_coming_soon/,Protocol Update,
+Proposal 40: Compound Grants Program,https://twitter.com/compoundfinance/status/1369466469822693379?s=21,dotcomedy,1,2021-03-10 10:12:07,0,/r/Compound/comments/m1mrmv/proposal_40_compound_grants_program/,Launch,
+"Anthony Pompliano DESTROYS ""Stock Analyst"" On Crypto",https://youtube.com/watch?v=9q7ALGPVlWs&amp;feature=share,PeteInvests,1,2021-03-11 17:23:40,0,/r/Compound/comments/m2mbuw/anthony_pompliano_destroys_stock_analyst_on_crypto/,Newsletter,
+DeFi Lending Platforms Comparision Reveals the Most Undervalued One - Compound ($COMP),https://www.publish0x.com/bitguy/defi-lending-platforms-comparision-reveals-the-most-underval-xryepln,bordoisse,1,2021-03-11 19:00:43,2,/r/Compound/comments/m2np30/defi_lending_platforms_comparision_reveals_the/,NaN,
+Risks involved in using Compound,https://www.reddit.com/r/Compound/comments/m2pi2f/risks_involved_in_using_compound/,dgo911,1,2021-03-11 20:58:05,14,/r/Compound/comments/m2pi2f/risks_involved_in_using_compound/,NaN,"I would like to know what are the risks involved in using Compound.
+
+For example, is it possible to loose all or some of the coins when I lend them to the system?
+
+Thanks"
+I got ya homie!,https://direct-link.net/221756/activation,nsfw_celbs,1,2021-03-11 22:24:13,0,/r/Compound/comments/m2r6ua/i_got_ya_homie/,NaN,
+Someone Dumped $180M to Comp USDt Yesterday??,https://i.redd.it/gzsnl9ivdom61.jpg,HortativeYoloZelda,1,2021-03-13 06:43:08,0,/r/Compound/comments/m3t5l4/someone_dumped_180m_to_comp_usdt_yesterday/,NaN,
+COMP distribution mechanism question,https://www.reddit.com/r/Compound/comments/m47o2o/comp_distribution_mechanism_question/,superarius,1,2021-03-13 22:47:12,4,/r/Compound/comments/m47o2o/comp_distribution_mechanism_question/,NaN,"How does COMP get distributed correctly “every block” under the hood. Where in the compound smart contracts can I see this logic. I’m confused about how to do this in a way that doesn’t involve pushing a transaction every single block which obviously seems wrong and not how it works. I see how cTokens accrue their interest every block (without needing to constantly push state updates each block) but I don’t quite see how this works for COMP. 
+
+Naively if we just notate the block height at which a user e.g. deposited collateral and starts earning COMP rewards, then at the time of COMP withdrawal we miscalculate the amount of COMP owed to the user if we only use her proportion of the pool *at withdrawal time* since it may have been way more of that pool for most of the blocks COMP was accruing and then a massive whale came into the pool only the last few blocks. So how do we keep track correctly or what am I missing here. I read solidity so if you can point me to the relevant code in the compound-protocol codebase I could probably work it out from there"
+Can I not force compound to liquidate my position?,https://www.reddit.com/r/Compound/comments/m4b52s/can_i_not_force_compound_to_liquidate_my_position/,freddymilkovich,1,2021-03-14 01:40:17,2,/r/Compound/comments/m4b52s/can_i_not_force_compound_to_liquidate_my_position/,NaN,I'd like to force them to liquidate the loan and pull back the remainder.    I don't see this as an option anywhere.    Probably shouldn't have assumed it worked like some competitors lol.
+Still haven't Imported your Compound funds to B.Protocol? Listen on Bankless why you should,https://twitter.com/bprotocoleth/status/1371104609964556302,ekatchka,1,2021-03-15 00:49:43,2,/r/Compound/comments/m4yqv9/still_havent_imported_your_compound_funds_to/,NaN,
+Compound is IN the 2021 Ultimate Crypto Tournament,https://www.reddit.com/r/Compound/comments/m61axs/compound_is_in_the_2021_ultimate_crypto_tournament/,UltimateCrypto7,1,2021-03-16 12:51:16,0,/r/Compound/comments/m61axs/compound_is_in_the_2021_ultimate_crypto_tournament/,NaN,"Hi everyone, forgive the shameless announcement, but I’m a real person doing this and a nerd for tournaments. The only way I know to let people know about this is to blast messages. If this gets more downvotes than upvotes, I’ll F off.
+
+That said, guess what…it’s tourney time!
+
+Compound is the #13 seed in the Bitcoin bracket. Its opponent is #4 THETA. This is Compound's first appearance in the UCT.
+
+Those familiar with March Madness, or remember this from last year, will get it right away. Starting tonight at midnight, on Twitter @ UltimateCrypto7, there will be a poll for each game, open to all. The coin with more votes after 3 days will be declared the winner and move on. 
+
+Like last year, the Ultimate Crypto Tournament pits the top 64 coins (by market cap) in a single elimination tournament. Crypto is a collaborative, cooperative space with room for all, but we can still have some fun.
+
+So, vote early, tell your friends, and may the best coin win! The games begin at midnight tonight and run until 11:59 pm PT March 18.
+
+[https://twitter.com/UltimateCrypto7](https://twitter.com/UltimateCrypto7) or at
+
+[https://ultimatecrypto.fun/](https://ultimatecrypto.fun/)
+
+Cheers!"
+Negative net borrow rate- ether,https://www.reddit.com/r/Compound/comments/m6nyzp/negative_net_borrow_rate_ether/,Reed_uncle,1,2021-03-17 08:45:39,2,/r/Compound/comments/m6nyzp/negative_net_borrow_rate_ether/,NaN,"Hi,
+
+I was looking at the markets and the ether borrow market has a negative net rate (-2.42).  Its the difference between the borrow apy and the comp apy.  
+
+What does that mean?  The comp apy is a reward not a cost to the ether borrower?  
+
+Thanks."
+What are the mechanics of lending from a wallet? (Newbie question),https://www.reddit.com/r/Compound/comments/mf032q/what_are_the_mechanics_of_lending_from_a_wallet/,fluffygigolo,1,2021-03-28 19:57:35,3,/r/Compound/comments/mf032q/what_are_the_mechanics_of_lending_from_a_wallet/,Question,"I bit the bullet and started using DeFi. Some questions (may not be worded with the correct terms sorry, I’m still learning):
+
+1. I’ve connected my Ledger’s ETH wallet to compound. I validated a transaction to do that, costing a few bucks (what did this mean?). I can see the ETH balance on both Compound and Ledger. How is it sitting in both?
+
+2. If I removed the Ledger &lt;&gt; Compound connection, will the ETH still remain and show up in the Ledger Live wallet?
+
+3. Since I connected the ETH wallet, I was expecting to see my Stablecoins show up on compound too, since they roll into the same ETH wallet on Ledger, is my expectation mistaken?
+
+I did try googling around for these Qs so forgive me if the answers can be found, just being pointed in the right direction would be v helpful. Thanks"
+COMP Supply Withdrawal Failures,https://www.reddit.com/r/Compound/comments/mf6gox/comp_supply_withdrawal_failures/,jkseriouslyjk,1,2021-03-29 02:16:05,6,/r/Compound/comments/mf6gox/comp_supply_withdrawal_failures/,NaN,"I am having a problem with withdrawing my assets from compound. i wish i hadn't tried this dapp. i have dai, ether, usdc invested for supply. My ether and comp (gov) balance looks to have enough comp to disable the collateral (it's requesting more eth for the miner fee). I'm sure I'm going about this all wrong. I really just want to take everything out of comp but would rather not put more into it (eth). Like I said, the supply balance of the eth looks like it can cover all the miner fees but, i am still not able to turn off the collateral. Do I need *MORE* eth to turn off the collateral buttons/sliders? Any help/direction would be great. Clearly, I'm relatively new to this dapp. Thanks in advance."
+smart contract trx stuck - how can I fix it?,https://www.reddit.com/r/Compound/comments/mf8uuk/smart_contract_trx_stuck_how_can_i_fix_it/,omgPirates2020,1,2021-03-29 04:11:14,2,/r/Compound/comments/mf8uuk/smart_contract_trx_stuck_how_can_i_fix_it/,NaN,"Hello!  
+
+
+I've tried to lend some USDC on compound.finance and ultimately I made a mistake and got too cheap on gas fees and my transaction has been pending for 10 hours - I would like to speed this up.
+
+I'd like to replace the transaction with higher gas fee in MyEtherWallet, but I'm not sure how to get the appropriate JSON for the smart contract so that I can resubmit it (with the same nonce).  How can I fix this?  
+
+
+[https://etherscan.io/tx/0xae8609a1b54c828d6be71af3eee24f1ebe4773bf1d96a1523a4ac9456f0fd2a0](https://etherscan.io/tx/0xae8609a1b54c828d6be71af3eee24f1ebe4773bf1d96a1523a4ac9456f0fd2a0)
+
+&amp;#x200B;
+
+Thanks for the help!"
+CAN I Use Trust Wallet for Distributing USDT On Compound?,https://www.reddit.com/r/Compound/comments/mfd0vc/can_i_use_trust_wallet_for_distributing_usdt_on/,AdelBliss,1,2021-03-29 07:46:03,0,/r/Compound/comments/mfd0vc/can_i_use_trust_wallet_for_distributing_usdt_on/,NaN,CAN I Use Trust Wallet for Distributing USDT On Compound?
+Compound is great.,https://i.redd.it/f4y90x6hnyp61.png,Think_Order,1,2021-03-29 20:26:35,12,/r/Compound/comments/mfogiz/compound_is_great/,NaN,

@@ -1,0 +1,1000 @@
+title,url,author,score,created,numComms,permalink,flair,body
+"Hello Maker enthusiasts. I found this infographic of the various types of stablecoins including models from collateralized ones to algorithmic. Curious to know, what makes $DAI stand out for ya'all? For me, it's gotta be the collateralization since that makes it immune to settlement risks",https://i.redd.it/kcelmslxctw71.png,bobongoloxo,1,2021-11-01 00:54:24,0,/r/MakerDAO/comments/qjtmiu/hello_maker_enthusiasts_i_found_this_infographic/,NaN,
+Maker profit projections have doubled since October,https://www.reddit.com/r/MakerDAO/comments/qjw7wc/maker_profit_projections_have_doubled_since/,defensible81,1,2021-11-01 03:00:23,13,/r/MakerDAO/comments/qjw7wc/maker_profit_projections_have_doubled_since/,NaN,"Given current market conditions, Maker looks ready to start burning again in mid-November.  Is there anything that is being considered by the Maker DAO that would stop burning from occurring absent a huge swing in profitability and or regulatory action?"
+WSTETH-A Vaults support is now live at DeFi Saver,https://www.reddit.com/r/MakerDAO/comments/qkapie/wstetha_vaults_support_is_now_live_at_defi_saver/,nikola_j,1,2021-11-01 18:04:06,6,/r/MakerDAO/comments/qkapie/wstetha_vaults_support_is_now_live_at_defi_saver/,NaN,"Hey, all!
+
+Wanted to share that the WSTETH-A Vaults are live at DeFi Saver. [wstETH](https://docs.lido.fi/contracts/wsteth/) is the wrapped version of stETH, Lido's liquid ETH staking token and this new Maker Vault type was voted in [last week](https://vote.makerdao.com/executive/template-executive-vote-parameter-changes-wsteth-a-onboarding-october-22-2021?network=mainnet#proposal-detail).
+
+We actually released this a few days ago, on Friday, but thought maybe some people are more likely to see an announcement here rather than on twitter.
+
+Our support for WSTETH-A Vaults includes the options to:
+
+* Create Vaults (borrow against wstETH)
+* Create an instantly leveraged position/Vault (e.g. long ETH, but using wstETH instead)
+* Convert any ETH-x Vault into WSTETH-A
+* Automate WSTETH-A Vaults (so you can setup liquidation protection or automated leveraging)
+
+We shared a bit about all of these in our [twitter thread](https://twitter.com/DeFiSaver/status/1454159904651026444), but I'll gladly provide any more info and answer any questions in this thread, so please go ahead and @ me with anything!
+
+For anyone looking to check or try any of these options, note that we also have a *Simulation mode* available in DeFi Saver, where you can either create a blank account with 100 ETH in credits or simulate your existing account to try out an ETH-A to WSTETH-A shift, for example, without having to commit any actual funds right away.
+
+You can check out any of this at [https://app.defisaver.com/](https://app.defisaver.com/).
+
+https://preview.redd.it/7pow4clthyw71.png?width=1012&amp;format=png&amp;auto=webp&amp;s=6f803e095676e82f481d106253d59073cc2d41f2"
+MakerDAO integrates Lido's staked ETH (wstETH),https://twitter.com/LidoFinance/status/1455190538794188806,kethfinex,1,2021-11-01 23:31:25,8,/r/MakerDAO/comments/qkghwb/makerdao_integrates_lidos_staked_eth_wsteth/,NaN,
+CBDCs are a fallacious utopia and contradict with the vision Satoshi set out to envision. Imagine hading a CBDC that basically establishes a dictatorship and forces users to spend money on what the state wants. That enshrines the importance of a decentralized stable coin like $DAI.,https://medium.com/onomy-protocol/the-false-utopia-of-cbdcs-and-why-decentralized-stablecoins-reign-supreme-6e1d4c59579b,doppefeatte2x,1,2021-11-02 00:41:44,4,/r/MakerDAO/comments/qkhzo3/cbdcs_are_a_fallacious_utopia_and_contradict_with/,NaN,
+"A provably fair dApp casino that enshrines transparency by having all of its outcomes recorded on-chain and having integrated Chainlink's VRF Oracles. It accepts DeFi's leading collateralized stablecoin, $DAI as deposits and offers 5 games to its users along with a massive jackpot",http://play.earnbet.io,doppefeatte2x,2,2021-11-02 01:22:44,0,/r/MakerDAO/comments/qkiwek/a_provably_fair_dapp_casino_that_enshrines/,NaN,
+"A provably fair dApp casino that enshrines transparency by having all of its outcomes recorded on-chain and having integrated Chainlink's VRF Oracles. It accepts DeFi's leading collateralized stablecoin, $DAI as deposits and offers 5 games to its users along with a massive jackpot",http://play.earnbet.io,doppefeatte2x,1,2021-11-02 02:08:47,0,/r/MakerDAO/comments/qkjx3a/a_provably_fair_dapp_casino_that_enshrines/,NaN,
+Maker Dao official discord server,https://forum.makerdao.com/t/announcing-makerdao-s-official-discord-server/11079,mariouy1986,2,2021-11-02 12:03:41,4,/r/MakerDAO/comments/qkvy7c/maker_dao_official_discord_server/,General Announcement,
+Maker Relay:Episode 69,https://forum.makerdao.com/t/maker-relay-ep-69/11345,mariouy1986,2,2021-11-02 12:04:43,9,/r/MakerDAO/comments/qkvyt4/maker_relayepisode_69/,Governance Summary,
+Pay attention to Kyrrex. WAGMI $KRRX,https://www.reddit.com/r/MakerDAO/comments/qkx5n9/pay_attention_to_kyrrex_wagmi_krrx/,Useful_Platform_,1,2021-11-02 13:19:44,0,/r/MakerDAO/comments/qkx5n9/pay_attention_to_kyrrex_wagmi_krrx/,NaN,"The best new exchange in making is r/Kyrrex It is made by traders for traders. Just like FTX in the past. So this will be a very hyped app the next month due to that narratives. Buy as many $KRRX now as you can before it goes live om HitBTC on 30th of November [https://kyrrex.com/](https://kyrrex.com/)
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+[https://twitter.com/Kyrrexcom/status/1454111886899875850?s=20](https://twitter.com/Kyrrexcom/status/1454111886899875850?s=20)
+
+&amp;#x200B;
+
+Kyrrex ([https://kyrrex.com/](https://kyrrex.com/))
+
+Kyrrex | Regulated Crypto Exchange Built by Real Traders
+
+Kyrrex provides an extensive range of services including trading on demo or real accounts, exchanging and storing cryptocurrencies, educational courses, daily trading ideas, and many others."
+MKR will never burn tokens,https://www.reddit.com/r/MakerDAO/comments/ql5thg/mkr_will_never_burn_tokens/,greatpek,1,2021-11-02 22:47:06,46,/r/MakerDAO/comments/ql5thg/mkr_will_never_burn_tokens/,NaN,"All profits are always spent on all kind of items, so the buffer is never reached, and when it is reached, they will move it or take more profits.
+
+&amp;#x200B;
+
+Look at this... everybody makes money in maker protocol except MRK holders. 
+
+The project is good, but the MRK asset is a shit  
+
+
+https://preview.redd.it/dhibqst337x71.png?width=1611&amp;format=png&amp;auto=webp&amp;s=834b35f2763b2508ccc4c974cd02f4cb4ecae6d4"
+Crypto Education - Timestamps Explained | Animation,https://youtu.be/WQn-Q_GcZeg,ExtensionSinger4154,1,2021-11-03 03:54:24,0,/r/MakerDAO/comments/qlcnic/crypto_education_timestamps_explained_animation/,NaN,
+Pay attention to Kyrrex. WAGMI $KRRX,https://www.reddit.com/r/MakerDAO/comments/qlfcl0/pay_attention_to_kyrrex_wagmi_krrx/,Useful_Platform_,1,2021-11-03 05:58:25,0,/r/MakerDAO/comments/qlfcl0/pay_attention_to_kyrrex_wagmi_krrx/,NaN,"The best new exchange in making is r/Kyrrex It is made by traders for traders. Just like FTX in the past. So this will be a very hyped app the next month due to that narratives. Buy as many $KRRX now as you can before it goes live om HitBTC on 30th of November [https://kyrrex.com/](https://kyrrex.com/)
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+[https://twitter.com/Kyrrexcom/status/1454111886899875850?s=20](https://twitter.com/Kyrrexcom/status/1454111886899875850?s=20)
+
+&amp;#x200B;
+
+Kyrrex ([https://kyrrex.com/](https://kyrrex.com/))
+
+Kyrrex | Regulated Crypto Exchange Built by Real Traders
+
+Kyrrex provides an extensive range of services including trading on demo or real accounts, exchanging and storing cryptocurrencies, educational courses, daily trading ideas, and many others."
+Anyone know why Maker is surging right now?,https://www.reddit.com/r/MakerDAO/comments/qlsd96/anyone_know_why_maker_is_surging_right_now/,Pickin_Up_Your_Wives,1,2021-11-03 19:26:16,24,/r/MakerDAO/comments/qlsd96/anyone_know_why_maker_is_surging_right_now/,NaN,
+1 ETH = 1 MKR,https://www.reddit.com/r/MakerDAO/comments/qlt25u/1_eth_1_mkr/,Johndrc,1,2021-11-03 20:09:38,14,/r/MakerDAO/comments/qlt25u/1_eth_1_mkr/,NaN,Always and Always 👌
+"What's Up MKR Community! I just posted an update on my last price prediction on analysis, which worked out quite well so I thought you guys might like this one too! I try to do my analysis as honest and objective as possible, so let me know what you think!",https://www.youtube.com/watch?v=ngAEk-GZoSE,Chieliano,1,2021-11-03 22:12:59,3,/r/MakerDAO/comments/qlvd58/whats_up_mkr_community_i_just_posted_an_update_on/,NaN,
+Maker Gained 30.08% today and is leading the Charts!,https://i.redd.it/7bj1pjmj9ex71.png,AttackBody,1,2021-11-03 22:54:34,2,/r/MakerDAO/comments/qlw7tg/maker_gained_3008_today_and_is_leading_the_charts/,NaN,
+[AMA] Risk Management with MakerDAO’s Risk Core Unit | 11/4 at 14:00 UTC,https://forum.makerdao.com/t/ama-risk-management-with-makerdaos-risk-core-unit/11208,GoldenChaosGod,1,2021-11-04 00:50:24,1,/r/MakerDAO/comments/qlyp2k/ama_risk_management_with_makerdaos_risk_core_unit/,NaN,
+The Maker of DAI Technical Analysis - Breakout in progress!,https://youtu.be/Th1eF6lPXJQ,DU09,1,2021-11-04 03:55:44,1,/r/MakerDAO/comments/qm2qfa/the_maker_of_dai_technical_analysis_breakout_in/,NaN,
+"In 3,000 deep since last night. Up to 3,200+ so far. Hold for the long run or transfer to ethereum? Price predictions?",https://www.reddit.com/r/MakerDAO/comments/qm4akj/in_3000_deep_since_last_night_up_to_3200_so_far/,thefunginate,1,2021-11-04 05:07:35,4,/r/MakerDAO/comments/qm4akj/in_3000_deep_since_last_night_up_to_3200_so_far/,NaN,
+Informal Poll: Clean Money exploratory sentiment polling,https://forum.makerdao.com/t/informal-polls-clean-money-exploratory-sentiment-polling/11129,mariouy1986,1,2021-11-04 08:30:26,1,/r/MakerDAO/comments/qm8hur/informal_poll_clean_money_exploratory_sentiment/,Governance,
+Financial Report: 2021-10,https://forum.makerdao.com/t/financial-report-2021-10/11409,mariouy1986,1,2021-11-04 08:32:21,3,/r/MakerDAO/comments/qm8j73/financial_report_202110/,Governance Summary,
+You can buy DAI with 400+ cryptocurrencies on SimpleSwap – instant crypto exchange without sign up!,https://simpleswap.io/coins/dai,SimpleSwapExchange,1,2021-11-04 19:48:51,0,/r/MakerDAO/comments/qmiszs/you_can_buy_dai_with_400_cryptocurrencies_on/,NaN,
+You can buy DAI with 400+ cryptocurrencies on SimpleSwap – instant crypto exchange without sign up!,https://simpleswap.io/coins/dai,SimpleSwapExchange,1,2021-11-04 19:52:09,0,/r/MakerDAO/comments/qmiuw1/you_can_buy_dai_with_400_cryptocurrencies_on/,NaN,
+You can buy DAI with 400+ cryptocurrencies on SimpleSwap – instant crypto exchange without sign up!,https://simpleswap.io/coins/dai,SimpleSwapExchange,1,2021-11-04 19:53:35,0,/r/MakerDAO/comments/qmivri/you_can_buy_dai_with_400_cryptocurrencies_on/,NaN,
+You can buy DAI with 400+ cryptocurrencies on SimpleSwap – instant crypto exchange without sign up!,https://simpleswap.io/coins/dai,SimpleSwapExchange,1,2021-11-04 19:55:08,0,/r/MakerDAO/comments/qmiwpk/you_can_buy_dai_with_400_cryptocurrencies_on/,NaN,
+You can buy DAI with 400+ cryptocurrencies on SimpleSwap – instant crypto exchange without sign up!,https://simpleswap.io/coins/dai,SimpleSwapExchange,1,2021-11-04 19:58:27,0,/r/MakerDAO/comments/qmiym6/you_can_buy_dai_with_400_cryptocurrencies_on/,NaN,
+You can buy DAI with 400+ cryptocurrencies on SimpleSwap – instant crypto exchange without sign up!,https://simpleswap.io/coins/dai,SimpleSwapExchange,1,2021-11-04 19:58:33,0,/r/MakerDAO/comments/qmiyny/you_can_buy_dai_with_400_cryptocurrencies_on/,NaN,
+You can buy DAI with 400+ cryptocurrencies on SimpleSwap – instant crypto exchange without sign up!,https://simpleswap.io/coins/dai,SimpleSwapExchange,1,2021-11-04 20:00:44,3,/r/MakerDAO/comments/qmj03u/you_can_buy_dai_with_400_cryptocurrencies_on/,NaN,
+Educational - Liquidity In Decentralized Exchanges Simply Explained,https://www.reddit.com/r/MakerDAO/comments/qmjimi/educational_liquidity_in_decentralized_exchanges/,sheetsjohn16,1,2021-11-04 20:31:38,1,/r/MakerDAO/comments/qmjimi/educational_liquidity_in_decentralized_exchanges/,NaN,"Hi guys :)
+
+I've made a video of one of the most important things to understand in DEFI, Dexes, and crypto in general, **Liquidity!**
+
+[**https://www.youtube.com/watch?v=\_vsg8P9Gq-0**](https://www.youtube.com/watch?v=_vsg8P9Gq-0)
+
+In the video, I will explain what is liquidity with a lot of examples and I will simplify it for you so you can level up your DEFI understanding.
+
+We will look at the biggest decentralized exchange on Binance Smart Chain (BSC) which is PancakeSwap - in order to understand what it is.
+
+The information in the video applies to any other DEX on any other blockchain (It works the same).
+
+Liquidity is one of the most important things in decentralized exchanges and without it, the DEX's actually doesn't worth anything.
+
+The more liquidity decentralized exchanges have, the better prices the users are going to pay when swapping tokens and they will suffer less from price impact and slippage.
+
+That's why most of the decentralized exchanges are ""fighting"" for liquidity by offering Yield Farm and Staking programs.
+
+Basically, the war is between blockchains and decentralized exchanges, the one with the most amount of liquidity wins.
+
+Imagine a decentralized exchange like a robot that holds tokens in pairs (for example Cake-BNB). 
+
+The robot in our story is a smart contract that it's is to preserve the same amount of BNB and Cake in the reserves. 
+
+Anytime someone is buying or selling cake to the contract (robot) he changes the balance and therefore the contract is giving the user a ""worse price"" for the swap (Slippage).
+
+The bigger the swap, the bigger the slippage is gonna be. The more liquidity the ""robot"" has, the lower the slippage will be.
+
+In this video, I am going to explain to you all these kinds of concepts in an easy way, so after watching the video you will finally understand what does liquidity means on decentralized exchanges and why it's so important.
+
+Hope you like it, and lemme know if you have any questions.
+
+Johnny."
+MakerDAO Representing @ NFT.NYC!,https://www.reddit.com/gallery/qmnwne,GoldenChaosGod,1,2021-11-05 00:04:49,4,/r/MakerDAO/comments/qmnwne/makerdao_representing_nftnyc/,NaN,
+Hack smart contracts full-time... keep defi safe,https://www.reddit.com/r/MakerDAO/comments/qmu7xa/hack_smart_contracts_fulltime_keep_defi_safe/,ihave80D,1,2021-11-05 04:48:33,2,/r/MakerDAO/comments/qmu7xa/hack_smart_contracts_fulltime_keep_defi_safe/,NaN,"Immunefi's **[Whitehat Scholarship](https://immunefi.com/whitehat-scholarship/)** gives promising smart contract hackers the opportunity to level up and focus full-time on bug hunting. So you can help keep DeFi safe.
+
+DeFi is exploding in growth. But there aren’t enough Solidity developers or whitehat hackers to go around. From a development perspective, the DeFi ecosystem is being held back from its true potential. And from a security perspective, devastating hacks keep obliterating projects.
+
+Smart contract talent just does not exist to allow DeFi to safely scale.
+It’s important for the DeFi community to contribute to the public good of upskilling smart contract whitehat hacking talent.
+
+That’s why Immunefi is offering the community-driven Whitehat Scholarship to proven smart contract hackers.
+
+More details: 
+[Whitehat Scholarship Details](https://medium.com/immunefi/immunefi-launches-whitehat-scholarship-f2a469c6a09d)"
+Delegate Round up : October,https://forum.makerdao.com/t/delegate-round-up-october-2021/11336,mariouy1986,1,2021-11-05 05:20:01,1,/r/MakerDAO/comments/qmuxtg/delegate_round_up_october/,Governance Summary,
+Forum at a glance: October (check it out),https://forum.makerdao.com/t/forum-at-a-glance-october-28th-november-4th/11441,mariouy1986,1,2021-11-05 05:21:16,1,/r/MakerDAO/comments/qmuywd/forum_at_a_glance_october_check_it_out/,Governance Summary,
+The Bearish Trend.,https://www.reddit.com/r/MakerDAO/comments/qn4ipy/the_bearish_trend/,DanielPandey,1,2021-11-05 13:54:15,2,/r/MakerDAO/comments/qn4ipy/the_bearish_trend/,NaN,[removed]
+"Can you actually make changes to a vault on Arbitrum, or just swap and stake?",https://www.reddit.com/r/MakerDAO/comments/qn4usj/can_you_actually_make_changes_to_a_vault_on/,TheProdigalBootycall,1,2021-11-05 14:18:05,3,/r/MakerDAO/comments/qn4usj/can_you_actually_make_changes_to_a_vault_on/,NaN,
+Forum at a Glance: October 28 - November 4,https://www.reddit.com/r/MakerDAO/comments/qnbc4e/forum_at_a_glance_october_28_november_4/,Artyoma92,1,2021-11-05 21:38:30,3,/r/MakerDAO/comments/qnbc4e/forum_at_a_glance_october_28_november_4/,NaN,"⭐Announcements  
+⭐Discussions  
+⭐Signal Requests  
+And more! Found in our weekly Forum at a Glance. Check it out!   
+[https://forum.makerdao.com/t/forum-at-a-glance-october-28th-november-4th/11441](https://forum.makerdao.com/t/forum-at-a-glance-october-28th-november-4th/11441)"
+Signal Request: Increasing the surplus buffer,https://forum.makerdao.com/t/signal-request-increasing-the-surplus-buffer-2021-11/11448,mariouy1986,1,2021-11-05 23:33:29,36,/r/MakerDAO/comments/qndogq/signal_request_increasing_the_surplus_buffer/,Governance,
+MakerDAO’s Update is a Pure Expression of DeFi 2.0,https://thedefiant.io/makerdao-mkt-aave-defi-2-0/,TheDefiantNews,1,2021-11-05 23:57:16,6,/r/MakerDAO/comments/qne5vm/makerdaos_update_is_a_pure_expression_of_defi_20/,NaN,
+Looks like Maker (MKR) is forming a reverse cup and handle formation (not good).,https://i.redd.it/23n2wpfp1tx71.png,SchemeFearless5307,1,2021-11-06 00:37:37,0,/r/MakerDAO/comments/qnf1gf/looks_like_maker_mkr_is_forming_a_reverse_cup_and/,NaN,
+Swag store and symbolic,https://www.reddit.com/r/MakerDAO/comments/qnpkme/swag_store_and_symbolic/,dreamer2020-,1,2021-11-06 09:20:54,0,/r/MakerDAO/comments/qnpkme/swag_store_and_symbolic/,NaN,Does MakerDAO have a swag store?  A web store where you could buy MakerDAO swag with dai only ? I think one of the real concept of money is believing in it. Swag helps communities grow by believing in the symbols that represent a currency that is always available and won’t exclude a single home sapiens to use it.
+🦄 UniCake Uct 10% Community Built &amp; Driven Presale Starting Soon! 10% Cake Rewards 100x Potentials,https://www.reddit.com/r/MakerDAO/comments/qnpoxl/unicake_uct_10_community_built_driven_presale/,myriality,1,2021-11-06 09:27:39,0,/r/MakerDAO/comments/qnpoxl/unicake_uct_10_community_built_driven_presale/,NaN,"🦄UniCAKE $UCT🦄 10% Community Built &amp; Driven | Pre-sale starts 5 Nov | 10% CAKE REWARDS | 100X Potentials
+
+   UniCAKE is founded by 4 crypto enthusiasts, and we’ve been in a few big community-driven projects for some time now and we still are, but most of these projects are renounced or owned by one person or team and this is not safu or decentralized from our perspective.
+
+You might think “but UniCAKE is also owned by a team, what makes you different?”
+
+   Well to be a community-built and owned project there needs to be a vision and a community, that's why our phase 1 is a pre-launch of UniCAKE. We have to share the vision with as many people as possible to build out a foundation for this project.
+
+ UniCAKE V1 is where the community will take over, we will take steps to make it SAFU &amp; Decentralized
+
+ What is unicake About?
+
+   Unicake aim’s to create a community-built and driven project in the NFT, Gaming, Entertainment, Defi &amp; E-Commerce space, together with the community we will design &amp; build the Unicake ecosystem. Profits generated from tools in our ecosystem will be redistributed to our holders. At Unicake we say “the moon is not our destination, it’s just a stopover” . We are not here for a quick 10 20 100X unicake is a long-term project with huge passive income potentials.
+
+ 💰🤩 Earning a passive income is easy, hold 150.000 $UCT in your wallet, and you will receive rewards every hour 🤩💰
+
+   Tokenomics:
+
+ Total supply: [100.000.000.000](https://100.000.000.000)
+
+ Buy tax 12%
+
+ Sell tax 13%
+
+ \- 10% redistribution in CAKE 🍰
+
+ \- Liquidity Locked! 🔒
+
+ \- Massive airdrop event 🪂
+
+ \- Anti Whale + 🤖Anti Bot Feature 🐋
+
+ \- WhitePaper ✅
+
+ \- Passive income 💰
+
+ \- No Dev Wallet 👛
+
+🔹Telegram: [https://t.me/unicakeTokenUCT](https://t.me/unicakeTokenUCT) ( unicakeTokenUCT )
+
+🔹Website: [https://UniCake.co](https://UniCake.co)
+
+🔹Twitter: [https://twitter.com/UnicakeUCT](https://twitter.com/UnicakeUCT)
+
+WeAreUniCAKE"
+"In a vault liquidation, what is the collateral sold for?",https://www.reddit.com/r/MakerDAO/comments/qo4ikt/in_a_vault_liquidation_what_is_the_collateral/,mmazi,1,2021-11-07 01:03:53,18,/r/MakerDAO/comments/qo4ikt/in_a_vault_liquidation_what_is_the_collateral/,NaN,"I understand that when a vault is liquidated, the assets that make up its collateral, are ""sold"". What exactly does ""selling"" mean? Exchanging the collateral for what? For stablecoins? What happened then (e.g. in spring 2020 liquidations) when stablecoins were not allowed as collateral?"
+MakerDAO Makes Moves in DeFi,https://www.stockscap.com/post/makerdao-makes-moves-in-defi,MrTopTrader,1,2021-11-07 01:48:55,0,/r/MakerDAO/comments/qo5f0w/makerdao_makes_moves_in_defi/,NaN,
+November 5th: Executive Vote,https://vote.makerdao.com/executive/template-executive-vote-parameter-changes-core-unit-budget-distribution-november-5-2021?network=mainnet#proposal-detail,mariouy1986,1,2021-11-07 03:09:24,12,/r/MakerDAO/comments/qo70ue/november_5th_executive_vote/,Governance,
+Holon Hackathon 2021,https://www.reddit.com/r/MakerDAO/comments/qofmf8/holon_hackathon_2021/,ivtonic,1,2021-11-07 10:54:13,0,/r/MakerDAO/comments/qofmf8/holon_hackathon_2021/,NaN,[removed]
+Good days! 😎,https://i.redd.it/7m2n8iy693y71.jpg,EROS_VERITAS,1,2021-11-07 10:57:09,0,/r/MakerDAO/comments/qofo3h/good_days/,NaN,
+MakerDao MKR,https://globaltees-store.com/limited-edition-4037?s=hanes-5250&amp;c=Black&amp;p=FRONT,Dillon-Dow60,1,2021-11-07 21:05:17,1,/r/MakerDAO/comments/qoo5bl/makerdao_mkr/,NaN,
+Shibama Token,https://www.reddit.com/r/MakerDAO/comments/qowd5j/shibama_token/,Shibama_Official,1,2021-11-08 03:54:50,2,/r/MakerDAO/comments/qowd5j/shibama_token/,NaN,[removed]
+Why are vaults all showing 0% APY,https://www.reddit.com/r/MakerDAO/comments/qoy65v/why_are_vaults_all_showing_0_apy/,DMReader,1,2021-11-08 05:22:42,0,/r/MakerDAO/comments/qoy65v/why_are_vaults_all_showing_0_apy/,NaN,"Hello, I have been looking at DAO for a few weeks and was getting ready to do so, when I took a look at the vaults and saw they all had 0% APY.  I'm wondering why that is and what changed in the last few weeks.  Thanks."
+Dai transfer keeps failing??,https://www.reddit.com/r/MakerDAO/comments/qp89n5/dai_transfer_keeps_failing/,chrisjstrn94,1,2021-11-08 15:07:37,11,/r/MakerDAO/comments/qp89n5/dai_transfer_keeps_failing/,NaN,I've been trying to transfer about 80DAI that I have in an instars wallet but the transfer keeps failing.... any help would be greatly appreciated! I've tried multiple different wallet but all still fail
+Maker Relay: Episode 70,https://forum.makerdao.com/t/maker-relay-ep-70/11528,mariouy1986,1,2021-11-09 07:22:47,2,/r/MakerDAO/comments/qpq3l8/maker_relay_episode_70/,Governance Summary,
+Trezor 1 and MetaMask Error Question When Using Oasis/DefiSavor,https://www.reddit.com/r/MakerDAO/comments/qpzea5/trezor_1_and_metamask_error_question_when_using/,BrownBear521,1,2021-11-09 16:39:11,3,/r/MakerDAO/comments/qpzea5/trezor_1_and_metamask_error_question_when_using/,NaN,"Hi All,
+
+Seems like I can't use my trezor 1 with metamask on Defisavor or Oasis at the moment unless I use the legacy oasis site. 
+
+Error message shows its because I am trying to do an EIP 1559 transaction but my current network doesn't support it. 
+
+I was able to use my Trezor until recently without any issues.
+
+Any idea when this might be resolved or if there is a fix out there now? Specifically I would rather use DefiSavor over Oasis."
+Maker Governance Review: October 2021,https://www.reddit.com/r/MakerDAO/comments/qq5jm7/maker_governance_review_october_2021/,Artyoma92,1,2021-11-09 23:01:53,4,/r/MakerDAO/comments/qq5jm7/maker_governance_review_october_2021/,NaN,"Visit our Monthly Maker Governance Review!   
+See what's been going on with Core Units, budgets, votes, Vault changes, and more!   
+We also prepare you for what's ahead next month.   
+
+
+[https://forum.makerdao.com/t/maker-governance-review-october-2021/11517](https://forum.makerdao.com/t/maker-governance-review-october-2021/11517)"
+Issues in connecting to Ledger Live wallet,https://www.reddit.com/r/MakerDAO/comments/qq7gcf/issues_in_connecting_to_ledger_live_wallet/,Particular_Volume_81,1,2021-11-10 00:32:08,3,/r/MakerDAO/comments/qq7gcf/issues_in_connecting_to_ledger_live_wallet/,NaN,"When I tried to connect the vault account to my Ledger Live hardware wallet, it failed, and the information is like this: There was an error, please reset! 
+
+Does anyone encounter this issue? What happened, and how to solve this?"
+SafeShiba is the a memecoin ecosystem wrapped with perfected DeFi 2.0 Tokenomics x100 Bsc Gem! Huge Marketing Plans! Liquidity Locked!,https://www.reddit.com/r/MakerDAO/comments/qqiqbi/safeshiba_is_the_a_memecoin_ecosystem_wrapped/,dark_daddy_hmmmm,1,2021-11-10 09:30:37,1,/r/MakerDAO/comments/qqiqbi/safeshiba_is_the_a_memecoin_ecosystem_wrapped/,NaN,"🌐Website: [https://safeshiba.net/](https://safeshiba.net/)
+
+📱Telegram: [https://t.me/safe\_shiba\_official](https://t.me/safe_shiba_official)
+
+🐤Twitter: [https://twitter.com/SafeShibaCoi](https://twitter.com/SafeShibaCoin)
+
+🌐BSC Scan: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+🔒Liquidity is locked: [https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0](https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0)
+
+📝Contract: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+👉Buy with 10% Slippage
+
+   The goal of SafeShiba is simple, reward holders. We might have a memecoin name, but we have the best tokenomics in the game. We are a fair launched and 100% transparent project that are always putting community in front of everything else.
+
+ Our Tokenomics are as follows:
+
+ \- 2% BTC Buyback - 2% of every transaction will be used to purchase BTC to help back the SAFESHIB token and create a floor price. Once our lending app launches, token holders will be able to borrow BTC against their SAFESHIB at 0% APY
+
+ \- 2% Dev/Marketing/Buyback Fee - 2% of every transaction will be used to support development efforts along with buybacks, burns and marketing to help show the world our project
+
+ \- 1% Burn - 1% of every Transaction is burned to help remove supply from the system and create a supply shock. This further helps our holders benefit
+
+   Roadmap: To make sure we always deliver cutting edge tokenomics and features to our holders, we've devised the following roadmap:
+
+ Lending App (Q1 2022) - This is the pinnacle of our Tokenomics, 0% APY BTC borrowing against SAFESHIB. 
+
+ DEX (Coming Q2 2022) - A state of the art DEX that will provide yield farming opportunities and additional ways for SAFESHIB to increase in value
+
+NFTs (Coming Q4 2022) - Revolutionary NFT's that let you dive into the metaverse and experience Web 3.0. And of course, even more ways to spread value to SAFESHIB holders.
+
+ CEX Listings - Tier 1 Exchanges are planned for 2022 and we promise to deliver big. This will help spread the word of SAFESHIB massively.
+
+ Alongside all of this we will be hosting weekly competitions, buybacks, surprise announcements and much more."
+Send Dai from Metamask without high ETH gas fees?,https://www.reddit.com/r/MakerDAO/comments/qqjqpg/send_dai_from_metamask_without_high_eth_gas_fees/,Jay_C_Kay,1,2021-11-10 10:22:07,14,/r/MakerDAO/comments/qqjqpg/send_dai_from_metamask_without_high_eth_gas_fees/,NaN,"Hi all,
+
+I sent my Dai from Coinbase to my Metamask wallet. I then tried to send my Dai somewhere else and found out that the cost to send it from my Metamask wallet cost as much as my total holdings of DAI.
+
+Ex. I hold 1,000 DAI($1k) and gas fee to send from Metamask costs a little under .2 ETH($1k).
+
+Is there any way around this? Any help would be greatly appreciated, thank you!!"
+New governance portal release 🔥,https://forum.makerdao.com/t/governance-portal-release-v0-2-3-november-8th/11529,mariouy1986,1,2021-11-10 12:13:41,5,/r/MakerDAO/comments/qqlukb/new_governance_portal_release/,NaN,
+"Did Maker start out with DAI always used to bid in collateral auctions, which means Keepers themselves locked their own ETH into vaults to get the DAI to use in those auction bids?",https://www.reddit.com/r/MakerDAO/comments/qqq6i6/did_maker_start_out_with_dai_always_used_to_bid/,archcypher007,1,2021-11-10 16:59:41,2,/r/MakerDAO/comments/qqq6i6/did_maker_start_out_with_dai_always_used_to_bid/,NaN,"Question to MakerDAO community, in Maker's early days, the Keepers bidding in Collateral Auctions they had a bunch of ETH collateral locked in Vaults to have the excess DAI to be able to bid and participate in collateral auctions?
+
+I'm asking because it sort of sounds like a chicken and egg scenario, Keepers in the early days seemed like they needed to lock a bunch of eth to be able to make sure they have enough DAI on the ready to participate in collateral auctions.
+
+Did it just start off this way, where DAI was always used for liquidations/collateral auctions, and that DAI was only extracted from a Keeper locking in their ETH onto a vault?"
+A wallet is a profile,https://www.reddit.com/r/MakerDAO/comments/qr2f0d/a_wallet_is_a_profile/,Cautious_March_8423,1,2021-11-11 03:43:17,0,/r/MakerDAO/comments/qr2f0d/a_wallet_is_a_profile/,NaN," 
+
+&gt;The concept of a wallet is deeply entrenched in the culture of cryptocurrency, investing, trading, DeFi, Web3. It is a requirement for participation, after all, but that requirement grants an abundance of freedom in managing both personal finance, and social interaction. (...)
+
+Source: [https://our.status.im/wallet-vs-profile/](https://our.status.im/wallet-vs-profile/)
+
+What do you think? Is this nonsense? paradigm shift? Something absolutely obvious?"
+Maker to AVAX?,https://www.reddit.com/r/MakerDAO/comments/qr4jjf/maker_to_avax/,Whats-cookin,1,2021-11-11 05:22:05,6,/r/MakerDAO/comments/qr4jjf/maker_to_avax/,NaN,"All, wondering if there are plans to launch the maker protocol on other platforms, similar to AAVE. Skirting gas fees on AVAX would be a game changer"
+Maker in Coinbase Wallet MAJOR NOOB HELLP,https://www.reddit.com/r/MakerDAO/comments/qrei50/maker_in_coinbase_wallet_major_noob_hellp/,FcknPerf,1,2021-11-11 14:04:45,19,/r/MakerDAO/comments/qrei50/maker_in_coinbase_wallet_major_noob_hellp/,NaN,"Any friendly pointers are welcomed. I purchased MKR about a year ago, it's in my Coinbase Wallet. I don't know what to do with it due to high Gas fees, any assistance and guidance is appreciated."
+hi Crypto - Get 1 Free hi DAILY - Earn up to 40% APY on your DAI today!,https://www.reddit.com/r/MakerDAO/comments/qrhp3w/hi_crypto_get_1_free_hi_daily_earn_up_to_40_apy/,linsmallfat,1,2021-11-11 17:41:49,2,/r/MakerDAO/comments/qrhp3w/hi_crypto_get_1_free_hi_daily_earn_up_to_40_apy/,NaN," Sending DAI to your friends may be a long process, well I say long because in today's society, anything that is more than 5 seconds is long. But not with hi. Join today and get 1 free hi every single day! You can also deposit your DAI and stake em for up to 40% APY!
+
+[https://hi.com/l0rdly](https://hi.com/l0rdly)
+
+Instructions :
+
+1. Click on referral link
+2. At the bottom of the page, sign up using Whatsapp or Telegram
+3. Follow the bot's instructions
+4. You are done!
+
+Name of referrer is l0rdly
+
+Hi is developed by the developers of BTC. You can literally get 1 hi every single day, and it adds up over time!
+
+Message me for any clarifications!"
+Get free $25 Deso Crypto instantly - NO deposits - Just verify your identity - Instant withdrawal,https://www.reddit.com/r/MakerDAO/comments/qrjzqq/get_free_25_deso_crypto_instantly_no_deposits/,linsmallfat,1,2021-11-11 20:14:12,0,/r/MakerDAO/comments/qrjzqq/get_free_25_deso_crypto_instantly_no_deposits/,NaN, [https://diamondapp.com?r=TvYnq5qE](https://diamondapp.com/?r=TvYnq5qE)
+If someone wants to join the MKR risk team what is the process? Can the risk team members have Vaults open?,https://www.reddit.com/r/MakerDAO/comments/qrmoai/if_someone_wants_to_join_the_mkr_risk_team_what/,samdb20,1,2021-11-11 22:37:56,15,/r/MakerDAO/comments/qrmoai/if_someone_wants_to_join_the_mkr_risk_team_what/,NaN,
+[Maker Relay] Monthly Governance Review | October 2021,https://www.youtube.com/watch?v=qhV388sL6Bs,GoldenChaosGod,1,2021-11-12 00:33:23,5,/r/MakerDAO/comments/qrp2yr/maker_relay_monthly_governance_review_october_2021/,NaN,
+[Maker Relay] The State of DAI | 11/2 - 11/8,https://www.youtube.com/watch?v=rbOYdEmZp_I,GoldenChaosGod,1,2021-11-12 08:00:18,3,/r/MakerDAO/comments/qryjju/maker_relay_the_state_of_dai_112_118/,NaN,
+SafeShiba is the a memecoin ecosystem wrapped with perfected DeFi 2.0 Tokenomics x100 Bsc Gem! Huge Marketing Plans! Liquidity Locked!,https://www.reddit.com/r/MakerDAO/comments/qrzcop/safeshiba_is_the_a_memecoin_ecosystem_wrapped/,utubebond,1,2021-11-12 08:43:18,0,/r/MakerDAO/comments/qrzcop/safeshiba_is_the_a_memecoin_ecosystem_wrapped/,NaN,"🌐Website: [https://safeshiba.net/](https://safeshiba.net/)
+
+📱Telegram: [https://t.me/safe\_shiba\_official](https://t.me/safe_shiba_official)
+
+🐤Twitter: [https://twitter.com/SafeShibaCoin](https://twitter.com/SafeShibaCoin)
+
+🌐BSC Scan: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+🔒Liquidity is locked: [https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0](https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0)
+
+📝Contract: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+👉Buy with 10% Slippage
+
+   The goal of SafeShiba is simple, reward holders. We might have a memecoin name, but we have the best tokenomics in the game. We are a fair launched and 100% transparent project that are always putting community in front of everything else.
+
+Our Tokenomics are as follows:
+
+ \- 2% BTC Buyback - 2% of every transaction will be used to purchase BTC to help back the SAFESHIB token and create a floor price. Once our lending app launches, token holders will be able to borrow BTC against their SAFESHIB at 0% APY
+
+ \- 2% Dev/Marketing/Buyback Fee - 2% of every transaction will be used to support development efforts along with buybacks, burns and marketing to help show the world our project
+
+ \- 1% Burn - 1% of every Transaction is burned to help remove supply from the system and create a supply shock. This further helps our holders benefit
+
+   Roadmap: To make sure we always deliver cutting edge tokenomics and features to our holders, we've devised the following roadmap:
+
+Lending App (Q1 2022) - This is the pinnacle of our Tokenomics, 0% APY BTC borrowing against SAFESHIB. 
+
+   DEX (Coming Q2 2022) - A state of the art DEX that will provide yield farming opportunities and additional ways for SAFESHIB to increase in value
+
+   NFTs (Coming Q4 2022) - Revolutionary NFT's that let you dive into the metaverse and experience Web 3.0. And of course, even more ways to spread value to SAFESHIB holders.
+
+   CEX Listings - Tier 1 Exchanges are planned for 2022 and we promise to deliver big. This will help spread the word of SAFESHIB massively.
+
+   Alongside all of this we will be hosting weekly competitions, buybacks, surprise announcements and much more."
+"Exploring the Crypto-stablecoin ecosystem. For me, the most lucrative stablecoins are ones that have a collateral backing since they act as a reassurance that you're not going to be plagued with settlement risks and/or depegging. With that said, DAI is the ideal stablecoin for the future of DeFi.",https://i.redd.it/diyiprje94z71.png,MarlenaSchoolcraft,1,2021-11-12 15:34:45,0,/r/MakerDAO/comments/qs6567/exploring_the_cryptostablecoin_ecosystem_for_me/,NaN,
+"A provably fair dApp casino that is fully decentralized, has on-chain transactions recorded on the WAX Blockchain for transparency and has integrated Chainlink's VRF Oracles - the blockchain gaming industry's leading Oracle solution for gaming dApps - and accepts $DAI as deposits.",http://play.earnbet.io,glitznglam05bt,1,2021-11-12 15:50:18,0,/r/MakerDAO/comments/qs6cc7/a_provably_fair_dapp_casino_that_is_fully/,NaN,
+Forum at a Glance: November 4 - 11,https://www.reddit.com/r/MakerDAO/comments/qsgcd8/forum_at_a_glance_november_4_11/,Artyoma92,1,2021-11-13 01:34:06,0,/r/MakerDAO/comments/qsgcd8/forum_at_a_glance_november_4_11/,NaN,"⭐GFX Labs steps into the Delegate circle!   
+⭐Maker Wormhole: allowing instantaneous teleportation of DAI between L2s and ETH.   
+⭐Governance Portal Updates! And more..   
+
+
+ .. in our Weekly Forum at a Glance:   
+[https://forum.makerdao.com/t/forum-at-a-glance-november-4th-november-11th/11591](https://forum.makerdao.com/t/forum-at-a-glance-november-4th-november-11th/11591)"
+[AMA] Learn About Maker Wormhole with Protocol Engineering,https://www.reddit.com/r/MakerDAO/comments/qsje0b/ama_learn_about_maker_wormhole_with_protocol/,JerryGoldfarb,1,2021-11-13 03:56:49,2,/r/MakerDAO/comments/qsje0b/ama_learn_about_maker_wormhole_with_protocol/,NaN,"&amp;#x200B;
+
+https://preview.redd.it/1ypb2s4dz7z71.png?width=1280&amp;format=png&amp;auto=webp&amp;s=94cac9e844791a162a88800379dbaaa3becd5d1e
+
+ 
+
+Join Sam and Kris from Protocol Engineering on \[Zoom\]([https://forum.makerdao.com/t/ask-makerdao-12-ama-learn-about-maker-wormhole-with-protocol-engineering/11610](https://forum.makerdao.com/t/ask-makerdao-12-ama-learn-about-maker-wormhole-with-protocol-engineering/11610)) **November 19th at 16:00 UTC** to learn about Maker Wormhole, a new product from the MakerDAO Protocol Engineering (PE) Core Unit.
+
+Layer 2’s are currently a hot topic in DeFi, and the PE team has created a way to transfer and mint Dai on L2s as well as other L1 blockchains.
+
+Users can currently transfer Dai between Arbitrum, Optimism, and the Ethereum mainnet. In the coming months, new L2s will be added and minting will become available on networks that have deployed multi-collateral Dai.
+
+Can’t make the call? No problem! Keep your eyes out for the recording here:  
+
+
+* [Youtube](https://www.youtube.com/c/MakerDAO)
+
+Leave your questions below and we’ll see you on the call!"
+Web 3.0 Explained | Animation,https://youtu.be/gk1KxtJ-l5E,ExtensionSinger4154,1,2021-11-13 05:40:15,0,/r/MakerDAO/comments/qslksf/web_30_explained_animation/,NaN,
+Would you consider this a clear Head and Shoulders pattern? If so will the shift to a bull market be near?,https://i.redd.it/ih0v6isep8z71.jpg,AMC_Tendies42069,1,2021-11-13 06:21:05,13,/r/MakerDAO/comments/qsmf86/would_you_consider_this_a_clear_head_and/,NaN,
+"DAOs biweekly: Curve’s Emergency DAO, MakerDAO offboarding drama, Aave&lt;&gt;MakerDAO, Fei &lt;&gt;Balancer, ENS DAO…",https://medium.com/paradigm-fund/daos-curves-emergency-dao-makerdao-offboarding-drama-aave-makerdao-fei-balancer-ens-dao-f7e99b57d88d,quefear,1,2021-11-13 20:35:03,2,/r/MakerDAO/comments/qt0dnk/daos_biweekly_curves_emergency_dao_makerdao/,NaN,
+SafeShiba is the an ecosystem wrapped with perfected DeFi 2.0 Tokenomics x100 Bsc Gem! Huge Marketing Plans! Liquidity Locked!,https://www.reddit.com/r/MakerDAO/comments/qt54gd/safeshiba_is_the_an_ecosystem_wrapped_with/,trainfireki,1,2021-11-14 00:50:25,2,/r/MakerDAO/comments/qt54gd/safeshiba_is_the_an_ecosystem_wrapped_with/,NaN,"🌐Website: [https://safeshiba.net/](https://safeshiba.net/)
+
+📱Telegram: [https://t.me/safe\_shiba\_official](https://t.me/safe_shiba_official)
+
+🐤Twitter: [https://twitter.com/SafeShibaCoin](https://twitter.com/SafeShibaCoin)
+
+🌐BSC Scan: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+🔒Liquidity is locked: [https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0](https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0)
+
+📝Contract: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+👉Buy with 10% Slippage
+
+The goal of SafeShiba is simple, reward holders. We might have a memecoin name, but we have the best tokenomics in the game. We are a fair launched and 100% transparent project that are always putting community in front of everything else.
+
+Our Tokenomics are as follows:
+
+\- 2% BTC Buyback - 2% of every transaction will be used to purchase BTC to help back the SAFESHIB token and create a floor price. Once our lending app launches, token holders will be able to borrow BTC against their SAFESHIB at 0% APY
+
+\- 2% Dev/Marketing/Buyback Fee - 2% of every transaction will be used to support development efforts along with buybacks, burns and marketing to help show the world our project
+
+\- 1% Burn - 1% of every Transaction is burned to help remove supply from the system and create a supply shock. This further helps our holders benefit
+
+Roadmap: To make sure we always deliver cutting edge tokenomics and features to our holders, we've devised the following roadmap:
+
+Lending App (Q1 2022) - This is the pinnacle of our Tokenomics, 0% APY BTC borrowing against SAFESHIB. 
+
+DEX (Coming Q2 2022) - A state of the art DEX that will provide yield farming opportunities and additional ways for SAFESHIB to increase in value
+
+NFTs (Coming Q4 2022) - Revolutionary NFT's that let you dive into the metaverse and experience Web 3.0. And of course, even more ways to spread value to SAFESHIB holders.
+
+CEX Listings - Tier 1 Exchanges are planned for 2022 and we promise to deliver big. This will help spread the word of SAFESHIB massively.
+
+Alongside all of this we will be hosting weekly competitions, buybacks, surprise announcements and much more."
+Two days to burn!!! finally??,https://www.reddit.com/r/MakerDAO/comments/qt7bw1/two_days_to_burn_finally/,greatpek,1,2021-11-14 02:39:59,17,/r/MakerDAO/comments/qt7bw1/two_days_to_burn_finally/,NaN,"we are about 2 day for filling the buffer and start burning MKR. if there are not hudge expenses...
+
+&amp;#x200B;
+
+https://preview.redd.it/07s0oqcvqez71.png?width=1149&amp;format=png&amp;auto=webp&amp;s=d4053bdd7ac80330b8e1f31aaeef527eeb52c65f"
+November 12th: Executive Vote,https://vote.makerdao.com/executive/template-executive-vote-parameter-changes-return-unused-budget-to-the-surplus-buffer-november-12-2021?network=mainnet#proposal-detail,mariouy1986,1,2021-11-14 03:11:06,8,/r/MakerDAO/comments/qt7y4a/november_12th_executive_vote/,Governance,
+SafeShiba is the an ecosystem wrapped with perfected DeFi 2.0 Tokenomics x100 Bsc Gem! Huge Marketing Plans! Liquidity Locked!,https://www.reddit.com/r/MakerDAO/comments/qtzj9n/safeshiba_is_the_an_ecosystem_wrapped_with/,myriality,1,2021-11-15 05:09:33,0,/r/MakerDAO/comments/qtzj9n/safeshiba_is_the_an_ecosystem_wrapped_with/,NaN,"🌐Website: [https://safeshiba.net/](https://safeshiba.net/)
+
+&amp;#x200B;
+
+📱Telegram: [https://t.me/safe\_shiba\_official](https://t.me/safe_shiba_official)
+
+&amp;#x200B;
+
+🐤Twitter: [https://twitter.com/SafeShibaCoin](https://twitter.com/SafeShibaCoin)
+
+&amp;#x200B;
+
+🌐BSC Scan: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+&amp;#x200B;
+
+🔒Liquidity is locked: [https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0](https://app.unicrypt.network/amm/pancake-v2/pair/0x8a53e7ebf83d4d593392690958d1df8e878090f0)
+
+&amp;#x200B;
+
+📝Contract: 0x0958fac26d489a0c86c053f9a4843ca57cc6ba7a
+
+&amp;#x200B;
+
+👉Buy with 10% Slippage
+
+&amp;#x200B;
+
+The goal of SafeShiba is simple, reward holders. We might have a memecoin name, but we have the best tokenomics in the game. We are a fair launched and 100% transparent project that are always putting community in front of everything else.
+
+&amp;#x200B;
+
+Our Tokenomics are as follows:
+
+&amp;#x200B;
+
+\- 2% BTC Buyback - 2% of every transaction will be used to purchase BTC to help back the SAFESHIB token and create a floor price. Once our lending app launches, token holders will be able to borrow BTC against their SAFESHIB at 0% APY
+
+&amp;#x200B;
+
+\- 2% Dev/Marketing/Buyback Fee - 2% of every transaction will be used to support development efforts along with buybacks, burns and marketing to help show the world our project
+
+&amp;#x200B;
+
+\- 1% Burn - 1% of every Transaction is burned to help remove supply from the system and create a supply shock. This further helps our holders benefit
+
+&amp;#x200B;
+
+Roadmap: To make sure we always deliver cutting edge tokenomics and features to our holders, we've devised the following roadmap:
+
+&amp;#x200B;
+
+Lending App (Q1 2022) - This is the pinnacle of our Tokenomics, 0% APY BTC borrowing against SAFESHIB. 
+
+&amp;#x200B;
+
+DEX (Coming Q2 2022) - A state of the art DEX that will provide yield farming opportunities and additional ways for SAFESHIB to increase in value
+
+&amp;#x200B;
+
+NFTs (Coming Q4 2022) - Revolutionary NFT's that let you dive into the metaverse and experience Web 3.0. And of course, even more ways to spread value to SAFESHIB holders.
+
+&amp;#x200B;
+
+CEX Listings - Tier 1 Exchanges are planned for 2022 and we promise to deliver big. This will help spread the word of SAFESHIB massively.
+
+&amp;#x200B;
+
+Alongside all of this we will be hosting weekly competitions, buybacks, surprise announcements and much more."
+"Hello, I'm trying to pay back my debts that are under 10k but MAKER is not letting me. Is the only option really to generate more debt so that I can pay off my current? Very confused, any help would be greatly appreciated.",https://i.redd.it/g01o5r9vsmz71.png,brenbrenbrenbrenbren,1,2021-11-15 05:47:03,5,/r/MakerDAO/comments/qu0bue/hello_im_trying_to_pay_back_my_debts_that_are/,NaN,
+BURN BABY BURN!,https://www.reddit.com/r/MakerDAO/comments/qu8s55/burn_baby_burn/,lawhoo_,1,2021-11-15 13:12:03,9,/r/MakerDAO/comments/qu8s55/burn_baby_burn/,NaN,It's official. Burning has resumed.
+MKR continued burn,https://www.reddit.com/r/MakerDAO/comments/queozw/mkr_continued_burn/,PaperImperium,1,2021-11-15 19:50:37,34,/r/MakerDAO/comments/queozw/mkr_continued_burn/,NaN,"I don’t come here to collect input enough, and would like to hear voices outside of those on the official forum.
+
+What are the wider community’s thoughts on continued burn? My (tentative) thoughts are that a small, continuous or regular burn increases safety simply because it ensures that market participants are still ready to bid — testing the plumbing if you will.
+
+For those interested in delegating their MKR, I also invite you to delegate to this contract (currently a Shadow Delegate until Wednesday): [Delegate Contract](https://vote.makerdao.com/address/0xf60d7a62c98f65480725255e831de531efe3fe14?network=mainnet)"
+Cheapest way to send Dai to vault?,https://www.reddit.com/r/MakerDAO/comments/qujyae/cheapest_way_to_send_dai_to_vault/,pgarrity18,1,2021-11-16 00:14:45,6,/r/MakerDAO/comments/qujyae/cheapest_way_to_send_dai_to_vault/,NaN,"I am in the U.S. and I am considering opening a vault and taking out a Dai loan using ETH as collateral. I want to understand the logistics for paying back the loan. I am considering a $100k loan. 
+
+On Coinbase Pro I can purchase Dai at the market price with a 0.01% Taker Fee. Does it make sense to then send directly to the vault address from Coinbase Pro? Are there any smart contract related issues that suggest I should send to a private wallet first? If so, that is getting expensive if I am to pay this back monthly.
+
+What is the best way to pay back a loan and minimize costs? I understand the tradeoff between a monthly payment and a quarterly or yearly payment (less network fees, but higher risk of triggering liquidation). I am trying to evaluate the best approach and I am curious how others make regular payments from USD -&gt; Dai -&gt; Vault. I do not see an L2 solution for this yet but maybe I am missing something?"
+*** Large maker Logo***,https://globaltees-store.com/limited-edition-3731-1?s=hanes-5250&amp;c=Black&amp;p=FRONT,SantosBrewer1,1,2021-11-16 00:21:58,1,/r/MakerDAO/comments/quk439/large_maker_logo/,NaN,
+Introducing Maker Wormhole!,https://www.reddit.com/r/MakerDAO/comments/qum6v7/introducing_maker_wormhole/,JerryGoldfarb,1,2021-11-16 01:55:01,0,/r/MakerDAO/comments/qum6v7/introducing_maker_wormhole/,NaN,"&amp;#x200B;
+
+*Processing video hfbi4p6lssz71...*
+
+[More Info](https://forum.makerdao.com/t/introducing-maker-wormhole/11550)"
+Introducing Maker Wormhole!,https://v.redd.it/hrz9t9gn8tz71,JerryGoldfarb,1,2021-11-16 03:25:47,20,/r/MakerDAO/comments/quo819/introducing_maker_wormhole/,NaN,
+🎧 NFTMusic.Stream 🎧 Incredible Tech. Live Utility. The most underrated project on BSC. 💎 Load your bags before any moment it 🎃,/r/CryptoMoonShots/comments/qsdzbk/nftmusicstream_incredible_tech_live_utility_the/,AMMY858,1,2021-11-16 03:58:38,6,/r/MakerDAO/comments/quoxx8/nftmusicstream_incredible_tech_live_utility_the/,NaN,
+Maker Relay Ep 71,https://forum.makerdao.com/t/maker-relay-ep-71/11666,Artyoma92,1,2021-11-16 05:42:02,0,/r/MakerDAO/comments/qur866/maker_relay_ep_71/,NaN,
+How does Maker DAO generate revenue? Built in fees on smart contract?,https://www.reddit.com/r/MakerDAO/comments/qurr7s/how_does_maker_dao_generate_revenue_built_in_fees/,Technical_Rock_2021,1,2021-11-16 06:05:37,2,/r/MakerDAO/comments/qurr7s/how_does_maker_dao_generate_revenue_built_in_fees/,NaN,
+🎧 NFTMusic.Stream 🎧 Incredible Tech. Live Utility. The most underrated project on BSC. 💎 Load your bags before any moment it 🎗,/r/CryptoMoonShots/comments/qug4ae/nftmusicstream_incredible_tech_live_utility_the/,Money_Percentage7151,1,2021-11-16 14:42:02,0,/r/MakerDAO/comments/qv1nhx/nftmusicstream_incredible_tech_live_utility_the/,NaN,
+🎧 NFTMusic.Stream 🎧 Incredible Tech. Live Utility. The most underrated project on BSC. 💎 Load your bags before any moment it 🎗,/r/CryptoMoonShots/comments/qug4ae/nftmusicstream_incredible_tech_live_utility_the/,Dapper_March_5921,1,2021-11-16 19:45:22,0,/r/MakerDAO/comments/qv616p/nftmusicstream_incredible_tech_live_utility_the/,NaN,
+Stablecoin Interest Rates Are Soaring And Your Government Doesn't Like It - Can Regulations Touch Algorithmic Stablecoins?,https://d-core.net/stablecoin-interest-rates/,carloscancab,1,2021-11-16 21:33:27,0,/r/MakerDAO/comments/qv7veb/stablecoin_interest_rates_are_soaring_and_your/,NaN,
+Love to watch this burning,https://www.reddit.com/r/MakerDAO/comments/qvc0x2/love_to_watch_this_burning/,dreamer2020-,1,2021-11-17 00:44:46,9,/r/MakerDAO/comments/qvc0x2/love_to_watch_this_burning/,NaN,"Awesome that we reach 60m and we are now burning. It sort of an incentive to hold MKR and maybe secretly buying some more. Anyhow, I really still bullish about this bluechip MKR, four reasons:
+
+- The return of the founding father
+- The focus on clean energy / environment (money =power=change)  
+- The burning of MKR
+- USDC exposure is decreasing rapidly"
+"Beyond the Maker Foundation: Past, Present, and Future by Robert Jordan of the Collateral Engineering Services Core Unit",https://www.youtube.com/watch?v=sKYtsv8xVPQ,GoldenChaosGod,1,2021-11-17 02:38:01,6,/r/MakerDAO/comments/qvepkj/beyond_the_maker_foundation_past_present_and/,NaN,
+"DeFi 2.0 Has the Current Spotlight but Don't Sleep on Proven ""Bluechips"" Maker (MKR) and DAI",https://www.publish0x.com/cryptoeq/defi-20-has-the-current-spotlight-but-dont-sleep-on-proven-b-xlzxodk,s618o,1,2021-11-17 05:21:07,6,/r/MakerDAO/comments/qvig3s/defi_20_has_the_current_spotlight_but_dont_sleep/,NaN,
+🎧 NFTMusic.Stream 🎧 Incredible Tech. Live Utility. The most underrated project on BSC. 💎 Load your bags before any moment it 🎗,/r/CryptoMoonShots/comments/qug4ae/nftmusicstream_incredible_tech_live_utility_the/,Clean_Platform_7163,1,2021-11-17 07:49:28,0,/r/MakerDAO/comments/qvlnxe/nftmusicstream_incredible_tech_live_utility_the/,NaN,
+Maker: The Central Bank of Decentralized Finance — A Breakdown,https://cryptocurrently.medium.com/maker-the-central-bank-of-decentralized-finance-a-breakdown-67ef224ab602,Blueberry314E-2,1,2021-11-17 12:42:15,5,/r/MakerDAO/comments/qvr6zb/maker_the_central_bank_of_decentralized_finance_a/,NaN,
+MakerDAO Clone Script,https://www.reddit.com/r/MakerDAO/comments/qvsz11/makerdao_clone_script/,Shot_Court_4729,1,2021-11-17 14:27:35,0,/r/MakerDAO/comments/qvsz11/makerdao_clone_script/,NaN,"[MakerDAO Clone Script](https://www.developcoins.com/makerdao-clone-script) is a Defi lending protocol script to create an Ethereum-blockchain platform. Our Clone Script is designed, built, multi-tested, and validated by our professionals before being utilized.
+
+**To Build your own Defi Lending Protocol Like MakerDAO!**
+
+As a Leading Defi Development Company, Developcoins Provides MakerDAO Clone Script is used on the top of the blockchain networks that have stacking, lending, and borrowing abilities. that allow you to create a MakerDAO Clone Script marketplace that is 100% decentralized similar to MakerDAO. You may easily change the logo, design, and add extra features. 
+
+&amp;#x200B;
+
+**Book A Free MakerDAO Clone Script From Developcoins**
+
+**For more details visit here** \-[https://www.developcoins.com/makerdao-clone-script](https://www.developcoins.com/makerdao-clone-script)
+
+&amp;#x200B;
+
+**Book Free Consultation**
+
+**Call/ Whatsapp** \- +91 9843555651
+
+**Skype -** live: Tech Innovate
+
+**Email ID -** [sales@developcoins.com](mailto:sales@developcoins.com)
+
+**Telegram** \- https://t.me/Developcoins"
+"Meet your delegate call (in 30min, zoom details in the link)",https://forum.makerdao.com/t/meet-your-delegate-6/11593,mariouy1986,1,2021-11-18 00:25:10,0,/r/MakerDAO/comments/qw2xrh/meet_your_delegate_call_in_30min_zoom_details_in/,Governance,
+Manage your NFTs without insane gas costs with CloudNFT platform,https://www.reddit.com/r/MakerDAO/comments/qw3oe2/manage_your_nfts_without_insane_gas_costs_with/,Useful_Platform_,1,2021-11-18 00:59:26,0,/r/MakerDAO/comments/qw3oe2/manage_your_nfts_without_insane_gas_costs_with/,NaN,[removed]
+$CTV 💥| CrytoTV 🚀| 75k MarketCap :) 😳 | Going Back to ATH!! |Paid Promotions to Come |Stealth Launched !!👻 | Soon Moon!!! 🔝,/r/CryptoMoonShots/comments/qouyih/ctv_crytotv_75k_marketcap_going_back_to_ath_paid/,IndependentLadder564,1,2021-11-18 02:40:00,2,/r/MakerDAO/comments/qw5vov/ctv_crytotv_75k_marketcap_going_back_to_ath_paid/,NaN,
+Do Green Bond ETFs make sense as collateral?,https://www.reddit.com/r/MakerDAO/comments/qw65ag/do_green_bond_etfs_make_sense_as_collateral/,ironmagnesiumzinc,1,2021-11-18 02:52:21,2,/r/MakerDAO/comments/qw65ag/do_green_bond_etfs_make_sense_as_collateral/,NaN,"I was thinking about the The Case for Clean Money post and the idea that ""we need to ensure a big portion of the collateral behind Dai is provably resilient collateral that will resist the impacts of climate change"". I think that it could potentially be a good idea to add as collateral ETFs that track Green Bond Indices, like [GRNB](https://www.vaneck.com/us/en/investments/green-bond-etf-grnb/) or [FTSE](https://www.ftserussell.com/products/indices/green-impact-bond).
+
+Pros: ""Green bonds are mostly backed by the full balance sheet of the issuer, and not only by the cash flows related to the climate-friendly project financed from the proceeds"" ([page 56](https://www.bis.org/publ/qtrpdf/r_qt1909f.pdf)). They also provide the benefits of diversification.
+
+Cons: The returns of some of these ETFs [have been pretty low](https://finance.yahoo.com/quote/grnb/) imo. 
+
+In general, I think they would be pretty safe from wild price fluctuations and they would provide investment in clean energy. but I'm not sure that they would provide enough yield. What do you guys think?"
+help my vault was hacked i have video evidence!,https://i.redd.it/gruzy0kkl7081.jpg,that60sdude,1,2021-11-18 03:41:58,0,/r/MakerDAO/comments/qw77in/help_my_vault_was_hacked_i_have_video_evidence/,NaN,
+New NFT gem in making is set to be launched on 25th of November,https://www.reddit.com/r/MakerDAO/comments/qw91k8/new_nft_gem_in_making_is_set_to_be_launched_on/,Useful_Platform_,1,2021-11-18 05:09:47,0,/r/MakerDAO/comments/qw91k8/new_nft_gem_in_making_is_set_to_be_launched_on/,NaN,[removed]
+Newbie question - liquidations,https://www.reddit.com/r/MakerDAO/comments/qw93xe/newbie_question_liquidations/,No_Delivery_790,1,2021-11-18 05:12:53,5,/r/MakerDAO/comments/qw93xe/newbie_question_liquidations/,NaN,"Hey,  sorry for the basic questions but something I can't figure out.
+Say I take a 2.8k DAI loan, and post 1 ETH collateral, and my initial collateral/ debt ratio is 145%.
+
+Then ETH goes down and the collateral is auctioned.
+
+What happens if 1 ETH is sold to a liquidator for more than the value of the debt 2.8kDAI + additional fees/amounts that get added to the debt for going into liquidations.
+
+For example, if 0.95 ETH could pay if the debt + fees, who gets the 0.5 ETH that is left over ?"
+USDC collateralization down to 26%,https://i.redd.it/y9z3mexod8081.png,GoldenChaosGod,1,2021-11-18 06:21:01,7,/r/MakerDAO/comments/qwais0/usdc_collateralization_down_to_26/,NaN,
+"Ask MakerDAO #12: Learn About Maker Wormhole with Protocol Engineering | Friday, Nov 19 at 16:00 UTC",https://forum.makerdao.com/t/ask-makerdao-12-ama-learn-about-maker-wormhole-with-protocol-engineering/11610,GoldenChaosGod,1,2021-11-18 07:00:13,1,/r/MakerDAO/comments/qwbbkw/ask_makerdao_12_learn_about_maker_wormhole_with/,NaN,
+Nice,https://i.redd.it/g1qe5ac3u8081.jpg,onecryingjohnny,1,2021-11-18 07:51:27,4,/r/MakerDAO/comments/qwcd6q/nice/,NaN,
+Efforts to reduce transaction costs?,https://www.reddit.com/r/MakerDAO/comments/qwfpnk/efforts_to_reduce_transaction_costs/,EqualDraft0,1,2021-11-18 10:44:33,1,/r/MakerDAO/comments/qwfpnk/efforts_to_reduce_transaction_costs/,NaN,"What, if any, efforts are underway to reduce the transaction costs associated with interacting with vaults? I haven't been keeping up with Ethereum tech lately. Is Maker working on any sort of scaling or just waiting for general solutions to be implemented?"
+This is quite the rally considering the general sentiment around crypto investing atm... (MKR up by ~18% in 12 minutes just now),https://www.reddit.com/r/MakerDAO/comments/qwitr3/this_is_quite_the_rally_considering_the_general/,johnnyApplePRNG,1,2021-11-18 13:38:37,3,/r/MakerDAO/comments/qwitr3/this_is_quite_the_rally_considering_the_general/,NaN,Anybody know what's going on? Or just somebody divesting into the larger coins that have been bleeding out for days?
+Why is it much more expensive to borrow USD via BlockFi than the route via Dai?,https://www.reddit.com/r/MakerDAO/comments/qwscn8/why_is_it_much_more_expensive_to_borrow_usd_via/,miadeg600,1,2021-11-18 23:36:39,10,/r/MakerDAO/comments/qwscn8/why_is_it_much_more_expensive_to_borrow_usd_via/,NaN,"Just curious why someone would borrow USD at much higher interest rates via BlockFi (other than simplicity) than borrowing DAI, converting to USDC, then to USD?  Can someone point out the pros and cons of each?  Just trying to understanding.  Thanks."
+CateInu 🚀 | Early Token | Poocoin and Coinzilla ads started | CG and CMC applied listing can be Anytime | A new member in Inu token family💥 | 5% Reflection In CateInu BEP20 Token | P2E game | Cate Staking | Ecommerce Store and Plugin | Nft Markeplace of Dogs Elon and Cats |,/r/CryptoMoonShots/comments/qwqtnt/cateinu_early_token_poocoin_and_coinzilla_ads/,Master_Muffin1423,1,2021-11-18 23:40:37,0,/r/MakerDAO/comments/qwsfnu/cateinu_early_token_poocoin_and_coinzilla_ads/,NaN,
+$RLGL Red Light Green Light | FANTOM Meme Token | Stealth Launched Now | Low Mcap,/r/CryptoMoonShots/comments/qwqkd4/rlgl_red_light_green_light_fantom_meme_token/,ImpossiblePea4192,1,2021-11-19 01:53:24,0,/r/MakerDAO/comments/qwvdsg/rlgl_red_light_green_light_fantom_meme_token/,NaN,
+Hey guys! Found quite a promising crypto project. They’re launching IDO at the end of November. Check this out token.wono.io,https://www.reddit.com/r/MakerDAO/comments/qwylcc/hey_guys_found_quite_a_promising_crypto_project/,myriality,1,2021-11-19 04:18:48,0,/r/MakerDAO/comments/qwylcc/hey_guys_found_quite_a_promising_crypto_project/,NaN,"Brief: Wono.io is the first freelance exchange, implementing cryptocurrency. Their token will be used to regulate financial transactions between customers and freelancers. Investors and token holders can earn on staking. Plus, there are some ways to earn on token sale or pre-sale. (Waiting list registration started at - [https://token.wono.io/](https://token.wono.io/)).
+
+They promise to post a series of articles, explaining the work of token and how to earn on it.   
+So, here's why invest in Wono:   
+1) Idea. The token will be used as a payment between employers and freelancers. It's based on smart-contracts and aims to avoid fraud and scam in freelancing. Just to add, in 2021, out of 3.6 billion people's global workforce, 1.1 are [freelancers](https://www.ccn.com/38-of-freelancers-regularly-use-cryptocurrency-survey-reveals/). I guess, you see the potential.   
+2) [**Huobi**](https://www.huobi.com/en-us/) **support**. The project is supported by Huobi exchange. It's the third cryptocurrency exchange in the world after [Binance](https://www.binance.com/en) and [Coinbase](https://www.coinbase.com/). All users would be able to stake and exchange tokens on Huobi via a special crypto-wallet.    
+3) Fast-growing [community](https://www.facebook.com/wonoworld/). For now, Wono.io is a freelance exchange for people mostly from Asia and Africa. It already has 518,000+ registered users from which 8,000+ are already paying for the subscription services. The Wono monthly turnover is $127,520. Average profit from one paying user: $15,94.  
+   Of course, it's up to you to decide whether to invest in the Wono project or not, but you can see its advantages and potential. IDO's coming at the end of November."
+📰 MakerDAO Weekly Forum's Review 📰,https://forum.makerdao.com/t/forum-at-a-glance-november-11-18/11713,Artyoma92,1,2021-11-19 04:52:28,4,/r/MakerDAO/comments/qwzbey/makerdao_weekly_forums_review/,NaN,
+Maker Delegate GFX Labs Would Like Your Vote!,https://www.reddit.com/r/MakerDAO/comments/qxhjok/maker_delegate_gfx_labs_would_like_your_vote/,PaperImperium,1,2021-11-19 22:38:08,13,/r/MakerDAO/comments/qxhjok/maker_delegate_gfx_labs_would_like_your_vote/,NaN,"Many of you know me as PaperImperium, one of the original slate of delegates at MakerDAO. I have now transitioned to help build the GFX Labs governance team, which means starting over with a new delegation contract. [I am here to ask for your delegated MKR votes!](https://vote.makerdao.com/delegates?network=mainnet)
+
+Please feel free to ask any questions in the comments, but here are three common ones to get us started:
+
+**Why did you switch to work for GFX Labs instead of remaining a solo delegate?**  
+One of the continuing problems at Maker is that votes are increasingly complex and nuanced. Delegates have consistently not had access to expertise on a number of topics. One of the most glaring is that Maker has no legal expertise in-house to guide delegates. Without any formal legal advice on contentious topics such as the recent vote to integrate Deco Protocol into Maker, delegates were forced to seek out informal opinions from a variety of sources -- former SEC attorneys, crypto-specific counsel intimately familiar with Maker, and general personal attorneys. Being part of GFX Labs ensures that I and my colleagues who cover other protocols for GFX have access to professional legal, economic, and technical expertise to avoid potentially catastrophic mistakes when delegates are left to Google their way to whether something presents legal, economic, or technical risk to Maker. I firmly believe over time most delegates on large protocols will be part of teams that can provision professional resources -- GFX Labs and Gauntlet are likely the first two of many.
+
+**What is your stance on burning?**  
+The buy-and-burn mechanic is core to Maker's value proposition. While it is normally good policy to avoid buybacks when a business is in a growth stage, Maker has the unique quality of being able to source capital extremely cheaply without the need for dilution. Because of its unique position of being systemically important to the DeFi ecosystem, Maker does have a responsibility to maintain adequate reserves in the Surplus Buffer to cover at least a year of (rapidly growing) contributor expenses and cover any bad debt that may be liquidated at a loss. However, having at least a small burn ongoing at all times not only offsets the (rapidly growing) obligations to vest MKR alongside (rapidly growing) contributor salary expenses, but it also ensures there is a healthy ecosystem of keepers to sell MKR to burn at reasonable prices. 
+
+**What can you do to add value to Maker?**  
+For those unfamiliar with me, I regularly interface with US and international regulators, lawmakers, and traditional finance actors. This includes but is not limited to education efforts with our harshest critics like Senator Warren's advisors, providing industry understanding to regulators such as the CFPB, and negotiating a central role for Maker in financing the government-issued, tokenized bonds.\* With the addition of my personal relationships to the resources and expertise in governance services already in GFX Labs, I fully expect that there is much more value to deliver than passively voting on polls.
+
+\*This agreement is subject to approval by Powell, Legarde, and host central banks. Decision whether or not to green light this program is expected by the end of December 2021.
+
+**I encourage you to delegate a portion of your MKR to GFX Labs' delegate contract to best provide an advocate for a Maker that can grow and flourish for years to come. The delegation UI** [is here](https://vote.makerdao.com/delegates?network=mainnet)**. Information specific to GFX Labs** [can be found here](https://vote.makerdao.com/address/0xf60d7a62c98f65480725255e831de531efe3fe14?network=mainnet#delegate-credentials)**. The (short but growing) voting history of GFX Labs** [can be found here.](https://forum.makerdao.com/t/gfx-labs-delegate-platform/11556)"
+General question,https://www.reddit.com/r/MakerDAO/comments/qxlng5/general_question/,FoundinNewEngland,1,2021-11-20 01:54:55,5,/r/MakerDAO/comments/qxlng5/general_question/,NaN,"im interested in the concept of ""keepers"" (arbitrage-keepers). I’m interested in how they automize trades generally, the more financial side versus technical. I am curious what is out there for open source stuff from Maker, like source code/api code. the plug and play trade contract interaction is exactly the type of thing I want to set up with.
+
+Many thanks"
+🎧 NFTMusic.Stream 🎧 Incredible Tech. Live Utility. The most underrated project on BSC. 💎 Load your bags before any moment it 🎣,/r/CryptoMoonShots/comments/qxfqlj/nftmusicstream_incredible_tech_live_utility_the/,Silent-Plantain-4111,1,2021-11-20 02:36:44,0,/r/MakerDAO/comments/qxmjg0/nftmusicstream_incredible_tech_live_utility_the/,NaN,
+"Traditional banking concentrates wealth within a small % of the population while also having its flaws (e.g. settlement risks) whereas MakerDao allows you to be your bank. Its native stablecoin, $DAI is backed by a collateral that effectively negates the prospects of a depeg",https://medium.com/onomy-protocol/banking-explained-overview-frameworks-challenges-and-future-1204cd85d7a6,doppefeatte2x,1,2021-11-20 02:44:41,1,/r/MakerDAO/comments/qxmp8n/traditional_banking_concentrates_wealth_within_a/,NaN,
+"A provably fair dApp casino that is fully decentralized, has on-chain transactions recorded on the WAX Blockchain for transparency and has integrated Chainlink's VRF Oracles - the blockchain gaming industry's leading Oracle solution for gaming dApps - and accepts $DAI as deposits.",http://play.earnbet.io,glitznglam05bt,1,2021-11-20 03:25:28,0,/r/MakerDAO/comments/qxnje9/a_provably_fair_dapp_casino_that_is_fully/,NaN,
+🎧 NFTMusic.Stream 🎧 Incredible Tech. Live Utility. The most underrated project on BSC. 💎 Load your bags before any moment it ⛳,/r/CryptoMoonShots/comments/qxcp4u/nftmusicstream_incredible_tech_live_utility_the/,Ok_Form7502,1,2021-11-20 05:50:30,2,/r/MakerDAO/comments/qxqgh3/nftmusicstream_incredible_tech_live_utility_the/,NaN,
+MAKERDAO - deposit assets,https://www.reddit.com/r/MakerDAO/comments/qy5bjr/makerdao_deposit_assets/,stavrosioannou,1,2021-11-20 21:11:56,2,/r/MakerDAO/comments/qy5bjr/makerdao_deposit_assets/,NaN," Can someone explain how the below works? 
+
+**'This means that, for the first time in an enterprise of this scale, anyone can deposit assets such as real estate, trade invoices and other tangible assets in a pool to receive funding. These assets are used as collateral for a loan paid in the project’s stablecoin, DAI.'**
+
+I mean what is the process to deposit assets in a pool ? Is this done through NFT's ? How is the value of a real world asset determined?
+
+Is there any video / article referring to this?
+
+Thanks"
+So what are our price prediction for MKR this bull cycle?,https://www.reddit.com/r/MakerDAO/comments/qy5kxb/so_what_are_our_price_prediction_for_mkr_this/,anbesanegus,1,2021-11-20 21:27:37,6,/r/MakerDAO/comments/qy5kxb/so_what_are_our_price_prediction_for_mkr_this/,NaN,
+Executive Vote: November 19th,https://vote.makerdao.com/executive/template-executive-proposal-onboarding-wbtc-b-increasing-wbtc-a-stability-fee-change-of-covenants-for-p1-drop-offboarding-collaterals-november-19-2021?network=mainnet#proposal-detail,mariouy1986,1,2021-11-20 22:46:12,16,/r/MakerDAO/comments/qy70sa/executive_vote_november_19th/,Governance,
+"Out of the various stablecoin models, MakerDao's $DAI tops the list for me since it's crypto-collateralised and hence holds the least risk for a depegg. It's basically the best stable to LP for on DEXes like Uniswap.",https://i.redd.it/f741fltl0t081.png,glitznglam05bt,1,2021-11-21 03:49:15,2,/r/MakerDAO/comments/qyd8pf/out_of_the_various_stablecoin_models_makerdaos/,NaN,
+Are Maker Vaults truly decentralized?,https://www.reddit.com/r/MakerDAO/comments/qyfg0w/are_maker_vaults_truly_decentralized/,Ironhell7,1,2021-11-21 05:38:12,6,/r/MakerDAO/comments/qyfg0w/are_maker_vaults_truly_decentralized/,NaN,"I am kind of doubtful that Maker Vaults are truly decentralized due to the following questions. I tried searching them up but didn't find any useful answers. I would really appreciate if someone could answer the following:
+
+* What exactly are Maker Vaults? Are they just wallets with rules that allow people to lock up their crypto as collateral and withdraw it when they give back the DAI that they borrowed? 
+* Do only Vault owners have access to the crypto locked in their vault. 
+* How do we know that Maker doesn't steal the crypto locked into the vault?"
+"♾ InfinityDOT just got audited by Techrate, listed on CMC and Coingeko and touched 7MM Marketcap in just 5 days from launch! Exchanges already sending in their offers!",https://www.reddit.com/r/MakerDAO/comments/qygw28/infinitydot_just_got_audited_by_techrate_listed/,dark_daddy_hmmmm,1,2021-11-21 06:50:41,2,/r/MakerDAO/comments/qygw28/infinitydot_just_got_audited_by_techrate_listed/,NaN,"InfinityDOT is a new token that pays out reflections in Polkadot, so far investors not only did a 10x, but remade their initial investment just from Polkadot payments, that means no matter the direction of the token, constant flow of Buy/Sell transactions pay thousands in Polkadot constantly.
+
+   In other words, you get to invest in a small MarketCap gem with huge potential and even get paid passively while your investment grows exponentially! Join our rapidly expanding token and help us create the greatest reflection based token on BSC!
+
+TL;DR ⚙️
+
+Liquidity Locked
+
+Presale on DxSale
+
+Audit coming soon!
+
+Detailed roadmap
+
+🏦 Tokenomics - 15% TAX ON ALL TRANSACTIONS
+
+8% Reflections
+
+2%
+
+5% buyback
+
+💬 Join our Telegram: [https://t.me/infinitydotcommunity/24](https://t.me/infinitydotcommunity/24)
+
+🌐 Visit our website: [https://www.infinitydot.net/](https://www.infinitydot.net/)
+
+🐦Follow ous on Twitter: [https://twitter.com/\_InfinityDOT](https://twitter.com/_InfinityDOT)
+
+💩Poocoin: 0x73b96ac0814eaff828779de589840d1172aaaa70
+
+Not convinced yet? Read on!
+
+   At 4.5M marketcap, a strong contract and an audit on the way, we can expect huge growth in the near future, many have already recouped initial investment in Polkadot reflections! If you’re the kind of guy that buys real tokens and not just meme coins, this is the project for you! The standard for pay-back tokens so far is flawed, with pay-back in the same token, taxes for all affect the price the same, redistributed taxes re-enter the market and cause drops. Which is why reflective tokens have become so popular in the past months. Taxes are applied in every transaction, which in turn purchase and drop a separate high value token to all holders with affecting the value of the original, giving passive income in stable high-marketap projects. For this reason and many other, InfinityDOT is a promising token, at the height of the bullrun, in a moment in which all chains are filled by meme-coins with no porpose that die within days, we have new token that provides actual value, and like it’s precedesor reflective tokens, it’s here to stay. As opposed to coins such as EverETH, or InfinityADA, InfinityDOT provides it’s reflection in Polkadot, a self-named etherum killer that has grown into a top 10 Marketcap coin with extremely dedicated development, community and an indisputable bright future ahead. Here comes InfinityDOT, while new tokens on Polkadot are still few in comparasion to the giants that are the Binance Smart Chain and Etherum, work for it’s future can start off-chain, with reflective tokens. InfinityDOT not only proposes as an investment opportunity it’s possible growth, but also the certain growth of a stable future token with a long history on the market. A future of the InfinityDOT token on it’s father chain that is BSC and a promising future on the parachain of Polkadot! The token has much work to do, the concept is promising, yet simple for anyone to understand, and compared to the majority of BSC Tokens, has a high survival chance. The team has just started going public, with a possible pre-sale to raise liquidity this week, a sale on DxSale to raise trust trough locked liquidity, a public open source contract to prove it’s security, and a perfect moment for a real project to start, in a sea of short-lived meme tokens, a real project is a real needle in a haystack. Of course DYOR, the project has barely started and has a long life ahead, the website is up and the contract will be published shortly, all we can do now is wait and verify it’s validity when the contract is published. Now that I’ve spoonfeed you, start DYOR, whitepaper, roadmap and community channels available at [www.InfinityDOT.net](http://www.infinitydot.net/)."
+"Is This Enough for You? Wink, wink...",https://redgifs.com/watch/siennaimpressivebadger,TurbulentSafe1802,1,2021-11-21 07:11:05,0,/r/MakerDAO/comments/qyhath/is_this_enough_for_you_wink_wink/,NaN,
+You can play video games EVEN AFTER you fuck me ...;),https://redgifs.com/watch/shinyblackarctichare,Square_Ad6483,1,2021-11-21 07:25:58,0,/r/MakerDAO/comments/qyhl36/you_can_play_video_games_even_after_you_fuck_me/,NaN,
+How long does it take to send DAI to my metamask wallet from Coinbase?,https://www.reddit.com/r/MakerDAO/comments/qynk7d/how_long_does_it_take_to_send_dai_to_my_metamask/,PromptWhole386,1,2021-11-21 13:00:23,7,/r/MakerDAO/comments/qynk7d/how_long_does_it_take_to_send_dai_to_my_metamask/,NaN,"I recently tried sending DAI from my Coinbase exchange to the Fantom Opera Network on MetaMask. First off, DAI can be sent to the Fantom Network right? If so, how long should this transaction take? If not, I assume I can't recover these funds. Thanks."
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about Dai from last week,https://www.reddit.com/r/MakerDAO/comments/qyq12j/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-21 15:43:46,2,/r/MakerDAO/comments/qyq12j/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,[removed]
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about Maker from last week,https://www.reddit.com/r/MakerDAO/comments/qyq1xe/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-21 15:45:25,2,/r/MakerDAO/comments/qyq1xe/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,[removed]
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about Dai from last week,https://www.reddit.com/r/MakerDAO/comments/qyter6/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-21 19:50:56,2,/r/MakerDAO/comments/qyter6/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,[removed]
+binance peg-dai paper wallet,https://www.reddit.com/r/MakerDAO/comments/qywatl/binance_pegdai_paper_wallet/,aguscugno,1,2021-11-21 22:39:16,2,/r/MakerDAO/comments/qywatl/binance_pegdai_paper_wallet/,NaN,"Hello, I'm looking forward to give 30 DAI to a friend as a present (yes, I know it's few, but I live in Argentina so it's pretty much). Since ERC-20 fees are currently way too expensive (~15 DAI) I want to send her the coins through Binance Smart Chain (BEP20), therefore using their Binance-Peg DAI token. Moreover, she doesn't own any wallet so I need to create it. In this regard, I was thinking on giving her a paper wallet, such as those created by bitaddress.org. 
+
+Is there a way to create a binance peg-DAI paper wallet? 
+
+Thank you in advance."
+Please help. I just bridged my DAI from BSC chain to Fantom chain and my DAI showed up as anyDAI. Does anyone know how I convert anyDAI back into DAI?,https://www.reddit.com/r/MakerDAO/comments/qz7p5a/please_help_i_just_bridged_my_dai_from_bsc_chain/,Bebe6322,1,2021-11-22 07:45:14,11,/r/MakerDAO/comments/qz7p5a/please_help_i_just_bridged_my_dai_from_bsc_chain/,NaN,
+"Is there an easy, illustrative guide on MakerDAO?",https://www.reddit.com/r/MakerDAO/comments/qzivx4/is_there_an_easy_illustrative_guide_on_makerdao/,Orageux101,1,2021-11-22 18:55:12,6,/r/MakerDAO/comments/qzivx4/is_there_an_easy_illustrative_guide_on_makerdao/,NaN,"Hey guys,
+
+I have a bunch of questions about MakerDAO that I haven't really had success answering from the docs and was hoping someone here may have made a nicer, more friendly guide.
+
+1) What happens when the value of collateral decreases? Both when it decreases but is still over collateralised (100% &lt; x &lt; 150%) and when it becomes under collateralised (x &lt; 100%)
+
+2) At what point does a Keeper step in and sell the vault to prevent further loss?
+
+3) How does MakerDAO prevent bad actors? Say ETH tanks and the vault is now under collateralised. If the actor never comes back and makes away - what happens?"
+Annualized Profits Up 21m Today After WBTC Rate Increases,https://i.redd.it/57vfjrrim5181.png,PaperImperium,1,2021-11-22 22:08:11,26,/r/MakerDAO/comments/qzm783/annualized_profits_up_21m_today_after_wbtc_rate/,NaN,
+"💎 Black Panther neko No Tax, No Team token Liquidity Nft And Game Imminent Listing in a week Insane Marketing Whitelist Live!!!",https://www.reddit.com/r/MakerDAO/comments/qzp7am/black_panther_neko_no_tax_no_team_token_liquidity/,throwaway_desuka,1,2021-11-23 00:23:44,0,/r/MakerDAO/comments/qzp7am/black_panther_neko_no_tax_no_team_token_liquidity/,NaN,"📣🔥Black Panther Neko Presale is coming‼️
+
+   💸$BLP Community Token - NFT+DEFI💎🚀 🚀 if you missed Wakanda Inu, don’t miss 🐈‍⬛Black Panther Neko🐈‍⬛⚡️⚡️
+
+   🔋PRESALE ON PINKSALE &amp; PANCAKE SWAP LAUNCH IN A BIT
+
+ ⚡️🔥This project explores NFT-GAMING use case on a DEFI token | potential 1000x 🚀 | Liquidity locked on launch  | 50% of tokens to be burned 🔥⚡️
+
+&amp;#x200B;
+
+➡️ 100 BNB SoftCap
+
+➡️ 200 BNB HardCap
+
+&amp;#x200B;
+
+🔋 30% Benefit on PanCakeSwap Listing
+
+&amp;#x200B;
+
+Token Name: BLACK PANTHER NEKO (BLP
+
+&amp;#x200B;
+
+Token Address: 0x329221B914eccBFeB412Dc4E5Dec18aC181383b4
+
+&amp;#x200B;
+
+\-Soft/Hard Cap: 100 BNB / 200 BNB
+
+\-Min/Max: 0.1 BNB / 4 BNB
+
+\-Presale Rate: 1 BNB = 299999999999.0 BLP
+
+\-Listing Rate: 1 BNB = 210000000000.0 BLP
+
+\-Liquidity: 70%
+
+\-Liquidity Lockup Time: 700 days 
+
+\-Website: [http://blackpantherneko.com/](http://blackpantherneko.com/)
+
+&amp;#x200B;
+
+🎗 BLP is Community Oriented.
+
+💯 SAFU (Have been subjected to audit immediately after launch) 
+
+&amp;#x200B;
+
+Social Media Links
+
+&amp;#x200B;
+
+➡️Telegram Announcement Channel: [https://t.me/blackpantherneko\_EN](https://t.me/blackpantherneko_EN) 
+
+➡️Telegram Chat: [https://t.me/blackpantherneko](https://t.me/blackpantherneko)
+
+➡️Twitter: [https://twitter.com/blpneko](https://twitter.com/blpneko)
+
+➡️Website: [https://blackpantherneko.com](https://blackpantherneko.com)
+
+➡️Instagram: [https://instagram.com/blpneko](https://instagram.com/blpneko)
+
+➡️Reddit: [https://www.reddit.com/r/blpneko](https://www.reddit.com/r/blpneko)
+
+➡️Medium: [https://medium.com/@blackpantherneko](https://medium.com/@blackpantherneko)
+
+&amp;#x200B;
+
+Do not miss out your chance to be an early investor! Don’t be the one to see this post and then come back once it’s mooned! Get in from the very start! We’re here for the Long Run!"
+"💎 Black Panther neko No Tax, No Team token Liquidity Nft And Game Imminent Listing in a week Insane Marketing Whitelist Live!!!",https://www.reddit.com/r/MakerDAO/comments/qzra1v/black_panther_neko_no_tax_no_team_token_liquidity/,Lesbierinap,1,2021-11-23 01:53:03,0,/r/MakerDAO/comments/qzra1v/black_panther_neko_no_tax_no_team_token_liquidity/,NaN,"💎 🐈‍⬛️ Black Panther neko | No Tax, No Team token 🔒 Liquidity | Nft And Game Imminent 🚀 | Listing in a week 🔥 | Insane Marketing | 🚨 Whitelist Live!!    
+
+   📣🔥Black Panther Neko Presale is coming‼️
+
+&amp;#x200B;
+
+   💸$BLP Community Token - NFT+DEFI💎🚀 🚀 if you missed Wakanda Inu, don’t miss 🐈‍⬛️Black Panther Neko🐈‍⬛️⚡️⚡️
+
+&amp;#x200B;
+
+ 🔋PRESALE ON PINKSALE &amp; PANCAKE SWAP LAUNCH IN A BIT
+
+&amp;#x200B;
+
+   ⚡️🔥This project explores NFT-GAMING use case on a DEFI token | potential 1000x 🚀 | Liquidity locked on launch  | 50% of tokens to be burned 🔥⚡️
+
+&amp;#x200B;
+
+➡️ 100 BNB SoftCap
+
+➡️ 200 BNB HardCap
+
+&amp;#x200B;
+
+🔋 30% Benefit on PanCakeSwap Listing
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+Token Name: BLACK PANTHER NEKO (BLP)
+
+&amp;#x200B;
+
+Token Address: 0x329221B914eccBFeB412Dc4E5Dec18aC181383b4
+
+&amp;#x200B;
+
+\-Soft/Hard Cap: 100 BNB / 200 BNB
+
+\-Min/Max: 0.1 BNB / 4 BNB
+
+\-Presale Rate: 1 BNB = 299999999999.0 BLP
+
+\-Listing Rate: 1 BNB = 210000000000.0 BLP
+
+\-Liquidity: 70%
+
+\-Liquidity Lockup Time: 700 days 
+
+\-Website: [http://blackpantherneko.com/](http://blackpantherneko.com/)
+
+&amp;#x200B;
+
+🎗 BLP is Community Oriented.
+
+💯 SAFU (Have been subjected to audit immediately after launch) 
+
+&amp;#x200B;
+
+Social Media Links
+
+&amp;#x200B;
+
+➡️Telegram Announcement Channel: [https://t.me/blackpantherneko](https://t.me/blackpantherneko)
+
+➡️Telegram Chat: [https://t.me/blackpantherneko\_EN](https://t.me/blackpantherneko_EN)
+
+➡️Twitter: [https://twitter.com/blpneko](https://twitter.com/blpneko)
+
+➡️Website: [https://blackpantherneko.com](https://blackpantherneko.com)
+
+➡️Instagram: [https://instagram.com/blpneko](https://instagram.com/blpneko)
+
+➡️Reddit: [https://www.reddit.com/r/blpneko](https://www.reddit.com/r/blpneko)
+
+➡️Medium: [https://medium.com/@blackpantherneko](https://medium.com/@blackpantherneko)
+
+&amp;#x200B;
+
+Do not miss out your chance to be an early investor! Don’t be the one to see this post and then come back once it’s mooned! Get in from the very start! We’re here for the Long Run! see"
+CDP automation in DeFi Saver,https://www.reddit.com/r/MakerDAO/comments/qzv9hd/cdp_automation_in_defi_saver/,deepdeeper,1,2021-11-23 04:41:55,2,/r/MakerDAO/comments/qzv9hd/cdp_automation_in_defi_saver/,NaN,"Hi there,
+
+A quick question from a beginner: I saw that you need a debt of at least 40000 DAI in your MakerDAO CDP to be able to activate CDP automation in DeFi Saver. 
+
+But what if it pays back some of your DAI to increase your ratio and you go below 40000 DAI? Will you then lose CDP automation?
+
+Thanks for helping me out!"
+[Maker Relay] The State of DAI | 11/16- 11/22,https://v.redd.it/jaa8qtz0z8181,JerryGoldfarb,1,2021-11-23 09:24:08,2,/r/MakerDAO/comments/r01dif/maker_relay_the_state_of_dai_1116_1122/,NaN,
+"A provably fair dApp casino that is fully decentralized, has on-chain transactions recorded on the WAX Blockchain for transparency and has integrated Chainlink's VRF Oracles - the blockchain gaming industry's leading Oracle solution for gaming dApps - and accepts $DAI as deposits.",http://play.earnbet.io,dilbanm,1,2021-11-23 16:06:07,0,/r/MakerDAO/comments/r08chl/a_provably_fair_dapp_casino_that_is_fully/,NaN,
+Maker Relay Ep 72 - Updates,https://forum.makerdao.com/t/maker-relay-ep-72/11773,mariouy1986,1,2021-11-23 21:23:13,0,/r/MakerDAO/comments/r0d5gh/maker_relay_ep_72_updates/,NaN,
+[uncensor.cc] Top 5 censored r/cryptocurrency posts and comments about Maker from last week,https://www.reddit.com/r/MakerDAO/comments/r0dk14/uncensorcc_top_5_censored_rcryptocurrency_posts/,uncensoredcc_bot,1,2021-11-23 21:44:54,0,/r/MakerDAO/comments/r0dk14/uncensorcc_top_5_censored_rcryptocurrency_posts/,NaN,"# Posts
+| Title  |Reddit Link   | Reveddit Link  | UpVotes  |
+|---|---|---|---|
+| How to get the CEX trading experience on a DEX. A simple DeFi limit order protocol explanation and help guide.  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qvjdwr)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qvjdwr)  | 125  |
+| I feel like figuring out taxes is going to be Ludacris because I got Algos in Different Area Codes.  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qzkx6g)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qzkx6g)  | 6  |
+| ALL COINS PLUMMET 11/16/21 5am EST??? Same time?? WTF  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qvc5ls)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qvc5ls)  | 4  |
+| Unpopular opinion: NFTs will be valuable in the future. Probably not the ones that are out there today.  | [View on Reddit](https://reddit.com/r/cryptocurrency/comments/qvgir0)  | [View on Reveddit](https://reveddit.com/r/cryptocurrency/comments/qvgir0)  | 4  |
+[View Similar Posts on uncensor.cc](https://uncensor.cc/search?f=p&amp;q=mkr&amp;sub=cryptocurrency)
+****"
+🌎 Maker Explorer #1: Real-World Sandbox Grant Report - Core Unit Meetings,https://forum.makerdao.com/t/maker-explorer-1-real-world-sandbox-grant-report/11715,mariouy1986,1,2021-11-23 23:22:47,2,/r/MakerDAO/comments/r0fkmj/maker_explorer_1_realworld_sandbox_grant_report/,NaN,
+Mint DAI with ETH plus yield,https://www.reddit.com/r/MakerDAO/comments/r0jsqu/mint_dai_with_eth_plus_yield/,dreamsofsteel,1,2021-11-24 02:32:40,3,/r/MakerDAO/comments/r0jsqu/mint_dai_with_eth_plus_yield/,NaN,"Just learned about MakerDAO so forgive me if this is a stupid question. I have many of my assets earning yield in cefi options like Gemini Earn, Celcius, etc.
+
+The stability fee for locking ETH is only 2.5% and I can earn 8% on DAI in Gemini Earn. Is that just free money assuming I don't get liquidated or am I missing something here? Is the stability fee just taken from the collateral periodically to cover the costs?"
+"More Than 9,000,000,00 DAI",https://i.redd.it/l3p7ymmc5f181.jpg,PaperImperium,1,2021-11-24 06:09:23,10,/r/MakerDAO/comments/r0oohj/more_than_900000000_dai/,NaN,
+Impact of Stablecoin Regulations on Maker and Dai,https://www.reddit.com/r/MakerDAO/comments/r0tgy1/impact_of_stablecoin_regulations_on_maker_and_dai/,ConvexPreferences,1,2021-11-24 10:01:10,15,/r/MakerDAO/comments/r0tgy1/impact_of_stablecoin_regulations_on_maker_and_dai/,NaN,"The government is talking about instituting regulations on stablecoin issuers. These regulations seem to be more geared toward Tether and USDC which operate like money market funds or banks.
+
+It seems to me though that bank-like regulations on stablecoins like Dai or Terra do not make sense. If the government said a stablecoin issuer has to be a federally regulated bank, how is it possible that Maker or Terra could comply? Does anyone have a good read on whether the proposals would apply? 
+
+I can't tell if Dai / Terra would be exempt, if they would be banned in the US (and is there a mechanism to?), or what.
+
+I can almost get it if we're talking about a model like Tether where you want to avoid blatant fraud and systemic risk. But are they going to stifle innovation by not including a framework for these tokens to live?"
+An educational article of how CBDCs are a false utopia and why decentralized stablecoins like Maker's $DAI are vital for our Financial Systems.,https://medium.com/onomy-protocol/the-false-utopia-of-cbdcs-and-why-decentralized-stablecoins-reign-supreme-6e1d4c59579b,comandarns,1,2021-11-24 17:04:14,0,/r/MakerDAO/comments/r10xvy/an_educational_article_of_how_cbdcs_are_a_false/,NaN,
+Improving governance participation rate at MakerDAO - Governance,https://forum.makerdao.com/t/improving-governance-participation-rate-at-makerdao/11706,mariouy1986,1,2021-11-24 21:11:44,8,/r/MakerDAO/comments/r14vii/improving_governance_participation_rate_at/,NaN,
+P/E below 20 for first time since the last run up on maker price,https://www.reddit.com/r/MakerDAO/comments/r1h3kp/pe_below_20_for_first_time_since_the_last_run_up/,Gaming_Forever,1,2021-11-25 06:34:24,6,/r/MakerDAO/comments/r1h3kp/pe_below_20_for_first_time_since_the_last_run_up/,NaN,"You can see it on https://makerburn.com/#/
+
+We had a couple of increases in profit over the last week and we’re finally below a p/e of 20 again. Last time I remember seeing that was when we were about to run up to 5k. So pretty exciting stuff. Especially now that the buffer is full"
+"♾ InfinityDOT just got audited by Techrate, listed on Cmc and Coingeko and touched 7MM Marketcap in just 5 days from launch! Exchanges already sending in their offers!!!",https://www.reddit.com/r/MakerDAO/comments/r1jtu6/infinitydot_just_got_audited_by_techrate_listed/,NeedToReadMore,1,2021-11-25 08:51:54,0,/r/MakerDAO/comments/r1jtu6/infinitydot_just_got_audited_by_techrate_listed/,NaN,"InfinityDOT is a new token that pays out reflections in Polkadot, so far investors not only did a 10x, but remade their initial investment just from Polkadot payments, that means no matter the direction of the token, constant flow of Buy/Sell transactions pay thousands in Polkadot constantly.
+
+   In other words, you get to invest in a small MarketCap gem with huge potential and even get paid passively while your investment grows exponentially! Join our rapidly expanding token and help us create the greatest reflection based token on BSC!
+
+TL;DR ⚙️
+
+Liquidity Locked
+
+Presale on DxSale
+
+Audit coming soon!
+
+Detailed roadmap
+
+🏦 Tokenomics - 15% TAX ON ALL TRANSACTIONS
+
+8% Reflections
+
+2%
+
+5% buyback
+
+💬 Join our Telegram: [https://t.me/infinitydotcommunity/24](https://t.me/infinitydotcommunity/24)
+
+🌐 Visit our website: [https://www.infinitydot.net/](https://www.infinitydot.net/)
+
+🐦Follow ous on Twitter: [https://twitter.com/\_InfinityDOT](https://twitter.com/_InfinityDOT)
+
+💩Poocoin: 0x73b96ac0814eaff828779de589840d1172aaaa70
+
+Not convinced yet? Read on!
+
+   At 4.5M marketcap, a strong contract and an audit on the way, we can expect huge growth in the near future, many have already recouped initial investment in Polkadot reflections! If you’re the kind of guy that buys real tokens and not just meme coins, this is the project for you! The standard for pay-back tokens so far is flawed, with pay-back in the same token, taxes for all affect the price the same, redistributed taxes re-enter the market and cause drops. Which is why reflective tokens have become so popular in the past months. Taxes are applied in every transaction, which in turn purchase and drop a separate high value token to all holders with affecting the value of the original, giving passive income in stable high-marketap projects. For this reason and many other, InfinityDOT is a promising token, at the height of the bullrun, in a moment in which all chains are filled by meme-coins with no porpose that die within days, we have new token that provides actual value, and like it’s precedesor reflective tokens, it’s here to stay. As opposed to coins such as EverETH, or InfinityADA, InfinityDOT provides it’s reflection in Polkadot, a self-named etherum killer that has grown into a top 10 Marketcap coin with extremely dedicated development, community and an indisputable bright future ahead. Here comes InfinityDOT, while new tokens on Polkadot are still few in comparasion to the giants that are the Binance Smart Chain and Etherum, work for it’s future can start off-chain, with reflective tokens. InfinityDOT not only proposes as an investment opportunity it’s possible growth, but also the certain growth of a stable future token with a long history on the market. A future of the InfinityDOT token on it’s father chain that is BSC and a promising future on the parachain of Polkadot! The token has much work to do, the concept is promising, yet simple for anyone to understand, and compared to the majority of BSC Tokens, has a high survival chance. The team has just started going public, with a possible pre-sale to raise liquidity this week, a sale on DxSale to raise trust trough locked liquidity, a public open source contract to prove it’s security, and a perfect moment for a real project to start, in a sea of short-lived meme tokens, a real project is a real needle in a haystack. Of course DYOR, the project has barely started and has a long life ahead, the website is up and the contract will be published shortly, all we can do now is wait and verify it’s validity when the contract is published. Now that I’ve spoonfeed you, start DYOR, whitepaper, roadmap and community channels available at [www.InfinityDOT.net](http://www.infinitydot.net/)."
+Almost 10b DAI !!,https://www.reddit.com/r/MakerDAO/comments/r1u113/almost_10b_dai/,dreamer2020-,1,2021-11-25 18:52:34,2,/r/MakerDAO/comments/r1u113/almost_10b_dai/,NaN,"Are we gonna celebrate this ? I mean what a ride ...    
+I think we should take that moment, and do interview or some post with how this decentralized stable token has evolved."
+SES Updates - 25.11.2021 - Sustainable Ecosystem Scaling,https://forum.makerdao.com/t/ses-updates-25-11-2021/11826,mariouy1986,1,2021-11-26 00:33:51,0,/r/MakerDAO/comments/r20ga8/ses_updates_25112021_sustainable_ecosystem_scaling/,NaN,
+Parameter Changes Proposal - PPG-OMC-001 - 2021-11-25 - Updates,https://forum.makerdao.com/t/parameter-changes-proposal-ppg-omc-001-2021-11-25/11825,mariouy1986,1,2021-11-26 00:35:38,0,/r/MakerDAO/comments/r20hsq/parameter_changes_proposal_ppgomc001_20211125/,NaN,
+"Most people don't understand why the Wyoming DAO Law is so huge, so I cut this 1-minute clip explaining it. Basically, it allows DAOs to go and do any off-chain activities they want, such as buying properties, hiring people, signing legal documents, etc.",https://youtu.be/d7uWGEhtLuo,UpvoteBeast,1,2021-11-26 00:41:14,0,/r/MakerDAO/comments/r20m44/most_people_dont_understand_why_the_wyoming_dao/,NaN,
+1% of MKR is gone,https://www.reddit.com/r/MakerDAO/comments/r2209q/1_of_mkr_is_gone/,onecryingjohnny,1,2021-11-26 01:42:52,14,/r/MakerDAO/comments/r2209q/1_of_mkr_is_gone/,NaN,Hopefully it doesn't come back this time...
+"NEW! Weekly Forum at a Glance: November 18 - 25, 2021",https://forum.makerdao.com/t/forum-at-a-glance-november-18-25/11827,Artyoma92,1,2021-11-26 03:06:01,0,/r/MakerDAO/comments/r23uwy/new_weekly_forum_at_a_glance_november_18_25_2021/,NaN,
+Can't combine types of collateral?,https://www.reddit.com/r/MakerDAO/comments/r2e60m/cant_combine_types_of_collateral/,After-Cell,1,2021-11-26 11:52:51,6,/r/MakerDAO/comments/r2e60m/cant_combine_types_of_collateral/,NaN,"Just to confirm, reading this article ([https://decrypt.co/23027/makerdao-what-went-wrong-and-how-it-was-fixed](https://decrypt.co/23027/makerdao-what-went-wrong-and-how-it-was-fixed)), it's only possible to stable DAI by linking either to a particular coin? It's not a basket of currencies? 
+
+I guess diversifying across types of collateral could be emulated by splitting a fund across different coins... but that would raise risk. 
+
+Can anyone confirm this for me?"
+/MakerDAO Subdirect Statistics,https://redditpagematrics.com/r/MakerDAO,_kiminara,1,2021-11-26 13:56:22,0,/r/MakerDAO/comments/r2g8k3/makerdao_subdirect_statistics/,NaN,
+Why half of the burning is not paid in DAI to MKR hodlers as a dividend and the other half is used to buy MKR and burn it?,https://www.reddit.com/r/MakerDAO/comments/r2giwb/why_half_of_the_burning_is_not_paid_in_dai_to_mkr/,TezosWakenBake,1,2021-11-26 14:13:10,22,/r/MakerDAO/comments/r2giwb/why_half_of_the_burning_is_not_paid_in_dai_to_mkr/,NaN,Investor likes the idea of 50% paid as dividend and 50% burned. It is way more attractive than the 100% burned option. An asset that pays a dividend in a different and more liquid asset is considered something of greater value versus an asset that is just being scarce.
+HVAC and Trade school in DCL,https://i.redd.it/tnpzubnawx181.jpg,Mr_Mookie_,1,2021-11-26 23:24:26,0,/r/MakerDAO/comments/r2pt6w/hvac_and_trade_school_in_dcl/,NaN,
+Request For Input: Where To Notify Users When Collateral Is Offboarded?,https://www.reddit.com/r/MakerDAO/comments/r2sjob/request_for_input_where_to_notify_users_when/,PaperImperium,1,2021-11-27 01:38:03,18,/r/MakerDAO/comments/r2sjob/request_for_input_where_to_notify_users_when/,NaN,"Hello, MakerDAO community. Over the last few weeks, quite a few smaller collateral types (AAVE, COMP, BAL, ZRX, LRC, various UNI LP tokens, etc) have been off boarded due to failure to justify their oracle costs.
+
+Unfortunately, I have heard *several times* from vault users who were liquidated without even understanding why. This represents a poor user experience, obviously, and potentially exposes users to unexpected taxable events or even losses if a leveraged position is forcefully liquidated.
+
+While offboarding small, unprofitable, thinly used vault types is still the correct business decision, I support taking every reasonable step to mitigate vault users from being unexpectedly left with unsupported vault smart contracts.
+
+**My question to you: What channels do you use that would alert you to a change like this (aside from the MakerDAO Forum and this subreddit)?** Feel free to include communication channels that are both affiliated and unaffiliated with MakerDAO.
+
+Thank you."
+Share your thoughts and earn $45!,https://www.reddit.com/r/MakerDAO/comments/r2w8kd/share_your_thoughts_and_earn_45/,Toxic_venom2221,1,2021-11-27 04:37:23,0,/r/MakerDAO/comments/r2w8kd/share_your_thoughts_and_earn_45/,NaN,"Hey everyone, we're currently designing a platform DeFi related.
+
+Next Thursday (2/12/2021) we are running interviews which take about 30-45min.
+
+We will send you a link to a prototype and you can share your thoughts as you click through it.
+
+After the interview we will send you a **$45 Amazon gift card** or **$45 PayPal.**
+
+**Requirements:**
+
+\-You Have experience with derivatives or perpetuals.
+
+You can apply HERE if you meet the requirements :[https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8](https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8)
+
+Out of all applicants we will be able to interview 10 in total.
+
+Thanks so much and hope to see you there!"
+Share your thoughts and earn $45!,https://www.reddit.com/r/MakerDAO/comments/r3jlcd/share_your_thoughts_and_earn_45/,Toxic_venom2221,1,2021-11-28 02:28:34,2,/r/MakerDAO/comments/r3jlcd/share_your_thoughts_and_earn_45/,NaN,"Hey everyone, we're currently designing a platform DeFi related.
+
+Next Thursday (2/12/2021) we are running interviews which take about 30-45min.
+
+We will send you a link to a prototype and you can share your thoughts as you click through it.
+
+After the interview we will send you a $45 Amazon gift card or $45 PayPal.
+
+&amp;#x200B;
+
+Requirements:
+
+\-You Have experience dealing with derivatives or perpetuals  ( e.g, AAVE, Compound, MakerDAO, 88mph, Notional, etc..)
+
+&amp;#x200B;
+
+You can apply here if you meet the requirements :[https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8](https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8)
+
+Out of all applicants we will be able to interview 10 in total.
+
+Thanks so much and hope to see you there!"
+Share your thoughts and earn $45!,https://www.reddit.com/r/MakerDAO/comments/r3jo91/share_your_thoughts_and_earn_45/,Toxic_venom2221,1,2021-11-28 02:32:10,0,/r/MakerDAO/comments/r3jo91/share_your_thoughts_and_earn_45/,NaN,"Hey everyone, we're currently designing a platform DeFi related.
+
+Next Thursday (2/12/2021) we are running interviews which take about 30-45min.
+
+We will send you a link to a prototype and you can share your thoughts as you click through it.
+
+After the interview we will send you a $45 Amazon gift card or $45 PayPal.
+
+&amp;#x200B;
+
+Requirements:
+
+\-You Have experience dealing with derivatives or perpetuals ( e.g, AAVE, Compound, MakerDAO, YearnFinance, Notional, etc..)
+
+&amp;#x200B;
+
+You can apply here if you meet the requirements :  https://j9hmykj6kxi.typeform.com/to/ZOHBrJB8
+
+Out of all applicants we will be able to interview 10 in total.
+
+Thanks so much and hope to see you there!"
+"Maker users, Share your thoughts and earn $45!",https://www.reddit.com/r/MakerDAO/comments/r3y6no/maker_users_share_your_thoughts_and_earn_45/,Toxic_venom2221,1,2021-11-28 14:51:59,3,/r/MakerDAO/comments/r3y6no/maker_users_share_your_thoughts_and_earn_45/,NaN," Hey everyone, we're currently designing a platform DeFi related.
+
+Next Thursday (2/12/2021) we are running interviews which take about 30-45min.
+
+We will send you a link to a prototype and you can share your thoughts as you click through it.
+
+After the interview we will send you a $45 Amazon gift card or $45 PayPal.
+
+&amp;#x200B;
+
+Requirements:
+
+\-You Have experience dealing with derivatives or perpetuals ( e.g, AAVE, Compound, MakerDAO, 88mph, Notional, etc..)
+
+&amp;#x200B;
+
+You can apply here if you meet the requirements  - https://forms.gle/HyYRLG4LnrGBtUqFA
+
+Out of all applicants we will be able to interview 10 in total.
+
+Thanks so much and hope to see you there!"
+November 26th: Executive Vote,https://vote.makerdao.com/executive/template-executive-vote-onboarding-new-vault-types-parameter-changes-and-core-unit-budget-distributions-november-26-2021?network=mainnet#proposal-detail,mariouy1986,1,2021-11-29 12:16:15,0,/r/MakerDAO/comments/r4n6is/november_26th_executive_vote/,Governance,
+Is there any additional info on governance decisions?,https://www.reddit.com/r/MakerDAO/comments/r4nhbe/is_there_any_additional_info_on_governance/,onecryingjohnny,1,2021-11-29 12:32:38,3,/r/MakerDAO/comments/r4nhbe/is_there_any_additional_info_on_governance/,NaN,"I see a lot of Dai is about to be sent out the door (no doubt to the cronies of those large mkr holders who control the governance) right as were increasing the surplus budget by 1m a week for 30 weeks. I'm calling no burns until we hit 90m...
+
+But this Deco thing is a bit ridiculous to me. I read the forums about the proposal and so many good questions and counterpoints are made and reasons why we shouldn't be paying this much.. and yet here it is, exactly as proposed with no answer to the forums questions.
+
+Did we find out about if revenue sharing comp structure will cause issues with the SEC?
+
+Did we attempt to negotiate the deal? (sounded like we had ALL of the leverage as they already did the work and needed us while we didn't need them)
+
+Did we test the market to see if 5.3m could buy a better product?
+
+Weren't estimates for fixed rate borrowers low? When are we expected to break even on this 5m?
+
+
+Overall, not happy with mkr governance deal making. Jamie Diamond is not making this deal. Could be a reason mkr fails in the long run."
+"DAOs biweekly: ConstitutionDAO, Index Coop’s Index 2.0,",https://medium.com/paradigm-fund/daos-constitutiondao-index-coops-index-2-0-a63c4c8fc0dc,quefear,1,2021-11-29 21:49:08,0,/r/MakerDAO/comments/r4w8d8/daos_biweekly_constitutiondao_index_coops_index_20/,NaN,
