@@ -5,7 +5,8 @@ import pandas as pd
 #filename = "Curve Finance"
 
 #comments
-filename = "MakerDAO_comment"
+#filename = "MakerDAO_comment"
+filename = "Curve Finance_comment"
 
 extension = filename + "_combined.csv"
 
