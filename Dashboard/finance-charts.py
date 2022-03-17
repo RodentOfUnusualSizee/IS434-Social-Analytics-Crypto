@@ -51,6 +51,10 @@ app.layout = dbc.Container([
             options=[
                 {'label': 'AAVE', 'value': 'AAVE'},
                 {'label': 'UNISWAP', 'value': 'UNISWAP'},
+                {'label': 'CURVE', 'value': 'CURVE'},
+                {'label': 'MAKER', 'value': 'MAKER'},
+                {'label': 'SUSHI', 'value': 'SUSHI'},
+                {'label': 'COMPOUND', 'value': 'COMPOUND'},
             ],
             value = 'AAVE',
     ), width=dict(size=8, offset=2))]),
