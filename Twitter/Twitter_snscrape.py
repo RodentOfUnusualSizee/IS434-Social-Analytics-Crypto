@@ -18,31 +18,35 @@ aave - $AAVE
 uniswap - $UNI
 sushiswap - $SUSHI
 '''
-search_term = "$SUSHI"
+search_term = "BTC"
 
 # DONE : All done
 
 start_time = datetime.now()
 print("Started Scraping at: " + str(start_time))
+try:
+    for i,tweet in enumerate(sntwitter.TwitterSearchScraper(search_term + ' since:2021-09-01 until:2022-03-12').get_items()):
+        # tweet is literally a link to said tweet
+        content = tweet.content
+        # Remove line breaks 
+        content = content.replace('\n', ' ').replace('\r', ' ')
+        tweets.append([tweet.date, tweet.id, content, tweet.user.username])
+        if i % 10000 == 0:
+            print("Progress : {}, Time : {} ".format(i, datetime.now() - start_time))
+except KeyboardInterrupt:
+    print("Stopping Scraping....")
+    pass
 
-for i,tweet in enumerate(sntwitter.TwitterSearchScraper(search_term + ' since:2021-09-01 until:2022-03-07').get_items()):
-    # tweet is literally a link to said tweet
-    content = tweet.content
-    # Remove line breaks 
-    content = content.replace('\n', ' ').replace('\r', ' ')
-    tweets.append([tweet.date, tweet.id, content, tweet.user.username])
-    if i % 10000 == 0:
-        print("Progress : {}, Time : {} ".format(i, datetime.now() - start_time))
+finally:
+    # convert to pandas DataFrame
+    tweets_df = pd.DataFrame(tweets, columns=['Date', 'ID', 'Content', 'Username'])
 
-# convert to pandas DataFrame
-tweets_df = pd.DataFrame(tweets, columns=['Date', 'ID', 'Content', 'Username'])
+    print("Building CSV....")
 
-print("Building CSV")
+    #convert DataFrame to CSV
+    tweets_df.to_csv('BTCTweets.csv', sep=',', index=False)
 
-#convert DataFrame to CSV
-tweets_df.to_csv('SUSHITweets.csv', sep=',', index=False)
+    end_time = datetime.now()
 
-end_time = datetime.now()
-
-print("Ended Scraping at: " + str(end_time))
-print("Duration: {}".format(end_time - start_time))
+    print("Ended Scraping at: " + str(end_time))
+    print("Duration: {}".format(end_time - start_time))
