@@ -10,6 +10,8 @@ import dash_daq as daq
 from dash import html
 import json
 from dash_bootstrap_templates import ThemeSwitchAIO
+import plotly.express as px
+import numpy as np
 
 def calculateAccuracy(priceData,jsonFile):
     monthlyPrice = pd.read_csv(priceData)
@@ -39,6 +41,48 @@ def calculateAccuracy(priceData,jsonFile):
     accuracy = compare['res'].mean()
     return accuracy
 
+def mdy_to_ymd(d):
+    return datetime.strptime(d, '%b %d, %Y').strftime('%Y-%m-%d')
+
+def group1():
+        aave = pd.read_csv('priceData/aave_price_data.csv')
+        compound = pd.read_csv('priceData/compound_price_data.csv')
+        sushi = pd.read_csv('priceData/sushi_price_data.csv')
+        uniswap = pd.read_csv('priceData/uniswap_price_data.csv')
+
+        date = aave['Date']
+        aave = aave['Price']
+        compound = compound['Price']
+        sushi = sushi['Price']
+        uniswap = uniswap['Price']
+        newdate = []
+
+        for i in date:
+            newdate.append(mdy_to_ymd(i))
+        d = {'date':newdate,'aave':aave,'compound':compound,'sushi':sushi,'uniswap':uniswap}
+
+        df = pd.DataFrame(data=d)
+
+        subfig = make_subplots(specs=[[{"secondary_y": True}]])
+
+        # create two independent figures with px.line each containing data from multiple columns
+        fig = px.line(df, x="date",y=['aave','compound'], render_mode="webgl")
+        fig2 = px.line(df, x="date",y=['sushi','uniswap'], render_mode="webgl")
+
+        fig2.update_traces(yaxis="y2")
+
+            # tickformat="%b\n%Y")
+
+        subfig.add_traces(fig.data + fig2.data)
+        subfig.layout.xaxis.title="Time"
+        subfig.layout.yaxis.title="AAVE, COMPOUND"
+        subfig.layout.yaxis2.title="SUSHI, UNISWAP"
+        # recoloring is necessary otherwise lines from fig und fig2 would share each color
+        # e.g. Linear-, Log- = blue; Linear+, Log+ = red... we don't want this
+        subfig.for_each_trace(lambda t: t.update(line=dict(color=t.marker.color)))
+        subfig.update_xaxes(dtick="M1")
+        return subfig
+
 app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 # app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 
@@ -53,13 +97,14 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 
 #chosen_volume
 def build_graphs(chosen_defi_coin, match): ###here
+    if chosen_defi_coin == "GRP1":
+        subfig = group1()
+        return subfig
+
     price_string = "priceData/" + chosen_defi_coin.lower() + "_price_data.csv"
     price_df = pd.read_csv(price_string)
     # fig = px.line(df, x="Date", y="Price", template="plotly_dark")
 
-    # here 
-    # timeSplitDataNetScore = sentiment_analysis(chosen_defi_coin.lower())
-    # timeSplitDataNetScore = pd.read_json('sentimentalOutput/discord.json')
     new_dict= {}
     new_dict2 = {}
     sentiment_string = 'sentimentalOutput/discord-' + chosen_defi_coin.lower() + '.json'
@@ -82,9 +127,6 @@ def build_graphs(chosen_defi_coin, match): ###here
 
     sentiment_df = pd.DataFrame({'date': new_dict.keys(), 'sentiment': new_dict.values()})
     sentiment_df2 = pd.DataFrame({'date': new_dict2.keys(), 'sentiment': new_dict2.values()})
-
-    def mdy_to_ymd(d):
-        return datetime.strptime(d, '%b %d, %Y').strftime('%Y-%m-%d')
 
     price_df['format_date'] = price_df['Date'].apply(lambda x:  mdy_to_ymd(x))
 
@@ -109,7 +151,6 @@ def build_graphs(chosen_defi_coin, match): ###here
     fig.update_xaxes(title_text="Date")
     fig.update_yaxes(title_text="Price", secondary_y=False)
     fig.update_yaxes(title_text="Sentiment", secondary_y=True)
-    ## here
 
     # theme
     # if theme == False:
@@ -121,7 +162,6 @@ def build_graphs(chosen_defi_coin, match): ###here
 # app.layout = 
 sentiment_layout = dbc.Container([
     dbc.Row([
-<<<<<<< HEAD
     #     dbc.Col(
     #         [
     #             ThemeSwitchAIO(aio_id="theme", themes=[dbc.themes.LUMEN, dbc.themes.LUMEN]),
@@ -138,25 +178,13 @@ sentiment_layout = dbc.Container([
                     {'label': 'MAKER', 'value': 'MAKER'},
                     {'label': 'SUSHI', 'value': 'SUSHI'},
                     {'label': 'COMPOUND', 'value': 'COMPOUND'},
+                    {'label': 'GRP1', 'value': 'GRP1'},
                 ],
                 value = 'AAVE',
                 style = {'font-size': '1.25rem', 'font-weight': '500', 'text-align': 'center'}
             )
             , width=dict(size=8, offset=2)
         ),
-=======
-        dbc.Col(dcc.Dropdown(
-            id='defi-coin', ###here
-            options=[
-                {'label': 'AAVE', 'value': 'AAVE'},
-                {'label': 'UNISWAP', 'value': 'UNISWAP'},
-                {'label': 'CURVE FINANCE', 'value': 'CURVE FINANCE'},
-                {'label': 'MAKER', 'value': 'MAKER'},
-                {'label': 'SUSHISWAP', 'value': 'SUSHISWAP'},
-                {'label': 'COMPOUND', 'value': 'COMPOUND'},
-            ],
-            value = 'AAVE'), width=dict(size=8, offset=2)),
->>>>>>> e2e191c45938877223e427cffe95680ada9b770d
 
         dbc.Col(
             daq.ToggleSwitch(
