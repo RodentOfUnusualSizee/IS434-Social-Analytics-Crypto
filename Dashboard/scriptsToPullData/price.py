@@ -60,7 +60,7 @@ def getPrice(crypto,startDate,endDate):
         priceData = priceData.append({"Date":date.text, "Price":price.text, "Open":open.text, "High":high.text, "Low":low.text, "Vol":vol.text, "Change %":change.text}, ignore_index=True)
 
     #convert to csv
-    priceData.to_csv("{}_price_data.csv".format(crypto))
+    priceData.to_csv("./priceData/{}_price_data.csv".format(crypto))
 
     driver.quit()
 

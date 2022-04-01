@@ -90,7 +90,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 
 #chosen_volume
 def build_graphs(chosen_defi_coin, match): ###here
-    string = chosen_defi_coin.lower() + "_price_data.csv"
+    string = "priceData/" + chosen_defi_coin.lower() + "_price_data.csv"
     price_df = pd.read_csv(string)
     # fig = px.line(df, x="Date", y="Price", template="plotly_dark")
 
