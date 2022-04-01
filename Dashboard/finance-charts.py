@@ -26,20 +26,14 @@ def build_graphs(chosen_defi_coin): ###here
     # fig = px.line(df, x="Date", y="Price", template="plotly_dark")
 
     fig.update_layout(
-        xaxis = dict(
-            tickmode = "array",
-            tickvals = ['Mar 01, 2022', 'Feb 05, 2022', 'Jan 06, 2022', 'Dec 01, 2021',
-                        'Nov 01, 2021', 'Oct 02, 2021', 'Sep 02, 2021', 'Aug 03, 2021',
-                        'Jul 04, 2021', 'Jun 04, 2021'],
-            ticktext = ['Mar 2022', 'Feb 2022', 'Jan 2022', 'Dec 2021',
-                        'Nov 2021', 'Oct 2021', 'Sep 2021', 'Aug 2021',
-                        'July 2021', 'June 2021']
-        ), xaxis_rangeslider_visible=True
+        xaxis_rangeslider_visible=True,
     )
+
+    fig.update_xaxes(autorange="reversed")
 
     # fig.update_traces(line_color='#FF0000')
     chosen_defi_coin = chosen_defi_coin + " price data"
-
+    fig.update_yaxes(autorange="reversed")
     return fig, chosen_defi_coin
 
 app.layout = dbc.Container([
