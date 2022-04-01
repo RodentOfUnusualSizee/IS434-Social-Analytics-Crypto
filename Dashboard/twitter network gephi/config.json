@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Gephi"
+  },
+  "text": {
+    "more": "This is a network of users who have mentioned/hashtagged at least one of the Defi Coins more than 300 times. Larger nodes are the twitter mentions/hashtags of different defi coins. Other nodes are the users who mentioned certain Defi Coins. The thickness of edges represent the number of times the user mentioned the Defi Coin.",
+    "intro": "Defi Twitter Network Analysis",
+    "title": "Defi Twitter Network Analysis"
+  },
+  "legend": {
+    "edgeLabel": "Number of Messages",
+    "colorLabel": "Defi Community",
+    "nodeLabel": "Users"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 20
+    },
+    "graphProperties": {
+      "maxEdgeSize": 25,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 4,
+      "maxNodeSize": 15
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

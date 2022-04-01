@@ -20,11 +20,11 @@
   "features": {
     "search": true,
     "groupSelectorAttribute": "Modularity Class",
-    "hoverBehavior": "dim"
+    "hoverBehavior": "default"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "Label"
   },
   "sigma": {
     "drawingProperties": {
@@ -40,9 +40,9 @@
       "defaultLabelSize": 20
     },
     "graphProperties": {
-      "maxEdgeSize":35,
-      "minEdgeSize": 1,
-      "minNodeSize": 5,
+      "maxEdgeSize": 10.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
       "maxNodeSize": 20
     },
     "mouseProperties": {
