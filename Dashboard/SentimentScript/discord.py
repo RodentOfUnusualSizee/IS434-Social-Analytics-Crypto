@@ -83,7 +83,6 @@ def getSentiment(startDate, endDate, serverNames):
 
 # serverNames
 group1Names = ['SushiSwap Community',
-               'serverName',
                'Aave Community',
                'r/CrpytoCurrency',
                'Curve Finance',
@@ -92,10 +91,34 @@ group2Names = ['Compound']
 
 # ensure data has this date range
 startDate = '2021-01-01'
-endDate = '2022-02-01'
+endDate = '2022-03-01'
 
-res = getSentiment(startDate, endDate, group2Names)
-print(res)
+group1 = getSentiment(startDate, endDate, group1Names)
+group2 = getSentiment(startDate, endDate, group2Names)
+sushi = getSentiment(startDate, endDate, ['SushiSwap Community'])
+aave = getSentiment(startDate, endDate, ['Aave Community'])
+curve = getSentiment(startDate, endDate, ['Curve Finance'])
+uniswap = getSentiment(startDate, endDate, ['Uniswap'])
+compound = getSentiment(startDate, endDate, ['Compound'])
+
+
+import json
+# for groups
+with open("../sentimentalOutput/discordGroup1.json", "w") as write_file:
+    json.dump(group1, write_file, indent=4)
+with open("../sentimentalOutput/discordGroup2.json", "w") as write_file:
+    json.dump(group2, write_file, indent=4)
+# For individual Crpto
+with open("../sentimentalOutput/discord-sushi.json", "w") as write_file:
+    json.dump(sushi, write_file, indent=4)
+with open("../sentimentalOutput/discord-aave.json", "w") as write_file:
+    json.dump(aave, write_file, indent=4)
+with open("../sentimentalOutput/discord-curve.json", "w") as write_file:
+    json.dump(curve, write_file, indent=4)
+with open("../sentimentalOutput/discord-uniswap.json", "w") as write_file:
+    json.dump(uniswap, write_file, indent=4)
+with open("../sentimentalOutput/discord-compound.json", "w") as write_file:
+    json.dump(compound, write_file, indent=4)
 
 
 # ## to chart it
