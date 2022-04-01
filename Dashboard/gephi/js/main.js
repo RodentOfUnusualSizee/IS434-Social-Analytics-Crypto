@@ -4,10 +4,14 @@ function changeClass() {
         if (el.classList.contains("text-success")){
             el.classList.remove("text-success")
             el.classList.add('text-danger')
+
+            el.classList.add('bg-light')
         }
         else if (el.classList.contains("text-danger")){
             el.classList.remove("text-danger")
             el.classList.add('text-success')
+
+            el.classList.remove('bg-light')
         }
     });
 }
