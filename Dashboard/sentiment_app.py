@@ -121,6 +121,7 @@ def build_graphs(chosen_defi_coin, match): ###here
 # app.layout = 
 sentiment_layout = dbc.Container([
     dbc.Row([
+<<<<<<< HEAD
     #     dbc.Col(
     #         [
     #             ThemeSwitchAIO(aio_id="theme", themes=[dbc.themes.LUMEN, dbc.themes.LUMEN]),
@@ -143,6 +144,19 @@ sentiment_layout = dbc.Container([
             )
             , width=dict(size=8, offset=2)
         ),
+=======
+        dbc.Col(dcc.Dropdown(
+            id='defi-coin', ###here
+            options=[
+                {'label': 'AAVE', 'value': 'AAVE'},
+                {'label': 'UNISWAP', 'value': 'UNISWAP'},
+                {'label': 'CURVE FINANCE', 'value': 'CURVE FINANCE'},
+                {'label': 'MAKER', 'value': 'MAKER'},
+                {'label': 'SUSHISWAP', 'value': 'SUSHISWAP'},
+                {'label': 'COMPOUND', 'value': 'COMPOUND'},
+            ],
+            value = 'AAVE'), width=dict(size=8, offset=2)),
+>>>>>>> e2e191c45938877223e427cffe95680ada9b770d
 
         dbc.Col(
             daq.ToggleSwitch(

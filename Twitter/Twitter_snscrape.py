@@ -4,9 +4,6 @@ import numpy as np
 
 import snscrape.modules.twitter as sntwitter
 from datetime import datetime
-# keyword scraping
-# https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af
-# https://github.com/MartinBeckUT/TwitterScraper/blob/master/snscrape/python-wrapper/snscrape-python-wrapper.py
 
 start_time = datetime.now()
 end = start_time.strftime("%Y-%m-%d")
@@ -44,7 +41,3 @@ def scrape(search_term, start, end = end):
         end_time = datetime.now()
         print("Ended Scraping at: " + str(end_time))
         print("Duration: {}".format(end_time - start_time))
-
-
-scrape("$aave", "2021-01-01", "2022-03-01")
-scrape("$comp", "2021-01-01", "2022-03-01")
