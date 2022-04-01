@@ -15,9 +15,23 @@ import numpy as np
 
 def calculateAccuracy(priceData,jsonFile):
     monthlyPrice = pd.read_csv(priceData)
+    if monthlyPrice['Price'].dtypes == 'object':
+        newPrice = []
+        for row in monthlyPrice.iterrows():
+            price = row[1][2]
+            if ',' in price:
+                price = price.split(',')
+                price = ''.join(price)
+                price = float(price)
+                newPrice.append(price)
+            else:
+                price = float(price)
+                newPrice.append(price)
+        monthlyPrice['Price'] = newPrice
     monthlyPrice = monthlyPrice[['Date','Price']]
-    monthlyPrice['Date'] = pd.to_datetime(monthlyPrice['Date'])
-    monthlyPrice['changePrice'] = monthlyPrice['Price'].pct_change(fill_method ='ffill')
+    monthlyPrice['Date'] = pd.to_datetime(monthlyPrice['Date']).dt.to_period('M')
+    monthlyPrice = monthlyPrice.groupby(pd.Grouper(key='Date', axis=0)).max().reset_index()
+
     with open(jsonFile) as json_file:
         data = json.load(json_file)
     date = []
@@ -27,12 +41,11 @@ def calculateAccuracy(priceData,jsonFile):
         senti.append(data[key])
     s1={'Date':date,'sentiment':senti}
     s1 = pd.DataFrame(s1)
-    
-    s1["Date"] = pd.to_datetime(s1['Date'])
-    s1['changeSen'] = s1['sentiment'].pct_change(fill_method ='ffill')
-    s1['changeSen'] = s1['changeSen'][::-1].shift(periods=1)
-    # print(s1)
+    s1["Date"] = pd.to_datetime(s1['Date']).dt.to_period('M')
     new = s1.merge(monthlyPrice, on='Date')
+    new['changePrice'] = new['Price'].pct_change(fill_method ='ffill')
+    new['changeSen'] = new['sentiment'].pct_change(fill_method ='ffill')
+    new['changeSen'] = new['changeSen'].shift(periods=1)
     compare = new[['changeSen','changePrice']]
     compare = compare.dropna()
     compare['changeSen'] = [True if x > 0 else False for x in compare['changeSen']]
@@ -107,8 +120,8 @@ def build_graphs(chosen_defi_coin, match): ###here
 
     new_dict= {}
     new_dict2 = {}
-    sentiment_string = 'sentimentalOutput/discord-' + chosen_defi_coin.lower() + '.json'
-
+    # sentiment_string = 'sentimentalOutput/discord-' + chosen_defi_coin.lower() + '.json'
+    sentiment_string = 'sentimentalOutput/discordGroup1' + '.json'
     accuracy = calculateAccuracy(price_string, sentiment_string) #accuracy
     accuracy = "    Accuracy: " + str(round(accuracy*100, 2)) + '%'
 
