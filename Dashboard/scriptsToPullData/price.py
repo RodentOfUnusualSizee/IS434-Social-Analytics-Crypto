@@ -60,7 +60,7 @@ def getPrice(crypto,startDate,endDate):
         priceData = priceData.append({"Date":date.text, "Price":price.text, "Open":open.text, "High":high.text, "Low":low.text, "Vol":vol.text, "Change %":change.text}, ignore_index=True)
 
     #convert to csv
-    priceData.to_csv("./priceData/{}_price_data.csv".format(crypto))
+    priceData.to_csv(os.path.join(os.path.dirname(__file__),"../priceData/{}_price_data.csv".format(crypto.lower())))
 
     driver.quit()
 
@@ -81,4 +81,4 @@ def editDate(startDate, endDate):
     applyButton = driver.find_element(By.ID,'applyBtn')
     driver.execute_script("arguments[0].click();", applyButton)
 
-getPrice("AAVE", "01/01/2021", "01/31/2021")
+getPrice("Maker", "01/01/2021", "04/01/2022")
