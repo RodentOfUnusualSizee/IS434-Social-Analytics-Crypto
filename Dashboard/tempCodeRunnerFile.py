@@ -1,1 +1,2 @@
-fig.update_xaxes(autorange="reversed")
+
+import dash_daq as daq
