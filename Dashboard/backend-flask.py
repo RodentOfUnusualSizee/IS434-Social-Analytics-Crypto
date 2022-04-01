@@ -1,10 +1,13 @@
 from ast import Try
 from tempfile import TemporaryFile
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify,render_template
 import os
 app = Flask(__name__)
 
-
+@app.route("/data")
+def data():
+    return render_template("dataETL.html")
+    
 @app.route("/test", methods=['GET'])
 def test():
     try:

@@ -56,10 +56,10 @@ def getSentiment(startDate, endDate, serverNames):
 
         if monthData in timeSplitDataGroup:  # check if data is in range of date we want to analyli
             content = row[1]['content']
-            # cleaning Data
-            cleaned = clean_content(content)
-            # Storing into time split dict
             if row[1]['serverName'] in serverNames:
+            # cleaning Data
+                cleaned = clean_content(content)
+            # Storing into time split dict
                 timeSplitDataGroup[monthData].append(cleaned)
 
     for month in timeSplitDataGroup:
