@@ -1,3 +1,12 @@
+.tab button.active {
+	color: #28B62D
+}
+
+.tab button {
+	color: #FA4F45
+}
+
+
 * {
 padding: 0px;
 margin: 0px;
