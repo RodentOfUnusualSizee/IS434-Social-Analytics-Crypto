@@ -8,7 +8,7 @@
     "text": "Gephi"
   },
   "text": {
-    "more": "Larger nodes are the discord channels of different defi coins. Other nodes are the users connected to their respective community/communities. The thickness of edges represent the number of messages sent in their respective channels.",
+    "more": "This network represents users who have sent more than 200 messages in various Defi Channels. Larger nodes are the discord channels of different defi coins. Other nodes are the users who are sent messages the respective channels. The thickness of edges represent the number of messages sent in their respective channels.",
     "intro": "Defi Discord Network Analysis",
     "title": "Defi Discord Network Analysis"
   },
