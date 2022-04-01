@@ -1,0 +1,1 @@
+fig.update_xaxes(autorange="reversed")
