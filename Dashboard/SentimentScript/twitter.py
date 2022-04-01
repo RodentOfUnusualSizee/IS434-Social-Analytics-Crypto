@@ -1,11 +1,10 @@
 import numpy as np
 import pandas as pd
+import json
 import re
 from nltk.corpus import stopwords
 # nltk.download('vader_lexicon') if needed
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
-
 
 def clean_content(contentInput):
     stop = stopwords.words('english')
@@ -26,17 +25,11 @@ def clean_content(contentInput):
     return contentInput
 
 def sentiment(search_term):
-    # tweet_path = 'Tweets\{}.csv'.format(search_term)
-    # price_path = 'Price Data\{}.csv'.format(search_term)
-
-    df = pd.read_csv('{}.csv'.format(search_term), sep=',')
-    print(df.head())
-
+    df = pd.read_csv('..\TweetData\{}.csv'.format(search_term), sep=',')
     df['year_month'] = df['Date'].apply(lambda x: x[0:x.rfind('-')])
-    list(df['year_month'].unique()) 
 
     monthList = list(df['year_month'].unique())
-    monthList.reverse()  # dynamically change the date range here
+    monthList.reverse() 
 
     timeSplitData={}
     timeSplitDataSentiment = {}
@@ -55,7 +48,6 @@ def sentiment(search_term):
         timeSplitData[monthData].append(cleaned)
     
     ######## SENTIMENT SCORING  ##########
-
     sid = SentimentIntensityAnalyzer()
     for month in timeSplitData:
         for content in timeSplitData[month]:
@@ -70,10 +62,63 @@ def sentiment(search_term):
         for output in timeSplitDataSentiment[month]:
             compound = output['compound']
             compound = compound / len(timeSplitDataSentiment[month])
-            timeSplitDataNetScore[month] +=compound
-    
-    print(timeSplitDataNetScore)
+            timeSplitDataNetScore[month] += compound
+
+    return timeSplitDataNetScore
+
+# INDIVIDUAL
+print("Starting Individual Sentiment Score")
+aave = sentiment('$aave')
+# crv = sentiment('$crv')
+comp = sentiment('$comp')
+mkr = sentiment('$mkr')
+sushi = sentiment('$sushi')
+# uni = sentiment('$uni')
+# optimise? sentiment runs twice at this rate
+
+# GROUPS
+print("Starting Group Sentiment Score")
+group1Names = ["$aave","$mkr","$sushi"]
+group2Names = ['$comp']
+
+group1 = {}
+group2 = {}
+
+for name in group1Names:
+    score = sentiment(name)
+    for month in score:
+        if month in group1:
+            group1[month] += score[month]
+        else:
+            group1[month] = score[month]
+
+for name in group2Names:
+    score = sentiment(name)
+    for month in score:
+        if month in group2:
+            group2[month] += score[month]
+        else:
+            group2[month] = score[month]
 
 
+print("Starting JSON Dumping")
+# assume you have these dicts already
+with open("../sentimentalOutput/twitter1.json", "w") as write_file:
+    json.dump(group1, write_file, indent=4)
+with open("../sentimentalOutput/twitter2.json", "w") as write_file:
+    json.dump(group2, write_file, indent=4)
+# Individual sentiment 
+with open("../sentimentalOutput/twitter-aave.json", "w") as write_file:
+    json.dump(aave, write_file, indent=4)
+#with open("../sentimentalOutput/twitter-curve.json", "w") as write_file:
+    #json.dump(crv, write_file, indent=4)
+with open("../sentimentalOutput/twitter-compound.json", "w") as write_file:
+    json.dump(comp, write_file, indent=4)
+with open("../sentimentalOutput/twitter-mkr.json", "w") as write_file:
+    json.dump(mkr, write_file, indent=4)
+with open("../sentimentalOutput/twitter-sushi.json", "w") as write_file:
+    json.dump(sushi, write_file, indent=4)
+# with open("../sentimentalOutput/twitter-uni.json", "w") as write_file:
+#     json.dump(uni, write_file, indent=4)
 
-sentiment()
+
