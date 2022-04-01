@@ -33,7 +33,7 @@ def build_graphs(chosen_defi_coin): ###here
 
     # fig.update_traces(line_color='#FF0000')
     chosen_defi_coin = chosen_defi_coin + " price data"
-
+    fig.update_yaxes(autorange="reversed")
     return fig, chosen_defi_coin
 
 app.layout = dbc.Container([
