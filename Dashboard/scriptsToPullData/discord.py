@@ -1,12 +1,32 @@
+## Getting last date of data 
+
+import pandas as pd
+dfOld = pd.read_csv(
+    "../textData/discord.csv", encoding="ISO-8859-1")
+
+lastDate = dfOld['date'][0]
+
+
+
+## getting new data to from present to lastDate
+
 import requests
 import json
-import pandas as pd
 
 headers = {
     'authorization': 'MzM0ODY3MDQ3MDIyNDYwOTMx.YiG5KA.xXckGG7feFGQe87AZCOdICWJSOc'
     }
-
-
+end = lastDate
+end = end.split("/")
+endyear = end[2]
+endmonth = end[1]  
+if len(endmonth) == 1:
+    endmonth = "0"+endmonth
+endday = end[0]  
+if len(endday) == 1:
+    endday = "0"+endday
+endcomb = endyear+endmonth+endday
+endDate = int(endcomb)
 def retrive_messages(serverName,channelName, channelid):
     r = requests.get('https://discord.com/api/v9/channels/' +
                     channelid+'/messages?limit=100', headers=headers)
@@ -26,11 +46,25 @@ def retrive_messages(serverName,channelName, channelid):
             r = requests.get('https://discord.com/api/v9/channels/' +
                         channelid+'/messages?limit=100&before='+lstmsgID, headers=headers)
             jsonn = json.loads(r.text)
-            fullJson.extend(jsonn)
-            print('lastMsgId', lstmsgID)
-            print("scrapping channel id: "+channelid +
-                  " 100 x "+str(counter)+" scrapped")
-            counter += 1
+            
+            ## check if data has been caught up
+            lastTimestamp = jsonn[len(jsonn)-1]['timestamp']
+            dateData = lastTimestamp.split("T")[0].split("-")
+            year = dateData[0]
+            month = dateData[1]    
+            day = dateData[2]   
+            comb = year+month+day
+            comb = int(comb)
+            print(comb ,endDate)
+            if comb <= endDate:
+                print("hit last date")
+                break
+            else:    
+                fullJson.extend(jsonn)
+                print('lastMsgId', lstmsgID)
+                print("scrapping channel id: "+channelid +
+                      " 100 x "+str(counter)+" scrapped")
+                counter += 1
         except:
             print("end of total message")
             break
@@ -67,7 +101,29 @@ for channelDetails in channelList:
     left += 1
 
 
-df=pd.DataFrame.from_records(mainList)
-df.to_csv("discordData.csv")
+dfNew=pd.DataFrame.from_records(mainList)
+messageID = dfNew['id']
+author_id = []
+author_username = []
+content = dfNew['content']
+timestamp = dfNew['timestamp']
+serverName = dfNew['serverName']
+channelName = dfNew['channelName']
+date = []
+for i in dfNew['author']:
+    author_id.append(i['id'])
+    author_username.append(i['username'])    
 
+for i in dfNew['timestamp']:
+    dateData = i.split("T")[0].split("-")
+    year = dateData[0]
+    month = dateData[1]    
+    day = dateData[2]   
+    output = day+'/'+month+'/'+year
+    date.append(output)
 
+d = {'messageID':messageID,'author_id':author_id,'author_username':author_username,'content':content,'timestamp':timestamp,'serverName':serverName,'channelName':channelName,'date':date}
+df = pd.DataFrame(data=d)
+
+finalDF = pd.concat([df,dfOld])
+finalDF.to_csv("../textData/newdiscord.csv")
