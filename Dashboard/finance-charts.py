@@ -98,6 +98,7 @@ def build_graphs(chosen_defi_coin, match): ###here
     # timeSplitDataNetScore = sentiment_analysis(chosen_defi_coin.lower())
     # timeSplitDataNetScore = pd.read_json('sentimentalOutput/discord.json')
     new_dict= {}
+    new_dict2 = {}
     string = 'sentimentalOutput/discord-' + chosen_defi_coin.lower() + '.json'
     with open(string) as json_file:
         timeSplitDataNetScore = json.load(json_file)
@@ -106,7 +107,14 @@ def build_graphs(chosen_defi_coin, match): ###here
             new_key = arr[1] + "-" + arr[0]
             new_dict[new_key] = timeSplitDataNetScore[old_key]
 
+            add_month = str(int(arr[0]) + 1)
+            if len(add_month) == 1:
+                add_month = "0" + add_month
+            new_key2 = arr[1] + "-" + add_month
+            new_dict2[new_key2] = timeSplitDataNetScore[old_key]
+
     sentiment_df = pd.DataFrame({'date': new_dict.keys(), 'sentiment': new_dict.values()})
+    sentiment_df2 = pd.DataFrame({'date': new_dict2.keys(), 'sentiment': new_dict2.values()})
 
     def mdy_to_ymd(d):
         return datetime.strptime(d, '%b %d, %Y').strftime('%Y-%m-%d')
@@ -119,26 +127,23 @@ def build_graphs(chosen_defi_coin, match): ###here
     # fig.update_xaxes(dtick="M1")
 
     if match == False:
-        chosen_defi_coin = "End"
         fig.add_trace(go.Scatter(x=sentiment_df['date'], y=sentiment_df['sentiment'], name='Sentiment', xperiodalignment='end'), secondary_y= True)
 
     if match == True:
-        chosen_defi_coin = "Start"
-        fig.add_trace(go.Scatter(x=sentiment_df['date'], y=sentiment_df['sentiment'], name='Sentiment', xperiodalignment='start'), secondary_y= True)
+        fig.add_trace(go.Scatter(x=sentiment_df2['date'], y=sentiment_df2['sentiment'], name='Sentiment', xperiodalignment='start'), secondary_y= True)
 
     fig.update_layout(
         xaxis_rangeslider_visible=True,
-        title_text="Curve Data Price against Sentiment",
         title_x=0.5
     )
     fig.update_xaxes(title_text="Date")
     fig.update_yaxes(title_text="Price", secondary_y=False)
     fig.update_yaxes(title_text="Sentiment", secondary_y=True)
+    # fig.update_xaxes(autorange="reversed")
     ## here
 
     # fig.update_traces(line_color='#FF0000')
     chosen_defi_coin = chosen_defi_coin + " price data"
-    fig.update_yaxes(autorange="reversed")
     return fig, chosen_defi_coin
 
 app.layout = dbc.Container([
