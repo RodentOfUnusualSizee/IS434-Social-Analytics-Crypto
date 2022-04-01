@@ -11,6 +11,10 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from datetime import datetime
+from plotly.subplots import make_subplots
+import dash_daq as daq
+from dash import html
+import json
 
 def sentiment_analysis(chosen_defi_coin):
     stop = stopwords.words('english')
@@ -30,6 +34,7 @@ def sentiment_analysis(chosen_defi_coin):
         contentInput = [w for w in contentInput if not w in stop]
         contentInput = " ".join(word for word in contentInput)
         return contentInput
+
     string = chosen_defi_coin.lower() + ".csv"
     df = pd.read_csv(string)
 
@@ -79,27 +84,29 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 @callback(
     Output(component_id='price-chart', component_property='figure'),
     Output(component_id='chosen-defi-coin', component_property='children'), 
-    Input(component_id='defi-coin', component_property='value') ###here
+    Input(component_id='defi-coin', component_property='value'), ###here
+    Input(component_id='my-toggle-switch', component_property='value'),
 )
 
 #chosen_volume
-def build_graphs(chosen_defi_coin): ###here
+def build_graphs(chosen_defi_coin, match): ###here
     string = chosen_defi_coin.lower() + "_price_data.csv"
     price_df = pd.read_csv(string)
     # fig = px.line(df, x="Date", y="Price", template="plotly_dark")
 
-    fig.update_layout(
-        xaxis_rangeslider_visible=True,
-    )
+    # here 
+    # timeSplitDataNetScore = sentiment_analysis(chosen_defi_coin.lower())
+    # timeSplitDataNetScore = pd.read_json('sentimentalOutput/discord.json')
+    new_dict= {}
+    string = 'sentimentalOutput/discord-' + chosen_defi_coin.lower() + '.json'
+    with open(string) as json_file:
+        timeSplitDataNetScore = json.load(json_file)
+        for old_key in timeSplitDataNetScore:
+            arr = old_key.split('/')
+            new_key = arr[1] + "-" + arr[0]
+            new_dict[new_key] = timeSplitDataNetScore[old_key]
 
-    fig.update_xaxes(autorange="reversed")
-
-    # add sentiment
-    fig.add_trace(sentiment_analysis(chosen_defi_coin))
-
-    ## here 
-    timeSplitDataNetScore = sentiment_analysis(chosen_defi_coin.lower())
-    sentiment_df = pd.DataFrame({'date': timeSplitDataNetScore.keys(), 'sentiment': timeSplitDataNetScore.values()})
+    sentiment_df = pd.DataFrame({'date': new_dict.keys(), 'sentiment': new_dict.values()})
 
     def mdy_to_ymd(d):
         return datetime.strptime(d, '%b %d, %Y').strftime('%Y-%m-%d')
@@ -111,9 +118,16 @@ def build_graphs(chosen_defi_coin): ###here
     fig.update_xaxes(autorange="reversed") 
     # fig.update_xaxes(dtick="M1")
 
-    fig.add_trace(go.Scatter(x=sentiment_df['date'], y=sentiment_df['sentiment'], name='Sentiment'), secondary_y= True)
+    if match == False:
+        chosen_defi_coin = "End"
+        fig.add_trace(go.Scatter(x=sentiment_df['date'], y=sentiment_df['sentiment'], name='Sentiment', xperiodalignment='end'), secondary_y= True)
+
+    if match == True:
+        chosen_defi_coin = "Start"
+        fig.add_trace(go.Scatter(x=sentiment_df['date'], y=sentiment_df['sentiment'], name='Sentiment', xperiodalignment='start'), secondary_y= True)
 
     fig.update_layout(
+        xaxis_rangeslider_visible=True,
         title_text="Curve Data Price against Sentiment",
         title_x=0.5
     )
@@ -141,14 +155,22 @@ app.layout = dbc.Container([
                 {'label': 'SUSHI', 'value': 'SUSHI'},
                 {'label': 'COMPOUND', 'value': 'COMPOUND'},
             ],
-            value = 'AAVE',
-    ), width=dict(size=8, offset=2))]),
+            value = 'AAVE'), width=dict(size=8, offset=2)),
+
+        dbc.Col(
+            daq.ToggleSwitch(
+                id='my-toggle-switch',
+                value=False
+            ),
+        )
+            
+]),
 
     dbc.Row([
         dbc.Col(dcc.Graph(id='price-chart')) 
     ]), 
 ], fluid=True)
 
-
 if __name__=='__main__':
-    app.run_server(debug=True)
+    # app.run_server(debug=True)
+    app.run_server(debug=True, host='0.0.0.0', port=80)
