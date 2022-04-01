@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 
 # Data loading
 df = pd.read_csv(
-    "../textData/discord.csv", encoding="ISO-8859-1")
+    "./textData/discord.csv", encoding="ISO-8859-1")
 df = df.fillna(method='ffill')
 # Data Cleaning
 stop = stopwords.words('english')
@@ -93,31 +93,38 @@ group2Names = ['Compound']
 startDate = '2021-01-01'
 endDate = '2022-03-01'
 
-group1 = getSentiment(startDate, endDate, group1Names)
-group2 = getSentiment(startDate, endDate, group2Names)
-sushi = getSentiment(startDate, endDate, ['SushiSwap Community'])
-aave = getSentiment(startDate, endDate, ['Aave Community'])
-curve = getSentiment(startDate, endDate, ['Curve Finance'])
-uniswap = getSentiment(startDate, endDate, ['Uniswap'])
-compound = getSentiment(startDate, endDate, ['Compound'])
+# group1 = getSentiment(startDate, endDate, group1Names)
+# group2 = getSentiment(startDate, endDate, group2Names)
+# sushi = getSentiment(startDate, endDate, ['SushiSwap Community'])
+# aave = getSentiment(startDate, endDate, ['Aave Community'])
+# curve = getSentiment(startDate, endDate, ['Curve Finance'])
+# uniswap = getSentiment(startDate, endDate, ['Uniswap'])
+# compound = getSentiment(startDate, endDate, ['Compound'])
 
 
 import json
 # for groups
-with open("../sentimentalOutput/discordGroup1.json", "w") as write_file:
+group1 = getSentiment(startDate, endDate, group1Names)
+with open("./sentimentalOutput/discordGroup1.json", "w") as write_file:
     json.dump(group1, write_file, indent=4)
-with open("../sentimentalOutput/discordGroup2.json", "w") as write_file:
+group2 = getSentiment(startDate, endDate, group2Names)
+with open("./sentimentalOutput/discordGroup2.json", "w") as write_file:
     json.dump(group2, write_file, indent=4)
 # For individual Crpto
-with open("../sentimentalOutput/discord-sushi.json", "w") as write_file:
+sushi = getSentiment(startDate, endDate, ['SushiSwap Community'])
+with open("./sentimentalOutput/discord-sushi.json", "w") as write_file:
     json.dump(sushi, write_file, indent=4)
-with open("../sentimentalOutput/discord-aave.json", "w") as write_file:
+aave = getSentiment(startDate, endDate, ['Aave Community'])
+with open("./sentimentalOutput/discord-aave.json", "w") as write_file:
     json.dump(aave, write_file, indent=4)
-with open("../sentimentalOutput/discord-curve.json", "w") as write_file:
+curve = getSentiment(startDate, endDate, ['Curve Finance'])
+with open("./sentimentalOutput/discord-curve.json", "w") as write_file:
     json.dump(curve, write_file, indent=4)
-with open("../sentimentalOutput/discord-uniswap.json", "w") as write_file:
+uniswap = getSentiment(startDate, endDate, ['Uniswap'])
+with open("./sentimentalOutput/discord-uniswap.json", "w") as write_file:
     json.dump(uniswap, write_file, indent=4)
-with open("../sentimentalOutput/discord-compound.json", "w") as write_file:
+compound = getSentiment(startDate, endDate, ['Compound'])
+with open("./sentimentalOutput/discord-compound.json", "w") as write_file:
     json.dump(compound, write_file, indent=4)
 
 

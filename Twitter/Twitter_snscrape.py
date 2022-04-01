@@ -47,3 +47,4 @@ def scrape(search_term, start, end = end):
 
 
 scrape("$aave", "2021-01-01", "2022-03-01")
+scrape("$comp", "2021-01-01", "2022-03-01")
