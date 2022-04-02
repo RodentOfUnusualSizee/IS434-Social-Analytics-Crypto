@@ -1,7 +1,9 @@
 from calendar import month
 import os
+from tracemalloc import start
 import pandas as pd
 from datetime import date
+import time
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,9 +11,12 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 #Install driver
 opts=webdriver.ChromeOptions()
 opts.headless=True
+#no sandbox mode
+opts.add_argument("--no-sandbox")
 
 driver = webdriver.Chrome(ChromeDriverManager().install() ,options=opts)
 
@@ -28,8 +33,8 @@ Maker = maker/mkr-usd-historical-data
 '''
 
 dict = {
+    'Curve': 'curve-dao-token/crv-usd-historical-data',
     'Aave': 'aave/historical-data',
-    'Curve Finance': 'curve-dao-token/crv-usd-historical-data',
     'Compound': 'compound/comp-usd-historical-data',
     'Uniswap': 'uniswap/unis-usd-historical-data',
     'Sushiswap': 'sushiswap/sushi-usd-historical-data',
@@ -52,11 +57,20 @@ monthDict = {
 }
 
 def getPrice(crypto):
-    driver.get(search_url.format(dict[crypto]))
+    url = search_url.format(dict[crypto])
+    WebDriverWait(driver, 15).until(EC.url_changes(url))
+    
+    driver.get(url)
 
     driver.maximize_window()
 
     startDate, endDate, path = dateFinder(crypto.lower())
+    print(startDate)
+    print(endDate)
+
+    if startDate.split('/')[1] > endDate.split('/')[1]:
+        print("No new data")
+        return
     
     editDate(startDate, endDate)
 
@@ -79,16 +93,14 @@ def getPrice(crypto):
 
     #format price to remove ,
     priceData['Price'] = priceData['Price'].str.replace(',','')
-    #get old data
+    # get old data
     oldData = pd.read_csv(path)
     #merge old data with new data
     newData = pd.concat([priceData, oldData])
-    #convert to csv
+    # convert to csv
     newData.to_csv(os.path.join(os.path.dirname(__file__),"../priceData/{}_price_data.csv".format(crypto.lower())))
-    
-    return "Success"
 
-    driver.quit()
+    return "Success"
 
 def editDate(startDate, endDate):
     widgetButton = driver.find_element(By.ID,'widgetFieldDateRange')
@@ -109,7 +121,7 @@ def editDate(startDate, endDate):
 
 
 def dateFinder(crypto):
-    string = crypto + "_price_data.csv"
+    string = crypto.split(" ")[0] + "_price_data.csv"
     print(string)
     path = "./Dashboard/priceData/" + string
     if os.access(path, os.F_OK):
@@ -120,7 +132,9 @@ def dateFinder(crypto):
         startDate = monthDict[startDate[0]] + '/' + (str(int(startDate[1].strip(',')) + 1)) + '/' + startDate[2]
         #endDate is current date
         endDate = date.today().strftime("%m/%d/%Y")
-        return startDate, endDate, path
+        endDate = endDate.split('/')
+        endDate = endDate[0] + '/' + str(endDate[1]).replace('0','') + '/' + endDate[2]
+        return '01/01/2021', endDate, path
     else:
         #default value
         startDate = "01/01/2021"
@@ -129,4 +143,13 @@ def dateFinder(crypto):
         endDate = date.today().strftime("%m/%d/%Y")
 
         return startDate, endDate, path
-    
+
+def initial():
+    for key in dict:
+        getPrice(key)
+        time.sleep(3)
+    # getPrice('Curve')
+
+
+initial()
+

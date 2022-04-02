@@ -61,7 +61,7 @@ def getNewTwitterSentiment():
 @app.route("/getNewCrpytoPriceData", methods=['GET'])
 def getNewCrpytoPriceData():
     try:
-        stream = os.popen('python ./SentimentScript/twitter.py') ## TBC
+        stream = os.popen('python ./Dashboard/scriptsToPullData/python.py')
         output = stream.read()
         return output
     except:
