@@ -75,6 +75,20 @@ mkr = sentiment('$mkr')
 sushi = sentiment('$sushi')
 uni = sentiment('$uni')
 
+
+'''
+tmp = [aave, crv, comp, mkr, sushi, uni]
+for i in tmp:
+    for key in i:
+        if "/" in key:  # adding new key will result in continuing loop and breaking code
+            break
+        split = key.split["-"]
+        new_key = split[1] + "/" + split[0]
+        i[new_key] = i.pop(key)
+
+# iteration doesnt convert all the keys idk why 
+'''
+
 # GROUPS
 print("Starting Group Sentiment Score")
 group1List = [aave,crv,sushi,uni,mkr]
