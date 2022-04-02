@@ -1,9 +1,10 @@
+from calendar import month
 import os
+import pandas as pd
+from datetime import date
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
-import pandas as pd
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -27,7 +28,7 @@ Maker = maker/mkr-usd-historical-data
 '''
 
 dict = {
-    'AAVE': 'aave/historical-data',
+    'Aave': 'aave/historical-data',
     'Curve Finance': 'curve-dao-token/crv-usd-historical-data',
     'Compound': 'compound/comp-usd-historical-data',
     'Uniswap': 'uniswap/unis-usd-historical-data',
@@ -35,10 +36,27 @@ dict = {
     'Maker': 'maker/mkr-usd-historical-data'
 }
 
-def getPrice(crypto,startDate,endDate):
+monthDict = {
+    'Jan': '01',
+    'Feb': '02',
+    'Mar': '03',
+    'Apr': '04',
+    'May': '05',
+    'Jun': '06',
+    'Jul': '07',
+    'Aug': '08',
+    'Sep': '09',
+    'Oct': '10',
+    'Nov': '11',
+    'Dec': '12'
+}
+
+def getPrice(crypto):
     driver.get(search_url.format(dict[crypto]))
 
     driver.maximize_window()
+
+    startDate, endDate, path = dateFinder(crypto.lower())
     
     editDate(startDate, endDate)
 
@@ -59,8 +77,16 @@ def getPrice(crypto,startDate,endDate):
         change = row.find_elements(By.TAG_NAME,"td")[6]
         priceData = priceData.append({"Date":date.text, "Price":price.text, "Open":open.text, "High":high.text, "Low":low.text, "Vol":vol.text, "Change %":change.text}, ignore_index=True)
 
+    #format price to remove ,
+    priceData['Price'] = priceData['Price'].str.replace(',','')
+    #get old data
+    oldData = pd.read_csv(path)
+    #merge old data with new data
+    newData = pd.concat([priceData, oldData])
     #convert to csv
-    priceData.to_csv(os.path.join(os.path.dirname(__file__),"../priceData/{}_price_data.csv".format(crypto.lower())))
+    newData.to_csv(os.path.join(os.path.dirname(__file__),"../priceData/{}_price_data.csv".format(crypto.lower())))
+    
+    return "Success"
 
     driver.quit()
 
@@ -81,4 +107,26 @@ def editDate(startDate, endDate):
     applyButton = driver.find_element(By.ID,'applyBtn')
     driver.execute_script("arguments[0].click();", applyButton)
 
-getPrice("Maker", "01/01/2021", "04/01/2022")
+
+def dateFinder(crypto):
+    string = crypto + "_price_data.csv"
+    print(string)
+    path = "./Dashboard/priceData/" + string
+    if os.access(path, os.F_OK):
+        #startdate from first line csv
+        startDate = pd.read_csv(path, nrows=1)['Date'].values[0]
+        #format StartDate
+        startDate = startDate.split(' ')
+        startDate = monthDict[startDate[0]] + '/' + (str(int(startDate[1].strip(',')) + 1)) + '/' + startDate[2]
+        #endDate is current date
+        endDate = date.today().strftime("%m/%d/%Y")
+        return startDate, endDate, path
+    else:
+        #default value
+        startDate = "01/01/2021"
+        
+        #endDate is current date
+        endDate = date.today().strftime("%m/%d/%Y")
+
+        return startDate, endDate, path
+    
