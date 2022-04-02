@@ -2,7 +2,10 @@ from ast import Try
 from tempfile import TemporaryFile
 from flask import Flask, request, jsonify,render_template
 import os
+from flask_cors import CORS
+
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/data")
 def data():
@@ -50,6 +53,15 @@ def getNewTwitterData():
 def getNewTwitterSentiment():
     try:
         stream = os.popen('python ./SentimentScript/twitter.py')
+        output = stream.read()
+        return output
+    except:
+        None
+
+@app.route("/getNewCrpytoPriceData", methods=['GET'])
+def getNewCrpytoPriceData():
+    try:
+        stream = os.popen('python ./SentimentScript/twitter.py') ## TBC
         output = stream.read()
         return output
     except:

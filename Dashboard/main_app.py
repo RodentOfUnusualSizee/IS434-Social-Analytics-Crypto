@@ -10,9 +10,11 @@ app.layout = dbc.Container(
     [
         dbc.Row(
             dbc.Nav(
-                [
-                    dbc.NavLink("Network", href="http://127.0.0.1:5500/Dashboard/gephi/index.html", className="text-danger", style={'font-size': '1.25rem'}), #change
-                    dbc.NavLink("Sentiment", href="#", className="text-success bg-light", style={'font-size': '1.25rem'}), 
+                [   
+                    dbc.NavLink("Sentimental Analysis", href="#", className="nav-link active  text-success bg-light font-weight-bold", style={'font-size': '1.25rem'}), 
+                    dbc.NavLink("Discord Network Analysis", href="http://127.0.0.1:5500/Dashboard/gephi/index.html", className="text-danger", style={'font-size': '1.25rem'}), #change
+                    dbc.NavLink("Twitter Network Analysis", href="http://127.0.0.1:5500/Dashboard/twitter%20network%20gephi/index.html", className="text-danger", style={'font-size': '1.25rem'}), #change
+                    dbc.NavLink("Data Manager", href="http://127.0.0.1:5500/Dashboard/dataETL.html", className="text-danger", style={'font-size': '1.25rem'}), #change
                 ]
             )
         ),

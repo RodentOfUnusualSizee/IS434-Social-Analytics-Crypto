@@ -191,7 +191,7 @@ sentiment_layout = dbc.Container([
                     {'label': 'MAKER', 'value': 'MAKER'},
                     {'label': 'SUSHI', 'value': 'SUSHI'},
                     {'label': 'COMPOUND', 'value': 'COMPOUND'},
-                    {'label': 'GRP1', 'value': 'GRP1'},
+                    {'label': 'GRP1 (AAVE, UNISWAP, SUSHI, COMPOUND)', 'value': 'GRP1'},
                 ],
                 value = 'AAVE',
                 style = {'font-size': '1.25rem', 'font-weight': '500', 'text-align': 'center'}
