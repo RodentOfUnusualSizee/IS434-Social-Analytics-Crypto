@@ -29,7 +29,7 @@ def sentiment(search_term):
     df['year_month'] = df['Date'].apply(lambda x: x[0:x.rfind('-')])
 
     monthList = list(df['year_month'].unique())
-    monthList.reverse() 
+    monthList.reverse()
 
     timeSplitData={}
     timeSplitDataSentiment = {}
@@ -69,56 +69,53 @@ def sentiment(search_term):
 # INDIVIDUAL
 print("Starting Individual Sentiment Score")
 aave = sentiment('$aave')
-# crv = sentiment('$crv')
+crv = sentiment('$crv')
 comp = sentiment('$comp')
 mkr = sentiment('$mkr')
 sushi = sentiment('$sushi')
-# uni = sentiment('$uni')
-# optimise? sentiment runs twice at this rate
+uni = sentiment('$uni')
 
 # GROUPS
 print("Starting Group Sentiment Score")
-group1Names = ["$aave","$mkr","$sushi"]
-group2Names = ['$comp']
+group1List = [aave,crv,sushi,uni,mkr]
+group2List = [comp]
 
-group1 = {}
-group2 = {}
+group1Score = {}
+group2Score = {}
 
-for name in group1Names:
-    score = sentiment(name)
-    for month in score:
-        if month in group1:
-            group1[month] += score[month]
-        else:
-            group1[month] = score[month]
+for coin in group1List:
+    for month in coin:
+        if month in group1Score:
+            group1Score[month] += coin[month]
+        elif month not in group1Score:
+            group1Score[month] = coin[month]
 
-for name in group2Names:
-    score = sentiment(name)
-    for month in score:
-        if month in group2:
-            group2[month] += score[month]
-        else:
-            group2[month] = score[month]
 
+for coin in group2List:
+    for month in coin:
+        if month in group2Score:
+            group2Score[month] += coin[month]
+        elif month not in group2Score:
+            group2Score[month] = coin[month]
 
 print("Starting JSON Dumping")
 # assume you have these dicts already
 with open("../sentimentalOutput/twitter1.json", "w") as write_file:
-    json.dump(group1, write_file, indent=4)
+    json.dump(group1Score, write_file, indent=4)
 with open("../sentimentalOutput/twitter2.json", "w") as write_file:
-    json.dump(group2, write_file, indent=4)
+    json.dump(group2Score, write_file, indent=4)
 # Individual sentiment 
 with open("../sentimentalOutput/twitter-aave.json", "w") as write_file:
     json.dump(aave, write_file, indent=4)
-#with open("../sentimentalOutput/twitter-curve.json", "w") as write_file:
-    #json.dump(crv, write_file, indent=4)
+with open("../sentimentalOutput/twitter-curve.json", "w") as write_file:
+    json.dump(crv, write_file, indent=4)
 with open("../sentimentalOutput/twitter-compound.json", "w") as write_file:
     json.dump(comp, write_file, indent=4)
 with open("../sentimentalOutput/twitter-mkr.json", "w") as write_file:
     json.dump(mkr, write_file, indent=4)
 with open("../sentimentalOutput/twitter-sushi.json", "w") as write_file:
     json.dump(sushi, write_file, indent=4)
-# with open("../sentimentalOutput/twitter-uni.json", "w") as write_file:
-#     json.dump(uni, write_file, indent=4)
+with open("../sentimentalOutput/twitter-uni.json", "w") as write_file:
+    json.dump(uni, write_file, indent=4)
 
 

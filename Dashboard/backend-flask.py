@@ -58,8 +58,8 @@ def getNewTwitterSentiment():
     except:
         None
 
-@app.route("/getNewCrpytoPriceData", methods=['GET'])
-def getNewCrpytoPriceData():
+@app.route("/getNewCryptoPriceData", methods=['GET'])
+def getNewCryptoPriceData():
     try:
         stream = os.popen('python ./Dashboard/scriptsToPullData/python.py')
         output = stream.read()
