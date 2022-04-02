@@ -12,6 +12,8 @@ import json
 from dash_bootstrap_templates import ThemeSwitchAIO
 import plotly.express as px
 import numpy as np
+import ast
+from os import walk
 
 def calculateAccuracy(priceData,jsonFile):
     monthlyPrice = pd.read_csv(priceData)
@@ -57,7 +59,7 @@ def calculateAccuracy(priceData,jsonFile):
 def mdy_to_ymd(d):
     return datetime.strptime(d, '%b %d, %Y').strftime('%Y-%m-%d')
 
-def group1():
+def plot_grp1_price():
         aave = pd.read_csv('priceData/aave_price_data.csv')
         compound = pd.read_csv('priceData/compound_price_data.csv')
         sushi = pd.read_csv('priceData/sushi_price_data.csv')
@@ -78,140 +80,188 @@ def group1():
 
         subfig = make_subplots(specs=[[{"secondary_y": True}]])
 
-        # create two independent figures with px.line each containing data from multiple columns
         fig = px.line(df, x="date",y=['aave','compound'], render_mode="webgl")
         fig2 = px.line(df, x="date",y=['sushi','uniswap'], render_mode="webgl")
 
         fig2.update_traces(yaxis="y2")
 
-            # tickformat="%b\n%Y")
+        fig.update_layout(
+            title_text = "Price and Sentiment of Aave, Compound, Sushi, and Uniswap",
+            xaxis_rangeslider_visible= True,
+            title_x= 0.5,
+            title_font_size= 20,
+        )
 
         subfig.add_traces(fig.data + fig2.data)
         subfig.layout.xaxis.title="Time"
         subfig.layout.yaxis.title="AAVE, COMPOUND"
         subfig.layout.yaxis2.title="SUSHI, UNISWAP"
-        # recoloring is necessary otherwise lines from fig und fig2 would share each color
-        # e.g. Linear-, Log- = blue; Linear+, Log+ = red... we don't want this
-        subfig.for_each_trace(lambda t: t.update(line=dict(color=t.marker.color)))
         subfig.update_xaxes(dtick="M1")
         return subfig
+
+def plot_sentiment(price_fig, sentiment, offset, chosen_defi_coin):
+    arr = sentiment.lower().split(' ')
+    filename = "sentimentalOutput/" + "-".join(arr) + ".json"
+    with open(filename) as json_file:
+        data = json.load(json_file)
+
+    dict1 = {}
+    dict2 = {}
+    for i in data:
+        arr = i.split("/")
+        new_key = arr[1] + "-" + arr[0]
+        dict1[new_key] = data[i]
+
+        x = int(arr[0])
+        if x == 12:
+            # new_x = 1
+            # new_key = str(int(arr[1]) + 1) + "-" + str(new_x)
+            pass
+        else:
+            new_x = x + 1
+            new_key = arr[1] + "-" + str(new_x)
+
+        if len(new_key) == 6:
+            arr = new_key.split('-')
+            new_key = arr[0] + "-0" + arr[1] 
+        dict2[new_key] = data[i]
+    
+    # for GPP1 price
+    if chosen_defi_coin in ['GRP1', 'GRP2']:
+        for new_key in dict1:
+            dict1[new_key] = dict1[new_key] * 200
+        for new_key in dict2:
+            dict2[new_key] = dict2[new_key] * 200
+
+    df = pd.DataFrame({'date': dict1.keys(), 'sentiment': dict1.values()})
+    offset_df = pd.DataFrame({'date': dict2.keys(), 'sentiment': dict2.values()})
+
+    if offset == False:
+        sentiment_fig = px.line(df, x='date', y='sentiment')
+    if offset == True:
+        sentiment_fig = px.line(offset_df, x='date', y='sentiment')
+    sentiment_fig.update_traces(yaxis="y2")
+    fig = price_fig.add_traces(sentiment_fig.data)
+    return fig
+
+GRP1 = ['AAVE', 'UNISWAP', 'COMPOUND', 'SUSHI']
+GRP2 = ['CURVE']
+def plot_price(chosen_defi_coin):
+    if chosen_defi_coin.lower() == "grp1":
+        fig = plot_grp1_price()
+        return fig
+    if chosen_defi_coin.lower() == "grp2":
+        chosen_defi_coin = "curve"
+    filename = "priceData/" + chosen_defi_coin.lower() + "_price_data.csv"
+    df = pd.read_csv(filename)
+    df['format_date'] = df['Date'].apply(lambda x:  mdy_to_ymd(x))
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
+    price_fig = px.line(df, x="format_date", y="Price")
+    price_fig.update_xaxes(dtick="M1")
+
+    fig.add_traces(price_fig.data)
+
+    return fig
+    
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 # app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 
 @callback(
     Output(component_id='price-chart', component_property='figure'),
-    # Output(component_id='chosen-defi-coin', component_property='children'), 
-    # Output(component_id='accuracy', component_property='children'),
     Input(component_id='defi-coin', component_property='value'), ###here
     Input(component_id='my-toggle-switch', component_property='value'),
+    Input(component_id='sentiment', component_property='value')
     # Input(ThemeSwitchAIO.ids.switch("theme"), "value")
 )
 
 #chosen_volume
-def build_graphs(chosen_defi_coin, match): ###here
-    if chosen_defi_coin == "GRP1":
-        subfig = group1()
-        return subfig
+def build_graphs(chosen_defi_coin, offset, sentiment): 
+    price_fig = plot_price(chosen_defi_coin)
+    fig = plot_sentiment(price_fig, sentiment, offset, chosen_defi_coin)
+    if chosen_defi_coin in ['GRP1', 'GRP2']:
+        pass
+    else:
+        priceFile = "priceData/" + chosen_defi_coin.lower() + "_price_data.csv"
+        arr = sentiment.lower().split(' ')
+        sentimentFile = "sentimentalOutput/" + "-".join(arr) + ".json"
+        accuracy = calculateAccuracy(priceFile, sentimentFile) #accuracy
+        accuracy = "    Accuracy: " + str(round(accuracy*100, 2)) + '%'
 
-    price_string = "priceData/" + chosen_defi_coin.lower() + "_price_data.csv"
-    price_df = pd.read_csv(price_string)
-    # fig = px.line(df, x="Date", y="Price", template="plotly_dark")
+        fig.update_layout(
+            title_text = "Price and Sentiment of " + chosen_defi_coin + accuracy,
+            xaxis_rangeslider_visible= True,
+            title_x= 0.5,
+            title_font_size= 20,
+        )
 
-    new_dict= {}
-    new_dict2 = {}
-    # sentiment_string = 'sentimentalOutput/discord-' + chosen_defi_coin.lower() + '.json'
-    sentiment_string = 'sentimentalOutput/discordGroup1' + '.json'
-    accuracy = calculateAccuracy(price_string, sentiment_string) #accuracy
-    accuracy = "    Accuracy: " + str(round(accuracy*100, 2)) + '%'
+        fig.layout.xaxis.title="Time"
+        fig.layout.yaxis.title="Price"
+        fig.layout.yaxis2.title="Sentiment"
 
-    with open(sentiment_string) as json_file:
-        timeSplitDataNetScore = json.load(json_file)
-        for old_key in timeSplitDataNetScore:
-            arr = old_key.split('/')
-            new_key = arr[1] + "-" + arr[0]
-            new_dict[new_key] = timeSplitDataNetScore[old_key]
+    fig.for_each_trace(lambda t: t.update(line=dict(color=t.marker.color)))
 
-            add_month = str(int(arr[0]) + 1)
-            if len(add_month) == 1:
-                add_month = "0" + add_month
-            new_key2 = arr[1] + "-" + add_month
-            new_dict2[new_key2] = timeSplitDataNetScore[old_key]
-
-    sentiment_df = pd.DataFrame({'date': new_dict.keys(), 'sentiment': new_dict.values()})
-    sentiment_df2 = pd.DataFrame({'date': new_dict2.keys(), 'sentiment': new_dict2.values()})
-
-    price_df['format_date'] = price_df['Date'].apply(lambda x:  mdy_to_ymd(x))
-
-    fig = make_subplots(specs=[[{"secondary_y": True}]])
-    fig.add_trace(go.Scatter(x=price_df['format_date'], y=price_df['Price'], name='Price'), secondary_y= False)
-    # fig.update_xaxes(dtick="M1")
-
-    if match == False:
-        fig.add_trace(go.Scatter(x=sentiment_df['date'], y=sentiment_df['sentiment'], name='Sentiment', xperiodalignment='end'), secondary_y= True)
-
-    if match == True:
-        fig.add_trace(go.Scatter(x=sentiment_df2['date'], y=sentiment_df2['sentiment'], name='Sentiment', xperiodalignment='start'), secondary_y= True)
-
-    format_title = "Price and Sentiment of " + chosen_defi_coin + accuracy
-
-    fig.update_layout(
-        title=format_title,
-        xaxis_rangeslider_visible=True,
-        title_x=0.5,
-        title_font_size=20, # 1.25rem
-    )
-    fig.update_xaxes(title_text="Date")
-    fig.update_yaxes(title_text="Price", secondary_y=False)
-    fig.update_yaxes(title_text="Sentiment", secondary_y=True)
-
-    # theme
-    # if theme == False:
-    #     fig.update_layout(template='plotly_dark')
-    # if theme == True:
-    #     fig.update_layout(template='plotly')
     return fig
 
-# app.layout = 
+f = []
+for (dirpath, dirnames, filenames) in walk('sentimentalOutput'):
+    f.extend(filenames)
+    break
+tmp = ""
+
+for i in f:
+    arr = i.split('-')
+    coin = arr[1].split('.')[0]
+    option = arr[0].capitalize() + " " + coin.upper()
+    tmp += option + ","
+tmp = tmp[:-2].split(',')
+
+f = []
+for (dirpath, dirnames, filenames) in walk('priceData'):
+    f.extend(filenames)
+    break
+hold = []
+for i in f:
+    arr = i.split('_')
+    x = arr[0]
+    x = arr[0].upper()
+    hold.append({'label': x, 'value' : x})
+hold.append({'label': 'GRP1 (AAVE, UNISWAP, SUSHI, COMPOUND)', 'value': 'GRP1'})
+
 sentiment_layout = dbc.Container([
     dbc.Row([
-    #     dbc.Col(
-    #         [
-    #             ThemeSwitchAIO(aio_id="theme", themes=[dbc.themes.LUMEN, dbc.themes.LUMEN]),
-    #         ]
-    #     ),
         dbc.Col(
             dcc.Dropdown
             (
-                id='defi-coin', ###here
-                options=[
-                    {'label': 'AAVE', 'value': 'AAVE'},
-                    {'label': 'UNISWAP', 'value': 'UNISWAP'},
-                    {'label': 'CURVE', 'value': 'CURVE'},
-                    {'label': 'MAKER', 'value': 'MAKER'},
-                    {'label': 'SUSHI', 'value': 'SUSHI'},
-                    {'label': 'COMPOUND', 'value': 'COMPOUND'},
-                    {'label': 'GRP1 (AAVE, UNISWAP, SUSHI, COMPOUND)', 'value': 'GRP1'},
-                ],
+                id='sentiment', 
+                options= tmp,
+                value = 'Discord GRP1',
+                style = {'font-size': '1.25rem', 'font-weight': '500', 'text-align': 'center'}
+            )
+        ),
+        dbc.Col(
+            dcc.Dropdown
+            (
+                id='defi-coin', 
+                options= hold,
                 value = 'AAVE',
                 style = {'font-size': '1.25rem', 'font-weight': '500', 'text-align': 'center'}
             )
-            , width=dict(size=8, offset=2)
         ),
 
         dbc.Col(
             daq.ToggleSwitch(
                 id='my-toggle-switch',
                 value=False,
-                label= {'label': 'Offset Sentiment', 'style': {'font-size': '1.125rem', 'font-weight': '500'}},
-                # label position
+                label= {'label': 'Offset Sentiment', 'style': {'font-size': '12px', 'font-weight': '500'}},
                 labelPosition='bottom',
-            ),
+            ), width=dict(size=1)
+
         )
             
 ]),
 
     dbc.Row([
         dbc.Col(dcc.Graph(id='price-chart')) 
-    ]), 
+    ])
 ], fluid=True)

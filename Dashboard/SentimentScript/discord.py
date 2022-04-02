@@ -85,9 +85,9 @@ def getSentiment(startDate, endDate, serverNames):
 group1Names = ['SushiSwap Community',
                'Aave Community',
                'r/CrpytoCurrency',
-               'Curve Finance',
+               'Compound',
                'Uniswap']
-group2Names = ['Compound']
+group2Names = ['Curve Finance']
 
 # ensure data has this date range
 startDate = '2021-01-01'

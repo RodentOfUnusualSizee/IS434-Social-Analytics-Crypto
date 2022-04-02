@@ -1,3 +1,21 @@
+function changeClass() {
+    els = document.querySelector(".nav-link")
+    els.forEach(el => {
+        if (el.classList.contains("text-success")){
+            el.classList.remove("text-success")
+            el.classList.add('text-danger')
+
+            el.classList.add('bg-light')
+        }
+        else if (el.classList.contains("text-danger")){
+            el.classList.remove("text-danger")
+            el.classList.add('text-success')
+
+            el.classList.remove('bg-light')
+        }
+    });
+}
+
 var sigInst, canvas, $GP
 
 //Load configuration file

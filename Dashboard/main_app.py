@@ -8,6 +8,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN], suppress_callback_
 
 app.layout = dbc.Container(
     [
+
         dbc.Row(
             dbc.Nav(
                 [   
@@ -18,6 +19,14 @@ app.layout = dbc.Container(
                 ]
             )
         ),
+        # dbc.Row([
+        #     dbc.Col(
+        #         html.Center('Sentiment'), width=dict(size=6)
+        #     ),
+        #     dbc.Col(
+        #         html.Center('Price'), width=dict(size=6)
+        #     )
+        # ]),
         html.Div(id='content', children=[sentiment_layout]),
         
 
