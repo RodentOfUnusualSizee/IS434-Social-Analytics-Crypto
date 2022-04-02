@@ -75,19 +75,11 @@ mkr = sentiment('$mkr')
 sushi = sentiment('$sushi')
 uni = sentiment('$uni')
 
-
-'''
 tmp = [aave, crv, comp, mkr, sushi, uni]
-for i in tmp:
-    for key in i:
-        if "/" in key:  # adding new key will result in continuing loop and breaking code
-            break
-        split = key.split["-"]
+for i in range(len(tmp)):
+    for key in tmp[i]:
+        split = key.split("-")
         new_key = split[1] + "/" + split[0]
-        i[new_key] = i.pop(key)
-
-# iteration doesnt convert all the keys idk why 
-'''
 
 # GROUPS
 print("Starting Group Sentiment Score")
@@ -114,9 +106,9 @@ for coin in group2List:
 
 print("Starting JSON Dumping")
 # assume you have these dicts already
-with open("../sentimentalOutput/twitter1.json", "w") as write_file:
+with open("../sentimentalOutput/twitter-grp1.json", "w") as write_file:
     json.dump(group1Score, write_file, indent=4)
-with open("../sentimentalOutput/twitter2.json", "w") as write_file:
+with open("../sentimentalOutput/twitter-grp2.json", "w") as write_file:
     json.dump(group2Score, write_file, indent=4)
 # Individual sentiment 
 with open("../sentimentalOutput/twitter-aave.json", "w") as write_file:
