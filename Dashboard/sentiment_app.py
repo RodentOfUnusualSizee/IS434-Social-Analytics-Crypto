@@ -146,6 +146,7 @@ def plot_sentiment(price_fig, sentiment, offset, chosen_defi_coin):
 
 GRP1 = ['AAVE', 'UNISWAP', 'COMPOUND', 'SUSHI']
 GRP2 = ['CURVE']
+
 def plot_price(chosen_defi_coin):
     if chosen_defi_coin.lower() == "grp1":
         fig = plot_grp1_price()
@@ -177,27 +178,39 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 
 #chosen_volume
 def build_graphs(chosen_defi_coin, offset, sentiment): 
-    price_fig = plot_price(chosen_defi_coin)
-    fig = plot_sentiment(price_fig, sentiment, offset, chosen_defi_coin)
-    if chosen_defi_coin in ['GRP1', 'GRP2']:
-        pass
-    else:
-        priceFile = "priceData/" + chosen_defi_coin.lower() + "_price_data.csv"
-        arr = sentiment.lower().split(' ')
-        sentimentFile = "sentimentalOutput/" + "-".join(arr) + ".json"
-        accuracy = calculateAccuracy(priceFile, sentimentFile) #accuracy
-        accuracy = "    Accuracy: " + str(round(accuracy*100, 2)) + '%'
 
+    fig = plot_price(chosen_defi_coin)
+
+    if sentiment != None: #
+        fig = plot_sentiment(fig, sentiment, offset, chosen_defi_coin)
+
+        if chosen_defi_coin not in ['GRP1', 'GRP2']:
+            priceFile = "priceData/" + chosen_defi_coin.lower() + "_price_data.csv"
+            arr = sentiment.lower().split(' ')
+            sentimentFile = "sentimentalOutput/" + "-".join(arr) + ".json"
+            accuracy = calculateAccuracy(priceFile, sentimentFile) #accuracy
+            accuracy = "    Accuracy: " + str(round(accuracy*100, 2)) + '%'
+
+            fig.update_layout(
+                title_text = "Price and Sentiment of " + chosen_defi_coin + accuracy,
+                xaxis_rangeslider_visible= True,
+                title_x= 0.5,
+                title_font_size= 20,
+            )
+
+            fig.layout.xaxis.title="Time"
+            fig.layout.yaxis.title="Price"
+            fig.layout.yaxis2.title="Sentiment"
+
+    else:
         fig.update_layout(
-            title_text = "Price and Sentiment of " + chosen_defi_coin + accuracy,
+            title_text = "Price of " + chosen_defi_coin,
             xaxis_rangeslider_visible= True,
             title_x= 0.5,
             title_font_size= 20,
         )
-
         fig.layout.xaxis.title="Time"
         fig.layout.yaxis.title="Price"
-        fig.layout.yaxis2.title="Sentiment"
 
     fig.for_each_trace(lambda t: t.update(line=dict(color=t.marker.color)))
 
