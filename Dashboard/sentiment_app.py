@@ -62,7 +62,7 @@ def mdy_to_ymd(d):
 def plot_grp1_price():
         aave = pd.read_csv('priceData/aave_price_data.csv')
         compound = pd.read_csv('priceData/compound_price_data.csv')
-        sushi = pd.read_csv('priceData/sushi_price_data.csv')
+        sushi = pd.read_csv('priceData/sushiswap_price_data.csv')
         uniswap = pd.read_csv('priceData/uniswap_price_data.csv')
 
         date = aave['Date']
