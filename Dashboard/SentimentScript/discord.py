@@ -90,8 +90,9 @@ group1Names = ['SushiSwap Community',
 group2Names = ['Curve Finance']
 
 # ensure data has this date range
+from datetime import datetime
 startDate = '2021-01-01'
-endDate = '2022-03-01'
+endDate = datetime.today().strftime('%Y-%m-%d')
 
 # group1 = getSentiment(startDate, endDate, group1Names)
 # group2 = getSentiment(startDate, endDate, group2Names)
@@ -105,10 +106,10 @@ endDate = '2022-03-01'
 import json
 # for groups
 group1 = getSentiment(startDate, endDate, group1Names)
-with open("./sentimentalOutput/discordGroup1.json", "w") as write_file:
+with open("./sentimentalOutput/discord-grp1.json", "w") as write_file:
     json.dump(group1, write_file, indent=4)
 group2 = getSentiment(startDate, endDate, group2Names)
-with open("./sentimentalOutput/discordGroup2.json", "w") as write_file:
+with open("./sentimentalOutput/discord-grp2.json", "w") as write_file:
     json.dump(group2, write_file, indent=4)
 # For individual Crpto
 sushi = getSentiment(startDate, endDate, ['SushiSwap Community'])
