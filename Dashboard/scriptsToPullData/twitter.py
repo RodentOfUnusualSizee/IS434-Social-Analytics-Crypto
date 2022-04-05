@@ -20,7 +20,7 @@ def scrape(search_term, start = "test", end = end):
     old = pd.read_csv('.\tweetData\{}.csv'.format(search_term))
     last_date = old['Date'][0]
     format = last_date.strftime("%Y-%m-%d")
-    if start == "test":
+    if start == "test":  # if start not specified, start = latest date on file
         start = format
 
     tweets = []
@@ -38,6 +38,7 @@ def scrape(search_term, start = "test", end = end):
                 print("Progress : {}, Time : {} ".format(i, datetime.now() - start_time))
     except KeyboardInterrupt:
         print("Stopping Scraping....")
+        print("Continuing the process....")
         # continue process
         pass
     finally:
@@ -46,7 +47,7 @@ def scrape(search_term, start = "test", end = end):
         print("Building CSV....")
 
         #convert DataFrame to CSV
-        new = pd.concat([old, tweets_df])
+        new = pd.concat([tweets_df, old])
         new.to_csv('{}.csv'.format(search_term))  # replace old csv sheet with updated one
 
         end_time = datetime.now()

@@ -68,6 +68,7 @@ def sentiment(search_term):
 
 # INDIVIDUAL
 print("Starting Individual Sentiment Score")
+
 aave = sentiment('$aave')
 crv = sentiment('$crv')
 comp = sentiment('$comp')
@@ -76,10 +77,24 @@ sushi = sentiment('$sushi')
 uni = sentiment('$uni')
 
 tmp = [aave, crv, comp, mkr, sushi, uni]
+
 for i in range(len(tmp)):
+    new = {}
     for key in tmp[i]:
         split = key.split("-")
         new_key = split[1] + "/" + split[0]
+        print(new_key)
+        new[new_key] = tmp[i][key]
+        print(tmp[i][key])
+    tmp[i] = new
+    print(tmp[i])
+
+aave = tmp[0]
+crv = tmp[1]
+comp = tmp[2]
+mkr = tmp[3]
+sushi = tmp[4]
+uni = tmp[5]
 
 # GROUPS
 print("Starting Group Sentiment Score")
@@ -101,7 +116,7 @@ for coin in group2List:
     for month in coin:
         if month in group2Score:
             group2Score[month] += coin[month]
-        elif month not in group2Score:
+        elif month not in group2Score:                
             group2Score[month] = coin[month]
 
 print("Starting JSON Dumping")
@@ -110,7 +125,7 @@ with open("../sentimentalOutput/twitter-grp1.json", "w") as write_file:
     json.dump(group1Score, write_file, indent=4)
 with open("../sentimentalOutput/twitter-grp2.json", "w") as write_file:
     json.dump(group2Score, write_file, indent=4)
-# Individual sentiment 
+# # Individual sentiment 
 with open("../sentimentalOutput/twitter-aave.json", "w") as write_file:
     json.dump(aave, write_file, indent=4)
 with open("../sentimentalOutput/twitter-curve.json", "w") as write_file:
