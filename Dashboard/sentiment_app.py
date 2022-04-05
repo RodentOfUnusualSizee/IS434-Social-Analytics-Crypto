@@ -233,17 +233,18 @@ sentiment_layout = dbc.Container([
         dbc.Col(
             dcc.Dropdown
             (
-                id='defi-coin', ###here
-                options=[
-                    {'label': 'GRP1 (AAVE, UNISWAP, SUSHI, COMPOUND)', 'value': 'GRP1'},
-                    {'label': 'AAVE', 'value': 'AAVE'},
-                    {'label': 'UNISWAP', 'value': 'UNISWAP'},
-                    {'label': 'CURVE', 'value': 'CURVE'},
-                    {'label': 'MAKER', 'value': 'MAKER'},
-                    {'label': 'SUSHI', 'value': 'SUSHI'},
-                    {'label': 'COMPOUND', 'value': 'COMPOUND'},
-                ],
-                value = 'GRP1',
+                id='sentiment', 
+                options= tmp,
+                value = 'Discord GRP1',
+                style = {'font-size': '1.25rem', 'font-weight': '500', 'text-align': 'center'}
+            )
+        ),
+        dbc.Col(
+            dcc.Dropdown
+            (
+                id='defi-coin', 
+                options= hold,
+                value = 'AAVE',
                 style = {'font-size': '1.25rem', 'font-weight': '500', 'text-align': 'center'}
             )
         ),
