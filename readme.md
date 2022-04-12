@@ -35,6 +35,10 @@ We gathered data from the following sources:
 - SnScrape
 - CoingeckoAPI
 - Selenium
+- Vader
+- Flask
+- Ploty Dash
+- Sigma JS
 
 # Deliverables
 
