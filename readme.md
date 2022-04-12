@@ -15,6 +15,8 @@ Decentralised Finance (DeFi) is a form of cryptocurrency that provides decentral
 
 We believe that opinions on social media platforms influence investment decisions, and due to the strong network effect of social media, more people will make investment decisions based on social media opinions. This will lead to a change in the price of DeFi coins.
 
+<img src="ReadmeFiles\Hypothesis.PNG">
+
 Based on this hypothesis, we set out to answer 3 questions:
 1. Is there a relationship between Social Media Conversations and the price of DeFi coins?
 2. How can we predict the impact of Social Media Conversations on the value of DeFi coins?
@@ -35,6 +37,8 @@ We gathered data from the following sources:
 - SnScrape
 - CoingeckoAPI
 - Selenium
+- Gephi
+- BeautifulSoup
 - Vader
 - Flask
 - Ploty Dash
@@ -42,36 +46,36 @@ We gathered data from the following sources:
 
 # Deliverables
 
-Our project includes a dashboard which plots our sentimental analysis and network analysis.
-From our preliminary analysis, we have found some correlated cryptos and had group them together. The idea behind is so that we can still predict cryptos prices that have very little sentimental data but is corelated to the group of correlated cryptos.
+Our project includes a dashboard which plots our sentiment analysis and network analysis.
+From our preliminary analysis, we found some correlated DeFi coins and grouped them together. This allows us to predict the prices of coins which have very little data but has high correlation to the group.
 
-## Sentimental Analysis Dashboard
+### Sentimental Analysis Dashboard
 
-Our sentimental analysis dashboard allows users to plot the sentiments on a price chart and any underlying selected crypto within the dashboard. There is also an accuracy indicator which is a simple algorithm that we build to show how accurate a sentiment is in regard to predicting the underlying price. Furthermore, there is an offset button that allows users to offset the sentimental line by 1 month to visually see if there are any insights.
+Our Sentiment analysis dashboard allows users to plot the sentiments on a price chart and any underlying selected crypto within the dashboard. There is also an accuracy indicator which is based off a simple algorithm we built to show how accurate a sentiment is with regard to predicting the underlying price. Furthermore, there is an offset button which allows users to offset the sentiment line by 1 month, allowing them to derive further insights.
 
-## Discord Network Dashboard
+### Discord Network Dashboard
 
-Our discord network dashboard represents users who have sent more than 200 messages in various Defi Channels. Larger nodes are the discord channels of different defi coins. Other nodes are the users who are sent messages the respective channels. The thickness of edges represents the number of messages sent in their respective channels.
-This dashboard can be used to find out who is the key opinion leaders within the different clusters of crypto’s related discord channels
+Our Discord network dashboard represents users who have sent more than 200 messages in various DeFi Channels. Larger nodes are the discord channels of different defi coins. Other nodes are the users who have sent messages in the respective channels. The thickness of edges represents the number of messages sent in their respective channels.
+This dashboard can be used to find out who are the key opinion leaders within the different clusters of crypto related discord channels
 
-## Twitter Network Dashboard
+### Twitter Network Dashboard
 
-Our twitter network dashboard represents users who have mentioned/hash tagged at least one of the Defi Coins more than 300 times. Larger nodes are the twitter mentions/hashtags of different defi coins. Other nodes are the users who mentioned certain Defi Coins. The thickness of edges represents the number of times the user mentioned the Defi Coin.
-This dashboard can be used to find out who is the key opinion leaders within the different clusters of crypto’s related twitter mentions or hashtags
+Our Twitter network dashboard represents users who have mentioned/hashtagged at least one of the Defi Coins more than 300 times. Larger nodes are the twitter mentions/hashtags of different DeFi coins. Other nodes are the users who mentioned certain DeFi Coins. The thickness of edges represents the number of times the user mentioned the DeFi Coin.
+This dashboard can be used to find out who are the key opinion leaders within the different clusters of crypto related twitter mentions or hashtags
 
-## Automated ETL Process
-Our dashboard also includes a data manager that allows users to run scripts that automatically extract, clean, transform and load text, sentiment and price data into our dashboard. The automated ETL process allows our dashboard to show dynamic and up to date data for our business users to perform real time analysis.
+### Automated ETL Process
+Our dashboard includes a data manager which allows users to run scripts that automatically extract, clean, transform and load text, sentiment and price data into our dashboard. The automated ETL process allows our dashboard to show dynamic and up to date data for business users to perform real time analysis.
 
 # How to Set Up 
 **(Dev only not ready for prod)**
 
 *Currently the credentials for the scrape are personal credentials, please do not abuse it* 
 
-Step 1 : Run main_app.py and backend-flash.py inside the dashboard folder 
--	Make sure to pip install the required python packages
+Step 1 : Run `main_app.py` and `backend-flash.py` inside the dashboard folder 
+-	Make sure to `pip install` the required python packages
 
 Step 2 : Run the network dashboards HTML files using live server or wamp
--	If you are to run the HTML files manually they are located in Dashboard/gephi and Dashboard/twitter network gephi
+-	If you are to run the HTML files manually they are located in `Dashboard/gephi` and `Dashboard/twitter network gephi`
 
 
 # Contributors
