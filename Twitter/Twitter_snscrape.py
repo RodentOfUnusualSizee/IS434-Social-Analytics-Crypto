@@ -39,5 +39,13 @@ def scrape(search_term, start, end = end):
         tweets_df.to_csv('{}.csv'.format(search_term))
 
         end_time = datetime.now()
+        print("Done with {}".format(search_term))
         print("Ended Scraping at: " + str(end_time))
         print("Duration: {}".format(end_time - start_time))
+
+
+list = ["$aave", "$crv", "$comp", "$mkr", "$sushi", "$uni"]
+
+for coin in list:
+
+    scrape(coin, "2021-01-01", "2022-04-01")

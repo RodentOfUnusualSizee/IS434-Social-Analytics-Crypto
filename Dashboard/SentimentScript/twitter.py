@@ -25,7 +25,7 @@ def clean_content(contentInput):
     return contentInput
 
 def sentiment(search_term):
-    df = pd.read_csv('..\TweetData\{}.csv'.format(search_term), sep=',')
+    df = pd.read_csv('..\TweetData\{}.csv'.format(search_term), encoding='ISO-8859-1')
     df['year_month'] = df['Date'].apply(lambda x: x[0:x.rfind('-')])
 
     monthList = list(df['year_month'].unique())
@@ -98,8 +98,8 @@ uni = tmp[5]
 
 # GROUPS
 print("Starting Group Sentiment Score")
-group1List = [aave,crv,sushi,uni,mkr]
-group2List = [comp]
+group1List = [aave,sushi,uni,comp]
+group2List = [crv]
 
 group1Score = {}
 group2Score = {}

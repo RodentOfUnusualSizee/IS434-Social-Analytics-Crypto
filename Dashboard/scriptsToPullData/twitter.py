@@ -1,6 +1,7 @@
 import enum
 import pandas as pd
 import numpy as np
+from dateutil import parser
 
 import snscrape.modules.twitter as sntwitter
 from datetime import datetime
@@ -17,14 +18,17 @@ end = start_time.strftime("%Y-%m-%d")
 def scrape(search_term, start = "test", end = end):
     # if start not specified, assume starting from latest date in 
     # also assume that there is already data present
-    old = pd.read_csv('.\tweetData\{}.csv'.format(search_term))
+    path = "..\TweetData\${}.csv".format(search_term)
+    old = pd.read_csv(path, encoding="ISO-8859-1")
     last_date = old['Date'][0]
-    format = last_date.strftime("%Y-%m-%d")
+    strTime = parser.parse(last_date)
+    startDate = strTime.strftime("%Y-%m-%d")
     if start == "test":  # if start not specified, start = latest date on file
-        start = format
+        start = startDate
 
     tweets = []
     print("Started on : {}".format(start_time))
+    print("START DATE: {}".format(start))
     timeframeString = " since:" + start +" until:" + end
 
     try:
@@ -40,7 +44,6 @@ def scrape(search_term, start = "test", end = end):
         print("Stopping Scraping....")
         print("Continuing the process....")
         # continue process
-        pass
     finally:
         # create dataframe
         tweets_df = pd.DataFrame(tweets, columns=['Date', 'ID', 'Content', 'Username'])
@@ -48,9 +51,12 @@ def scrape(search_term, start = "test", end = end):
 
         #convert DataFrame to CSV
         new = pd.concat([tweets_df, old])
-        new.to_csv('{}.csv'.format(search_term))  # replace old csv sheet with updated one
+        new.to_csv('..\TweetData\${}.csv'.format(search_term))  # replace old csv sheet with updated one
 
         end_time = datetime.now()
         print("Ended Scraping at: " + str(end_time))
         print("Duration: {}".format(end_time - start_time))
 
+list = ["aave", "crv", "comp", "mkr", "sushi", "uni"]
+for coin in list:
+    scrape(coin)
