@@ -15,7 +15,7 @@ Decentralised Finance (DeFi) is a form of cryptocurrency that provides decentral
 
 We believe that opinions on social media platforms influence investment decisions, and due to the strong network effect of social media, more people will make investment decisions based on social media opinions. This will lead to a change in the price of DeFi coins.
 
-<img src="ReadmeFiles\Hypothesis.PNG">
+<img src="ReadmeFiles\Hypothesis.png">
 
 Based on this hypothesis, we set out to answer 3 questions:
 1. Is there a relationship between Social Media Conversations and the price of DeFi coins?
