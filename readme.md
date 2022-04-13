@@ -81,12 +81,14 @@ Step 2 : Run the network dashboards HTML files using live server or wamp
 # Contributors
 Group 7 - SuperIdol CryptoCurrency
 
-<table style="border:0.5px solid;">
+<table>
     <tr>
-        <td align="center"><img src="" width="150px;" alt=""/><br /><sub><b>Brandon</b></sub></a></td>
-        <td align="center"><img src="" width="150px;" alt=""/><br /><sub><b>Caleb</b></sub></a></td>
-        <td align="center"><img src="" width="150px;" alt=""/><br /><sub><b>Rou</b></sub></a></td>
-        <td align="center"><img src="" width="150px;" alt=""/><br /><sub><b>Gerald</b></sub></a></td>
-        <td align="center"><img src="" width="150px;" alt=""/><br /><sub><b>Yan Wee</b></sub></a></td>
+        <td align="center"><img src="ReadmeFiles\brandon.jpg" width="150px;" alt=""/><br /><sub><b>Brandon</b></sub></a></td>
+        <td align="center"><img src="ReadmeFiles\caleb.jpg" width="150px;" alt=""/><br /><sub><b>Caleb</b></sub></a></td>
+        <td align="center"><img src="ReadmeFiles\rou.jpeg" width="150px;" alt=""/><br /><sub><b>Ching Rou</b></sub></a></td>
+        <td align="center"><img src="ReadmeFiles\gerald.jpg" width="150px;" alt=""/><br /><sub><b>Gerald</b></sub></a></td>
+        <td align="center"><img src="ReadmeFiles\yanwee.jpg" width="150px;" alt=""/><br /><sub><b>Yan Wee</b></sub></a></td>
     </tr>
 </table>
+
+Youtube Video: https://youtu.be/m7ZCU8w83Jc
