@@ -71,6 +71,9 @@ Our dashboard includes a data manager which allows users to run scripts that aut
 
 *Currently the credentials for the scrape are personal credentials, please do not abuse it* 
 
+Clone our Github Repository or download the ZIP File
+`gh repo clone RodentOfUnusualSizee/IS434-Social-Analytics-Crypto`
+
 Step 1 : Run `main_app.py` and `backend-flash.py` inside the dashboard folder 
 -	Make sure to `pip install` the required python packages
 
@@ -91,4 +94,3 @@ Group 7 - SuperIdol CryptoCurrency
     </tr>
 </table>
 
-Youtube Video: https://youtu.be/m7ZCU8w83Jc
