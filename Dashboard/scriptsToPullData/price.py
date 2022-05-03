@@ -123,7 +123,7 @@ def editDate(startDate, endDate):
 def dateFinder(crypto):
     string = crypto.split(" ")[0] + "_price_data.csv"
     print(string)
-    path = "./Dashboard/priceData/" + string
+    path = "../priceData/" + string
     if os.access(path, os.F_OK):
         #startdate from first line csv
         startDate = pd.read_csv(path, nrows=1)['Date'].values[0]

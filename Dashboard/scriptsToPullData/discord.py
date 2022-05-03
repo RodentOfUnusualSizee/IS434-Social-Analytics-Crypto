@@ -2,7 +2,7 @@
 
 import pandas as pd
 dfOld = pd.read_csv(
-    "./textData/discord.csv", encoding="ISO-8859-1")
+    "../textData/discord.csv", encoding="ISO-8859-1")
 
 lastDate = dfOld['date'][0]
 
@@ -14,7 +14,7 @@ import requests
 import json
 
 headers = {
-    'authorization': 'MzM0ODY3MDQ3MDIyNDYwOTMx.YiG5KA.xXckGG7feFGQe87AZCOdICWJSOc'
+    'authorization': 'MzM0ODY3MDQ3MDIyNDYwOTMx.YnE2PA._aaRjPQKP63HqZmhIXTrqA3ZipY'
     }
 end = lastDate
 end = end.split("/")
@@ -216,5 +216,5 @@ d = {'messageID':messageID,'author_id':author_id,'author_username':author_userna
 df = pd.DataFrame(data=d)
 
 finalDF = pd.concat([df,dfOld])
-dfOld.to_csv("./textData/Olddiscord.csv")
-finalDF.to_csv("./textData/discord.csv")
+dfOld.to_csv("../textData/Olddiscord.csv")
+finalDF.to_csv("../textData/discord.csv")

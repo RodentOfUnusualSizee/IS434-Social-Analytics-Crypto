@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 
 # Data loading
 df = pd.read_csv(
-    "./textData/discord.csv", encoding="ISO-8859-1")
+    "../textData/discord.csv", encoding="ISO-8859-1")
 df = df.fillna(method='ffill')
 # Data Cleaning
 stop = stopwords.words('english')
@@ -106,26 +106,26 @@ endDate = datetime.today().strftime('%Y-%m-%d')
 import json
 # for groups
 group1 = getSentiment(startDate, endDate, group1Names)
-with open("./sentimentalOutput/discord-grp1.json", "w") as write_file:
+with open("../sentimentalOutput/discord-grp1.json", "w") as write_file:
     json.dump(group1, write_file, indent=4)
 group2 = getSentiment(startDate, endDate, group2Names)
-with open("./sentimentalOutput/discord-grp2.json", "w") as write_file:
+with open("../sentimentalOutput/discord-grp2.json", "w") as write_file:
     json.dump(group2, write_file, indent=4)
 # For individual Crpto
 sushi = getSentiment(startDate, endDate, ['SushiSwap Community'])
-with open("./sentimentalOutput/discord-sushi.json", "w") as write_file:
+with open("../sentimentalOutput/discord-sushi.json", "w") as write_file:
     json.dump(sushi, write_file, indent=4)
 aave = getSentiment(startDate, endDate, ['Aave Community'])
-with open("./sentimentalOutput/discord-aave.json", "w") as write_file:
+with open("../sentimentalOutput/discord-aave.json", "w") as write_file:
     json.dump(aave, write_file, indent=4)
 curve = getSentiment(startDate, endDate, ['Curve Finance'])
-with open("./sentimentalOutput/discord-curve.json", "w") as write_file:
+with open("../sentimentalOutput/discord-curve.json", "w") as write_file:
     json.dump(curve, write_file, indent=4)
 uniswap = getSentiment(startDate, endDate, ['Uniswap'])
-with open("./sentimentalOutput/discord-uniswap.json", "w") as write_file:
+with open("../sentimentalOutput/discord-uniswap.json", "w") as write_file:
     json.dump(uniswap, write_file, indent=4)
 compound = getSentiment(startDate, endDate, ['Compound'])
-with open("./sentimentalOutput/discord-compound.json", "w") as write_file:
+with open("../sentimentalOutput/discord-compound.json", "w") as write_file:
     json.dump(compound, write_file, indent=4)
 
 
